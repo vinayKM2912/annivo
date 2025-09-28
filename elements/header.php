@@ -218,13 +218,13 @@ window.addEventListener("klaviyoForms", function(a) {
                                         aria-haspopup="true" aria-expanded="false"
                                         data-hover-disclosure-toggle="dropdown-59a6aa1d73e013a981963b72031ae737"
                                         aria-controls="dropdown-59a6aa1d73e013a981963b72031ae737">
-                                        <a href="/pages/about-us" data-top-link="" class="navlink navlink--toplevel">
+                                        <a href="about.php" data-top-link="" class="navlink navlink--toplevel">
                                             <span class="navtext">ABOUT</span>
                                         </a>
                                     </div>
                                     <!-- /snippets/nav-item.liquid -->
                                     <div class="menu__item  child" data-main-menu-text-item="">
-                                        <a href="/pages/corporate" data-top-link="" class="navlink navlink--toplevel">
+                                        <a href="corporate.php" data-top-link="" class="navlink navlink--toplevel">
                                             <span class="navtext">CORPORATE GIFTING</span>
                                         </a>
 

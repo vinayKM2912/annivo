@@ -146,9 +146,9 @@
 
                                         <li><a href="https://shopboxfox.com/collections/all">SHOP</a></li>
 
-                                        <li><a href="/pages/about-us">ABOUT</a></li>
+                                        <li><a href="about.php">ABOUT</a></li>
 
-                                        <li><a href="/pages/corporate">CORPORATE GIFTING</a></li>
+                                        <li><a href="corporate.php">CORPORATE GIFTING</a></li>
 
                                     </ul>
                                 </div>
