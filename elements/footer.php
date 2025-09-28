@@ -51,9 +51,14 @@
                                         data-accordion-body="" data-accordion-body-mobile="" id="accordion-text-3-1">
 
                                         <div class="rte body-size-3">
-                                            <p>Aanvio is a bespoke B2B merchandising solutions company founded in the UAE. We design and deliver premium products and curated gifting experiences that help businesses express their story with elegance and impact.
-                                                We believe merchandise is not just about branding—it’s about crafting touchpoints that build connections and embody values. 
-                                                Every product we create is a reflection of our philosophy: quality, meaning, and distinction in every detail.
+                                            <p>Aanvio is a bespoke B2B merchandising solutions company founded in the
+                                                UAE. We design and deliver premium products and curated gifting
+                                                experiences that help businesses express their story with elegance and
+                                                impact.
+                                                We believe merchandise is not just about branding—it’s about crafting
+                                                touchpoints that build connections and embody values.
+                                                Every product we create is a reflection of our philosophy: quality,
+                                                meaning, and distinction in every detail.
                                             </p>
                                         </div>
                                     </div>
@@ -440,37 +445,7 @@
         data-shop="boxfox.com" data-shop-domain="boxfox.com"></script>
 </div>
 
-<div id="shopify-chat" style="">
-    <inbox-online-store-chat title="Shopify online store chat" id="ShopifyChat" button-vertical-position="higher"
-        button-position="bottom_left" is-open="false" is-mobile="false" class="needsclick"
-        style="position: fixed; bottom: 80px; z-index: 2147483647; left: 16px; height: 65px;"><template
-            shadowrootmode="open">
-            <link rel="stylesheet"
-                href="https://cdn.shopify.com/extensions/c6defb98-55a3-4757-8c1c-9616760c9bd7/inbox-1247/assets/style.css">
-            <style>
-            :host {
-                --secondary-color: #ffffff;
-                --ternary-color: #6a6a6a;
-                display: block !important;
-            }
-            </style><audio src="https://cdn.shopify.com/shopifycloud/shopify_chat/storefront/incoming-message-tone.mp3"
-                preload="none" __source="[object Object]" style="display: none;">
-                <track src="https://cdn.shopify.com/shopifycloud/shopify_chat/storefront/incoming-message-tone.mp3"
-                    kind="captions" __source="[object Object]">
-            </audio>
-            <div __source="[object Object]" class="chat-app chat-app-- chat-app--"><button type="button"
-                    data-spec="toggle-button" aria-label="Chat window" aria-expanded="true" __source="[object Object]"
-                    class="chat-toggle chat-toggle--#5894b3 chat-toggle--icon-button icon-only"
-                    style="background-color: rgb(88, 148, 179);"><svg width="20" height="20" viewBox="0 0 20 20"
-                        fill="none" xmlns="http://www.w3.org/2000/svg" data-spec="button-icon"
-                        __source="[object Object]">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M4 9.78374C4 5.84433 4.81543 5 8.62 5H11.38C15.1846 5 16 5.84433 16 9.78374C16 13.7232 15.1846 14.9008 11.38 14.9008H10.8303C10.8025 14.9346 10.7703 14.9666 10.7336 14.9962L8.54286 16.86C8.12929 17.1935 7.5137 16.898 7.5137 16.3667V14.87C4.65254 14.6884 4 13.3078 4 9.78374ZM10 10.6667C10.3682 10.6667 10.6667 10.3682 10.6667 10C10.6667 9.63181 10.3682 9.33333 10 9.33333C9.63181 9.33333 9.33333 9.63181 9.33333 10C9.33333 10.3682 9.63181 10.6667 10 10.6667ZM13.3333 10C13.3333 10.3682 13.0349 10.6667 12.6667 10.6667C12.2985 10.6667 12 10.3682 12 10C12 9.63181 12.2985 9.33333 12.6667 9.33333C13.0349 9.33333 13.3333 9.63181 13.3333 10ZM7.33333 10.6667C7.70152 10.6667 8 10.3682 8 10C8 9.63181 7.70152 9.33333 7.33333 9.33333C6.96514 9.33333 6.66667 9.63181 6.66667 10C6.66667 10.3682 6.96514 10.6667 7.33333 10.6667Z"
-                            fill="white"></path>
-                    </svg><span data-spec="notification-badge" __source="[object Object]"
-                        class="chat-notification chat-toggle--#5894b3">1</span></button></div>
-        </template></inbox-online-store-chat>
-</div>
+
 <inbox-online-store-chat><template shadowrootmode="open">
         <link rel="stylesheet"
             href="https://cdn.shopify.com/extensions/c6defb98-55a3-4757-8c1c-9616760c9bd7/inbox-1247/assets/style.css">
@@ -494,169 +469,7 @@
     style="height: 40px; width: 110px; text-align: center; cursor: pointer; font-family: &quot;Open Sans&quot;; color: white; font-size: 15px; font-weight: 400; border-radius: 0px; padding-top: 0px; border: 0px solid rgb(0, 0, 0); background-color: black; inset: auto; margin: 0px; display: none;">
     Refer Friends</div>
 <div id="dynamic-react-root"></div>
-<div>
-    <div tabindex="0" role="button" class="needsclick kl-teaser-WXw3vY undefined kl-private-reset-css-Xuajs1"
-        style="z-index: 90000; position: fixed; filter: drop-shadow(rgba(0, 0, 0, 0.15) 0px 0px 30px); bottom: 0px; left: 0px; margin: 0px 20px; width: 184px;">
-        <div data-testid="animated-teaser" class="needsclick  kl-private-reset-css-Xuajs1"
-            style="height: 100%; width: 100%;"><span class="needsclick go681896951 kl-private-reset-css-Xuajs1"
-                style="overflow: hidden; box-sizing: border-box; border-radius: 0px; background-color: rgb(0, 0, 0); min-height: 50px; height: 100%; padding: 8px; display: flex; flex-direction: column; justify-content: center;">
-                <div class="needsclick  kl-private-reset-css-Xuajs1">
-                    <div class="needsclick  kl-private-reset-css-Xuajs1">
-                        <div id="rich-text-01JRJ7RMPSN1XFBBH6P69ZW73C" class="kl-private-reset-css-Xuajs1 go3176171171"
-                            style="width: 100%;">
-                            <p
-                                style="text-align: center; font-size: 14px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight: 400;">
-                                <span
-                                    style="font-size: 18px; color: rgb(255, 255, 255); font-family: brandon-grotesque, Geneva, Tahoma, Verdana, sans-serif; font-weight: bold; font-style: normal;">Get
-                                    15% OFF</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </span><button tabindex="0" aria-label="Close teaser"
-                class="needsclick klaviyo-close-form go2324193863 kl-private-reset-css-Xuajs1"
-                style="top: -16px; right: -16px; position: absolute; z-index: 6; cursor: pointer; height: 20px; width: 20px; border-radius: 50%;"><svg
-                    role="img" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true" class="needsclick  kl-private-reset-css-Xuajs1">
-                    <title id="title-Close-teaser">Close teaser</title>
-                    <circle cx="10" cy="10" r="9.5" fill="#000000" stroke="#FFFFFF" style="cursor: pointer;">
-                    </circle>
-                    <path d="M6 6L14 14M6 14L14 6L6 14Z" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" style="cursor: pointer;"></path>
-                </svg></button></div>
-    </div>
-    <div class="needsclick  kl-private-reset-css-Xuajs1">
-        <div class="needsclick go1272136950 kl-private-reset-css-Xuajs1" style="display: none;"></div>
-        <div role="dialog" aria-modal="true" aria-label="POPUP Form" class="needsclick  kl-private-reset-css-Xuajs1"
-            style="display: none; z-index: 90000; opacity: 0; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; justify-content: center; align-items: center; overflow: clip auto; background-color: rgba(20, 20, 20, 0.6); animation-timing-function: ease; animation-play-state: running; animation-iteration-count: 1; animation-fill-mode: forwards; animation-delay: 0s; animation-duration: 0.35s; animation-name: klaviyo-fadein;">
-            <div class="needsclick  kl-private-reset-css-Xuajs1"
-                style="overflow: visible; transform: scale(1); transform-origin: center center; max-height: 100%; border-radius: 2px; position: relative; display: flex; justify-content: center; flex: 0 0 auto; align-self: center;">
-                <div data-testid="POPUP" class="needsclick  kl-private-reset-css-Xuajs1" style="flex: 1 1 0%;">
-                    <div class="needsclick go249761392 kl-private-reset-css-Xuajs1"
-                        style="position: relative; flex-direction: column; display: flex; margin-left: 0px; margin-right: 0px; flex: 1 1 0%; align-self: stretch;">
-                        <div class="needsclick  kl-private-reset-css-Xuajs1">
-                            <div class="needsclick  kl-private-reset-css-Xuajs1"
-                                style="position: relative; display: flex; flex: 1 1 0%; align-self: stretch;">
-                                <button tabindex="0" aria-label="Close dialog"
-                                    class="needsclick klaviyo-close-form go4255485812 kl-private-reset-css-Xuajs1"
-                                    style="right: 0px; top: 0px; position: absolute; z-index: 6; cursor: pointer; height: 30px; width: 30px; border-radius: 50%; margin-right: 8px; margin-top: 8px;"><svg
-                                        role="img" width="30" height="30" viewBox="0 0 20 20" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
-                                        class="needsclick  kl-private-reset-css-Xuajs1">
-                                        <title id="title-Close-dialog">Close dialog</title>
-                                        <circle cx="10" cy="10" r="9.5" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)"
-                                            style="cursor: pointer;"></circle>
-                                        <path d="M6 6L14 14M6 14L14 6L6 14Z" stroke="rgba(0,0,0,1)" stroke-width="2"
-                                            stroke-linecap="round" stroke-linejoin="round" style="cursor: pointer;">
-                                        </path>
-                                    </svg></button>
-                                <form aria-live="polite" data-testid="klaviyo-form-WXw3vY" novalidate=""
-                                    class="needsclick klaviyo-form klaviyo-form-version-cid_1 go3279073480 kl-private-reset-css-Xuajs1"
-                                    style="display: flex; flex-direction: row; box-sizing: border-box; width: 780px; min-width: 200px; max-width: 1000px; border-radius: 0px; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); background-repeat: no-repeat; background-position-y: 50%; padding: 0px; flex: 1 1 0%;">
-                                    <div class="needsclick  kl-private-reset-css-Xuajs1"
-                                        style="display: flex; flex-direction: column; width: 100%; margin: 0px; padding: 0px; min-height: 200px; justify-content: center;">
-                                        <div data-testid="form-row" class="needsclick  kl-private-reset-css-Xuajs1"
-                                            style="display: flex; flex-direction: row; align-items: stretch; position: relative;">
-                                            <div component="[object Object]" data-testid="form-component"
-                                                class="needsclick  kl-private-reset-css-Xuajs1"
-                                                style="display: flex; justify-content: flex-start; padding: 50px 0px 0px; position: relative; flex: 1 0 0px;">
-                                                <div id="rich-text-01JRJ7RMQH8W3KTPBVVTE869MD"
-                                                    class="kl-private-reset-css-Xuajs1 go3176171171"
-                                                    style="width: 100%;">
-                                                    <p
-                                                        style="text-align: center; font-size: 14px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight: 400;">
-                                                        <span
-                                                            style="font-size: 18px; font-family: brandon-grotesque, Geneva, Tahoma, Verdana, sans-serif; font-weight: bold; font-style: normal; color: rgb(0, 0, 0);">DO
-                                                            YOU WANT</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div data-testid="form-row" class="needsclick  kl-private-reset-css-Xuajs1"
-                                            style="display: flex; flex-direction: row; align-items: stretch; position: relative;">
-                                            <div component="[object Object]" data-testid="form-component"
-                                                class="needsclick  kl-private-reset-css-Xuajs1"
-                                                style="display: flex; justify-content: flex-start; padding: 0px 6px; position: relative; flex: 1 0 0px;">
-                                                <div id="rich-text-01JRJ84A6KD2H3BVKR4AQYNB84"
-                                                    class="kl-private-reset-css-Xuajs1 go3176171171"
-                                                    style="width: 100%;">
-                                                    <p
-                                                        style="font-size: 14px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight: 400; text-align: center;">
-                                                        <span
-                                                            style="color: rgb(0, 0, 0); font-size: 60px; font-family: brandon-grotesque, Geneva, Tahoma, Verdana, sans-serif; font-weight: bold; font-style: normal;">15%
-                                                            OFF</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div data-testid="form-row" class="needsclick  kl-private-reset-css-Xuajs1"
-                                            style="display: flex; flex-direction: row; align-items: stretch; position: relative;">
-                                            <div component="[object Object]" data-testid="form-component"
-                                                class="needsclick  kl-private-reset-css-Xuajs1"
-                                                style="display: flex; justify-content: flex-start; padding: 0px 6px 30px; position: relative; flex: 1 0 0px;">
-                                                <div id="rich-text-01JRJ85S7P6VE7PYD3MR11ZTEE"
-                                                    class="kl-private-reset-css-Xuajs1 go3176171171"
-                                                    style="width: 100%;">
-                                                    <p
-                                                        style="font-size: 14px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; text-align: center;">
-                                                        <span
-                                                            style="font-size: 18px; font-family: brandon-grotesque, Geneva, Tahoma, Verdana, sans-serif; font-weight: bold; color: rgb(0, 0, 0);">YOUR
-                                                            FIRST ORDER?</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div data-testid="form-row" class="needsclick  kl-private-reset-css-Xuajs1"
-                                            style="display: flex; flex-direction: row; align-items: stretch; position: relative;">
-                                            <div component="[object Object]" data-testid="form-component"
-                                                class="needsclick  kl-private-reset-css-Xuajs1"
-                                                style="display: flex; justify-content: flex-start; padding: 8px 32px; position: relative; flex: 1 0 0px;">
-                                                <div class="needsclick  kl-private-reset-css-Xuajs1"
-                                                    style="display: flex; flex-grow: 1; flex-direction: column; align-self: flex-end;">
-                                                    <label id="label-email_01JRJ7RMR2F4B0EYXKP04J010Z"
-                                                        for="email_01JRJ7RMR2F4B0EYXKP04J010Z"
-                                                        class="needsclick klaviyo-sr-only kl-private-reset-css-Xuajs1"
-                                                        style="color: rgb(0, 0, 0); font-family: brandon-grotesque, Geneva, Tahoma, Verdana, sans-serif; font-size: 16px; font-weight: 700; letter-spacing: 0px; padding-bottom: 6px;">Email</label><input
-                                                        id="email_01JRJ7RMR2F4B0EYXKP04J010Z" type="email"
-                                                        autocomplete="email" name="email" tabindex="0"
-                                                        placeholder="Email Address" aria-required="true"
-                                                        aria-invalid="false" options="[object Object]"
-                                                        class="needsclick go1080389466 kl-private-reset-css-Xuajs1"
-                                                        style="box-sizing: border-box; border-radius: 0px; padding: 0px 0px 0px 16px; height: 50px; text-align: left; color: rgb(0, 0, 0); font-family: brandon-grotesque, Geneva, Tahoma, Verdana, sans-serif; font-size: 16px; font-weight: 400; letter-spacing: 0px; background-color: rgb(255, 255, 255); border: 1px solid rgb(148, 149, 150);">
-                                                    <div class="needsclick  kl-private-reset-css-Xuajs1"
-                                                        style="width: 100%; position: relative;"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div data-testid="form-row" class="needsclick  kl-private-reset-css-Xuajs1"
-                                            style="display: flex; flex-direction: row; align-items: stretch; position: relative;">
-                                            <div component="[object Object]" data-testid="form-component"
-                                                class="needsclick  kl-private-reset-css-Xuajs1"
-                                                style="display: flex; justify-content: flex-start; padding: 8px 32px 50px; position: relative; flex: 1 0 0px;">
-                                                <button type="button" tabindex="0"
-                                                    class="needsclick go300628013 kl-private-reset-css-Xuajs1"
-                                                    style="background: rgb(253, 240, 226); border-radius: 0px; border-style: solid; border-color: rgb(0, 0, 0); border-width: 1px; color: rgb(0, 0, 0); font-family: brandon-grotesque, Geneva, Tahoma, Verdana, sans-serif; font-size: 18px; font-weight: 700; letter-spacing: 0px; line-height: 1; font-style: normal; white-space: normal; padding-top: 0px; padding-bottom: 0px; text-align: center; word-break: break-word; align-self: flex-end; cursor: pointer; pointer-events: auto; height: 54px; width: 100%;">CONTINUE</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="needsclick  kl-private-reset-css-Xuajs1"
-                                        style="display: flex; flex-direction: column; width: 390px; margin: 0px; padding: 0px; border-top: 0px solid transparent; border-right: 0px solid transparent; border-bottom: 0px solid transparent; border-left: 0px; border-bottom-right-radius: 0px; border-top-right-radius: 0px; overflow: hidden; min-width: 390px; min-height: 200px;">
-                                        <div class="needsclick  kl-private-reset-css-Xuajs1"
-                                            style="width: 100%; height: 100%; position: relative;"><img
-                                                src="https://d3k81ch9hvuctc.cloudfront.net/company/NwRvKq/images/e22f90dc-540b-47ab-b550-e0cf5f3c0f1a.jpeg"
-                                                class="needsclick  kl-private-reset-css-Xuajs1"
-                                                style="width: 100%; height: 100%; object-fit: contain; object-position: center center;">
-                                        </div>
-                                    </div><input type="submit" tabindex="-1" value="Submit" style="display: none;">
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true"
+<iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true"
     style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;"
     title="Twitter analytics iframe"></iframe>
 <div id="omnisend-dynamic-container" style="overflow: hidden; height: 0px;">

@@ -54,7 +54,12 @@
 </div>
 
 <script>
-document.addEventListener("DOMContentLoaded", (e) => {
+setTimeout(() => {
+    // You can run any code here, knowing #hero is available
+    // For example, if you wanted to hide #pageLoad ONLY when #hero is present
+    var body = document.body
+    body.classList.remove("pageLoad")
     document.getElementById("pageLoad").style.display = "none";
-});
+    console.log("DOM loaded and #hero is available.");
+}, 10000);
 </script>

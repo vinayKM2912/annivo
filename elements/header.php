@@ -106,7 +106,7 @@ window.addEventListener("klaviyoForms", function(a) {
                         </div>
 
                         <div class="header__logo header__logo--image header__logo--has-transparent">
-                            <a class="header__logo__link" href="/" style="--LOGO-WIDTH: 50px">
+                            <a class="header__logo__link" href="/" style="--LOGO-WIDTH: 100px">
 
                                 <img src="<?php echo BASE_URL; ?>images/logo.png?v=1658854306&amp;width=50" alt="BOXFOX"
                                     width="50" height="46" loading="eager" class="logo__img logo__img--color"
@@ -236,7 +236,7 @@ window.addEventListener("klaviyoForms", function(a) {
                         </div>
                         <div data-takes-space="" class="header__desktop__bar__c">
                             <div class="header__logo header__logo--image header__logo--has-transparent">
-                                <a class="header__logo__link" href="/" style="--LOGO-WIDTH: 50px">
+                                <a class="header__logo__link" href="/" style="--LOGO-WIDTH: 100px">
 
 
 
@@ -870,7 +870,7 @@ window.addEventListener("klaviyoForms", function(a) {
             <div class="wrapper--full">
                 <div class="header__backfill__content">
                     <div class="header__logo">
-                        <div class="header__logo__link" style="--LOGO-WIDTH: 50px"><img data-src="logo__img"
+                        <div class="header__logo__link" style="--LOGO-WIDTH: 100px"><img data-src="logo__img"
                                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII="
                                 width="1909" height="1773" style="width: 100%;
                      display: block;
