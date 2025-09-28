@@ -158,7 +158,7 @@ window.addEventListener("klaviyoForms", function(a) {
                                         aria-haspopup="true" aria-expanded="false"
                                         data-hover-disclosure-toggle="dropdown-9a4e4911799e5e9bb06ee35ec9699be8"
                                         aria-controls="dropdown-9a4e4911799e5e9bb06ee35ec9699be8">
-                                        <a href="https://shopboxfox.com/collections/all" data-top-link=""
+                                        <a href="<?php echo BASE_URL; ?>corporate.php"  data-top-link=""
                                             class="navlink navlink--toplevel">
                                             <span class="navtext">CATEGORIES</span>
                                         </a>
@@ -169,37 +169,37 @@ window.addEventListener("klaviyoForms", function(a) {
                                                 <div class="header__dropdown__inner">
 
 
-                                                    <a href="https://boxfox.com/collections/all" data-stagger=""
+                                                    <a href="<?php echo BASE_URL; ?>corporate.php"  data-stagger=""
                                                         class="navlink navlink--child" style="transition-delay: 10ms;">
                                                         <span class="navtext">PLUSH TOYS</span>
                                                     </a>
 
 
-                                                    <a href="/pages/build-a-boxfox" data-stagger=""
+                                                    <a href="<?php echo BASE_URL; ?>corporate.php" data-stagger=""
                                                         class="navlink navlink--child" style="transition-delay: 60ms;">
                                                         <span class="navtext">APPAREL</span>
                                                     </a>
 
 
-                                                    <a href="/pages/the-personalization-shop" data-stagger=""
+                                                    <a href="<?php echo BASE_URL; ?>corporate.php"  data-stagger=""
                                                         class="navlink navlink--child" style="transition-delay: 110ms;">
                                                         <span class="navtext">KEY RINGS</span>
                                                     </a>
 
 
-                                                    <a href="https://boxfox.com/pages/gift-guide" data-stagger=""
+                                                    <a href="<?php echo BASE_URL; ?>corporate.php"  data-stagger=""
                                                         class="navlink navlink--child" style="transition-delay: 160ms;">
                                                         <span class="navtext">CORPORATE GIFTS</span>
                                                     </a>
 
 
-                                                    <a href="https://boxfox.com/collections/marketplace" data-stagger=""
+                                                    <a href="<?php echo BASE_URL; ?>corporate.php"  data-stagger=""
                                                         class="navlink navlink--child" style="transition-delay: 210ms;">
                                                         <span class="navtext">CUSTOMIZED ITEMS</span>
                                                     </a>
 
 
-                                                    <a href="https://boxfox.com/products/rise-ai-giftcard"
+                                                    <a href="<?php echo BASE_URL; ?>corporate.php" 
                                                         data-stagger="" class="navlink navlink--child"
                                                         style="transition-delay: 260ms;">
                                                         <span class="navtext">SUSTAINABILITY</span>
@@ -218,13 +218,13 @@ window.addEventListener("klaviyoForms", function(a) {
                                         aria-haspopup="true" aria-expanded="false"
                                         data-hover-disclosure-toggle="dropdown-59a6aa1d73e013a981963b72031ae737"
                                         aria-controls="dropdown-59a6aa1d73e013a981963b72031ae737">
-                                        <a href="about.php" data-top-link="" class="navlink navlink--toplevel">
+                                        <a href="<?php echo BASE_URL; ?>about.php" data-top-link="" class="navlink navlink--toplevel">
                                             <span class="navtext">ABOUT</span>
                                         </a>
                                     </div>
                                     <!-- /snippets/nav-item.liquid -->
                                     <div class="menu__item  child" data-main-menu-text-item="">
-                                        <a href="corporate.php" data-top-link="" class="navlink navlink--toplevel">
+                                        <a href="<?php echo BASE_URL; ?>corporate.php" data-top-link="" class="navlink navlink--toplevel">
                                             <span class="navtext">CORPORATE GIFTING</span>
                                         </a>
 
