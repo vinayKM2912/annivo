@@ -162,6 +162,32 @@
 	margin-top: -2em;
 }
 
+/* 1. Default for all screens (Assumes a Mobile-First approach) */
+/* Show the mobile element by default */
+#wowslider-container1.mobile-wow {
+	display: block;
+	/* or flex, inline-block, etc. */
+}
+
+/* Hide the desktop element by default */
+#wowslider-container1.desktop-wow {
+	display: none;
+}
+
+/* 2. Media Query for Desktop Screens */
+/* When the screen is wider than a common breakpoint (e.g., 768px), */
+/* HIDE the mobile element and SHOW the desktop element. */
+@media screen and (min-width: 768px) {
+	#wowslider-container1.mobile-wow {
+		display: none;
+	}
+
+	#wowslider-container1.desktop-wow {
+		display: block;
+		/* or flex, inline-block, etc. */
+	}
+}
+
 #wowslider-container1 .ws_cube_side {
 	background: #A6A5A9;
 }
