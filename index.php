@@ -4,8 +4,7 @@
 <?php include "./elements/meta.php"; ?>
 
 <body id="custom-amp-curated-gift-boxes-boxfox" ng-app="BOXFOX" ng-controller="App"
-    class="pageLoad template-index theme-animate-hover" data-aos-easing="ease" data-aos-duration="400"
-    data-aos-delay="0">
+    class="template-index theme-animate-hover" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <?php include "./elements/header.php"; ?>
     <main class="main-content" id="MainContent">
         <div id="shopify-section-template--14655948128374__hero" class="shopify-section">
@@ -289,6 +288,9 @@
                 </div>
 
 
+            </div>
+            <div id="shopify-section-template--14655948128374__section_announcement_PetCjB" class="shopify-section">
+                <?php include "./elements/productSlider.php"; ?>
             </div>
             <div id="shopify-section-template--14655948128374__cols" class="shopify-section">
                 <!-- /sections/section-columns.liquid -->
