@@ -1228,10 +1228,8 @@
                 class="shopify-section">
                 <!-- /sections/section-double.liquid -->
                 <section data-section-id="template--14655948128374__8092b13e-4149-4e1f-95af-e79d67a7d8b1"
-                    data-section-type="custom-content" data-overlay-header="" style="--PT: 0px;
-           --PB: 0px;
-           --BRICK-GUTTER: 0px;
-           background-color: #367a84;">
+                    data-section-type="custom-content" data-overlay-header=""
+                    style="--PT: 0px; --PB: 0px; --BRICK-GUTTER: 0px; background-color: #367a84;">
                     <div class="section-padding wrapper--none" data-wrapper="">
                         <div class="brick__section brick--2   use_screen_one_half " data-overflow-wrapper=""
                             style="min-height: 352px;">
@@ -1266,14 +1264,9 @@
                                                     alt="" width="2500" height="3750" loading="lazy"
                                                     class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
                                                     srcset="<?php echo BASE_URL; ?>images/7A1A3918.jpg?height=3750&amp;v=1735950445&amp;width=2500, <?php echo BASE_URL; ?>images/7A1A3918.jpg?height=576&amp;v=1735950445&amp;width=384 384w,<?php echo BASE_URL; ?>images/7A1A3918.jpg?height=1152&amp;v=1735950445&amp;width=768 768w, <?php echo BASE_URL; ?>images/7A1A3918.jpg?height=600&amp;v=1735950445&amp;width=400 400w,<?php echo BASE_URL; ?>images/7A1A3918.jpg?height=1200&amp;v=1735950445&amp;width=800 800w, <?php echo BASE_URL; ?>images/7A1A3918.jpg?height=768&amp;v=1735950445&amp;width=512 512w,<?php echo BASE_URL; ?>images/7A1A3918.jpg?height=1536&amp;v=1735950445&amp;width=1024 1024w, <?php echo BASE_URL; ?>images/7A1A3918.jpg?height=825&amp;v=1735950445&amp;width=550 550w,<?php echo BASE_URL; ?>images/7A1A3918.jpg?height=1650&amp;v=1735950445&amp;width=1100 1100w, <?php echo BASE_URL; ?>images/7A1A3918.jpg?height=1050&amp;v=1735950445&amp;width=700 700w,<?php echo BASE_URL; ?>images/7A1A3918.jpg?height=2100&amp;v=1735950445&amp;width=1400 1400w"
-                                                    sizes="(min-width: 1024px) calc(100vw / 2), (min-width: 768px) calc(100vw / 2), calc(100vw / 1.0)
- " fetchpriority="auto" style="
-
-      aspect-ratio: 0.6666666666666666;
-
-    object-position: center center;
-
-  ">
+                                                    sizes="(min-width: 1024px) calc(100vw / 2), (min-width: 768px) calc(100vw / 2), calc(100vw / 1.0) "
+                                                    fetchpriority="auto"
+                                                    style="aspect-ratio: 0.6666666666666666;object-position: center center;  ">
                                             </div>
                                         </div>
                                     </div>
@@ -8584,10 +8577,7 @@
                 class="shopify-section">
                 <!-- /sections/section-double.liquid -->
                 <section data-section-id="template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622"
-                    data-section-type="custom-content" style="--PT: 36px;
-           --PB: 0px;
-           --BRICK-GUTTER: 0px;
-           ">
+                    data-section-type="custom-content" style="--PT: 36px; --PB: 0px; --BRICK-GUTTER: 0px; ">
                     <div class="section-padding wrapper--none" data-wrapper="">
                         <div class="brick__section brick--2   use_screen_one_half brick__section--reverse"
                             data-overflow-wrapper="" style="min-height: 447px;">
@@ -8686,6 +8676,10 @@
                     </div>
                 </section>
             </div>
+
+
+
+            <?php include "./elements/expertise.php"; ?>
             <button class="flickity-button flickity-prev-next-button previous" type="button" aria-label="Previous"
                 disabled="true">
                 <svg class="flickity-button-icon" viewBox="0 0 100 100">

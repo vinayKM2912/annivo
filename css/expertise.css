@@ -1,0 +1,491 @@
+/* CSS Variables that may have been missed get put on body */
+/*  {
+    --tw-ring-inset: var(--tw-empty,
+        );
+    --tw-bg-opacity: 1;
+    --tw-bg-opacity: 1;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-bg-opacity: 0.8;
+    --tw-text-opacity: 1;
+    --tw-border-opacity: 1;
+    --tw-text-opacity: 1;
+    --tw-space-x-reverse: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-bg-opacity: 1;
+    --tw-rotate: 0.0001deg;
+    --tw-translate-x: 1.5rem;
+    --tw-translate-x: 0px;
+}
+
+ * {
+    box-sizing: border-box;
+    border: 0 solid #999a9a;
+}
+
+ * {
+    --tw-ring-inset: var(--tw-empty,
+ 
+        );
+}
+
+@media all {
+     * {
+        box-sizing: border-box;
+    }
+} */
+
+#expertise .w-e68 {
+    width: 100%;
+}
+
+#expertise .bg-coh {
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+}
+
+#expertise :root {
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+}
+
+#expertise .bg-gray-zvr {
+    --tw-bg-opacity: 1;
+    background-color: rgba(1, 2, 2, var(--tw-bg-opacity));
+}
+
+#expertise .rounded-jnm {
+    /* border-radius: 1rem; */
+}
+
+#expertise .py-1om {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#expertise .form-ojx {
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+}
+
+#expertise .form-ojx {
+    transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+@media (min-width: 1024px) {
+    #expertise .lgrounded-q9b {
+        /* border-radius: 1.5rem; */
+    }
+
+    #expertise .lgpy-21d {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}
+
+@media (min-width: 1450px) {
+    #expertise .\32 xl\:py-32 {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+}
+
+#expertise :selection {
+    --tw-bg-opacity: 0.8;
+    background-color: rgb(240, 82, 35, var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgba(1, 2, 2, var(--tw-text-opacity));
+}
+
+#expertise .px-ytk {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+@media (min-width: 640px) {
+    #expertise .smpx-2ym {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    #expertise .xlpx-x1k {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+@media (min-width: 1450px) {
+    #expertise .\32 xl\:px-20 {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+
+#expertise .fle-31r {
+    display: flex;
+}
+
+#expertise .flex-osd {
+    flex-wrap: wrap;
+}
+
+#expertise .justify-1pv {
+    justify-content: space-between;
+}
+
+#expertise .mb-afr {
+    margin-bottom: 2.5rem;
+}
+
+@media (min-width: 1024px) {
+    #expertise .lgmb-4qo {
+        margin-bottom: 5rem;
+    }
+}
+
+#expertise .mb-k7g {
+    margin-bottom: .5rem;
+}
+
+@media (min-width: 1024px) {
+    #expertise .lgmb-fo2 {
+        margin-bottom: 0;
+    }
+
+    #expertise .lgpx-8my {
+        padding-left: .75rem;
+        padding-right: .75rem;
+    }
+
+    #expertise .lg\:w-5\/16 {
+        width: 31.25%;
+    }
+}
+
+@media (min-width: 1280px) {
+    #expertise .xlpx-xcg {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+#expertise .order-lkm {
+    order: 1;
+}
+
+@media (min-width: 1024px) {
+    #expertise .lgorder-g14 {
+        order: 2;
+    }
+
+    #expertise .lg\:w-11\/16 {
+        width: 68.75%;
+    }
+}
+
+#expertise .inline-3c2 {
+    display: inline-flex;
+}
+
+#expertise .item-ych {
+    align-items: center;
+}
+
+#expertise .border-gray-axn {
+    --tw-border-opacity: 1;
+    border-color: rgba(52, 53, 53, var(--tw-border-opacity));
+}
+
+#expertise .border-oob {
+    /* border-style: solid; */
+}
+
+#expertise .border-ejz {
+    border-bottom-width: 1px;
+}
+
+#expertise .rounded-2f5 {
+    /* border-radius: 9999px; */
+}
+
+#expertise .h-1\.5 {
+    height: .375rem;
+}
+
+#expertise .w-1\.5 {
+    width: .375rem;
+}
+
+#expertise .font-aah {
+    font-weight: 300;
+}
+
+#expertise .text-lb6 {
+    font-size: .875rem;
+}
+
+#expertise .text-3ll {
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px) {
+    #expertise .text-35v {
+        font-size: 1rem;
+    }
+}
+
+#expertise .space-x-o9d> :not([hidden])~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(0.5rem*var(--tw-space-x-reverse));
+    margin-left: calc(0.5rem*(1 - var(--tw-space-x-reverse)));
+}
+
+#expertise a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#expertise a {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.135, .9, .15, 1);
+    transition-duration: .9s;
+}
+
+#expertise .py-pnv {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#expertise .rel-jvn {
+    position: relative;
+}
+
+#expertise .form-dob {
+    transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+#expertise .form-dob {
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+}
+
+#expertise .transition-nkm {
+    transition-property: opacity;
+    transition-timing-function: cubic-bezier(.135, .9, .15, 1);
+    transition-duration: .9s;
+}
+
+@media (min-width: 1024px) {
+    #expertise .lgpy-9oa {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+}
+
+#expertise .translate-z-ocd {
+    transform: translateZ(0);
+}
+
+#expertise .bg-gray-2pl {
+    --tw-bg-opacity: 1;
+    background-color: rgba(17, 17, 17, var(--tw-bg-opacity));
+}
+
+#expertise .rounded-887 {
+    /* border-radius: .75rem; */
+}
+
+#expertise .justify-29z {
+    justify-content: center;
+}
+
+#expertise .flex-shrink-t6t {
+    flex-shrink: 0;
+}
+
+#expertise .h-n7j {
+    height: 4rem;
+}
+
+#expertise .overflow-bsr {
+    overflow: hidden;
+}
+
+#expertise .w-y4o {
+    width: 5rem;
+}
+
+#expertise .rotate-jhp {
+    --tw-rotate: 0.0001deg;
+}
+
+#expertise .transition-736 {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.135, .9, .15, 1);
+    transition-duration: .9s;
+}
+
+#expertise .duration-r4k {
+    transition-duration: .7s;
+}
+
+@media (min-width: 768px) {
+    #expertise .mdh-1x8 {
+        height: 7rem;
+    }
+
+    #expertise .mdw-i9a {
+        width: 9rem;
+    }
+}
+
+#expertise picture {
+    width: fit-content;
+    height: fit-content;
+}
+
+@media (min-width: 1024px) {
+    #expertise .lgrounded-h7d {
+        /* border-radius: 1rem; */
+    }
+
+    #expertise .lgw-vbc {
+        width: 0;
+        transition: all .3s linear;
+    }
+
+    #expertise .w-e68:hover>.lgw-vbc {
+        width: 8.75rem;
+    }
+
+    /* #expertise .w-e68:hover>.lgopacity-xji {
+        opacity: 1;
+    } */
+}
+
+@media (min-width: 1280px) {
+    /* * {
+        cursor: none !important;
+    } */
+}
+
+#expertise .translate-x-qv6 {
+    --tw-translate-x: 1.5rem;
+}
+
+#expertise .form-rqo {
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(.135, .9, .15, 1);
+    transition-duration: .9s;
+}
+
+#expertise .delay-dxf {
+    transition-delay: .1s;
+}
+
+@media (min-width: 1024px) {
+    #expertise .lgtranslate-x-sft {
+        --tw-translate-x: 0px;
+    }
+}
+
+#expertise .h-2bn {
+    height: 100%;
+}
+
+#expertise .opacity-lde {
+    opacity: 1;
+}
+
+@media (min-width: 1024px) {
+    /* #expertise .lgopacity-xji {
+        opacity: 0;
+    } */
+}
+
+#expertise .text-7f5 {
+    text-wrap: balance;
+}
+
+#expertise .font-sans-51o {
+    font-family: Oldschool Grotesk, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+#expertise .text-h2k {
+    font-size: 6vw;
+}
+
+#expertise .leading-4sj {
+    line-height: 1.15;
+}
+
+#expertise .tracking-x2s {
+    letter-spacing: -.025em;
+}
+
+@media (min-width: 1024px) {
+    #expertise .text-hxn {
+        font-size: 5vw;
+    }
+}
+
+#expertise img {
+    /* border-style: solid; */
+}
+
+#expertise img {
+    display: block;
+    vertical-align: middle;
+}
+
+#expertise img {
+    max-width: 100%;
+    height: auto;
+}
+
+#expertise .object-tx3 {
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+#expertise .object-zvy {
+    -o-object-position: center;
+    object-position: center;
+}
+
+#expertise .abs-doq {
+    position: absolute;
+}
+
+#expertise .top-yj1 {
+    top: 0;
+}
+
+#expertise .left-bjo {
+    left: 0;
+}

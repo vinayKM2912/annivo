@@ -1414,6 +1414,8 @@
 
 
     <!-- END app block -->
+    <link href="./css/expertise.css" rel="stylesheet" type="text/css" media="all">
+
     <link href="https://cdn.shopify.com/extensions/5e57487f-b5b3-4cc7-987f-b86c2e529733/boxfox-build-381/assets/app.css"
         rel="stylesheet" type="text/css" media="all">
     <script
