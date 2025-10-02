@@ -424,10 +424,20 @@
     </script>
 
 <div data-modal-container=""></div>
+<script src="js/80codes-wa.js"></script>
+<script>
+// Initialize the SDK with floating widget configuration
+EightyCodesWA.init({
+    phone: '15551234567',
+    text: 'I saw your website and would like to chat about a project.',
+    mode: 'floating',
+    color: '#00A859'
+});
+</script>
 <!-- Paste popup code or third party scripts below this comment line ============== -->
 <script src="cdn/shop/t/153/assets/custom-edit-button.js?v=178547996552887788881720482173" defer="defer"></script>
 <!-- And above this comment line ================================================== -->
-<div id="shopify-block-Aajk0TllTV2lJZTdoT__15683396631634586217" class="shopify-block shopify-app-block">
+<!-- <div id="shopify-block-Aajk0TllTV2lJZTdoT__15683396631634586217" class="shopify-block shopify-app-block">
     <script id="chat-button-container" data-horizontal-position="bottom_left" data-vertical-position="higher"
         data-icon="chat_bubble" data-text="no_text" data-color="#5894b3" data-secondary-color="#ffffff"
         data-ternary-color="#6a6a6a"
@@ -449,7 +459,7 @@
 <inbox-online-store-chat><template shadowrootmode="open">
         <link rel="stylesheet"
             href="https://cdn.shopify.com/extensions/c6defb98-55a3-4757-8c1c-9616760c9bd7/inbox-1247/assets/style.css">
-    </template></inbox-online-store-chat>
+    </template></inbox-online-store-chat> -->
 <style>
 @import url('https://fonts.googleapis.com/css?family=Poppins:600&display=swap');
 </style>
