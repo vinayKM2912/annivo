@@ -98,8 +98,7 @@
                                         id="accordion-linklist-1-2">
 
                                         <li><a href="https://shopboxfox.com/pages/faqs">FAQ</a></li>
-                                        <li><a href="https://shopboxfox.com/pages/about-us">ABOUT</a></li>
-                                        <li><a href="https://shopboxfox.com/pages/contact">CONTACT</a></li>
+                                        <li><a href="<?php echo BASE_URL; ?>contact">CONTACT</a></li>
                                         </li>
 
                                     </ul>
@@ -139,11 +138,11 @@
                                         data-accordion-body="" data-accordion-body-mobile=""
                                         id="accordion-54b51580-46c4-422b-8700-967b58f8a8da-3">
 
-                                        <li><a href="<?php echo BASE_URL; ?>about.php">CATEGORIES</a></li>
+                                        <li><a href="<?php echo BASE_URL; ?>contact">CATEGORIES</a></li>
 
-                                        <li><a href="<?php echo BASE_URL; ?>about.php">ABOUT</a></li>
+                                        <li><a href="<?php echo BASE_URL; ?>about">ABOUT</a></li>
 
-                                        <li><a href="<?php echo BASE_URL; ?>corporate.php">CORPORATE GIFTING</a></li>
+                                        <li><a href="<?php echo BASE_URL; ?>corporate">CORPORATE GIFTING</a></li>
 
                                     </ul>
                                 </div>

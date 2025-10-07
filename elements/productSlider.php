@@ -167,7 +167,13 @@ const images = [{
         img: "https://cdn11.bigcommerce.com/s-fz2bnmwg7y/images/stencil/1920w/products/3946/115288/MUM3B__10793.1727977339.jpg",
         name: "Mumy Bob 2",
         price: "110"
+    },
+    {
+        img: "https://cdn11.bigcommerce.com/s-fz2bnmwg7y/images/stencil/1280w/products/4279/121915/TIM3TSK__43226.1756728294.png",
+        name: "Timmy Turtle 'Skating",
+        price: "110"
     }
+
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -188,7 +194,7 @@ document.addEventListener("DOMContentLoaded", () => {
         name.textContent = item.name;
 
         const price = document.createElement("p");
-        price.textContent = "Rs. " + item.price;
+        price.textContent = "AED. " + item.price;
 
         card.appendChild(image);
         card.appendChild(name);

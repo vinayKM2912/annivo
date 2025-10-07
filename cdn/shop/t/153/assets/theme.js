@@ -28,7 +28,7 @@
             </select>
           </div>
           <button type="button" class="build-box--pop-up__submit btn btn--full ng-binding" data-product="6917166235766">
-            ADD TO BOX
+            Enquiry Now
           </button>
         </div>
       </div>

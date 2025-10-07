@@ -32,27 +32,95 @@
                                     </div>
 
 
-                                    <div class="hero__cta__wrapper">
+                                    <div class="hero__cta__wrapper" style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; align-items: center;">
                                         <a class="standard__cta hero__btn btn--outline btn--white btn--long aos-init aos-animate"
-                                            href="<?php echo BASE_URL; ?>corporate.php" data-aos="hero"
+                                            href="<?php echo BASE_URL; ?>contact" data-aos="hero"
                                             data-aos-anchor="[data-section-id='template--14655948128374__hero']"
-                                            data-aos-order="3">
+                                            data-aos-order="3"
+                                            style="flex: 1 1 auto; min-width: 180px; text-align: center; margin: 5px;">
                                             COPORATE GIFTS
                                         </a>
                                         <a class="standard__cta hero__btn btn--outline btn--white btn--long aos-init aos-animate"
-                                            href="<?php echo BASE_URL; ?>corporate.php" data-aos="hero"
+                                            href="<?php echo BASE_URL; ?>contact" data-aos="hero"
                                             data-aos-anchor="[data-section-id='template--14655948128374__hero']"
-                                            data-aos-order="4">
+                                            data-aos-order="4"
+                                            style="flex: 1 1 auto; min-width: 180px; text-align: center; margin: 5px;">
                                             CUSTOMIZED ITEMS
                                         </a>
                                         <a class="standard__cta hero__btn btn--outline btn--white btn--long aos-init aos-animate"
-                                           href="<?php echo BASE_URL; ?>corporate.php" data-aos="hero"
+                                           href="<?php echo BASE_URL; ?>contact" data-aos="hero"
                                             data-aos-anchor="[data-section-id='template--14655948128374__hero']"
-                                            data-aos-order="5">
+                                            data-aos-order="5"
+                                            style="flex: 1 1 auto; min-width: 180px; text-align: center; margin: 5px;">
                                             SUSTAINABILITY
                                         </a>
 
                                     </div>
+
+                                    <style>
+                                        /* Hero CTA Mobile Responsive Fixes */
+                                        .hero__cta__wrapper {
+                                            display: flex !important;
+                                            flex-wrap: wrap !important;
+                                            gap: 15px !important;
+                                            justify-content: center !important;
+                                            align-items: center !important;
+                                            margin-top: 20px !important;
+                                        }
+
+                                        .hero__cta__wrapper .hero__btn {
+                                            flex: 1 1 auto !important;
+                                            min-width: 180px !important;
+                                            text-align: center !important;
+                                            margin: 5px !important;
+                                            white-space: nowrap !important;
+                                        }
+
+                                        /* Desktop: Horizontal layout */
+                                        @media (min-width: 768px) {
+                                            .hero__cta__wrapper {
+                                                flex-direction: row !important;
+                                                justify-content: flex-start !important;
+                                            }
+                                            
+                                            .hero__cta__wrapper .hero__btn {
+                                                flex: 0 1 auto !important;
+                                                margin-right: 15px !important;
+                                                margin-bottom: 0 !important;
+                                            }
+                                        }
+
+                                        /* Mobile: Vertical layout */
+                                        @media (max-width: 767px) {
+                                            .hero__cta__wrapper {
+                                                flex-direction: column !important;
+                                                align-items: center !important;
+                                                gap: 10px !important;
+                                            }
+                                            
+                                            .hero__cta__wrapper .hero__btn {
+                                                width: 100% !important;
+                                                max-width: 280px !important;
+                                                margin: 5px 0 !important;
+                                                text-align: center !important;
+                                            }
+                                        }
+
+                                        /* Tablet: Responsive layout */
+                                        @media (min-width: 480px) and (max-width: 767px) {
+                                            .hero__cta__wrapper {
+                                                flex-direction: row !important;
+                                                justify-content: center !important;
+                                            }
+                                            
+                                            .hero__cta__wrapper .hero__btn {
+                                                flex: 1 1 auto !important;
+                                                max-width: 160px !important;
+                                                font-size: 12px !important;
+                                                padding: 12px 8px !important;
+                                            }
+                                        }
+                                    </style>
 
 
                                 </div>
@@ -432,9 +500,7 @@
                 });
                 </script>
             </div>
-            <div id="shopify-section-template--14655948128374__section_columns_BqNXVw" class="shopify-section">
-                <!-- /sections/section-columns.liquid -->
-
+            <!-- <div id="shopify-section-template--14655948128374__section_columns_BqNXVw" class="shopify-section">
                 <div class="section-columns palette--light bg--neutral"
                     data-section-id="template--14655948128374__section_columns_BqNXVw"
                     data-section-type="section-columns" style="--PT: 36px; --PB: 36px;">
@@ -515,7 +581,7 @@
                     });
                 });
                 </script>
-            </div>
+            </div> -->
             <div id="shopify-section-template--14655948128374__be424ce9-435e-4178-81b6-d74fd52dc84a"
                 class="shopify-section">
                 <link href="cdn/shop/t/153/assets/mote.css?v=111603181540343972631698607520" rel="stylesheet"
@@ -526,14 +592,11 @@
                     data-section-type="collection-row" style="--PT: 36px; --PB: 36px;">
                     <div class="wrapper section-padding">
 
-                        <h2 class="kicker-flourished mb-7">Want to Build a gift box instead?</h2>
+                        <h2 class="kicker-flourished mb-7">ANNVIO Collections</h2>
 
 
-                        <p class="fea-description" style="padding-bottom: 32px;text-align:center;">Want our help getting
-                            your custom
-                            Build a AANVIO started? Look no further than our thoughtstarters here! Just hover and add
-                            straight into your
-                            BOXFOX!</p>
+                        <p class="fea-description" style="padding-bottom: 32px;text-align:center;">Every product we create is a reflection of our philosophy: quality, meaning, and distinction in every detail! Just hover and click
+                            equiry now!</p>
 
                         <div class="js-grid" data-grid-large="4" data-grid-small="2">
 
@@ -564,11 +627,11 @@
                                                     <!-- /snippets/image.liquid -->
 
 
-                                                    <img src="<?php echo BASE_URL; ?>images/tezza-8549.jpg?v=1750463144&amp;width=3024"
+                                                    <img src="<?php echo BASE_URL; ?>images/products/apparel2.jpeg?v=1750463144&amp;width=3024"
                                                         alt="orange striped tea towel" width="3024" height="3024"
                                                         loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-contain tw-w-full tw-h-full product-grid-item__image"
-                                                        srcset="<?php echo BASE_URL; ?>images/tezza-8549.jpg?crop=center&amp;height=3024&amp;v=1750463144&amp;width=3024"
+                                                        srcset="<?php echo BASE_URL; ?>images/products/apparel2.jpeg?crop=center&amp;height=3024&amp;v=1750463144&amp;width=3024"
                                                         sizes="(min-width: 1024px) calc(min(px, 100vw) / 1),  (min-width: 768px) calc(min(px, 100vw) / 1), calc(min(px, 100vw) / 1.0) "
                                                         fetchpriority="high"
                                                         style="aspect-ratio: 1.0;object-position: center center;">
@@ -590,7 +653,7 @@
 
                                                     <button class="bf-add product-grid-item__btn 1"
                                                         data-id="42276385456246">
-                                                        <span class="btn-state-ready">Add to Box</span>
+                                                        <span class="btn-state-ready">Enquiry Now</span>
                                                     </button>
                                                 </product-add-button><input type="hidden" name="product-id"
                                                     value="7753043771510"><input type="hidden" name="section-id"
@@ -600,14 +663,14 @@
                                     </div>
                                     <div class="moniker product__badge">PERSONALIZE ME</div>
                                 </product-grid-item-variant>
-                                <div class="product__grid__info text-left">
+                                <div class="product__grid__info text-center">
                                     <a href="/collections/homepage-thoughtstarters/products/orange-striped-tea-towel"
                                         data-grid-link="" aria-label="Orange Striped Tea Towel">
-                                        <p class="visually-hidden">Orange Striped Tea Towel</p>
+                                        <p class="visually-hidden">Customized Gift</p>
 
                                         <div class="product__grid__title__wrapper">
                                             <p id="product-7753043771510-title" class="product__grid__title">
-                                                Orange Striped Tea Towel
+                                                Customized Gift
                                             </p>
                                         </div>
 
@@ -615,7 +678,7 @@
                                                 class="product__grid__cutline">
                                             </span><span class="price">
 
-                                                $9.00
+                                                AED 9.00
                                             </span>
 
                                         </div>
@@ -650,11 +713,11 @@
                                                     <!-- /snippets/image.liquid -->
 
 
-                                                    <img src="<?php echo BASE_URL; ?>images/Screenshot2025-08-21at2.54.56PM.png?v=1756143511&amp;width=1078"
+                                                    <img src="<?php echo BASE_URL; ?>images/products/apparelgift1.jpeg?v=1756143511&amp;width=1078"
                                                         alt="Candle in a glass jar with a 'Pumpkin Martini' label on a white background"
                                                         width="1078" height="1078" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-contain tw-w-full tw-h-full product-grid-item__image"
-                                                        srcset="<?php echo BASE_URL; ?>images/Screenshot2025-08-21at2.54.56PM.png?crop=center&amp;height=1078&amp;v=1756143511&amp;width=1078"
+                                                        srcset="<?php echo BASE_URL; ?>images/products/apparelgift1.jpeg?crop=center&amp;height=1078&amp;v=1756143511&amp;width=1078"
                                                         sizes="(min-width: 1024px) calc(min(px, 100vw) / 1), (min-width: 768px) calc(min(px, 100vw) / 1), calc(min(px, 100vw) / 1.0)"
                                                         fetchpriority="high"
                                                         style="aspect-ratio: 1.0;object-position: center center;">
@@ -676,7 +739,7 @@
 
                                                     <button class="bf-add product-grid-item__btn 1"
                                                         data-id="42492802367606">
-                                                        <span class="btn-state-ready">Add to Box</span>
+                                                        <span class="btn-state-ready">Enquiry Now</span>
                                                     </button>
                                                 </product-add-button><input type="hidden" name="product-id"
                                                     value="7802789757046"><input type="hidden" name="section-id"
@@ -685,14 +748,14 @@
                                         </div>
                                     </div>
                                 </product-grid-item-variant>
-                                <div class="product__grid__info text-left">
+                                <div class="product__grid__info text-center">
                                     <a href="/collections/homepage-thoughtstarters/products/pumpkin-martini-candle-6-oz"
                                         data-grid-link="" aria-label="Pumpkin Martini Candle | 6 oz">
-                                        <p class="visually-hidden">Pumpkin Martini Candle | 6 oz</p>
+                                        <p class="visually-hidden">Apprael Gift</p>
 
                                         <div class="product__grid__title__wrapper">
                                             <p id="product-7802789757046-title" class="product__grid__title">
-                                                Pumpkin Martini Candle | 6 oz
+                                                Apprael Gift
                                             </p>
                                         </div>
 
@@ -700,7 +763,7 @@
                                                 class="product__grid__cutline">
                                             </span><span class="price">
 
-                                                $26.00
+                                                AED 26.00
                                             </span>
 
                                         </div>
@@ -735,10 +798,10 @@
                                                     <!-- /snippets/image.liquid -->
 
 
-                                                    <img src="<?php echo BASE_URL; ?>images/93612bf3375eddc296a2a0a4280bbc5b0d456984cf481f50b5eb3a99a08f3066.webp?v=1756338449&amp;width=987"
+                                                    <img src="<?php echo BASE_URL; ?>images/products/coporategift.jpeg?v=1756338449&amp;width=987"
                                                         alt="" width="987" height="987" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-contain tw-w-full tw-h-full product-grid-item__image"
-                                                        srcset="<?php echo BASE_URL; ?>images/93612bf3375eddc296a2a0a4280bbc5b0d456984cf481f50b5eb3a99a08f3066.webp?crop=center&amp;height=987&amp;v=1756338449&amp;width=987"
+                                                        srcset="<?php echo BASE_URL; ?>images/products/coporategift.jpeg?crop=center&amp;height=987&amp;v=1756338449&amp;width=987"
                                                         sizes="(min-width: 1024px) calc(min(px, 100vw) / 1), (min-width: 768px) calc(min(px, 100vw) / 1), calc(min(px, 100vw) / 1.0)"
                                                         fetchpriority="high"
                                                         style="aspect-ratio: 1.0;object-position: center center;">
@@ -760,7 +823,7 @@
 
                                                     <button class="bf-add product-grid-item__btn 1"
                                                         data-id="42508366119030">
-                                                        <span class="btn-state-ready">Add to Box</span>
+                                                        <span class="btn-state-ready">Enquiry Now</span>
                                                     </button>
                                                 </product-add-button><input type="hidden" name="product-id"
                                                     value="7806032183414"><input type="hidden" name="section-id"
@@ -769,14 +832,14 @@
                                         </div>
                                     </div>
                                 </product-grid-item-variant>
-                                <div class="product__grid__info text-left">
+                                <div class="product__grid__info text-center">
                                     <a href="/collections/homepage-thoughtstarters/products/fall-leaves-matchbox"
                                         data-grid-link="" aria-label="Fall Leaves Matchbox">
-                                        <p class="visually-hidden">Fall Leaves Matchbox</p>
+                                        <p class="visually-hidden">Coporate Gift</p>
 
                                         <div class="product__grid__title__wrapper">
                                             <p id="product-7806032183414-title" class="product__grid__title">
-                                                Fall Leaves Matchbox
+                                                Coporate Gift
                                             </p>
                                         </div>
 
@@ -784,7 +847,7 @@
                                                 class="product__grid__cutline">
                                             </span><span class="price">
 
-                                                $6.00
+                                                AED 6.00
                                             </span>
 
                                         </div>
@@ -819,11 +882,11 @@
                                                     <!-- /snippets/image.liquid -->
 
 
-                                                    <img src="<?php echo BASE_URL; ?>images/e9b73a3728edb3ca07c512ac7f7b88c26a85bcc033aea5a24e6935ac84d493d0.webp?v=1750459854&amp;width=1080"
+                                                    <img src="<?php echo BASE_URL; ?>images/products/customizedgfts.jpeg?v=1750459854&amp;width=1080"
                                                         alt="finger dipping into pumpkin shaped eye cream" width="1080"
                                                         height="1080" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-contain tw-w-full tw-h-full product-grid-item__image"
-                                                        srcset="<?php echo BASE_URL; ?>images/e9b73a3728edb3ca07c512ac7f7b88c26a85bcc033aea5a24e6935ac84d493d0.webp?crop=center&amp;height=1080&amp;v=1750459854&amp;width=1080"
+                                                        srcset="<?php echo BASE_URL; ?>images/products/customizedgfts.jpeg?crop=center&amp;height=1080&amp;v=1750459854&amp;width=1080"
                                                         sizes="(min-width: 1024px) calc(min(px, 100vw) / 1), (min-width: 768px) calc(min(px, 100vw) / 1), calc(min(px, 100vw) / 1.0)"
                                                         fetchpriority="high"
                                                         style="aspect-ratio: 1.0;object-position: center center;">
@@ -845,7 +908,7 @@
 
                                                     <button class="bf-add product-grid-item__btn 1"
                                                         data-id="41684922400886">
-                                                        <span class="btn-state-ready">Add to Box</span>
+                                                        <span class="btn-state-ready">Enquiry Now</span>
                                                     </button>
                                                 </product-add-button><input type="hidden" name="product-id"
                                                     value="7498041917558"><input type="hidden" name="section-id"
@@ -854,14 +917,14 @@
                                         </div>
                                     </div>
                                 </product-grid-item-variant>
-                                <div class="product__grid__info text-left">
+                                <div class="product__grid__info text-center">
                                     <a href="/collections/homepage-thoughtstarters/products/plump-kin-retinol-eye-cream"
                                         data-grid-link="" aria-label="Plump-Kin Retinol Eye Cream">
-                                        <p class="visually-hidden">Plump-Kin Retinol Eye Cream</p>
+                                        <p class="visually-hidden">Customized Photo Frame</p>
 
                                         <div class="product__grid__title__wrapper">
                                             <p id="product-7498041917558-title" class="product__grid__title">
-                                                Plump-Kin Retinol Eye Cream
+                                                Customized Photo Frame
                                             </p>
                                         </div>
 
@@ -869,7 +932,7 @@
                                                 class="product__grid__cutline">
                                             </span><span class="price">
 
-                                                $25.00
+                                                AED 25.00
                                             </span>
 
                                         </div>
@@ -904,11 +967,11 @@
                                                     <!-- /snippets/image.liquid -->
 
 
-                                                    <img src="<?php echo BASE_URL; ?>images/651de36c350c6d7a3035fab6a4f2e6c1a322fd819561877d039f236aa19fb891.webp?v=1757568303&amp;width=1124"
+                                                    <img src="<?php echo BASE_URL; ?>images/products/cutsomized4.jpeg?v=1757568303&amp;width=1124"
                                                         alt="Orange book cover with 'Pumpkin Spice' text and a pie illustration on a white background"
                                                         width="1124" height="1124" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-contain tw-w-full tw-h-full product-grid-item__image"
-                                                        srcset="<?php echo BASE_URL; ?>images/651de36c350c6d7a3035fab6a4f2e6c1a322fd819561877d039f236aa19fb891.webp?crop=center&amp;height=1124&amp;v=1757568303&amp;width=1124"
+                                                        srcset="<?php echo BASE_URL; ?>images/products/cutsomized4.jpeg?crop=center&amp;height=1124&amp;v=1757568303&amp;width=1124"
                                                         sizes="(min-width: 1024px) calc(min(px, 100vw) / 1), (min-width: 768px) calc(min(px, 100vw) / 1), calc(min(px, 100vw) / 1.0)"
                                                         fetchpriority="high"
                                                         style="aspect-ratio: 1.0;object-position: center center;">
@@ -930,7 +993,7 @@
 
                                                     <button class="bf-add product-grid-item__btn 1"
                                                         data-id="42538419388534">
-                                                        <span class="btn-state-ready">Add to Box</span>
+                                                        <span class="btn-state-ready">Enquiry Now</span>
                                                     </button>
                                                 </product-add-button><input type="hidden" name="product-id"
                                                     value="7814184829046"><input type="hidden" name="section-id"
@@ -939,14 +1002,14 @@
                                         </div>
                                     </div>
                                 </product-grid-item-variant>
-                                <div class="product__grid__info text-left">
+                                <div class="product__grid__info text-center">
                                     <a href="/collections/homepage-thoughtstarters/products/pumpkin-spice-puzzle"
-                                        data-grid-link="" aria-label="Pumpkin Spice Puzzle">
-                                        <p class="visually-hidden">Pumpkin Spice Puzzle</p>
+                                        data-grid-link="" aria-label="Wooden Photo Frame">
+                                        <p class="visually-hidden">Wooden Photo Frame</p>
 
                                         <div class="product__grid__title__wrapper">
                                             <p id="product-7814184829046-title" class="product__grid__title">
-                                                Pumpkin Spice Puzzle
+                                               Wooden Photo Frame
                                             </p>
                                         </div>
 
@@ -954,7 +1017,7 @@
                                                 class="product__grid__cutline">
                                             </span><span class="price">
 
-                                                $40.00
+                                                AED 40.00
                                             </span>
 
                                         </div>
@@ -989,11 +1052,11 @@
                                                     <!-- /snippets/image.liquid -->
 
 
-                                                    <img src="<?php echo BASE_URL; ?>images/651de36c350c6d7a3035fab6a4f2e6c1a322fd819561877d039f236aa19fb891.webp?v=1750462380&amp;width=1867"
+                                                    <img src="<?php echo BASE_URL; ?>images/products/cutsomizedMug5.jpeg?v=1750462380&amp;width=1867"
                                                         alt="orange pumpkin sheet mask behind white background"
                                                         width="1867" height="1867" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-contain tw-w-full tw-h-full product-grid-item__image"
-                                                        srcset="<?php echo BASE_URL; ?>images/651de36c350c6d7a3035fab6a4f2e6c1a322fd819561877d039f236aa19fb891.webp?crop=center&amp;height=1867&amp;v=1750462380&amp;width=1867"
+                                                        srcset="<?php echo BASE_URL; ?>images/products/cutsomizedMug5.jpeg?crop=center&amp;height=1867&amp;v=1750462380&amp;width=1867"
                                                         sizes="(min-width: 1024px) calc(min(px, 100vw) / 1), (min-width: 768px) calc(min(px, 100vw) / 1), calc(min(px, 100vw) / 1.0)"
                                                         fetchpriority="high"
                                                         style="aspect-ratio: 1.0;object-position: center center;">
@@ -1015,7 +1078,7 @@
 
                                                     <button class="bf-add product-grid-item__btn 1"
                                                         data-id="41684897923190">
-                                                        <span class="btn-state-ready">Add to Box</span>
+                                                        <span class="btn-state-ready">Enquiry Now</span>
                                                     </button>
                                                 </product-add-button><input type="hidden" name="product-id"
                                                     value="7498026745974"><input type="hidden" name="section-id"
@@ -1024,14 +1087,14 @@
                                         </div>
                                     </div>
                                 </product-grid-item-variant>
-                                <div class="product__grid__info text-left">
+                                <div class="product__grid__info text-center">
                                     <a href="/collections/homepage-thoughtstarters/products/im-pumpkin-sheet-mask"
-                                        data-grid-link="" aria-label="I'm Pumpkin Sheet Mask">
-                                        <p class="visually-hidden">I'm Pumpkin Sheet Mask</p>
+                                        data-grid-link="" aria-label="Cutsomized Mug">
+                                        <p class="visually-hidden">Cutsomized Mug</p>
 
                                         <div class="product__grid__title__wrapper">
                                             <p id="product-7498026745974-title" class="product__grid__title">
-                                                I'm Pumpkin Sheet Mask
+                                               Cutsomized Mug
                                             </p>
                                         </div>
 
@@ -1039,7 +1102,7 @@
                                                 class="product__grid__cutline">
                                             </span><span class="price">
 
-                                                $3.00
+                                                AED 3.00
                                             </span>
 
                                         </div>
@@ -1074,11 +1137,11 @@
                                                     <!-- /snippets/image.liquid -->
 
 
-                                                    <img src="<?php echo BASE_URL; ?>images/Pumpk_nSpiceS_C_Front_PDP_1312x1696_ed78ab8e-a3f3-4061-85bb-96b3c9c3bc06.webp?v=1750459958&amp;width=1039"
+                                                    <img src="<?php echo BASE_URL; ?>images/products/cutsomizedmusic.jpeg?v=1750459958&amp;width=1039"
                                                         alt="Orange plastic bag with resealable top and green mountain design on bottom. Text on packaging reads, &quot;Soft &amp; Chewy Bocce's Bakery Pumpk'n Spice Dog Treats Pumpkin, PB &amp; Cinnamon Recipe&quot;"
                                                         width="1039" height="1039" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-contain tw-w-full tw-h-full product-grid-item__image"
-                                                        srcset="<?php echo BASE_URL; ?>images/Pumpk_nSpiceS_C_Front_PDP_1312x1696_ed78ab8e-a3f3-4061-85bb-96b3c9c3bc06.webp?crop=center&amp;height=1039&amp;v=1750459958&amp;width=1039"
+                                                        srcset="<?php echo BASE_URL; ?>images/products/cutsomizedmusic.jpeg?crop=center&amp;height=1039&amp;v=1750459958&amp;width=1039"
                                                         sizes="(min-width: 1024px) calc(min(px, 100vw) / 1), (min-width: 768px) calc(min(px, 100vw) / 1), calc(min(px, 100vw) / 1.0)"
                                                         fetchpriority="high"
                                                         style="aspect-ratio: 1.0;object-position: center center;">
@@ -1100,7 +1163,7 @@
 
                                                     <button class="bf-add product-grid-item__btn 1"
                                                         data-id="39445526380662">
-                                                        <span class="btn-state-ready">Add to Box</span>
+                                                        <span class="btn-state-ready">Enquiry Now</span>
                                                     </button>
                                                 </product-add-button><input type="hidden" name="product-id"
                                                     value="6610618679414"><input type="hidden" name="section-id"
@@ -1109,14 +1172,14 @@
                                         </div>
                                     </div>
                                 </product-grid-item-variant>
-                                <div class="product__grid__info text-left">
+                                <div class="product__grid__info text-center">
                                     <a href="/collections/homepage-thoughtstarters/products/pumpkn-spice-soft-chewy-dog-treats"
-                                        data-grid-link="" aria-label="Pumpk'n Spice Dog Treats">
-                                        <p class="visually-hidden">Pumpk'n Spice Dog Treats</p>
+                                        data-grid-link="" aria-label="Cutsomized Music Plate">
+                                        <p class="visually-hidden">Cutsomized Music Plate</p>
 
                                         <div class="product__grid__title__wrapper">
                                             <p id="product-6610618679414-title" class="product__grid__title">
-                                                Pumpk'n Spice Dog Treats
+                                                Cutsomized Music Plate
                                             </p>
                                         </div>
 
@@ -1124,7 +1187,7 @@
                                                 class="product__grid__cutline">
                                             </span><span class="price">
 
-                                                $7.00
+                                                AED 25.00
                                             </span>
 
                                         </div>
@@ -1159,11 +1222,11 @@
                                                     <!-- /snippets/image.liquid -->
 
 
-                                                    <img src="<?php echo BASE_URL; ?>images/4691fd90c8198bbd124365cfc8afd8a1ff3ee8ecf9acbeaf7e28d011ae83455d.webp?v=1756509328&amp;width=1595"
+                                                    <img src="<?php echo BASE_URL; ?>images/products/keyring22.jpeg?v=1756509328&amp;width=1595"
                                                         alt="Ritter Sport chocolate bar packaging on a white background"
                                                         width="1595" height="1595" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-contain tw-w-full tw-h-full product-grid-item__image"
-                                                        srcset="<?php echo BASE_URL; ?>images/4691fd90c8198bbd124365cfc8afd8a1ff3ee8ecf9acbeaf7e28d011ae83455d.webp?crop=center&amp;height=1595&amp;v=1756509328&amp;width=1595"
+                                                        srcset="<?php echo BASE_URL; ?>images/products/keyring22.jpeg?crop=center&amp;height=1595&amp;v=1756509328&amp;width=1595"
                                                         sizes="(min-width: 1024px) calc(min(px, 100vw) / 1), (min-width: 768px) calc(min(px, 100vw) / 1), calc(min(px, 100vw) / 1.0)"
                                                         fetchpriority="high"
                                                         style="aspect-ratio: 1.0;object-position: center center;">
@@ -1185,7 +1248,7 @@
 
                                                     <button class="bf-add product-grid-item__btn 1"
                                                         data-id="42503474806902">
-                                                        <span class="btn-state-ready">Add to Box</span>
+                                                        <span class="btn-state-ready">Enquiry Now</span>
                                                     </button>
                                                 </product-add-button><input type="hidden" name="product-id"
                                                     value="7804551790710"><input type="hidden" name="section-id"
@@ -1194,14 +1257,14 @@
                                         </div>
                                     </div>
                                 </product-grid-item-variant>
-                                <div class="product__grid__info text-left">
+                                <div class="product__grid__info text-center">
                                     <a href="/collections/homepage-thoughtstarters/products/s-mores-mini-bar"
-                                        data-grid-link="" aria-label="S’Mores Mini Bar">
-                                        <p class="visually-hidden">S’Mores Mini Bar</p>
+                                        data-grid-link="" aria-label="Key Rings">
+                                        <p class="visually-hidden">Key Rings</p>
 
                                         <div class="product__grid__title__wrapper">
                                             <p id="product-7804551790710-title" class="product__grid__title">
-                                                S’Mores Mini Bar
+                                                Key Rings
                                             </p>
                                         </div>
 
@@ -1209,7 +1272,7 @@
                                                 class="product__grid__cutline">
                                             </span><span class="price">
 
-                                                $4.00
+                                                AED 4.00
                                             </span>
 
                                         </div>
@@ -1326,7 +1389,7 @@
                     style="--PT: 36px; --PB: 36px;">
                     <div class="wrapper section-padding">
 
-                        <h2 class="kicker-flourished mb-7">SOME OF OUR BEST SELLERS</h2>
+                        <h2 class="kicker-flourished mb-7">SOME OF OUR BEST PRODUCTS</h2>
 
                         <div class="js-grid" data-grid-large="4" data-grid-small="2">
                             <!-- /snippets/product-grid-item.liquid -->
@@ -1563,7 +1626,7 @@
                                                 <product-add-button>
                                                     <button data-add-to-cart="" type="submit" name="add"
                                                         class="product-grid-item__btn">
-                                                        <span class="btn-state-ready"> Add to cart </span>
+                                                        <span class="btn-state-ready"> ENQUIRY NOW </span>
                                                         <span class="btn-state-loading">
                                                             <svg height="18" width="18" class="svg-loader">
                                                                 <circle r="7" cx="9" cy="9">
@@ -1586,7 +1649,7 @@
                                 </product-grid-item-variant>
 
 
-                                <div class="product__grid__info text-left">
+                                <div class="product__grid__info text-center">
                                     <a href="/products/stars-hollow" data-grid-link="" aria-label="STARS HOLLOW">
                                         <p class="visually-hidden">STARS HOLLOW</p>
 
@@ -1888,7 +1951,7 @@
                                 </product-grid-item-variant>
 
 
-                                <div class="product__grid__info text-left">
+                                <div class="product__grid__info text-center">
                                     <a href="/products/cinnamon-swirl" data-grid-link="" aria-label="CINNAMON SWIRL">
                                         <p class="visually-hidden">CINNAMON SWIRL</p>
 
@@ -2203,7 +2266,7 @@
                                                 <product-add-button>
                                                     <button data-add-to-cart="" type="submit" name="add"
                                                         class="product-grid-item__btn">
-                                                        <span class="btn-state-ready"> Add to cart </span>
+                                                        <span class="btn-state-ready"> ENQUIRY NOW </span>
                                                         <span class="btn-state-loading">
                                                             <svg height="18" width="18" class="svg-loader">
                                                                 <circle r="7" cx="9" cy="9">
@@ -2226,7 +2289,7 @@
                                 </product-grid-item-variant>
 
 
-                                <div class="product__grid__info text-left">
+                                <div class="product__grid__info text-center">
                                     <a href="/products/whiskey-business" data-grid-link=""
                                         aria-label="WHISKEY BUSINESS">
                                         <p class="visually-hidden">WHISKEY BUSINESS</p>
@@ -2631,7 +2694,7 @@
                                                 <product-add-button>
                                                     <button data-add-to-cart="" type="submit" name="add"
                                                         class="product-grid-item__btn">
-                                                        <span class="btn-state-ready"> Add to cart </span>
+                                                        <span class="btn-state-ready"> ENQUIRY NOW </span>
                                                         <span class="btn-state-loading">
                                                             <svg height="18" width="18" class="svg-loader">
                                                                 <circle r="7" cx="9" cy="9">
@@ -2787,7 +2850,7 @@
                                                 <product-add-button>
                                                     <button data-add-to-cart="" type="submit" name="add"
                                                         class="product-grid-item__btn">
-                                                        <span class="btn-state-ready"> Add to cart </span>
+                                                        <span class="btn-state-ready"> ENQUIRY NOW </span>
                                                         <span class="btn-state-loading">
                                                             <svg height="18" width="18" class="svg-loader">
                                                                 <circle r="7" cx="9" cy="9">
@@ -2810,7 +2873,7 @@
                                 </product-grid-item-variant>
 
 
-                                <div class="product__grid__info text-left">
+                                <div class="product__grid__info text-center">
                                     <a href="/products/coffee" data-grid-link="" aria-label="COFFEE">
                                         <p class="visually-hidden">COFFEE</p>
 
@@ -3230,7 +3293,7 @@
                                                 <product-add-button>
                                                     <button data-add-to-cart="" type="submit" name="add"
                                                         class="product-grid-item__btn sold-out" disabled="disabled">
-                                                        <span class="btn-state-ready"> Add to cart </span>
+                                                        <span class="btn-state-ready"> ENQUIRY NOW </span>
                                                         <span class="btn-state-loading">
                                                             <svg height="18" width="18" class="svg-loader">
                                                                 <circle r="7" cx="9" cy="9">
@@ -3392,7 +3455,7 @@
                                                 <product-add-button>
                                                     <button data-add-to-cart="" type="submit" name="add"
                                                         class="product-grid-item__btn">
-                                                        <span class="btn-state-ready"> Add to cart </span>
+                                                        <span class="btn-state-ready"> ENQUIRY NOW </span>
                                                         <span class="btn-state-loading">
                                                             <svg height="18" width="18" class="svg-loader">
                                                                 <circle r="7" cx="9" cy="9">
@@ -3415,7 +3478,7 @@
                                 </product-grid-item-variant>
 
 
-                                <div class="product__grid__info text-left">
+                                <div class="product__grid__info text-center">
                                     <a href="/products/sweets-2025" data-grid-link="" aria-label="SWEETS">
                                         <p class="visually-hidden">SWEETS</p>
 
@@ -3836,7 +3899,7 @@
                                                 <product-add-button>
                                                     <button data-add-to-cart="" type="submit" name="add"
                                                         class="product-grid-item__btn sold-out" disabled="disabled">
-                                                        <span class="btn-state-ready"> Add to cart </span>
+                                                        <span class="btn-state-ready"> ENQUIRY NOW </span>
                                                         <span class="btn-state-loading">
                                                             <svg height="18" width="18" class="svg-loader">
                                                                 <circle r="7" cx="9" cy="9">
@@ -4029,7 +4092,7 @@
                                                 <product-add-button>
                                                     <button data-add-to-cart="" type="submit" name="add"
                                                         class="product-grid-item__btn">
-                                                        <span class="btn-state-ready"> Add to cart </span>
+                                                        <span class="btn-state-ready"> ENQUIRY NOW </span>
                                                         <span class="btn-state-loading">
                                                             <svg height="18" width="18" class="svg-loader">
                                                                 <circle r="7" cx="9" cy="9">
@@ -4052,7 +4115,7 @@
                                 </product-grid-item-variant>
 
 
-                                <div class="product__grid__info text-left">
+                                <div class="product__grid__info text-center">
                                     <a href="/products/sweets-for-all-2025" data-grid-link=""
                                         aria-label="SWEETS FOR ALL">
                                         <p class="visually-hidden">SWEETS FOR ALL</p>
@@ -4267,7 +4330,7 @@
                                                 <product-add-button>
                                                     <button data-add-to-cart="" type="submit" name="add"
                                                         class="product-grid-item__btn">
-                                                        <span class="btn-state-ready"> Add to cart </span>
+                                                        <span class="btn-state-ready"> ENQUIRY NOW </span>
                                                         <span class="btn-state-loading">
                                                             <svg height="18" width="18" class="svg-loader">
                                                                 <circle r="7" cx="9" cy="9">
@@ -4333,7 +4396,7 @@
                                                 <product-add-button>
                                                     <button data-add-to-cart="" type="submit" name="add"
                                                         class="product-grid-item__btn">
-                                                        <span class="btn-state-ready"> Add to cart </span>
+                                                        <span class="btn-state-ready"> ENQUIRY NOW </span>
                                                         <span class="btn-state-loading">
                                                             <svg height="18" width="18" class="svg-loader">
                                                                 <circle r="7" cx="9" cy="9">
@@ -4356,7 +4419,7 @@
                                 </product-grid-item-variant>
 
 
-                                <div class="product__grid__info text-left">
+                                <div class="product__grid__info text-center">
                                     <a href="/products/danke" data-grid-link="" aria-label="DANKE">
                                         <p class="visually-hidden">DANKE</p>
 
@@ -4789,7 +4852,7 @@
                                                 <product-add-button>
                                                     <button data-add-to-cart="" type="submit" name="add"
                                                         class="product-grid-item__btn">
-                                                        <span class="btn-state-ready"> Add to cart </span>
+                                                        <span class="btn-state-ready"> ENQUIRY NOW </span>
                                                         <span class="btn-state-loading">
                                                             <svg height="18" width="18" class="svg-loader">
                                                                 <circle r="7" cx="9" cy="9">
@@ -4945,7 +5008,7 @@
                                                 <product-add-button>
                                                     <button data-add-to-cart="" type="submit" name="add"
                                                         class="product-grid-item__btn sold-out" disabled="disabled">
-                                                        <span class="btn-state-ready"> Add to cart </span>
+                                                        <span class="btn-state-ready"> ENQUIRY NOW </span>
                                                         <span class="btn-state-loading">
                                                             <svg height="18" width="18" class="svg-loader">
                                                                 <circle r="7" cx="9" cy="9">
@@ -4968,7 +5031,7 @@
                                 </product-grid-item-variant>
 
 
-                                <div class="product__grid__info text-left">
+                                <div class="product__grid__info text-center">
                                     <a href="/products/thanks" data-grid-link="" aria-label="THANKS">
                                         <p class="visually-hidden">THANKS</p>
 
@@ -8621,7 +8684,7 @@
                                                     time.</p>
                                             </div>
 
-                                            <a href="https://boxfox.com/pages/corporate"
+                                            <a href="<?php echo BASE_URL; ?>corporate.php"
                                                 class="standard__cta btn btn--long btn--white aos-init aos-animate"
                                                 data-aos="hero"
                                                 data-aos-anchor="[data-section-id='template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622']"
@@ -13191,7 +13254,7 @@
                 general: {
                     'step': "Packaging",
                     'title': "Choose Your Box Color",
-                    'description': "\u003cp\u003eWelcome to the easiest way to send someone a custom gift, in 3 simple steps. Add to cart and repeat for multiple boxes, or update your quantity in the cart.\u003c\/p\u003e"
+                    'description': "\u003cp\u003eWelcome to the easiest way to send someone a custom gift, in 3 simple steps. ENQUIRY NOW and repeat for multiple boxes, or update your quantity in the cart.\u003c\/p\u003e"
                 },
                 blocks: []
             };
@@ -13213,7 +13276,7 @@
                     'description': "\u003cp\u003eWe’ve hand-selected the best products in one place. Select from the items below and fill up your box!\u003c\/p\u003e"
                 },
                 labels: {
-                    'add-button': "Add to Box",
+                    'add-button': "Enquiry Now",
                     'complete-button': "Complete Box",
                     'too-large': "Oops!(too large to fit)"
                 },
@@ -13246,7 +13309,7 @@
                     'description': "\u003cp\u003eChoose the perfect card for the occasion from our selection of exclusive designs. Our team handwrites each and every note to keep your gifts personal. (Plus, we have great handwriting.)\u003c\/p\u003e"
                 },
                 labels: {
-                    'add-button': "Add to Cart",
+                    'add-button': "ENQUIRY NOW",
                 },
                 layout: {
                     'desktop': 4,

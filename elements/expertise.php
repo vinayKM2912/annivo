@@ -1,11 +1,8 @@
 <?php
 $expItems = [
-    ["title" => "Consulting", "slug" => "", "img" => "CINNAMONSWIRLBOXFOX.png"],
-    ["title" => "Brand Identity & Positioning", "slug" => "", "img" => "CREMECINNAMONROLLBOXTOP_3eacc20c-c35f-4f11-8e6c-e89118c6307b.png"],
-    ["title" => "E-commerce & Marketplace", "slug" => "", "img" => "CREMESTARSHOLLOWBOXTOP45.png"],
-    ["title" => "Retail & Supply Chain Logistics", "slug" => "", "img" => "danke_boxfox_2.jpg"],
-    ["title" => "Content & Storytelling", "slug" => "", "img" => "e9b73a3728edb3ca07c512ac7f7b88c26a85bcc033aea5a24e6935ac84d493d0.webp"],
-    ["title" => "Tech Stack & Integration", "slug" => "", "img" => "Holiday22-337_1_1.jpg"],
+    ["title" => "Branded Merchandise", "slug" => "", "img" => "CINNAMONSWIRLBOXFOX.png"],
+    ["title" => "Corporate Gifting & Bespoke Hampers", "slug" => "", "img" => "CREMECINNAMONROLLBOXTOP_3eacc20c-c35f-4f11-8e6c-e89118c6307b.png"],
+    ["title" => "Premium Packaging", "slug" => "", "img" => "CREMESTARSHOLLOWBOXTOP45.png"],
 ]
 ?><div id="expertise" id="shopify-section-template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622"
     class="shopify-section">

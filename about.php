@@ -233,12 +233,12 @@ include "config.php";
                 <div class="standard__kicker accent-size-4 block__kicker--flourished aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed']" data-aos-order="1">
               </div>
               </div><div class="rte body-size-5 columns--1 aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed']" data-aos-order="3">
-            <ul>
-                <li><strong>Bespoke Solutions</strong> – Tailor-made merchandise designed for your brand's unique journey.</li>
-                <li><strong>Uncompromising Quality</strong> – Products created with attention to detail and premium craftsmanship.</li>
-                <li><strong>Scalability with Care</strong> – Whether exclusive limited runs or large-scale corporate programs, we maintain consistency and excellence.</li>
-                <li><strong>Sustainable Choices</strong> – Eco-conscious materials and responsible sourcing for modern enterprises.</li>
-                <li><strong>Trusted Partnership</strong> – Collaborative relationships built on reliability, creativity, and discretion.</li>
+            <ul style="list-style-type: disc; padding-left: 20px; text-align: left; max-width: 800px; margin: 0 auto;">
+                <li style="margin-bottom: 15px; line-height: 1.6;"><strong style="font-weight: 700; color: #333;">Bespoke Solutions</strong> – Tailor-made merchandise designed for your brand's unique journey.</li>
+                <li style="margin-bottom: 15px; line-height: 1.6;"><strong style="font-weight: 700; color: #333;">Uncompromising Quality</strong> – Products created with attention to detail and premium craftsmanship.</li>
+                <li style="margin-bottom: 15px; line-height: 1.6;"><strong style="font-weight: 700; color: #333;">Scalability with Care</strong> – Whether exclusive limited runs or large-scale corporate programs, we maintain consistency and excellence.</li>
+                <li style="margin-bottom: 15px; line-height: 1.6;"><strong style="font-weight: 700; color: #333;">Sustainable Choices</strong> – Eco-conscious materials and responsible sourcing for modern enterprises.</li>
+                <li style="margin-bottom: 15px; line-height: 1.6;"><strong style="font-weight: 700; color: #333;">Trusted Partnership</strong> – Collaborative relationships built on reliability, creativity, and discretion.</li>
             </ul>
               </div>
 
@@ -247,7 +247,6 @@ include "config.php";
         </div></div>
     </div>
   </section>
-
 </div>
 
 <div id="shopify-section-template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed" class="shopify-section"><!-- /sections/section-richtext.liquid--><section class="text--neutral palette--light bg--neutral" data-section-id="template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed" data-section-type="rich-text" style="
@@ -261,12 +260,12 @@ include "config.php";
                 <div class="standard__kicker accent-size-4 block__kicker--flourished aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed']" data-aos-order="1">
               </div>
               </div><div class="rte body-size-5 columns--1 aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed']" data-aos-order="3">
-            <ul>
-                <li><strong>Luxury Hospitality</strong> – Bespoke mascots, in-room gifts, and exclusive branding products.</li>
-                <li><strong>Corporate & Financial Institutions</strong> – Elegant merchandise and gifting for clients, partners, and executives.</li>
-                <li><strong>Technology & Innovation Brands</strong> – Custom lifestyle products and promotional items with a modern edge.</li>
-                <li><strong>Cafés, Restaurants & Lifestyle Brands</strong> – Merchandise that extends your identity beyond your space.</li>
-                <li><strong>Government & Public Sector</strong> – Prestigious products designed for official and cultural representation.</li>
+            <ul style="list-style-type: disc; padding-left: 20px; text-align: left; max-width: 800px; margin: 0 auto;">
+                <li style="margin-bottom: 15px; line-height: 1.6;"><strong style="font-weight: 700; color: #333;">Luxury Hospitality</strong> – Bespoke mascots, in-room gifts, and exclusive branding products.</li>
+                <li style="margin-bottom: 15px; line-height: 1.6;"><strong style="font-weight: 700; color: #333;">Corporate & Financial Institutions</strong> – Elegant merchandise and gifting for clients, partners, and executives.</li>
+                <li style="margin-bottom: 15px; line-height: 1.6;"><strong style="font-weight: 700; color: #333;">Technology & Innovation Brands</strong> – Custom lifestyle products and promotional items with a modern edge.</li>
+                <li style="margin-bottom: 15px; line-height: 1.6;"><strong style="font-weight: 700; color: #333;">Cafés, Restaurants & Lifestyle Brands</strong> – Merchandise that extends your identity beyond your space.</li>
+                <li style="margin-bottom: 15px; line-height: 1.6;"><strong style="font-weight: 700; color: #333;">Government & Public Sector</strong> – Prestigious products designed for official and cultural representation.</li>
             </ul>
             </ul>
               </div>

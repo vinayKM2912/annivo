@@ -109,354 +109,35 @@ include "config.php";
 </div>
 
 
-</div><div id="shopify-section-template--14655948521590__4413fdd6-2b0e-4481-969b-e92f1c452128" class="shopify-section"><!-- /sections/section-columns.liquid -->
-
-<div class="section-columns palette--light bg--neutral" data-section-id="template--14655948521590__4413fdd6-2b0e-4481-969b-e92f1c452128" data-section-type="section-columns" style="--PT: 36px; --PB: 36px;">
-  <div class="wrapper section-padding">
-    
-      <h2 class="kicker-flourished mb-7">What WE DO</h2>
-    
-    <div data-grid="" data-grid-flex="" data-grid-large="" data-grid-medium="" data-grid-small="" data-custom-scrollbar-items="" style="
-        --grid-large-items: 3;
-        --grid-medium-items: 3;
-        --grid-small-items: 1.2;">
-      
-        <div class="index__column grid__item slide-item text-center" data-item="">
-          
-            <div class="column__image" data-grid-slide=""><!-- /snippets/image.liquid -->
-
-
-
-
-
-
-
-
-  
-
-  <img src="<?php echo BASE_URL; ?>images/page/copgifts.png&amp;width=4480" alt="" width="4480" height="3360" loading="lazy" class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full" srcset="
-
-//boxfox.com/cdn/shop/files/BOXFOX_Box_Top.jpg?height=3360&amp;v=1701042604&amp;width=4480,
-        //boxfox.com/cdn/shop/files/BOXFOX_Box_Top.jpg?height=174&amp;v=1701042604&amp;width=232 232w,
-          //boxfox.com/cdn/shop/files/BOXFOX_Box_Top.jpg?height=348&amp;v=1701042604&amp;width=464 464w,
-        //boxfox.com/cdn/shop/files/BOXFOX_Box_Top.jpg?height=204&amp;v=1701042604&amp;width=273 273w,
-          //boxfox.com/cdn/shop/files/BOXFOX_Box_Top.jpg?height=409&amp;v=1701042604&amp;width=546 546w,
-        //boxfox.com/cdn/shop/files/BOXFOX_Box_Top.jpg?height=237&amp;v=1701042604&amp;width=317 317w,
-          //boxfox.com/cdn/shop/files/BOXFOX_Box_Top.jpg?height=475&amp;v=1701042604&amp;width=634 634w,
-        //boxfox.com/cdn/shop/files/BOXFOX_Box_Top.jpg?height=257&amp;v=1701042604&amp;width=343 343w,
-          //boxfox.com/cdn/shop/files/BOXFOX_Box_Top.jpg?height=514&amp;v=1701042604&amp;width=686 686w,
-        //boxfox.com/cdn/shop/files/BOXFOX_Box_Top.jpg?height=332&amp;v=1701042604&amp;width=443 443w,
-          //boxfox.com/cdn/shop/files/BOXFOX_Box_Top.jpg?height=664&amp;v=1701042604&amp;width=886 886w
-
-" sizes="(min-width: 1024px) calc(min(100vw, 1450px, 100vw) / 3),
-(min-width: 768px) calc(min(100vw, 1450px, 100vw) / 3),
-calc(min(100vw, 1450px, 100vw) / 1.2)
-
-" fetchpriority="auto" style="
-  
-    aspect-ratio: 1;
-  
-  object-position: center center;
-  
-">
-
-
 </div>
-          
-          
-            <div class="accent-title-large strong mb2">LESS THAN 50?</div>
-          
-          
-            <div class="rte body-size-4"><p>Shop on ANNVIO.com directly with both single and multi-address shipping options.</p><p>Shop our main direct-to-consumer site and send up to 49 boxes in a single checkout! Perfect for one-off occasions that need to feel more personal. We even offer multi-address shipping in a single checkout!</p></div>
-          
-          
-            <a href="https://boxfox.com/" class="btn--neutral btn--soft">
-              SHOP NOW
-            </a>
-          
-        </div>
-      
-        <div class="index__column grid__item slide-item text-center" data-item="">
-          
-            <div class="column__image" data-grid-slide=""><!-- /snippets/image.liquid -->
+<div id="shopify-section-template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed" class="shopify-section"><!-- /sections/section-richtext.liquid--><section class="text--neutral palette--light bg--neutral" data-section-id="template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed" data-section-type="rich-text" style="
+      --PT: 36px;
+      --PB: 0px;
+      --FLEX-POSITION: center;
+      --CONTENT-WIDTH: 2000px;">
+    <div class="wrapper section-padding">
+      <div class="text__standard text-center"><div class="standard__heading heading-size-8 aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed']" data-aos-order="2">
+                <p>Why Partner with Aanvio?</p>
+                <div class="standard__kicker accent-size-4 block__kicker--flourished aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed']" data-aos-order="1">
+              </div>
+              </div><div class="rte body-size-5 columns--1 aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed']" data-aos-order="3">
+            <ul style="list-style-type: disc; padding-left: 20px; text-align: left; max-width: 800px; margin: 0 auto;">
+                <li style="margin-bottom: 15px; line-height: 1.6;"><strong style="font-weight: 700; color: #333;">Bespoke Solutions</strong> – Tailor-made merchandise designed for your brand's unique journey.</li>
+                <li style="margin-bottom: 15px; line-height: 1.6;"><strong style="font-weight: 700; color: #333;">Uncompromising Quality</strong> – Products created with attention to detail and premium craftsmanship.</li>
+                <li style="margin-bottom: 15px; line-height: 1.6;"><strong style="font-weight: 700; color: #333;">Scalability with Care</strong> – Whether exclusive limited runs or large-scale corporate programs, we maintain consistency and excellence.</li>
+                <li style="margin-bottom: 15px; line-height: 1.6;"><strong style="font-weight: 700; color: #333;">Sustainable Choices</strong> – Eco-conscious materials and responsible sourcing for modern enterprises.</li>
+                <li style="margin-bottom: 15px; line-height: 1.6;"><strong style="font-weight: 700; color: #333;">Trusted Partnership</strong> – Collaborative relationships built on reliability, creativity, and discretion.</li>
+            </ul>
+              </div>
 
-
-
-
-
-
-
-
+        <div class="hero__cta__wrapper">
   
-
-  <img src="//boxfox.com/cdn/shop/files/BoxFox_CB-324_Cropped_684106e6-8118-4ea6-a777-87e45a459e0c.jpg?v=1701042962&amp;width=2400" alt="" width="2400" height="2400" loading="lazy" class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full" srcset="
-
-//boxfox.com/cdn/shop/files/BoxFox_CB-324_Cropped_684106e6-8118-4ea6-a777-87e45a459e0c.jpg?height=2400&amp;v=1701042962&amp;width=2400,
-        //boxfox.com/cdn/shop/files/BoxFox_CB-324_Cropped_684106e6-8118-4ea6-a777-87e45a459e0c.jpg?height=232&amp;v=1701042962&amp;width=232 232w,
-          //boxfox.com/cdn/shop/files/BoxFox_CB-324_Cropped_684106e6-8118-4ea6-a777-87e45a459e0c.jpg?height=464&amp;v=1701042962&amp;width=464 464w,
-        //boxfox.com/cdn/shop/files/BoxFox_CB-324_Cropped_684106e6-8118-4ea6-a777-87e45a459e0c.jpg?height=273&amp;v=1701042962&amp;width=273 273w,
-          //boxfox.com/cdn/shop/files/BoxFox_CB-324_Cropped_684106e6-8118-4ea6-a777-87e45a459e0c.jpg?height=546&amp;v=1701042962&amp;width=546 546w,
-        //boxfox.com/cdn/shop/files/BoxFox_CB-324_Cropped_684106e6-8118-4ea6-a777-87e45a459e0c.jpg?height=317&amp;v=1701042962&amp;width=317 317w,
-          //boxfox.com/cdn/shop/files/BoxFox_CB-324_Cropped_684106e6-8118-4ea6-a777-87e45a459e0c.jpg?height=634&amp;v=1701042962&amp;width=634 634w,
-        //boxfox.com/cdn/shop/files/BoxFox_CB-324_Cropped_684106e6-8118-4ea6-a777-87e45a459e0c.jpg?height=343&amp;v=1701042962&amp;width=343 343w,
-          //boxfox.com/cdn/shop/files/BoxFox_CB-324_Cropped_684106e6-8118-4ea6-a777-87e45a459e0c.jpg?height=686&amp;v=1701042962&amp;width=686 686w,
-        //boxfox.com/cdn/shop/files/BoxFox_CB-324_Cropped_684106e6-8118-4ea6-a777-87e45a459e0c.jpg?height=443&amp;v=1701042962&amp;width=443 443w,
-          //boxfox.com/cdn/shop/files/BoxFox_CB-324_Cropped_684106e6-8118-4ea6-a777-87e45a459e0c.jpg?height=886&amp;v=1701042962&amp;width=886 886w
-
-" sizes="(min-width: 1024px) calc(min(100vw, 1450px, 100vw) / 3),
-(min-width: 768px) calc(min(100vw, 1450px, 100vw) / 3),
-calc(min(100vw, 1450px, 100vw) / 1.2)
-
-" fetchpriority="auto" style="
-  
-    aspect-ratio: 1;
-  
-  object-position: center center;
-  
-">
-
-
-</div>
-          
-          
-            <div class="accent-title-large strong mb2">ADD YOUR LOGO (12-49 gifts)</div>
-          
-          
-            <div class="rte body-size-4"><p>Looking to ship something ASAP with just a little branding? We have made it seamless. </p><p>Easy to execute sends with logos on the card, gift tag, or products.</p></div>
-          
-          
-            <a href="/pages/corporate-inquiry" class="btn--neutral btn--soft">
-              Let Us Help You
-            </a>
-          
-        </div>
-      
-        <div class="index__column grid__item slide-item text-center" data-item="">
-          
-            <div class="column__image" data-grid-slide=""><!-- /snippets/image.liquid -->
-
-
-
-
-
-
-
-
-  
-
-  <img src="//boxfox.com/cdn/shop/files/IMG_1666_Cropped_5a3bf4f9-2d4d-48f3-bc74-5bcdef9056e9.jpg?v=1701042493&amp;width=3024" alt="" width="3024" height="3024" loading="lazy" class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full" srcset="
-
-//boxfox.com/cdn/shop/files/IMG_1666_Cropped_5a3bf4f9-2d4d-48f3-bc74-5bcdef9056e9.jpg?height=3024&amp;v=1701042493&amp;width=3024,
-        //boxfox.com/cdn/shop/files/IMG_1666_Cropped_5a3bf4f9-2d4d-48f3-bc74-5bcdef9056e9.jpg?height=232&amp;v=1701042493&amp;width=232 232w,
-          //boxfox.com/cdn/shop/files/IMG_1666_Cropped_5a3bf4f9-2d4d-48f3-bc74-5bcdef9056e9.jpg?height=464&amp;v=1701042493&amp;width=464 464w,
-        //boxfox.com/cdn/shop/files/IMG_1666_Cropped_5a3bf4f9-2d4d-48f3-bc74-5bcdef9056e9.jpg?height=273&amp;v=1701042493&amp;width=273 273w,
-          //boxfox.com/cdn/shop/files/IMG_1666_Cropped_5a3bf4f9-2d4d-48f3-bc74-5bcdef9056e9.jpg?height=546&amp;v=1701042493&amp;width=546 546w,
-        //boxfox.com/cdn/shop/files/IMG_1666_Cropped_5a3bf4f9-2d4d-48f3-bc74-5bcdef9056e9.jpg?height=317&amp;v=1701042493&amp;width=317 317w,
-          //boxfox.com/cdn/shop/files/IMG_1666_Cropped_5a3bf4f9-2d4d-48f3-bc74-5bcdef9056e9.jpg?height=634&amp;v=1701042493&amp;width=634 634w,
-        //boxfox.com/cdn/shop/files/IMG_1666_Cropped_5a3bf4f9-2d4d-48f3-bc74-5bcdef9056e9.jpg?height=343&amp;v=1701042493&amp;width=343 343w,
-          //boxfox.com/cdn/shop/files/IMG_1666_Cropped_5a3bf4f9-2d4d-48f3-bc74-5bcdef9056e9.jpg?height=686&amp;v=1701042493&amp;width=686 686w,
-        //boxfox.com/cdn/shop/files/IMG_1666_Cropped_5a3bf4f9-2d4d-48f3-bc74-5bcdef9056e9.jpg?height=443&amp;v=1701042493&amp;width=443 443w,
-          //boxfox.com/cdn/shop/files/IMG_1666_Cropped_5a3bf4f9-2d4d-48f3-bc74-5bcdef9056e9.jpg?height=886&amp;v=1701042493&amp;width=886 886w
-
-" sizes="(min-width: 1024px) calc(min(100vw, 1450px, 100vw) / 3),
-(min-width: 768px) calc(min(100vw, 1450px, 100vw) / 3),
-calc(min(100vw, 1450px, 100vw) / 1.2)
-
-" fetchpriority="auto" style="
-  
-    aspect-ratio: 1;
-  
-  object-position: center center;
-  
-">
-
-
-</div>
-          
-          
-            <div class="accent-title-large strong mb2">Looking for More?</div>
-          
-          
-            <div class="rte body-size-4"><p>White glove service for bulk gifting.<br><br>Effortless and elevated enterprise gifting, 9 years strong. Premier-one on-one service, dedicated account management team for creative ideation and seamless execution.</p></div>
-          
-          
-            <a href="https://boxfox.com/pages/corporate-inquiry" class="btn--neutral btn--soft">
-              INQUIRE TODAY
-            </a>
-          
-        </div>
-      
-        <div class="index__column grid__item slide-item text-center" data-item="">
-          
-            <div class="column__image" data-grid-slide=""><!-- /snippets/image.liquid -->
-
-
-
-
-
-
-
-
-  
-
-  <img src="//boxfox.com/cdn/shop/files/Screenshot_2023-11-14_at_10.13.01_AM.png?v=1701042368&amp;width=1210" alt="" width="1210" height="1136" loading="lazy" class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full" srcset="
-
-//boxfox.com/cdn/shop/files/Screenshot_2023-11-14_at_10.13.01_AM.png?height=1136&amp;v=1701042368&amp;width=1210,
-        //boxfox.com/cdn/shop/files/Screenshot_2023-11-14_at_10.13.01_AM.png?height=217&amp;v=1701042368&amp;width=232 232w,
-          //boxfox.com/cdn/shop/files/Screenshot_2023-11-14_at_10.13.01_AM.png?height=435&amp;v=1701042368&amp;width=464 464w,
-        //boxfox.com/cdn/shop/files/Screenshot_2023-11-14_at_10.13.01_AM.png?height=256&amp;v=1701042368&amp;width=273 273w,
-          //boxfox.com/cdn/shop/files/Screenshot_2023-11-14_at_10.13.01_AM.png?height=512&amp;v=1701042368&amp;width=546 546w,
-        //boxfox.com/cdn/shop/files/Screenshot_2023-11-14_at_10.13.01_AM.png?height=297&amp;v=1701042368&amp;width=317 317w,
-          //boxfox.com/cdn/shop/files/Screenshot_2023-11-14_at_10.13.01_AM.png?height=595&amp;v=1701042368&amp;width=634 634w,
-        //boxfox.com/cdn/shop/files/Screenshot_2023-11-14_at_10.13.01_AM.png?height=322&amp;v=1701042368&amp;width=343 343w,
-          //boxfox.com/cdn/shop/files/Screenshot_2023-11-14_at_10.13.01_AM.png?height=644&amp;v=1701042368&amp;width=686 686w,
-        //boxfox.com/cdn/shop/files/Screenshot_2023-11-14_at_10.13.01_AM.png?height=415&amp;v=1701042368&amp;width=443 443w,
-          //boxfox.com/cdn/shop/files/Screenshot_2023-11-14_at_10.13.01_AM.png?height=831&amp;v=1701042368&amp;width=886 886w
-
-" sizes="(min-width: 1024px) calc(min(100vw, 1450px, 100vw) / 3),
-(min-width: 768px) calc(min(100vw, 1450px, 100vw) / 3),
-calc(min(100vw, 1450px, 100vw) / 1.2)
-
-" fetchpriority="auto" style="
-  
-    aspect-ratio: 1;
-  
-  object-position: center center;
-  
-">
-
-
-</div>
-          
-          
-            <div class="accent-title-large strong mb2">Branded product &amp; MERCH</div>
-          
-          
-            <div class="rte body-size-4"><p>Access customization and branding with low minimums.</p><p>Let us take care of your swag, company merchandise, or promotional products.</p><p>We can source it all.<br></p></div>
-          
-          
-            <a href="https://boxfox.com/pages/corporate-inquiry" class="btn--neutral btn--soft">
-              INQUIRE TODAY
-            </a>
-          
-        </div>
-      
-        <div class="index__column grid__item slide-item text-center" data-item="">
-          
-            <div class="column__image" data-grid-slide=""><!-- /snippets/image.liquid -->
-
-
-
-
-
-
-
-
-  
-
-  <img src="//boxfox.com/cdn/shop/files/Tezza-2643_c3e3574e-9beb-47a0-9d53-e4687556b459.jpg?v=1701042824&amp;width=1536" alt="" width="1536" height="2048" loading="lazy" class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full" srcset="
-
-//boxfox.com/cdn/shop/files/Tezza-2643_c3e3574e-9beb-47a0-9d53-e4687556b459.jpg?height=2048&amp;v=1701042824&amp;width=1536,
-        //boxfox.com/cdn/shop/files/Tezza-2643_c3e3574e-9beb-47a0-9d53-e4687556b459.jpg?height=309&amp;v=1701042824&amp;width=232 232w,
-          //boxfox.com/cdn/shop/files/Tezza-2643_c3e3574e-9beb-47a0-9d53-e4687556b459.jpg?height=618&amp;v=1701042824&amp;width=464 464w,
-        //boxfox.com/cdn/shop/files/Tezza-2643_c3e3574e-9beb-47a0-9d53-e4687556b459.jpg?height=364&amp;v=1701042824&amp;width=273 273w,
-          //boxfox.com/cdn/shop/files/Tezza-2643_c3e3574e-9beb-47a0-9d53-e4687556b459.jpg?height=728&amp;v=1701042824&amp;width=546 546w,
-        //boxfox.com/cdn/shop/files/Tezza-2643_c3e3574e-9beb-47a0-9d53-e4687556b459.jpg?height=422&amp;v=1701042824&amp;width=317 317w,
-          //boxfox.com/cdn/shop/files/Tezza-2643_c3e3574e-9beb-47a0-9d53-e4687556b459.jpg?height=845&amp;v=1701042824&amp;width=634 634w,
-        //boxfox.com/cdn/shop/files/Tezza-2643_c3e3574e-9beb-47a0-9d53-e4687556b459.jpg?height=457&amp;v=1701042824&amp;width=343 343w,
-          //boxfox.com/cdn/shop/files/Tezza-2643_c3e3574e-9beb-47a0-9d53-e4687556b459.jpg?height=914&amp;v=1701042824&amp;width=686 686w,
-        //boxfox.com/cdn/shop/files/Tezza-2643_c3e3574e-9beb-47a0-9d53-e4687556b459.jpg?height=590&amp;v=1701042824&amp;width=443 443w,
-          //boxfox.com/cdn/shop/files/Tezza-2643_c3e3574e-9beb-47a0-9d53-e4687556b459.jpg?height=1181&amp;v=1701042824&amp;width=886 886w
-
-" sizes="(min-width: 1024px) calc(min(100vw, 1450px, 100vw) / 3),
-(min-width: 768px) calc(min(100vw, 1450px, 100vw) / 3),
-calc(min(100vw, 1450px, 100vw) / 1.2)
-
-" fetchpriority="auto" style="
-  
-    aspect-ratio: 1;
-  
-  object-position: center center;
-  
-">
-
-
-</div>
-          
-          
-            <div class="accent-title-large strong mb2">FULFILLMENT, 3PL SERVICES &amp; LOGISTICS</div>
-          
-          
-            <div class="rte body-size-4"><p>We're capable of a lot more than just curating! We're a full scale fulfillment and logistics partner too. Our 23,000 sq ft facility is the epicenter of gifting and shipping expertise.<br><br>From shipping, receiving and storing to ghost fulfillment and 3PL services, we've got you covered.</p></div>
-          
-          
-            <a href="/pages/corporate-inquiry" class="btn--neutral btn--soft">
-              GET STARTED
-            </a>
-          
-        </div>
-      
-        <div class="index__column grid__item slide-item text-center" data-item="">
-          
-            <div class="column__image" data-grid-slide=""><!-- /snippets/image.liquid -->
-
-
-
-
-
-
-
-
-  
-
-  <img src="//boxfox.com/cdn/shop/files/7A1A5016_Cropped.jpg?v=1700439380&amp;width=1667" alt="" width="1667" height="1667" loading="lazy" class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full" srcset="
-
-//boxfox.com/cdn/shop/files/7A1A5016_Cropped.jpg?height=1667&amp;v=1700439380&amp;width=1667,
-        //boxfox.com/cdn/shop/files/7A1A5016_Cropped.jpg?height=232&amp;v=1700439380&amp;width=232 232w,
-          //boxfox.com/cdn/shop/files/7A1A5016_Cropped.jpg?height=464&amp;v=1700439380&amp;width=464 464w,
-        //boxfox.com/cdn/shop/files/7A1A5016_Cropped.jpg?height=273&amp;v=1700439380&amp;width=273 273w,
-          //boxfox.com/cdn/shop/files/7A1A5016_Cropped.jpg?height=546&amp;v=1700439380&amp;width=546 546w,
-        //boxfox.com/cdn/shop/files/7A1A5016_Cropped.jpg?height=317&amp;v=1700439380&amp;width=317 317w,
-          //boxfox.com/cdn/shop/files/7A1A5016_Cropped.jpg?height=634&amp;v=1700439380&amp;width=634 634w,
-        //boxfox.com/cdn/shop/files/7A1A5016_Cropped.jpg?height=343&amp;v=1700439380&amp;width=343 343w,
-          //boxfox.com/cdn/shop/files/7A1A5016_Cropped.jpg?height=686&amp;v=1700439380&amp;width=686 686w,
-        //boxfox.com/cdn/shop/files/7A1A5016_Cropped.jpg?height=443&amp;v=1700439380&amp;width=443 443w,
-          //boxfox.com/cdn/shop/files/7A1A5016_Cropped.jpg?height=886&amp;v=1700439380&amp;width=886 886w
-
-" sizes="(min-width: 1024px) calc(min(100vw, 1450px, 100vw) / 3),
-(min-width: 768px) calc(min(100vw, 1450px, 100vw) / 3),
-calc(min(100vw, 1450px, 100vw) / 1.2)
-
-" fetchpriority="auto" style="
-  
-    aspect-ratio: 1;
-  
-  object-position: center center;
-  
-">
-
-
-</div>
-          
-          
-            <div class="accent-title-large strong mb2">GIFTING PROGRAMS</div>
-          
-          
-            <div class="rte body-size-4"><p>From large scale, ongoing initiatives, to team stores, or even just recurring sends, our team can support you from creative through the recipient receiving! </p></div>
-          
-          
-            <a href="/pages/corporate-inquiry" class="btn--neutral btn--soft">
-              LEARN MORE
-            </a>
-          
-        </div>
-      
+        </div></div>
     </div>
-  </div>
+  </section>
 </div>
-</div><div id="shopify-section-template--14655948521590__section_hero_XUtFKb" class="shopify-section"><!-- /sections/section-hero.liquid -->
-
-
+<!-- /sections/section-hero.liquid -->
+<div id="shopify-section-template--14655948521590__section_hero_XUtFKb" class="shopify-section">
 <div class="section--image fade-in-child js-overflow-container " data-section-id="template--14655948521590__section_hero_XUtFKb" data-section-type="hero" data-overlay-header="" style="--PT: 0px; --PB: 0px; --CONTENT-WIDTH: 2000px; min-height: calc(300px + var(--menu-height));">
   <div class="wrapper--none section-padding">
     <div class="section__inner">
@@ -876,7 +557,7 @@ font-weight:800;
     </div>
     <div class="phone-form"><label for="phone">Phone</label><input id="phone" maxlength="40" name="phone" size="20" type="text" required=""><br></div>
     <div class="company-form"><label for="company">Company</label><input id="company" maxlength="40" name="company" size="20" type="text" required=""><br></div>
-    <div class="quantity-form">Box Quantity:<select id="00N4W00000Fmo5q" name="00N4W00000Fmo5q" title="Box Quantity" required=""><option value="">--None--</option><option value="1-50">1-50</option>
+    <div class="quantity-form">Quantity:<select id="00N4W00000Fmo5q" name="00N4W00000Fmo5q" title="Box Quantity" required=""><option value="">--None--</option><option value="1-50">1-50</option>
     <option value="50-100">50-100</option>
     <option value="100-200">100-200</option>
     <option value="200-500">200-500</option>
@@ -884,12 +565,12 @@ font-weight:800;
     <option value="1000-5000">1000-5000</option>
     <option value="5000+">5000+</option>
     </select><br></div>
-    <div class="quantity-form">Budget Per Box:<select id="00N4W00000SLlGa" name="00N4W00000SLlGa" title="Budget Per Box" required=""><option value="">--None--</option><option value="<$50">&lt;$50</option>
+    <!-- <div class="quantity-form">Budget Per Box:<select id="00N4W00000SLlGa" name="00N4W00000SLlGa" title="Budget Per Box" required=""><option value="">--None--</option><option value="<$50">&lt;$50</option>
     <option value="$50-$75">$50-$75</option>
     <option value="$75-$100">$75-$100</option>
     <option value="$100-$150">$100-$150</option>
     <option value="$150+">$150+</option>
-    </select><br></div>
+    </select><br></div> -->
     <div class="industry-form"><label for="industry">Industry</label><select id="industry" name="industry" required=""><option value="">--None--</option><option value="B2B Tech">B2B Tech</option>
     <option value="Consulting Firms">Consulting Firms</option>
     <option value="Consumer Tech">Consumer Tech</option>
@@ -928,9 +609,9 @@ font-weight:800;
     </select><br></div>
     <div>
     Comments:<textarea id="00N4W00000FmoVK" name="00N4W00000FmoVK" rows="5" type="text" wrap="soft" required=""></textarea><br></div>
-    <div class="recaptcha-wrapper" style="margin: 20px 0; display: flex; justify-content: center;">
+    <!-- <div class="recaptcha-wrapper" style="margin: 20px 0; display: flex; justify-content: center;">
         <div class="g-recaptcha" data-sitekey="6LfsLX0qAAAAAAEFTyfAPVgIFujxvuGgOu2FVYHc" data-callback="enableSubmit"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-pcnskdy3xny8" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfsLX0qAAAAAAEFTyfAPVgIFujxvuGgOu2FVYHc&amp;co=aHR0cHM6Ly9ib3hmb3guY29tOjQ0Mw..&amp;hl=en&amp;v=XrIDux0s7SoNe6_IHkjGC92W&amp;size=normal&amp;anchor-ms=20000&amp;execute-ms=15000&amp;cb=c2l2a2q5toch"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div><br>
-    </div>
+    </div> -->
     <center><input type="submit" name="submitBtn" id="button_track" class="standard__cta btn--outline btn--long btn--black aos-init aos-animate" disabled=""></center>
     </form>
 
@@ -942,24 +623,24 @@ font-weight:800;
 
 <script>
 // Function to verify reCAPTCHA response with Google's API
-async function verifyRecaptcha(token) {
-    try {
-        const response = await fetch('https://www.google.com/recaptcha/api/siteverify', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/x-www-form-urlencoded',
-            },
-            body: `secret=6LfsLX0qAAAAAN-WW9gXbKpEMKMVhA9EBKnDiH00&response=${token}`
-        });
-        console.log(response);
-        const data = await response.json();
+// async function verifyRecaptcha(token) {
+//     try {
+//         const response = await fetch('https://www.google.com/recaptcha/api/siteverify', {
+//             method: 'POST',
+//             headers: {
+//                 'Content-Type': 'application/x-www-form-urlencoded',
+//             },
+//             body: `secret=6LfsLX0qAAAAAN-WW9gXbKpEMKMVhA9EBKnDiH00&response=${token}`
+//         });
+//         console.log(response);
+//         const data = await response.json();
 
-        return data.success;
-    } catch (error) {
-        console.error('reCAPTCHA verification failed:', error);
-        return false;
-    }
-}
+//         return data.success;
+//     } catch (error) {
+//         console.error('reCAPTCHA verification failed:', error);
+//         return false;
+//     }
+// }
 
 // Function to enable submit button after CAPTCHA is completed
 async function enableSubmit(token) {

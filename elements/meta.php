@@ -774,7 +774,7 @@
         },
         strings: {
             swatchesKey: "Color, Colour, AANVIO Color",
-            addToCart: "Add to Cart",
+            addToCart: "Enquiry Now",
             estimateShipping: "Estimate shipping",
             noShippingAvailable: "We do not ship to this destination.",
             free: "Free",

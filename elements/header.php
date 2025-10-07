@@ -143,22 +143,11 @@ window.addEventListener("klaviyoForms", function(a) {
                         <div data-takes-space="" class="header__desktop__bar__l">
                             <nav class="header__menu">
                                 <div class="header__menu__inner" data-text-items-wrapper="">
-                                    <!-- /snippets/nav-item.liquid -->
-                                    <!-- <div class="menu__item  child" data-main-menu-text-item="">
-                                        <a href="https://boxfox.com/pages/build-a-boxfox?step=1&amp;build_box=1"
-                                            data-top-link="" class="navlink navlink--toplevel">
-                                            <span class="navtext">BUILD A BOXFOX</span>
-                                        </a>
-
-                                    </div> -->
-
-
-                                    <!-- /snippets/nav-item.liquid -->
                                     <div class="menu__item  parent" data-main-menu-text-item="" role="button"
                                         aria-haspopup="true" aria-expanded="false"
                                         data-hover-disclosure-toggle="dropdown-9a4e4911799e5e9bb06ee35ec9699be8"
                                         aria-controls="dropdown-9a4e4911799e5e9bb06ee35ec9699be8">
-                                        <a href="<?php echo BASE_URL; ?>corporate.php"  data-top-link=""
+                                        <a href="<?php echo BASE_URL; ?>contact"  data-top-link=""
                                             class="navlink navlink--toplevel">
                                             <span class="navtext">CATEGORIES</span>
                                         </a>
@@ -169,37 +158,37 @@ window.addEventListener("klaviyoForms", function(a) {
                                                 <div class="header__dropdown__inner">
 
 
-                                                    <a href="<?php echo BASE_URL; ?>corporate.php"  data-stagger=""
+                                                    <a href="<?php echo BASE_URL; ?>contact"  data-stagger=""
                                                         class="navlink navlink--child" style="transition-delay: 10ms;">
                                                         <span class="navtext">PLUSH TOYS</span>
                                                     </a>
 
 
-                                                    <a href="<?php echo BASE_URL; ?>corporate.php" data-stagger=""
+                                                    <a href="<?php echo BASE_URL; ?>contact" data-stagger=""
                                                         class="navlink navlink--child" style="transition-delay: 60ms;">
                                                         <span class="navtext">APPAREL</span>
                                                     </a>
 
 
-                                                    <a href="<?php echo BASE_URL; ?>corporate.php"  data-stagger=""
+                                                    <a href="<?php echo BASE_URL; ?>contact"  data-stagger=""
                                                         class="navlink navlink--child" style="transition-delay: 110ms;">
                                                         <span class="navtext">KEY RINGS</span>
                                                     </a>
 
 
-                                                    <a href="<?php echo BASE_URL; ?>corporate.php"  data-stagger=""
+                                                    <a href="<?php echo BASE_URL; ?>contact"  data-stagger=""
                                                         class="navlink navlink--child" style="transition-delay: 160ms;">
                                                         <span class="navtext">CORPORATE GIFTS</span>
                                                     </a>
 
 
-                                                    <a href="<?php echo BASE_URL; ?>corporate.php"  data-stagger=""
+                                                    <a href="<?php echo BASE_URL; ?>contact"  data-stagger=""
                                                         class="navlink navlink--child" style="transition-delay: 210ms;">
                                                         <span class="navtext">CUSTOMIZED ITEMS</span>
                                                     </a>
 
 
-                                                    <a href="<?php echo BASE_URL; ?>corporate.php" 
+                                                    <a href="<?php echo BASE_URL; ?>contact" 
                                                         data-stagger="" class="navlink navlink--child"
                                                         style="transition-delay: 260ms;">
                                                         <span class="navtext">SUSTAINABILITY</span>
@@ -218,13 +207,13 @@ window.addEventListener("klaviyoForms", function(a) {
                                         aria-haspopup="true" aria-expanded="false"
                                         data-hover-disclosure-toggle="dropdown-59a6aa1d73e013a981963b72031ae737"
                                         aria-controls="dropdown-59a6aa1d73e013a981963b72031ae737">
-                                        <a href="<?php echo BASE_URL; ?>about.php" data-top-link="" class="navlink navlink--toplevel">
+                                        <a href="<?php echo BASE_URL; ?>about" data-top-link="" class="navlink navlink--toplevel">
                                             <span class="navtext">ABOUT</span>
                                         </a>
                                     </div>
                                     <!-- /snippets/nav-item.liquid -->
                                     <div class="menu__item  child" data-main-menu-text-item="">
-                                        <a href="<?php echo BASE_URL; ?>corporate.php" data-top-link="" class="navlink navlink--toplevel">
+                                        <a  href="<?php echo BASE_URL; ?>corporate" data-top-link="" class="navlink navlink--toplevel">
                                             <span class="navtext">CORPORATE GIFTING</span>
                                         </a>
 
@@ -264,8 +253,8 @@ window.addEventListener("klaviyoForms", function(a) {
                                 </a>
                             </div>
                         </div>
-                        <div data-takes-space="" class="header__desktop__bar__r">
-                            <!-- <div class="header__desktop__buttons header__desktop__buttons--icons">
+                        <!-- <div data-takes-space="" class="header__desktop__bar__r">
+                            <div class="header__desktop__buttons header__desktop__buttons--icons">
                                 <div class="header__desktop__button ">
                                     <a href="/account" class="navlink">
 
@@ -320,8 +309,8 @@ window.addEventListener("klaviyoForms", function(a) {
                                     </a>
                                 </div>
 
-                            </div> -->
-                        </div>
+                            </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -408,7 +397,7 @@ window.addEventListener("klaviyoForms", function(a) {
         <nav class="drawer header__drawer display-none" data-drawer="hamburger" aria-label="Main menu" id="header-menu">
             <div class="drawer__content">
                 <div class="drawer__top">
-                    <div class="drawer__top__left">
+                    <!-- <div class="drawer__top__left">
 
                         <a class="drawer__account" href="/account">
                             <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-account"
@@ -419,7 +408,7 @@ window.addEventListener("klaviyoForms", function(a) {
                             </svg>
                             <span class="visually-hidden">My Account</span>
                         </a>
-                    </div>
+                    </div> -->
 
                     <button class="drawer__button drawer__close" data-drawer-toggle="hamburger" aria-label="Close">
                         <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close"
@@ -435,10 +424,6 @@ window.addEventListener("klaviyoForms", function(a) {
                 <div class="drawer__inner" data-drawer-scrolls="">
 
                     <div class="drawer__search" data-drawer-search="">
-                        <!-- /snippets/search-predictive.liquid -->
-
-
-
                         <div data-search-popdown-wrap="">
                             <div id="search-drawer" class="search-drawer search__predictive" data-popdown-outer="">
                                 <predictive-search>
@@ -516,110 +501,90 @@ window.addEventListener("klaviyoForms", function(a) {
                                 </predictive-search>
                             </div>
 
+            <script data-predictive-search-aria-template="" type="text/x-template">
+            <div aria-live="polite">
+            <p>
 
+                {{@if(it.count)}}
+                <span class="badge">{{ it.count }}</span>
+                {{/if}}
+                {{ it.title }} <em>{{ it.query }}</em>
 
-                            <script data-predictive-search-aria-template="" type="text/x-template">
-                                <div aria-live="polite">
-    <p>
-
-        {{@if(it.count)}}
-          <span class="badge">{{ it.count }}</span>
-        {{/if}}
-        {{ it.title }} <em>{{ it.query }}</em>
-
-    </p>
-  </div>
-</script>
+            </p>
+        </div>
+            </script>
 
                             <script data-predictive-search-title-template="" type="text/x-template">
                                 <div class="search__results__heading">
 
-      <p>
-        <span class="search__results__title">{{ it.title }}</span>
-        <span class="badge">{{ it.count }}</span>
-      </p>
+                <p>
+                    <span class="search__results__title">{{ it.title }}</span>
+                    <span class="badge">{{ it.count }}</span>
+                </p>
 
-  </div>
-</script>
+            </div>
+        </script>
 
-                            <script data-search-other-template="" type="text/x-template">
-
-                                {{@each(it) => object, index}}
-      <div class="other__inline animates" style="animation-delay: {{ index | animationDelay }}ms;">
-        <p class="other__inline__title">
-          <a href="{{ object.url }}">{{ object.title | safe }}</a>
-        </p>
-      </div>
-    {{/each}}
-
-</script>
-
-                            <script data-search-product-template="" type="text/x-template">
+    <!-- <script data-search-other-template="" type="text/x-template">
 
                                 {{@each(it) => object, index}}
-      <a href="{{ object.url }}" class="product__inline animates" style="animation-delay: {{ index | animationDelay }}ms;">
-        <div class="product__inline__image {{ @if (object.featured_image.width === null) }} product__inline__image--no-image {{ /if}}">
-          {{ @if (object.featured_image.width !== null) }}
-            <img class="img-aspect-ratio" width="{{object.featured_image.width}}" height="{{ object.featured_image.height }}" alt="{{ object.featured_image.alt }}" src="{{ object.thumb }}">
-          {{ /if}}
+        <div class="other__inline animates" style="animation-delay: {{ index | animationDelay }}ms;">
+            <p class="other__inline__title">
+            <a href="{{ object.url }}">{{ object.title | safe }}</a>
+            </p>
         </div>
-        <div>
-          <p class="product__inline__title">
-            {{ object.title | safe }}
-          </p>
-          <p class="product__inline__price">
-            <span class="price {{ object.classes }}">
-              {{ object.price | safe }}
-            </span>
-            {{@if(object.sold_out)}}
-              <br /><em>{{ object.sold_out_translation }}</em>
-            {{/if}}
-            {{@if(object.on_sale)}}
-              <span class="compare-at">
-                {{ object.compare_at_price | safe }}
-              </span>
-            {{/if}}
-          </p>
-        </div>
-      </a>
-    {{/each}}
+        {{/each}}
 
-</script>
+        </script>
 
-                        </div>
+                                <script data-search-product-template="" type="text/x-template">
+
+                                    {{@each(it) => object, index}}
+        <a href="{{ object.url }}" class="product__inline animates" style="animation-delay: {{ index | animationDelay }}ms;">
+            <div class="product__inline__image {{ @if (object.featured_image.width === null) }} product__inline__image--no-image {{ /if}}">
+            {{ @if (object.featured_image.width !== null) }}
+                <img class="img-aspect-ratio" width="{{object.featured_image.width}}" height="{{ object.featured_image.height }}" alt="{{ object.featured_image.alt }}" src="{{ object.thumb }}">
+            {{ /if}}
+            </div>
+            <div>
+            <p class="product__inline__title">
+                {{ object.title | safe }}
+            </p>
+            <p class="product__inline__price">
+                <span class="price {{ object.classes }}">
+                {{ object.price | safe }}
+                </span>
+                {{@if(object.sold_out)}}
+                <br /><em>{{ object.sold_out_translation }}</em>
+                {{/if}}
+                {{@if(object.on_sale)}}
+                <span class="compare-at">
+                    {{ object.compare_at_price | safe }}
+                </span>
+                {{/if}}
+            </p>
+            </div>
+        </a>
+        {{/each}}
+
+    </script> -->
+</div>
 
                     </div>
 
-
-
                     <div class="drawer__menu" data-stagger-animation="" data-sliderule-pane="0">
-
-                        <!-- /snippets/nav-item-mobile.liquid -->
                         <!-- <div class="sliderule__wrapper">
-                            <div class="sliderow" data-animates="0" style="transition-delay: 10ms;">
-                                <a class="sliderow__title" href="/pages/new">NEW TODAY</a>
-                            </div>
-                        </div> -->
-
-
-
-                        <!-- /snippets/nav-item-mobile.liquid -->
-                        <div class="sliderule__wrapper">
                             <div class="sliderow" data-animates="0" style="transition-delay: 60ms;">
                                 <a class="sliderow__title"
                                     href="https://boxfox.com/pages/build-a-boxfox?step=1&amp;build_box=1">COPORATE 
                                     GIFTS</a>
                             </div>
-                        </div>
-
-
-
-                        <!-- /snippets/nav-item-mobile.liquid -->
+                        </div> -->
                         <div class="sliderule__wrapper"><button class="sliderow" data-animates="0"
                                 data-sliderule-open="sliderule-f657d26d9ee18efab82204da1855e6a2" aria-haspopup="true"
                                 aria-expanded="false" aria-controls="sliderule-f657d26d9ee18efab82204da1855e6a2"
                                 style="transition-delay: 110ms;">
-                                <span class="sliderow__title">SHOP</span>
+                                <span class="sliderow__title">CATEGORIES</span>
                                 <span class="sliderule__chevron--right">
                                     <svg aria-hidden="true" focusable="false" role="presentation"
                                         class="icon icon-arrow-medium-right" viewBox="0 0 9 15">
@@ -649,25 +614,19 @@ window.addEventListener("klaviyoForms", function(a) {
                                     <a class="sliderow__title" href="https://shopboxfox.com/collections/all">SHOP</a>
                                 </div>
                                 <div class="sliderow__links" data-links="">
-
-
-
                                     <!-- /snippets/nav-item-mobile.liquid -->
                                     <div class="sliderule__wrapper">
                                         <div class="sliderow" data-animates="1" style="transition-delay: 60ms;">
-                                            <a class="sliderow__title" href="https://boxfox.com/collections/all">CURATED
-                                                GIFTS</a>
+                                            <a href="<?php echo BASE_URL; ?>contact" class="sliderow__title">PLUSH TOYS
+                                            </a>
                                         </div>
                                     </div>
-
-
-
 
                                     <!-- /snippets/nav-item-mobile.liquid -->
                                     <div class="sliderule__wrapper">
                                         <div class="sliderow" data-animates="1" style="transition-delay: 110ms;">
-                                            <a class="sliderow__title" href="/pages/build-a-boxfox">COPORATE 
-                                    GIFTS</a>
+                                            <a href="<?php echo BASE_URL; ?>contact" class="sliderow__title">APPAREL
+                                            </a>
                                         </div>
                                     </div>
 
@@ -677,8 +636,8 @@ window.addEventListener("klaviyoForms", function(a) {
                                     <!-- /snippets/nav-item-mobile.liquid -->
                                     <div class="sliderule__wrapper">
                                         <div class="sliderow" data-animates="1" style="transition-delay: 160ms;">
-                                            <a class="sliderow__title"
-                                                href="/pages/the-personalization-shop">PERSONALIZED GIFTS</a>
+                                            <a href="<?php echo BASE_URL; ?>contact" class="sliderow__title">KEY RINGS
+                                            </a>
                                         </div>
                                     </div>
 
@@ -688,8 +647,8 @@ window.addEventListener("klaviyoForms", function(a) {
                                     <!-- /snippets/nav-item-mobile.liquid -->
                                     <div class="sliderule__wrapper">
                                         <div class="sliderow" data-animates="1" style="transition-delay: 210ms;">
-                                            <a class="sliderow__title" href="https://boxfox.com/pages/gift-guide">GIFTS
-                                                BY OCCASION</a>
+                                            <a href="<?php echo BASE_URL; ?>contact" class="sliderow__title">CORPORATE GIFTS
+                                            </a>
                                         </div>
                                     </div>
 
@@ -699,8 +658,8 @@ window.addEventListener("klaviyoForms", function(a) {
                                     <!-- /snippets/nav-item-mobile.liquid -->
                                     <div class="sliderule__wrapper">
                                         <div class="sliderow" data-animates="1" style="transition-delay: 260ms;">
-                                            <a class="sliderow__title"
-                                                href="https://boxfox.com/collections/marketplace">MARKETPLACE</a>
+                                            <a href="<?php echo BASE_URL; ?>contact" class="sliderow__title">CUSTOMIZED ITEMS
+                                            </a>
                                         </div>
                                     </div>
 
@@ -710,108 +669,8 @@ window.addEventListener("klaviyoForms", function(a) {
                                     <!-- /snippets/nav-item-mobile.liquid -->
                                     <div class="sliderule__wrapper">
                                         <div class="sliderow" data-animates="1" style="transition-delay: 310ms;">
-                                            <a class="sliderow__title"
-                                                href="https://boxfox.com/products/rise-ai-giftcard">GIFT CARDS</a>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                                <div class="sliderule-grid blocks-0">
-
-
-
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <!-- /snippets/nav-item-mobile.liquid -->
-                        <div class="sliderule__wrapper"><button class="sliderow" data-animates="0"
-                                data-sliderule-open="sliderule-0275cd6b54f6007207889b21ff37fad7" aria-haspopup="true"
-                                aria-expanded="false" aria-controls="sliderule-0275cd6b54f6007207889b21ff37fad7"
-                                style="transition-delay: 160ms;">
-                                <span class="sliderow__title">ABOUT</span>
-                                <span class="sliderule__chevron--right">
-                                    <svg aria-hidden="true" focusable="false" role="presentation"
-                                        class="icon icon-arrow-medium-right" viewBox="0 0 9 15">
-                                        <path fill-rule="evenodd"
-                                            d="M6.875 7.066.87 1.06 1.93 0l6.006 6.005L7.94 6 9 7.06l-.004.006.005.005-1.06 1.06-.006-.004-6.005 6.005-1.061-1.06 6.005-6.006z">
-                                        </path>
-                                    </svg>
-                                    <span class="visually-hidden">Expand menu</span>
-                                </span>
-                            </button>
-
-                            <div class="mobile__menu__dropdown sliderule__panel" data-sliderule=""
-                                id="sliderule-0275cd6b54f6007207889b21ff37fad7">
-                                <div class="sliderow sliderow__back" data-animates="1" style="transition-delay: 10ms;">
-                                    <button class="drawer__button"
-                                        data-sliderule-close="sliderule-0275cd6b54f6007207889b21ff37fad7">
-                                        <span class="sliderule__chevron--left">
-                                            <svg aria-hidden="true" focusable="false" role="presentation"
-                                                class="icon icon-arrow-medium-left" viewBox="0 0 9 15">
-                                                <path fill-rule="evenodd"
-                                                    d="M2.127 7.066 8.132 1.06 7.072 0 1.065 6.005 1.061 6 0 7.06l.004.006L0 7.07l1.06 1.06.006-.004 6.005 6.005 1.061-1.06-6.005-6.006z">
-                                                </path>
-                                            </svg>
-                                            <span class="visually-hidden">Hide menu</span>
-                                        </span>
-                                    </button>
-                                    <a class="sliderow__title" href="/pages/about-us">ABOUT</a>
-                                </div>
-                                <div class="sliderow__links" data-links="">
-
-
-
-                                    <!-- /snippets/nav-item-mobile.liquid -->
-                                    <div class="sliderule__wrapper">
-                                        <div class="sliderow" data-animates="1" style="transition-delay: 60ms;">
-                                            <a class="sliderow__title"
-                                                href="https://boxfox.com/pages/rewards">REWARDS</a>
-                                        </div>
-                                    </div>
-
-
-
-
-                                    <!-- /snippets/nav-item-mobile.liquid -->
-                                    <div class="sliderule__wrapper">
-                                        <div class="sliderow" data-animates="1" style="transition-delay: 110ms;">
-                                            <a class="sliderow__title" href="/blogs/news">BLOG</a>
-                                        </div>
-                                    </div>
-
-
-
-
-                                    <!-- /snippets/nav-item-mobile.liquid -->
-                                    <div class="sliderule__wrapper">
-                                        <div class="sliderow" data-animates="1" style="transition-delay: 160ms;">
-                                            <a class="sliderow__title"
-                                                href="https://shopboxfox.com/pages/boxfox-team">TEAM</a>
-                                        </div>
-                                    </div>
-
-
-
-
-                                    <!-- /snippets/nav-item-mobile.liquid -->
-                                    <div class="sliderule__wrapper">
-                                        <div class="sliderow" data-animates="1" style="transition-delay: 210ms;">
-                                            <a class="sliderow__title" href="/pages/careers-new">CAREERS</a>
-                                        </div>
-                                    </div>
-
-
-
-
-                                    <!-- /snippets/nav-item-mobile.liquid -->
-                                    <div class="sliderule__wrapper">
-                                        <div class="sliderow" data-animates="1" style="transition-delay: 260ms;">
-                                            <a class="sliderow__title" href="https://shopboxfox.com/pages/brands">BRANDS
-                                                &amp; AUTHORS</a>
+                                          <a href="<?php echo BASE_URL; ?>contact" class="sliderow__title">SUSTAINABILITY
+                                            </a>
                                         </div>
                                     </div>
 
@@ -830,7 +689,16 @@ window.addEventListener("klaviyoForms", function(a) {
                         <!-- /snippets/nav-item-mobile.liquid -->
                         <div class="sliderule__wrapper">
                             <div class="sliderow" data-animates="0" style="transition-delay: 210ms;">
-                                <a class="sliderow__title" href="/pages/corporate">CORPORATE GIFTING</a>
+                                <a class="sliderow__title" href="<?php echo BASE_URL; ?>about" >ABOUT</a>
+                            </div>
+                        </div>
+
+
+
+                        <!-- /snippets/nav-item-mobile.liquid -->
+                        <div class="sliderule__wrapper">
+                            <div class="sliderow" data-animates="0" style="transition-delay: 210ms;">
+                                <a class="sliderow__title" href="<?php echo BASE_URL; ?>corporate" >CORPORATE GIFTING</a>
                             </div>
                         </div>
 
@@ -885,7 +753,7 @@ window.addEventListener("klaviyoForms", function(a) {
     {
         "@context": "http://schema.org",
         "@type": "Organization",
-        "name": "BOXFOX",
+        "name": "ANNVIO",
 
 
         "logo": "https:\/\/boxfox.com\/cdn\/shop\/files\/boxfox_primary_logo_full_color_rgb_1909px_72ppi_66a16369-fdf2-4d0a-a365-99d42f0fccb8_1909x.png?v=1658854306",
@@ -1370,6 +1238,79 @@ window.addEventListener("klaviyoForms", function(a) {
 
                 <!--<link href="https://just-intensely-crane.ngrok-free.app/v2.css" rel="stylesheet" media="screen" />
 <script src="https://just-intensely-crane.ngrok-free.app/app.js" defer></script>-->
+
+                <!-- Custom Header Background Color Styling -->
+                <style>
+                    /* Default header background color */
+                    .theme__header {
+                        background-color: #6E7A77 !important;
+                        transition: background-color 0.3s ease;
+                    }
+
+                    /* Header background when scrolled/stuck */
+                    .js__header__stuck .theme__header {
+                        background-color: #FFFFFF !important;
+                    }
+
+                    /* Ensure header wrapper respects the background */
+                    .header__wrapper {
+                        background-color: transparent;
+                    }
+
+                    /* Make sure nav text is visible on new background */
+                    .theme__header .navlink {
+                        color: #FFFFFF !important;
+                    }
+
+                    /* Nav text color when scrolled (on white background) */
+                    .js__header__stuck .theme__header .navlink {
+                        color: #333333 !important;
+                    }
+
+                    /* Logo adjustments if needed */
+                    .theme__header .logo__img--color {
+                        display: block;
+                    }
+
+                    .theme__header .logo__img--transparent {
+                        display: none;
+                    }
+
+                    /* Logo visibility when scrolled */
+                    .js__header__stuck .theme__header .logo__img--color {
+                        display: block;
+                    }
+
+                    .js__header__stuck .theme__header .logo__img--transparent {
+                        display: none;
+                    }
+                </style>
+
+                <script>
+                    // Scroll event handler for header background change
+                    document.addEventListener('DOMContentLoaded', function() {
+                        const headerWrapper = document.querySelector('.header__wrapper');
+                        let lastScrollTop = 0;
+
+                        function handleHeaderScroll() {
+                            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                            
+                            if (scrollTop > 50) {
+                                headerWrapper.classList.add('js__header__stuck');
+                            } else {
+                                headerWrapper.classList.remove('js__header__stuck');
+                            }
+                            
+                            lastScrollTop = scrollTop;
+                        }
+
+                        // Add scroll event listener
+                        window.addEventListener('scroll', handleHeaderScroll);
+                        
+                        // Initial check
+                        handleHeaderScroll();
+                    });
+                </script>
 
 
             </div>

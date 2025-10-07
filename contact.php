@@ -41,7 +41,7 @@ include "config.php";
                                     <div class="hero__title heading-size-10 aos-init aos-animate" data-aos="hero"
                                         data-aos-anchor="[data-section-id='template--14655948488822__798650bf-c362-4d70-93a0-f02f30d8f91b']"
                                         data-aos-order="2">
-                                        <h1>Corporate Gifting Inquiries</h1>
+                                        <h1>Gifting Inquiries</h1>
                                     </div>
 
 
@@ -87,10 +87,10 @@ include "config.php";
 
 
 
-                                    <img src="//boxfox.com/cdn/shop/files/CIS-09_1.jpg?v=1703787392&amp;width=1500"
+                                    <img src="<?php echo BASE_URL; ?>images/page/copgifts.png"
                                         alt="Banner Image." width="1500" height="1000" loading="lazy"
                                         class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
-                                        srcset="//boxfox.com/cdn/shop/files/CIS-09_1.jpg?v=1703787392&amp;width=352 352w,  //boxfox.com/cdn/shop/files/CIS-09_1.jpg?v=1703787392&amp;width=400 400w,  //boxfox.com/cdn/shop/files/CIS-09_1.jpg?v=1703787392&amp;width=768 768w,  //boxfox.com/cdn/shop/files/CIS-09_1.jpg?v=1703787392&amp;width=932 932w,  //boxfox.com/cdn/shop/files/CIS-09_1.jpg?v=1703787392&amp;width=1024 1024w,  //boxfox.com/cdn/shop/files/CIS-09_1.jpg?v=1703787392&amp;width=1200 1200w, //boxfox.com/cdn/shop/files/CIS-09_1.jpg?v=1703787392&amp;width=1500 1500w"
+                                        srcset="<?php echo BASE_URL; ?>images/page/copgifts.png 1500w"
                                         sizes="100vw" fetchpriority="auto"
                                         style="aspect-ratio: 1.5;object-position: center center;">
 
@@ -99,8 +99,8 @@ include "config.php";
                             </div>
                         </div>
 
-                        <img src="//boxfox.com/cdn/shop/files/CIS-09_1_Cropped.jpg?v=1703787421&amp;width=800"
-                            data-src="//boxfox.com/cdn/shop/files/CIS-09_1_Cropped.jpg?v=1703787421&amp;width=800"
+                        <img src="<?php echo BASE_URL; ?>images/page/copgifts.png"
+                            data-src="<?php echo BASE_URL; ?>images/page/copgifts.png"
                             alt="Banner Image;" class="hero-mobile-image is-loaded"
                             style="min-height: calc(256px + var(--menu-height));">
                     </div>
@@ -550,8 +550,8 @@ include "config.php";
                             </div>
 
                             <div class="quantity-form">
-                                Box Quantity:
-                                <select id="quantity" name="quantity" title="Box Quantity" required="">
+                                Quantity:
+                                <select id="quantity" name="quantity" title="Quantity" required="">
                                     <option value="">--None--</option>
                                     <option value="1-50">1-50</option>
                                     <option value="50-100">50-100</option>
@@ -564,7 +564,7 @@ include "config.php";
                                 <br>
                             </div>
 
-                            <div class="quantity-form">
+                            <!-- <div class="quantity-form">
                                 Budget Per Box:
                                 <select id="budget" name="budget" title="Budget Per Box" required="">
                                     <option value="">--None--</option>
@@ -575,7 +575,7 @@ include "config.php";
                                     <option value="$150+">$150+</option>
                                 </select>
                                 <br>
-                            </div>
+                            </div> -->
 
                             <div class="industry-form">
                                 <label for="industry">Industry</label>
