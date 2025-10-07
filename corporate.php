@@ -5,7 +5,7 @@ include "config.php";
 <html class="js aos-initialized" lang="en"
     style="--full-screen: 738px; --three-quarters: 553.5px; --two-thirds: 487.08000000000004px; --one-half: 369px; --one-third: 243.54000000000002px; --one-fifth: 147.6px; --menu-height: 105px; --scrollbar-width: 15px; --footer-logo: 80px; --announcement-height: 0px; --toolbar-height: 20px; --header-height: 105px; --footer-height: 396px; --content-full: 593px; --menu-height-sticky: 105px; --menu-backfill-height: 105px;">
 <?php include "./elements/meta.php"; ?>
-<body id="custom-amp-curated-gift-boxes-boxfox" ng-app="BOXFOX" ng-controller="App"
+<body id="custom-amp-curated-gift-boxes-boxfox" ng-app="ANNVIO" ng-controller="App"
     class="template-index theme-animate-hover" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <?php include "./elements/header.php"; ?>
 <main class="main-content" id="MainContent">
@@ -86,10 +86,10 @@ include "config.php";
 
   
 
-  <img src="//boxfox.com/cdn/shop/files/11.30_Kaiser_Regent-08_2.jpg?v=1746642800&amp;width=2500" alt="Banner Image." width="2500" height="1365" loading="lazy" class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full" srcset="
+  <img src="<?php echo BASE_URL; ?>images/page/copgifts.png" alt="Banner Image." width="2500" height="1365" loading="lazy" class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full" srcset="
   
- //boxfox.com/cdn/shop/files/11.30_Kaiser_Regent-08_2.jpg?v=1746642800&amp;width=352 352w,  //boxfox.com/cdn/shop/files/11.30_Kaiser_Regent-08_2.jpg?v=1746642800&amp;width=400 400w,  //boxfox.com/cdn/shop/files/11.30_Kaiser_Regent-08_2.jpg?v=1746642800&amp;width=768 768w,  //boxfox.com/cdn/shop/files/11.30_Kaiser_Regent-08_2.jpg?v=1746642800&amp;width=932 932w,  //boxfox.com/cdn/shop/files/11.30_Kaiser_Regent-08_2.jpg?v=1746642800&amp;width=1024 1024w,  //boxfox.com/cdn/shop/files/11.30_Kaiser_Regent-08_2.jpg?v=1746642800&amp;width=1200 1200w,  //boxfox.com/cdn/shop/files/11.30_Kaiser_Regent-08_2.jpg?v=1746642800&amp;width=1920 1920w, 
-  //boxfox.com/cdn/shop/files/11.30_Kaiser_Regent-08_2.jpg?v=1746642800&amp;width=2500 2500w
+ <?php echo BASE_URL; ?>images/page/copgifts.png 352w, <?php echo BASE_URL; ?>images/page/copgifts.png 400w, <?php echo BASE_URL; ?>images/page/copgifts.png 768w, <?php echo BASE_URL; ?>images/page/copgifts.png 932w, <?php echo BASE_URL; ?>images/page/copgifts.png 1024w, <?php echo BASE_URL; ?>images/page/copgifts.png 1200w, <?php echo BASE_URL; ?>images/page/copgifts.png 1920w, 
+  <?php echo BASE_URL; ?>images/page/copgifts.png 2500w
 " sizes="100vw" fetchpriority="auto" style="
   
     aspect-ratio: 1.8315018315018314;
@@ -103,7 +103,7 @@ include "config.php";
   </div>
 </div>
 
-<img src="//boxfox.com/cdn/shop/files/11.30_Kaiser_Regent-08_2_2318eabe-436f-4225-a0cc-b16670e9eed4.jpg?v=1746642762&amp;width=200" data-src="//boxfox.com/cdn/shop/files/11.30_Kaiser_Regent-08_2_2318eabe-436f-4225-a0cc-b16670e9eed4.jpg?v=1746642762&amp;width=800" alt="Banner Image;" class="hero-mobile-image" style="min-height: calc(368px + var(--menu-height));">
+<img src="<?php echo BASE_URL; ?>images/page/copgifts.png" data-src="<?php echo BASE_URL; ?>images/page/copgifts.png" alt="Banner Image;" class="hero-mobile-image" style="min-height: calc(368px + var(--menu-height));">
     </div>
   </div>
 </div>
@@ -134,7 +134,7 @@ include "config.php";
 
   
 
-  <img src="//boxfox.com/cdn/shop/files/BOXFOX_Box_Top.jpg?v=1701042604&amp;width=4480" alt="" width="4480" height="3360" loading="lazy" class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full" srcset="
+  <img src="<?php echo BASE_URL; ?>images/page/copgifts.png&amp;width=4480" alt="" width="4480" height="3360" loading="lazy" class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full" srcset="
 
 //boxfox.com/cdn/shop/files/BOXFOX_Box_Top.jpg?height=3360&amp;v=1701042604&amp;width=4480,
         //boxfox.com/cdn/shop/files/BOXFOX_Box_Top.jpg?height=174&amp;v=1701042604&amp;width=232 232w,
@@ -167,7 +167,7 @@ calc(min(100vw, 1450px, 100vw) / 1.2)
             <div class="accent-title-large strong mb2">LESS THAN 50?</div>
           
           
-            <div class="rte body-size-4"><p>Shop on BOXFOX.com directly with both single and multi-address shipping options.</p><p>Shop our main direct-to-consumer site and send up to 49 boxes in a single checkout! Perfect for one-off occasions that need to feel more personal. We even offer multi-address shipping in a single checkout!</p></div>
+            <div class="rte body-size-4"><p>Shop on ANNVIO.com directly with both single and multi-address shipping options.</p><p>Shop our main direct-to-consumer site and send up to 49 boxes in a single checkout! Perfect for one-off occasions that need to feel more personal. We even offer multi-address shipping in a single checkout!</p></div>
           
           
             <a href="https://boxfox.com/" class="btn--neutral btn--soft">
@@ -1036,7 +1036,7 @@ function resetRecaptcha() {
 <style> #shopify-section-template--14655948521590__25dd63b1-619c-474b-bac7-e94af6deb016 .form-desc {text-align: center; margin-bottom: 30px;} #shopify-section-template--14655948521590__25dd63b1-619c-474b-bac7-e94af6deb016 #hidden-form {padding: 50px 0;} </style></div><div id="shopify-section-template--14655948521590__5524185e-eb37-4d02-9c04-76e78f946d3c" class="shopify-section"><section class="tab-selector-section">
   <div class="tab-details">
     <div class="tab-selectors"><button class="tab active" data-progress="progress-1" data-tab="tab-1">
-          Why Boxfox?
+          Why ANNVIO?
           <img src="//boxfox.com/cdn/shop/t/153/assets/arrow.svg?v=44432580695374726241698607520">
         </button><button class="tab" data-progress="progress-2" data-tab="tab-2">
           Our Stats
@@ -1053,15 +1053,15 @@ function resetRecaptcha() {
       </span>
     </div>
     <div class="tab-contents"><div id="tab-1" class="tab-pane active">
-          <p>Whether you need enterprise-level efficiency or small business savvy, you can count on a best-in-class gifting experience. BOXFOX Concierge brings the BOXFOX aesthetic and human touch to scale, offering personal gifting solutions for companies large and small. We promise to be your go-to for gifting! With a dedicated sales manager, all-star production team, and countless customization options, we make it all happen, on brand, and on time. 
-<br><br>
-You can count on premier service from our expert gifting team to listen to your wants and needs to deliver the most premium and seamless experience. You’re never stuck with one option, we offer all solutions across various price points, presentations, and offerings. 
-<br><br>
-Our best-in-class gifting presentation ensures that your recipients are wowed and delighted each and every time.</p>
+          <p><strong>Bespoke Solutions – Tailor-made merchandise designed for your brand’s unique journey.</strong></p>
+          
+          <p>To redefine corporate merchandising in the UAE and beyond by offering bespoke solutions that blend creativity, craftsmanship, and brand storytelling. We aim to transform how businesses connect with employees, clients, and partners—through products that are not only functional, but also memorable and meaningful.</p>
+          
+          <p><strong>Uncompromising Quality – Products created with attention to detail and premium craftsmanship.</strong></p>
         </div><div id="tab-2" class="tab-pane">
-          <p>BOXFOX is both <b>women-owned</b> and self-funded, with almost <b>9 years</b> of experience and over <b>425,000+</b> boxes shipped. With <b>34</b> employees to date, we're thrilled to have served over <b>800</b> corporate clients.</p>
+          <p>Aanvio is a bespoke <strong>B2B merchandising solutions company</strong> founded in the <strong>UAE with many years</strong>. We design and deliver <strong>premium products</strong> and <strong>curated gifting</strong> experiences that help businesses express their story with elegance and impact. We're thrilled to have served over <strong>800</strong> corporate clients.</p>
         </div><div id="tab-3" class="tab-pane">
-          <p>Here at BOXFOX, we are <b>HUMAN</b>, <b>GENEROUS</b>, <b>THOUGHTFUL</b>, <b>RESOURCEFUL</b> and <b>PIONEERING</b>.</p>
+          <p>Here at ANNVIO, we are <b>HUMAN</b>, <b>GENEROUS</b>, <b>THOUGHTFUL</b>, <b>RESOURCEFUL</b> and <b>PIONEERING</b>.</p>
         </div></div>
   </div>
 </section>
@@ -1477,7 +1477,7 @@ let x = 0
         <div class="details-wrapper">
           <div class="details-list">
             <h2 class="details-title">Just looking for sourced/ branded merch?</h2>
-            <p class="details-desc">We do swag, merchandise, and all promotional goods. BOXFOX Concierge is a one-stop shop for everything and anything branded. 
+            <p class="details-desc">We do swag, merchandise, and all promotional goods. ANNVIO Concierge is a one-stop shop for everything and anything branded. 
 
 We can package them in our signature boxes or send all the product to your event or HQ! You can even store with us so that we send out as-needed.</p>
           </div>
@@ -1508,17 +1508,17 @@ We can package them in our signature boxes or send all the product to your event
       <div class="reviews-slick" data-slick="{&quot;slidesToShow&quot;: 2, &quot;slidesToScroll&quot;: 1, &quot;arrows&quot;: true, &quot;vertical&quot;: true}"><div class="review-card">
           <img src="//boxfox.com/cdn/shop/t/153/assets/star.svg?v=63785359823433115261698607520" class="review-star">
           <h6>Personalized, Custom and Meticulous</h6>
-          <p>BOXFOX has so many options to choose from. Their customer service is exceptional. Last Christmas, they were able to help me ship 3 large orders internationally. They were quick, helpful, kind and efficient. The team loved the beautiful products inside, and the beautiful presentation of the high quality box. They are my go to present for anyone. HIGHLY RECOMMEND!</p>
+          <p>ANNVIO has so many options to choose from. Their customer service is exceptional. Last Christmas, they were able to help me ship 3 large orders internationally. They were quick, helpful, kind and efficient. The team loved the beautiful products inside, and the beautiful presentation of the high quality box. They are my go to present for anyone. HIGHLY RECOMMEND!</p>
           <label>-Salesforce</label>
         </div><div class="review-card">
           <img src="//boxfox.com/cdn/shop/t/153/assets/star.svg?v=63785359823433115261698607520" class="review-star">
           <h6>The Most Elevated Packaging</h6>
-          <p>“The packaging, elevated products, balance of turn-key, and highly flexible customized service is what sets BOXFOX apart.”</p>
+          <p>“The packaging, elevated products, balance of turn-key, and highly flexible customized service is what sets ANNVIO apart.”</p>
           <label>-LinkedIn</label>
         </div><div class="review-card">
           <img src="//boxfox.com/cdn/shop/t/153/assets/star.svg?v=63785359823433115261698607520" class="review-star">
           <h6>Our Go-To for Gifting</h6>
-          <p>BoxFox is my go-to vendor for high-touch client gifting. Their gift boxes are always so personalized and meticulously curated to meet the exact needs I’m looking for.</p>
+          <p>ANNVIO is my go-to vendor for high-touch client gifting. Their gift boxes are always so personalized and meticulously curated to meet the exact needs I’m looking for.</p>
           <label>-Zillow</label>
         </div></div>
     </div>
@@ -1540,387 +1540,6 @@ We can package them in our signature boxes or send all the product to your event
       })
   });
 </script>
-
-</div><div id="shopify-section-template--14655948521590__caaa4d1e-f07d-4420-ad05-609f2ec3cc9e" class="shopify-section"><!-- /sections/section-hero.liquid -->
-
-
-<div class="section--image fade-in-child js-overflow-container " data-section-id="template--14655948521590__caaa4d1e-f07d-4420-ad05-609f2ec3cc9e" data-section-type="hero" data-overlay-header="" style="--PT: 0px; --PB: 0px; --CONTENT-WIDTH: 2000px; min-height: calc(225px + var(--menu-height));">
-  <div class="wrapper--none section-padding">
-    <div class="section__inner">
-      <div class="hero__content__wrapper align--middle-center">
-        <div class="hero__content hero__content--transparent js-overflow-content"><div class="text__standard text--white ">
-            
-              
-                  
-                
-            
-              
-                  
-
-                    <div class="hero__title heading-size-10 aos-init" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948521590__caaa4d1e-f07d-4420-ad05-609f2ec3cc9e']" data-aos-order="1">
-                      <h1>Past Work</h1>
-                    </div>
-                  
-                
-            
-              
-                  
-
-                    <div class="hero__description rte body-size-6 aos-init" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948521590__caaa4d1e-f07d-4420-ad05-609f2ec3cc9e']" data-aos-order="2">
-                      <p>Gather some inspiration for your next project.</p>
-                    </div>
-                  
-                
-            
-          </div>
-        </div>
-      </div>
-      
-        <div class="image-overlay" style="--bg: #000000; opacity: 0.15;"></div>
-      
-
-      
-
-<!-- /snippets/hero.liquid -->
-
-
-<div class="image__hero__frame fade-in-child use_screen_one_fifth " data-overflow-background="" data-parallax-wrapper="" style="min-height: calc(225px + var(--menu-height));">
-  <div class="image__hero__pane">
-    <div class="image__hero__scale" style="height: 59.8071vw; transform: translate3d(0px, -33px, 0px);" data-parallax-img="">
-      <!-- /snippets/image.liquid -->
-
-
-
-
-
-
-
-
-  
-
-  <img src="//boxfox.com/cdn/shop/files/Holiday22-465.jpg?v=1701045804&amp;width=2488" alt="." width="2488" height="1488" loading="lazy" class="
-    
-      tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full
-    
-
-    
-      loading-shimmer
-    
-
-    
-  
-    loading-shimmer
-  
-  
-
-  " srcset="
-  
- //boxfox.com/cdn/shop/files/Holiday22-465.jpg?v=1701045804&amp;width=352 352w,  //boxfox.com/cdn/shop/files/Holiday22-465.jpg?v=1701045804&amp;width=400 400w,  //boxfox.com/cdn/shop/files/Holiday22-465.jpg?v=1701045804&amp;width=768 768w,  //boxfox.com/cdn/shop/files/Holiday22-465.jpg?v=1701045804&amp;width=932 932w,  //boxfox.com/cdn/shop/files/Holiday22-465.jpg?v=1701045804&amp;width=1024 1024w,  //boxfox.com/cdn/shop/files/Holiday22-465.jpg?v=1701045804&amp;width=1200 1200w,  //boxfox.com/cdn/shop/files/Holiday22-465.jpg?v=1701045804&amp;width=1920 1920w, 
-  //boxfox.com/cdn/shop/files/Holiday22-465.jpg?v=1701045804&amp;width=2488 2488w
-" sizes="100vw" fetchpriority="auto" style="
-  
-    aspect-ratio: 1.6720430107526882;
-  
-  object-position: center center;
-  
-">
-
-
-    </div>
-  </div>
-</div>
-
-
-    </div>
-  </div>
-</div>
-
-
-</div><div id="shopify-section-template--14655948521590__ad450c87-a95f-4aa1-a062-6ca584e648d9" class="shopify-section"><!-- /sections/section-mosaic.liquid -->
-
-<div class="section-mosaic palette--light bg--neutral section-template--14655948521590__ad450c87-a95f-4aa1-a062-6ca584e648d9" style="--PT: 10px; --PB: 36px;">
-  <div class="wrapper section-padding">
-    
-      
-
-      <div class="grid grid--mosaic grid--short grid--split-center grid--mosaic-3" style="--scale: 1.3;">
-
-        
-          
-          
-
-          
-
-          
-
-          
-
-          
-
-
-          <div class="grid__item grid__item--1 
-            grid__item--short grid__item--md
-          ">
-            <div class="tile tile--image text-left tile--bottom text--white">
-              
-                  
-<div class="tile__image">
-                    <div class="tile__overlay image-overlay" style="--overlay-opacity: 0.0;"></div>
-
-                    <!-- /snippets/image.liquid -->
-
-
-
-
-
-
-
-
-  
-
-  <img src="//boxfox.com/cdn/shop/files/10.24_Pureology-6.jpg?v=1701045133&amp;width=2500" alt="" width="2500" height="2164" loading="lazy" class="
-    
-      tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full
-    
-
-    
-      loading-shimmer
-    
-
-    
-  
-    loading-shimmer
-  
-  
-
-  " srcset="
-
-//boxfox.com/cdn/shop/files/10.24_Pureology-6.jpg?height=2164&amp;v=1701045133&amp;width=2500,
-        //boxfox.com/cdn/shop/files/10.24_Pureology-6.jpg?height=283&amp;v=1701045133&amp;width=328 328w,
-          //boxfox.com/cdn/shop/files/10.24_Pureology-6.jpg?height=567&amp;v=1701045133&amp;width=656 656w,
-        //boxfox.com/cdn/shop/files/10.24_Pureology-6.jpg?height=301&amp;v=1701045133&amp;width=348 348w,
-          //boxfox.com/cdn/shop/files/10.24_Pureology-6.jpg?height=602&amp;v=1701045133&amp;width=696 696w,
-        //boxfox.com/cdn/shop/files/10.24_Pureology-6.jpg?height=412&amp;v=1701045133&amp;width=476 476w,
-          //boxfox.com/cdn/shop/files/10.24_Pureology-6.jpg?height=824&amp;v=1701045133&amp;width=952 952w,
-        //boxfox.com/cdn/shop/files/10.24_Pureology-6.jpg?height=444&amp;v=1701045133&amp;width=514 514w,
-          //boxfox.com/cdn/shop/files/10.24_Pureology-6.jpg?height=889&amp;v=1701045133&amp;width=1028 1028w,
-        //boxfox.com/cdn/shop/files/10.24_Pureology-6.jpg?height=574&amp;v=1701045133&amp;width=664 664w,
-          //boxfox.com/cdn/shop/files/10.24_Pureology-6.jpg?height=1149&amp;v=1701045133&amp;width=1328 1328w
-
-" sizes="(min-width: 1024px) calc(min(100vw, 1450px, 100vw) / 2),
-(min-width: 768px) calc(min(100vw, 1450px, 100vw) / 2),
-calc(min(100vw, 1450px, 100vw) / 1.0)
-
-" fetchpriority="auto" style="
-  
-  object-position: center center;
-  
-">
-
-
-                  </div>
-
-                  
-                    <div class="tile__inner">
-
-                      
-
-                      
-
-                      
-                      
-                    </div>
-                  
-
-                
-            </div>
-          </div>
-        
-          
-          
-
-          
-
-          
-
-          
-
-          
-
-
-          <div class="grid__item grid__item--2 
-            grid__item--short grid__item--md
-          ">
-            <div class="tile tile--image text-left tile--bottom text--white">
-              
-                  
-<div class="tile__image">
-                    <div class="tile__overlay image-overlay" style="--overlay-opacity: 0.0;"></div>
-
-                    <!-- /snippets/image.liquid -->
-
-
-
-
-
-
-
-
-  
-
-  <img src="//boxfox.com/cdn/shop/files/04_17_23_Corporate_Ceris_Boxes-17_Cropped_1.jpg?v=1701045489&amp;width=1365" alt="" width="1365" height="1365" loading="lazy" class="
-    
-      tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full
-    
-
-    
-      loading-shimmer
-    
-
-    
-  
-    loading-shimmer
-  
-  
-
-  " srcset="
-
-//boxfox.com/cdn/shop/files/04_17_23_Corporate_Ceris_Boxes-17_Cropped_1.jpg?height=1365&amp;v=1701045489&amp;width=1365,
-        //boxfox.com/cdn/shop/files/04_17_23_Corporate_Ceris_Boxes-17_Cropped_1.jpg?height=328&amp;v=1701045489&amp;width=328 328w,
-          //boxfox.com/cdn/shop/files/04_17_23_Corporate_Ceris_Boxes-17_Cropped_1.jpg?height=656&amp;v=1701045489&amp;width=656 656w,
-        //boxfox.com/cdn/shop/files/04_17_23_Corporate_Ceris_Boxes-17_Cropped_1.jpg?height=348&amp;v=1701045489&amp;width=348 348w,
-          //boxfox.com/cdn/shop/files/04_17_23_Corporate_Ceris_Boxes-17_Cropped_1.jpg?height=696&amp;v=1701045489&amp;width=696 696w,
-        //boxfox.com/cdn/shop/files/04_17_23_Corporate_Ceris_Boxes-17_Cropped_1.jpg?height=476&amp;v=1701045489&amp;width=476 476w,
-          //boxfox.com/cdn/shop/files/04_17_23_Corporate_Ceris_Boxes-17_Cropped_1.jpg?height=952&amp;v=1701045489&amp;width=952 952w,
-        //boxfox.com/cdn/shop/files/04_17_23_Corporate_Ceris_Boxes-17_Cropped_1.jpg?height=514&amp;v=1701045489&amp;width=514 514w,
-          //boxfox.com/cdn/shop/files/04_17_23_Corporate_Ceris_Boxes-17_Cropped_1.jpg?height=1028&amp;v=1701045489&amp;width=1028 1028w,
-        //boxfox.com/cdn/shop/files/04_17_23_Corporate_Ceris_Boxes-17_Cropped_1.jpg?height=664&amp;v=1701045489&amp;width=664 664w,
-          //boxfox.com/cdn/shop/files/04_17_23_Corporate_Ceris_Boxes-17_Cropped_1.jpg?height=1328&amp;v=1701045489&amp;width=1328 1328w
-
-" sizes="(min-width: 1024px) calc(min(100vw, 1450px, 100vw) / 2),
-(min-width: 768px) calc(min(100vw, 1450px, 100vw) / 2),
-calc(min(100vw, 1450px, 100vw) / 1.0)
-
-" fetchpriority="auto" style="
-  
-  object-position: center center;
-  
-">
-
-
-                  </div>
-
-                  
-                    <div class="tile__inner">
-
-                      
-
-                      
-
-                      
-                      
-                    </div>
-                  
-
-                
-            </div>
-          </div>
-        
-          
-          
-
-          
-
-          
-
-          
-
-          
-
-
-          <div class="grid__item grid__item--3 
-            grid__item--tall grid__item--md
-          ">
-            <div class="tile tile--image text-left tile--bottom text--white">
-              
-                  
-<div class="tile__image">
-                    <div class="tile__overlay image-overlay" style="--overlay-opacity: 0.0;"></div>
-
-                    <!-- /snippets/image.liquid -->
-
-
-
-
-
-
-
-
-  
-
-  <img src="//boxfox.com/cdn/shop/files/Zillow_Rentals_copy_Cropped_34fcd4af-b1d5-4eca-a376-15e256e36ef2.jpg?v=1701045073&amp;width=1619" alt="" width="1619" height="2158" loading="lazy" class="
-    
-      tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full
-    
-
-    
-      loading-shimmer
-    
-
-    
-  
-    loading-shimmer
-  
-  
-
-  " srcset="
-
-//boxfox.com/cdn/shop/files/Zillow_Rentals_copy_Cropped_34fcd4af-b1d5-4eca-a376-15e256e36ef2.jpg?height=2158&amp;v=1701045073&amp;width=1619,
-        //boxfox.com/cdn/shop/files/Zillow_Rentals_copy_Cropped_34fcd4af-b1d5-4eca-a376-15e256e36ef2.jpg?height=437&amp;v=1701045073&amp;width=328 328w,
-          //boxfox.com/cdn/shop/files/Zillow_Rentals_copy_Cropped_34fcd4af-b1d5-4eca-a376-15e256e36ef2.jpg?height=874&amp;v=1701045073&amp;width=656 656w,
-        //boxfox.com/cdn/shop/files/Zillow_Rentals_copy_Cropped_34fcd4af-b1d5-4eca-a376-15e256e36ef2.jpg?height=463&amp;v=1701045073&amp;width=348 348w,
-          //boxfox.com/cdn/shop/files/Zillow_Rentals_copy_Cropped_34fcd4af-b1d5-4eca-a376-15e256e36ef2.jpg?height=927&amp;v=1701045073&amp;width=696 696w,
-        //boxfox.com/cdn/shop/files/Zillow_Rentals_copy_Cropped_34fcd4af-b1d5-4eca-a376-15e256e36ef2.jpg?height=634&amp;v=1701045073&amp;width=476 476w,
-          //boxfox.com/cdn/shop/files/Zillow_Rentals_copy_Cropped_34fcd4af-b1d5-4eca-a376-15e256e36ef2.jpg?height=1268&amp;v=1701045073&amp;width=952 952w,
-        //boxfox.com/cdn/shop/files/Zillow_Rentals_copy_Cropped_34fcd4af-b1d5-4eca-a376-15e256e36ef2.jpg?height=685&amp;v=1701045073&amp;width=514 514w,
-          //boxfox.com/cdn/shop/files/Zillow_Rentals_copy_Cropped_34fcd4af-b1d5-4eca-a376-15e256e36ef2.jpg?height=1370&amp;v=1701045073&amp;width=1028 1028w,
-        //boxfox.com/cdn/shop/files/Zillow_Rentals_copy_Cropped_34fcd4af-b1d5-4eca-a376-15e256e36ef2.jpg?height=885&amp;v=1701045073&amp;width=664 664w,
-          //boxfox.com/cdn/shop/files/Zillow_Rentals_copy_Cropped_34fcd4af-b1d5-4eca-a376-15e256e36ef2.jpg?height=1770&amp;v=1701045073&amp;width=1328 1328w
-
-" sizes="(min-width: 1024px) calc(min(100vw, 1450px, 100vw) / 2),
-(min-width: 768px) calc(min(100vw, 1450px, 100vw) / 2),
-calc(min(100vw, 1450px, 100vw) / 1.0)
-
-" fetchpriority="auto" style="
-  
-  object-position: 79.301% 66.9896%;
-  
-">
-
-
-                  </div>
-
-                  
-                    <div class="tile__inner">
-
-                      
-
-                      
-
-                      
-                      
-                    </div>
-                  
-
-                
-            </div>
-          </div>
-        
-      </div>
-    
-  </div>
-</div>
-
 
 </div>
   </main>

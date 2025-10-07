@@ -595,11 +595,11 @@ window.addEventListener("klaviyoForms", function(a) {
                     <div class="drawer__menu" data-stagger-animation="" data-sliderule-pane="0">
 
                         <!-- /snippets/nav-item-mobile.liquid -->
-                        <div class="sliderule__wrapper">
+                        <!-- <div class="sliderule__wrapper">
                             <div class="sliderow" data-animates="0" style="transition-delay: 10ms;">
                                 <a class="sliderow__title" href="/pages/new">NEW TODAY</a>
                             </div>
-                        </div>
+                        </div> -->
 
 
 
@@ -607,8 +607,8 @@ window.addEventListener("klaviyoForms", function(a) {
                         <div class="sliderule__wrapper">
                             <div class="sliderow" data-animates="0" style="transition-delay: 60ms;">
                                 <a class="sliderow__title"
-                                    href="https://boxfox.com/pages/build-a-boxfox?step=1&amp;build_box=1">BUILD
-                                    A BOXFOX</a>
+                                    href="https://boxfox.com/pages/build-a-boxfox?step=1&amp;build_box=1">COPORATE 
+                                    GIFTS</a>
                             </div>
                         </div>
 
@@ -666,8 +666,8 @@ window.addEventListener("klaviyoForms", function(a) {
                                     <!-- /snippets/nav-item-mobile.liquid -->
                                     <div class="sliderule__wrapper">
                                         <div class="sliderow" data-animates="1" style="transition-delay: 110ms;">
-                                            <a class="sliderow__title" href="/pages/build-a-boxfox">BUILD A
-                                                BOXFOX</a>
+                                            <a class="sliderow__title" href="/pages/build-a-boxfox">COPORATE 
+                                    GIFTS</a>
                                         </div>
                                     </div>
 

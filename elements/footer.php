@@ -98,18 +98,8 @@
                                         id="accordion-linklist-1-2">
 
                                         <li><a href="https://shopboxfox.com/pages/faqs">FAQ</a></li>
-
                                         <li><a href="https://shopboxfox.com/pages/about-us">ABOUT</a></li>
-
-                                        <li><a href="/pages/careers-new">CAREERS</a></li>
-
                                         <li><a href="https://shopboxfox.com/pages/contact">CONTACT</a></li>
-
-                                        <li><a href="https://shopboxfox.com/blogs/news">BLOG</a></li>
-
-                                        <li><a href="https://shopboxfox.com/pages/rewards">THE FOX FLEET</a></li>
-
-                                        <li><a href="https://shopboxfox.com/pages/accessibility">ACCESSIBILITY</a>
                                         </li>
 
                                     </ul>
@@ -180,16 +170,16 @@
 
                 <div class="subfooter__item subfooter__item--copyright">
                     <span class="subfooter__copyright">
-                        © <a href="/" title="">BOXFOX</a>
+                        © <a href="/" title="">ANNVIO</a>
                         2025
                     </span>
 
 
-                    <span class="subfooter__copyright"><a href="/pages/terms-of-use">TERMS OF SERVICE</a></span>
+                    <span class="subfooter__copyright"><a href="/">TERMS OF SERVICE</a></span>
 
-                    <span class="subfooter__copyright"><a href="/policies/refund-policy">REFUND POLICY</a></span>
+                    <span class="subfooter__copyright"><a href="/">REFUND POLICY</a></span>
 
-                    <span class="subfooter__copyright"><a href="/pages/privacy-policy-1">PRIVACY POLICY</a></span>
+                    <span class="subfooter__copyright"><a href="/">PRIVACY POLICY</a></span>
 
 
                     <!-- The following lines fix Lighthouse security warnings on the Shopify link. -->
@@ -208,7 +198,7 @@
                         </svg>
                         <span class="visually-hidden">Tiktok</span>
                     </a>
-                    <a class="footer__icon footer__icon--social" href="https://www.pinterest.com/shopboxfox/"
+                    <a class="footer__icon footer__icon--social" href="https://www.pinterest.com"
                         title="Pinterest" target="_blank">
                         <!-- /snippets/social-icon.liquid -->
 
@@ -221,7 +211,7 @@
                         </svg>
                         <span class="visually-hidden">Pinterest</span>
                     </a>
-                    <a class="footer__icon footer__icon--social" href="https://www.instagram.com/shopboxfox/?hl=en"
+                    <a class="footer__icon footer__icon--social" href="https://www.instagram.com/aanvio.merchandising?igsh=MW11bTVxaXA3c3M2MA=="
                         title="Instagram" target="_blank">
                         <!-- /snippets/social-icon.liquid -->
 
@@ -236,7 +226,7 @@
                     </a>
 
 
-                    <a class="footer__icon footer__icon--social" href="https://www.linkedin.com/company/boxfox-llc"
+                    <a class="footer__icon footer__icon--social" href="https://www.linkedin.com/company/anvio-vr/"
                         title="Linkedin" target="_blank">
                         <!-- /snippets/social-icon.liquid -->
 

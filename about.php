@@ -50,14 +50,14 @@ include "config.php";
 
   
 
-  <img src="<?php echo BASE_URL; ?>images/green_about.png" alt="Banner Image." width="4500" height="2550" loading="lazy" class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full" style="aspect-ratio: 1.7647058823529411; object-position: center center;">
+  <img src="<?php echo BASE_URL; ?>images/page/annvioabout.jpeg" alt="Banner Image." width="4500" height="2550" loading="lazy" class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full" style="aspect-ratio: 1.7647058823529411; object-position: center center;">
 
 
     </div>
   </div>
 </div>
 
-<img src="<?php echo BASE_URL; ?>images/green_about_Cropped.png" alt="Banner Image;" class="hero-mobile-image is-loaded" style="min-height: calc(187px + var(--menu-height));">
+<img src="<?php echo BASE_URL; ?>images/page/annvioabout.jpeg" alt="Banner Image;" class="hero-mobile-image is-loaded" style="min-height: calc(187px + var(--menu-height));">
     </div>
   </div>
 </div>

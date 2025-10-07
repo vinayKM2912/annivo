@@ -61,5 +61,5 @@ setTimeout(() => {
     body.classList.remove("pageLoad")
     document.getElementById("pageLoad").style.display = "none";
     console.log("DOM loaded and #hero is available.");
-}, 10000);
+}, 5000);
 </script>

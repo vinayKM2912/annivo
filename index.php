@@ -22,34 +22,34 @@
                                     <div class="hero__title heading-size-11 aos-init aos-animate" data-aos="hero"
                                         data-aos-anchor="[data-section-id='template--14655948128374__hero']"
                                         data-aos-order="1">
-                                        <h1>Custom gift boxes for effortless &amp; elevated gifting.</h1>
+                                        <h1>We design and deliver premium products &amp; curated gifting experiences.</h1>
                                     </div>
                                     <div class="hero__description rte body-size-6 aos-init aos-animate" data-aos="hero"
                                         data-aos-anchor="[data-section-id='template--14655948128374__hero']"
                                         data-aos-order="2">
-                                        <p><strong>Since 2014. Let us do the gift wrapping for you.</strong>
+                                        <p><strong>B2B merchandising solutions company in the UAE.</strong>
                                         </p>
                                     </div>
 
 
                                     <div class="hero__cta__wrapper">
                                         <a class="standard__cta hero__btn btn--outline btn--white btn--long aos-init aos-animate"
-                                            href="https://boxfox.com/pages/build-a-boxfox" data-aos="hero"
+                                            href="<?php echo BASE_URL; ?>corporate.php" data-aos="hero"
                                             data-aos-anchor="[data-section-id='template--14655948128374__hero']"
                                             data-aos-order="3">
-                                            Build a BOXFOX
+                                            COPORATE GIFTS
                                         </a>
                                         <a class="standard__cta hero__btn btn--outline btn--white btn--long aos-init aos-animate"
-                                            href="https://shopboxfox.com/collections/all" data-aos="hero"
+                                            href="<?php echo BASE_URL; ?>corporate.php" data-aos="hero"
                                             data-aos-anchor="[data-section-id='template--14655948128374__hero']"
                                             data-aos-order="4">
-                                            CURATED GIFTS
+                                            CUSTOMIZED ITEMS
                                         </a>
                                         <a class="standard__cta hero__btn btn--outline btn--white btn--long aos-init aos-animate"
-                                            href="https://shopboxfox.com/collections/marketplace" data-aos="hero"
+                                           href="<?php echo BASE_URL; ?>corporate.php" data-aos="hero"
                                             data-aos-anchor="[data-section-id='template--14655948128374__hero']"
                                             data-aos-order="5">
-                                            MARKETPLACE
+                                            SUSTAINABILITY
                                         </a>
 
                                     </div>
