@@ -1,3 +1,3 @@
 <?php
-define("BASE_URL", "http://localhost/aanivo/");
+define("BASE_URL", "https://aanivo.gamer.gd/");
 include "./elements/pageLoader.php";

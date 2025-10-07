@@ -1,7 +1,7 @@
 <?php
 $expItems = [
     ["title" => "Branded Merchandise", "slug" => "", "img" => "CINNAMONSWIRLBOXFOX.png"],
-    ["title" => "Corporate Gifting & Bespoke Hampers", "slug" => "", "img" => "CREMECINNAMONROLLBOXTOP_3eacc20c-c35f-4f11-8e6c-e89118c6307b.png"],
+    ["title" => "Corporate Gifting & Bespoke Hampers", "slug" => "", "img" => "products/coporategift.jpeg"],
     ["title" => "Premium Packaging", "slug" => "", "img" => "CREMESTARSHOLLOWBOXTOP45.png"],
 ]
 ?><div id="expertise" id="shopify-section-template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622"

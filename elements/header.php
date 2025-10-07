@@ -1284,6 +1284,88 @@ window.addEventListener("klaviyoForms", function(a) {
                     .js__header__stuck .theme__header .logo__img--transparent {
                         display: none;
                     }
+
+                    /* ===== SUBMENU/DROPDOWN STYLING ===== */
+                    
+                    /* Default dropdown background and styling */
+                    .header__dropdown {
+                        background-color: #6E7A77 !important;
+                        border: none !important;
+                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+                        transition: background-color 0.3s ease;
+                    }
+
+                    .header__dropdown__wrapper {
+                        background-color: #6E7A77 !important;
+                    }
+
+                    .header__dropdown__inner {
+                        background-color: #6E7A77 !important;
+                    }
+
+                    /* Dropdown links default styling */
+                    .header__dropdown .navlink,
+                    .header__dropdown a {
+                        color: #FFFFFF !important;
+                        transition: color 0.3s ease;
+                    }
+
+                    /* Dropdown links hover effect */
+                    .header__dropdown .navlink:hover,
+                    .header__dropdown a:hover {
+                        color: #FFFFFF !important;
+                        background-color: rgba(255, 255, 255, 0.1) !important;
+                    }
+
+                    /* ===== DROPDOWN STYLING WHEN SCROLLED ===== */
+                    
+                    /* Dropdown background when header is scrolled */
+                    .js__header__stuck .header__dropdown {
+                        background-color: #FFFFFF !important;
+                        border: 1px solid #e0e0e0 !important;
+                    }
+
+                    .js__header__stuck .header__dropdown__wrapper {
+                        background-color: #FFFFFF !important;
+                    }
+
+                    .js__header__stuck .header__dropdown__inner {
+                        background-color: #FFFFFF !important;
+                    }
+
+                    /* Dropdown links when scrolled */
+                    .js__header__stuck .header__dropdown .navlink,
+                    .js__header__stuck .header__dropdown a {
+                        color: #333333 !important;
+                    }
+
+                    /* Dropdown links hover when scrolled */
+                    .js__header__stuck .header__dropdown .navlink:hover,
+                    .js__header__stuck .header__dropdown a:hover {
+                        color: #333333 !important;
+                        background-color: rgba(0, 0, 0, 0.05) !important;
+                    }
+
+                    /* Mobile menu styling */
+                    .drawer .navlink {
+                        color: #333333 !important;
+                    }
+
+                    /* Ensure dropdown text is readable */
+                    .header__dropdown ul li a,
+                    .header__dropdown .dropdown-link {
+                        color: #FFFFFF !important;
+                        padding: 10px 15px !important;
+                        display: block !important;
+                        text-decoration: none !important;
+                        transition: all 0.3s ease !important;
+                    }
+
+                    /* Dropdown text when scrolled */
+                    .js__header__stuck .header__dropdown ul li a,
+                    .js__header__stuck .header__dropdown .dropdown-link {
+                        color: #333333 !important;
+                    }
                 </style>
 
                 <script>

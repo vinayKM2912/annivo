@@ -4,7 +4,11 @@ $desktop = [
     "Screenshot_2025-04-30_at_9.36.29_PM_74c37e46-0710-499e-b219-f62e6b8aacd3.png",
     "Screenshot_2025-06-30_at_11.26.31_AM.png",
 ];
-$mobile = ["BoxFoxHoliday-564_a4bd19a8-d68c-4b3e-8d2f-447bf1ee74f7.jpg", "Screenshot_2025-04-30_at_9.36.29_PM_74c37e46-0710-499e-b219-f62e6b8aacd3.png", "Screenshot_2025-06-30_at_11.26.31_AM.png"];
+$mobile = [
+    "BoxFoxHoliday-564_a4bd19a8-d68c-4b3e-8d2f-447bf1ee74f7.jpg",
+    "Screenshot_2025-04-30_at_9.36.29_PM_74c37e46-0710-499e-b219-f62e6b8aacd3.png",
+    "Screenshot_2025-06-30_at_11.26.31_AM.png"
+];
 ?>
 <link rel="stylesheet" type="text/css" href="wowslider/style.css" />
 <script type="text/javascript" src="wowslider/jquery.js"></script>
