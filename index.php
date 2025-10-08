@@ -8,7 +8,7 @@
     <?php include "./elements/header.php"; ?>
     <main class="main-content" id="MainContent">
         <div id="shopify-section-template--14655948128374__hero" class="shopify-section">
-            <!-- /sections/section-hero.liquid -->
+
 
 
             <div class="section--image fade-in-child js-overflow-container has-overlay" id="hero"
@@ -82,7 +82,7 @@
                                                 flex-direction: row !important;
                                                 justify-content: flex-start !important;
                                             }
-                                            
+
                                             .hero__cta__wrapper .hero__btn {
                                                 flex: 0 1 auto !important;
                                                 margin-right: 15px !important;
@@ -97,7 +97,7 @@
                                                 align-items: center !important;
                                                 gap: 10px !important;
                                             }
-                                            
+
                                             .hero__cta__wrapper .hero__btn {
                                                 width: 100% !important;
                                                 max-width: 280px !important;
@@ -112,7 +112,7 @@
                                                 flex-direction: row !important;
                                                 justify-content: center !important;
                                             }
-                                            
+
                                             .hero__cta__wrapper .hero__btn {
                                                 flex: 1 1 auto !important;
                                                 max-width: 160px !important;
@@ -130,18 +130,18 @@
                         <div class="image-overlay" style="--bg: #000000; opacity: 0.35;">
 
                         </div>
-                        <!-- /snippets/hero.liquid -->
+
 
 
                         <?php include "./elements/heroSlider.php"; ?>
-                        <!-- </div> -->
+
                     </div>
                 </div>
 
 
             </div>
             <div id="shopify-section-template--14655948128374__section_announcement_PetCjB" class="shopify-section">
-                <!-- /sections/section-announcement.liquid -->
+
 
                 <div class="announcement__wrapper" data-announcement-wrapper=""
                     data-section-id="template--14655948128374__section_announcement_PetCjB"
@@ -361,7 +361,7 @@
                 <?php include "./elements/productSlider.php"; ?>
             </div>
             <div id="shopify-section-template--14655948128374__cols" class="shopify-section">
-                <!-- /sections/section-columns.liquid -->
+
 
                 <div class="section-columns palette--light bg--accent" data-section-id="template--14655948128374__cols"
                     data-section-type="section-columns" style="--PT: 36px; --PB: 36px;">
@@ -597,16 +597,14 @@
 
                         <p class="fea-description" style="padding-bottom: 32px;text-align:center;">Every product we create is a reflection of our philosophy: quality, meaning, and distinction in every detail! Just hover and click
                             equiry now!</p>
-
-                        <div class="js-grid" data-grid-large="4" data-grid-small="2">
-
-                            <!-- /snippets/product-grid-item-variant.liquid -->
+                            <div class="js-grid" data-grid-large="4" data-grid-small="2">
+                            <?php include "./elements/product_list.php"; ?>
+                        </div>
+                        <!-- <div class="js-grid" data-grid-large="4" data-grid-small="2">
 
 
                             <product-grid-item aria-label="Orange Striped Tea Towel"
                                 class="product-grid-item product-grid-item-dynamic">
-
-                                <!-- /snippets/product-grid-item-variant.liquid -->
 
 
                                 <product-grid-item-variant class=" product-grid-item__content is-slideshow"
@@ -624,7 +622,6 @@
                                                     data-grid-image="0" data-grid-image-target="25924040261750"
                                                     data-variant-id="" loading="lazy" data-grid-current-image="">
 
-                                                    <!-- /snippets/image.liquid -->
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/products/apparel2.jpeg?v=1750463144&amp;width=3024"
@@ -641,7 +638,6 @@
                                         </a>
 
                                         <div class="product-grid-item__actions">
-                                            <!-- /snippets/button-instant-add.liquid -->
 
                                             <form method="post" action="/cart/add" id="product_form_7753043771510"
                                                 accept-charset="UTF-8" class="shopify-product-form"
@@ -687,12 +683,12 @@
                                     </a>
                                 </div>
                             </product-grid-item>
-                            <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                             <product-grid-item aria-label="Pumpkin Martini Candle | 6 oz" class="product-grid-item ">
 
-                                <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                                 <product-grid-item-variant class="product-grid-item__content is-slideshow"
@@ -710,7 +706,7 @@
                                                     data-grid-image="0" data-grid-image-target="26235255128182"
                                                     data-variant-id="" loading="lazy" data-grid-current-image="">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/products/apparelgift1.jpeg?v=1756143511&amp;width=1078"
@@ -727,7 +723,7 @@
                                         </a>
 
                                         <div class="product-grid-item__actions">
-                                            <!-- /snippets/button-instant-add.liquid -->
+
 
                                             <form method="post" action="/cart/add" id="product_form_7802789757046"
                                                 accept-charset="UTF-8" class="shopify-product-form"
@@ -772,12 +768,12 @@
                                     </a>
                                 </div>
                             </product-grid-item>
-                            <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                             <product-grid-item aria-label="Fall Leaves Matchbox" class="product-grid-item ">
 
-                                <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                                 <product-grid-item-variant class="product-grid-item__content is-slideshow"
@@ -795,7 +791,7 @@
                                                     data-grid-image="0" data-grid-image-target="26254114652278"
                                                     data-variant-id="" loading="lazy" data-grid-current-image="">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/products/coporategift.jpeg?v=1756338449&amp;width=987"
@@ -811,7 +807,7 @@
                                         </a>
 
                                         <div class="product-grid-item__actions">
-                                            <!-- /snippets/button-instant-add.liquid -->
+
 
                                             <form method="post" action="/cart/add" id="product_form_7806032183414"
                                                 accept-charset="UTF-8" class="shopify-product-form"
@@ -856,12 +852,12 @@
                                     </a>
                                 </div>
                             </product-grid-item>
-                            <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                             <product-grid-item aria-label="Plump-Kin Retinol Eye Cream" class="product-grid-item ">
 
-                                <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                                 <product-grid-item-variant class="product-grid-item__content is-slideshow"
@@ -879,7 +875,7 @@
                                                     data-grid-image="0" data-grid-image-target="24982733979766"
                                                     data-variant-id="" loading="lazy" data-grid-current-image="">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/products/customizedgfts.jpeg?v=1750459854&amp;width=1080"
@@ -896,7 +892,7 @@
                                         </a>
 
                                         <div class="product-grid-item__actions">
-                                            <!-- /snippets/button-instant-add.liquid -->
+
 
                                             <form method="post" action="/cart/add" id="product_form_7498041917558"
                                                 accept-charset="UTF-8" class="shopify-product-form"
@@ -941,12 +937,12 @@
                                     </a>
                                 </div>
                             </product-grid-item>
-                            <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                             <product-grid-item aria-label="Pumpkin Spice Puzzle" class="product-grid-item ">
 
-                                <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                                 <product-grid-item-variant class="product-grid-item__content is-slideshow"
@@ -964,7 +960,7 @@
                                                     data-grid-image="0" data-grid-image-target="26324688502902"
                                                     data-variant-id="" loading="lazy" data-grid-current-image="">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/products/cutsomized4.jpeg?v=1757568303&amp;width=1124"
@@ -981,7 +977,7 @@
                                         </a>
 
                                         <div class="product-grid-item__actions">
-                                            <!-- /snippets/button-instant-add.liquid -->
+
 
                                             <form method="post" action="/cart/add" id="product_form_7814184829046"
                                                 accept-charset="UTF-8" class="shopify-product-form"
@@ -1026,12 +1022,12 @@
                                     </a>
                                 </div>
                             </product-grid-item>
-                            <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                             <product-grid-item aria-label="I'm Pumpkin Sheet Mask" class="product-grid-item ">
 
-                                <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                                 <product-grid-item-variant class="product-grid-item__content is-slideshow"
@@ -1049,7 +1045,7 @@
                                                     data-grid-image="0" data-grid-image-target="24970720280694"
                                                     data-variant-id="" loading="lazy" data-grid-current-image="">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/products/cutsomizedMug5.jpeg?v=1750462380&amp;width=1867"
@@ -1066,7 +1062,7 @@
                                         </a>
 
                                         <div class="product-grid-item__actions">
-                                            <!-- /snippets/button-instant-add.liquid -->
+
 
                                             <form method="post" action="/cart/add" id="product_form_7498026745974"
                                                 accept-charset="UTF-8" class="shopify-product-form"
@@ -1111,12 +1107,12 @@
                                     </a>
                                 </div>
                             </product-grid-item>
-                            <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                             <product-grid-item aria-label="Pumpk'n Spice Dog Treats" class="product-grid-item ">
 
-                                <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                                 <product-grid-item-variant class="product-grid-item__content is-slideshow"
@@ -1134,7 +1130,7 @@
                                                     data-grid-image="0" data-grid-image-target="24881984602230"
                                                     data-variant-id="" loading="lazy" data-grid-current-image="">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/products/cutsomizedmusic.jpeg?v=1750459958&amp;width=1039"
@@ -1151,7 +1147,7 @@
                                         </a>
 
                                         <div class="product-grid-item__actions">
-                                            <!-- /snippets/button-instant-add.liquid -->
+
 
                                             <form method="post" action="/cart/add" id="product_form_6610618679414"
                                                 accept-charset="UTF-8" class="shopify-product-form"
@@ -1196,12 +1192,12 @@
                                     </a>
                                 </div>
                             </product-grid-item>
-                            <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                             <product-grid-item aria-label="S’Mores Mini Bar" class="product-grid-item ">
 
-                                <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                                 <product-grid-item-variant class="product-grid-item__content is-slideshow"
@@ -1219,7 +1215,7 @@
                                                     data-grid-image="0" data-grid-image-target="26261423947894"
                                                     data-variant-id="" loading="lazy" data-grid-current-image="">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/products/keyring22.jpeg?v=1756509328&amp;width=1595"
@@ -1236,7 +1232,7 @@
                                         </a>
 
                                         <div class="product-grid-item__actions">
-                                            <!-- /snippets/button-instant-add.liquid -->
+
 
                                             <form method="post" action="/cart/add" id="product_form_7804551790710"
                                                 accept-charset="UTF-8" class="shopify-product-form"
@@ -1281,7 +1277,7 @@
                                     </a>
                                 </div>
                             </product-grid-item>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 
@@ -1289,7 +1285,7 @@
             </div>
             <div id="shopify-section-template--14655948128374__8092b13e-4149-4e1f-95af-e79d67a7d8b1"
                 class="shopify-section">
-                <!-- /sections/section-double.liquid -->
+
                 <section data-section-id="template--14655948128374__8092b13e-4149-4e1f-95af-e79d67a7d8b1"
                     data-section-type="custom-content" data-overlay-header=""
                     style="--PT: 0px; --PB: 0px; --BRICK-GUTTER: 0px; background-color: #367a84;">
@@ -1311,7 +1307,7 @@
 
                                     </div>
 
-                                    <!-- /snippets/hero.liquid -->
+
 
 
                                     <div class="image__hero__frame fade-in-child use_screen_one_half "
@@ -1320,7 +1316,7 @@
                                             <div class="image__hero__scale"
                                                 style="height: 150vw; transform: translate3d(0px, 37px, 0px);"
                                                 data-parallax-img="">
-                                                <!-- /snippets/image.liquid -->
+
 
 
                                                 <img src="<?php echo BASE_URL; ?>images/7A1A3918.jpg?v=1735950445&amp;width=2500"
@@ -1383,7 +1379,7 @@
                 </section>
             </div>
             <div id="shopify-section-template--14655948128374__product-grid" class="shopify-section">
-                <!-- /sections/section-collection.liquid -->
+
                 <div class="section-collection palette--light bg--neutral"
                     data-section-id="template--14655948128374__product-grid" data-section-type="collection-row"
                     style="--PT: 36px; --PB: 36px;">
@@ -1392,138 +1388,16 @@
                         <h2 class="kicker-flourished mb-7">SOME OF OUR BEST PRODUCTS</h2>
 
                         <div class="js-grid" data-grid-large="4" data-grid-small="2">
-                            <!-- /snippets/product-grid-item.liquid -->
 
-                            <!-- /snippets/product-grid-item-variant.liquid -->
+
+
 
 
                             <product-grid-item aria-label="STARS HOLLOW" data-id="42539042766966"
                                 class="product-grid-item">
-                                <script>
-                                console.log('test', {
-                                    "id": 7814367314038,
-                                    "title": "STARS HOLLOW",
-                                    "handle": "stars-hollow",
-                                    "description": "\u003cp\u003e\u003cmeta charset=\"utf-8\"\u003eAll the feels of a back-to-school fall all in one box. It's almost like you're transported to study hall in a 100 year old library with nothing else to do but learn! From soothing Tea with Tae blends to a Fireside Flannel candle and a charming keychain, this box invites slow moments, cozy rituals, and a little everyday joy.\u003c\/p\u003e\n\u003cp\u003eInterested in corporate gifting in bulk? Learn more \u003ca href=\"https:\/\/shopboxfox.com\/pages\/new-corp\" target=\"_blank\"\u003ehere\u003c\/a\u003e.\u003cbr\u003e\u003cbr\u003eIncludes:\u003cbr\u003eMersea \/\/ Fireside Flannel Mini Tin Candle\u003cbr\u003eTea with Tae \/\/ Rooibos Chai Sahcets (2)\u003cbr\u003eRifle Paper Co. \/\/ Book Club Enamel Keychain\u003cbr\u003eStojo \/\/ 12oz Denim Collapsible Cup\u003cbr\u003eKeepsake Box \u0026amp; Handwritten Card\u003cbr\u003e\u003cbr\u003eEach carefully curated and hand-wrapped box ships as a gift, with a handwritten note and no pricing information. Orders take 1-3 days to process, after which you'll receive an email with tracking information. Whether you want to hand deliver your gifts or ship around the country, you can add separate notes and addresses at checkout.\u003c\/p\u003e",
-                                    "published_at": "2025-09-09T20:30:27-07:00",
-                                    "created_at": "2025-09-08T23:25:11-07:00",
-                                    "vendor": "BOXFOX",
-                                    "type": "Gift Box",
-                                    "tags": ["Build a BOXFOX", "Corporate Favorites", "RTS"],
-                                    "price": 5400,
-                                    "price_min": 5400,
-                                    "price_max": 5400,
-                                    "available": true,
-                                    "price_varies": false,
-                                    "compare_at_price": null,
-                                    "compare_at_price_min": 0,
-                                    "compare_at_price_max": 0,
-                                    "compare_at_price_varies": false,
-                                    "variants": [{
-                                        "id": 42539042766966,
-                                        "title": "Original Creme",
-                                        "option1": "Original Creme",
-                                        "option2": null,
-                                        "option3": null,
-                                        "sku": "BOX-GFT-STRS-HLW-F25-1",
-                                        "requires_shipping": true,
-                                        "taxable": true,
-                                        "featured_image": null,
-                                        "available": true,
-                                        "name": "STARS HOLLOW - Original Creme",
-                                        "public_title": "Original Creme",
-                                        "options": ["Original Creme"],
-                                        "price": 5400,
-                                        "weight": 2041,
-                                        "compare_at_price": null,
-                                        "inventory_quantity": 13,
-                                        "inventory_management": "shopify",
-                                        "inventory_policy": "deny",
-                                        "barcode": "",
-                                        "requires_selling_plan": false,
-                                        "selling_plan_allocations": [],
-                                        "quantity_rule": {
-                                            "min": 1,
-                                            "max": null,
-                                            "increment": 1
-                                        }
-                                    }],
-                                    "images": [
-                                        "\/\/boxfox.com\/cdn\/shop\/files\/BOXFOXSTARSHOLLOWCropped.png?v=1757460878",
-                                        "\/\/boxfox.com\/cdn\/shop\/files\/CREMESTARSHOLLOWBOXTOP45.png?v=1757461905",
-                                        "\/\/boxfox.com\/cdn\/shop\/files\/BLACKSTARSHOLLOW.png?v=1757461905",
-                                        "\/\/boxfox.com\/cdn\/shop\/files\/CREMESTARSHOLLOWBOXTOP.png?v=1757461905"
-                                    ],
-                                    "featured_image": "\/\/boxfox.com\/cdn\/shop\/files\/BOXFOXSTARSHOLLOWCropped.png?v=1757460878",
-                                    "options": ["AANVIO Color"],
-                                    "media": [{
-                                        "alt": "Gift box with 'Box Fox' branding, keychain, and small items on a dark blue background",
-                                        "id": 26312091566198,
-                                        "position": 1,
-                                        "preview_image": {
-                                            "aspect_ratio": 1.0,
-                                            "height": 3912,
-                                            "width": 3912,
-                                            "src": "\/\/boxfox.com\/cdn\/shop\/files\/BOXFOXSTARSHOLLOWCropped.png?v=1757460878"
-                                        },
-                                        "aspect_ratio": 1.0,
-                                        "height": 3912,
-                                        "media_type": "image",
-                                        "src": "\/\/boxfox.com\/cdn\/shop\/files\/BOXFOXSTARSHOLLOWCropped.png?v=1757460878",
-                                        "width": 3912
-                                    }, {
-                                        "alt": "Keychain with book design on a box of candles and stationery items",
-                                        "id": 26312215101558,
-                                        "position": 2,
-                                        "preview_image": {
-                                            "aspect_ratio": 1.0,
-                                            "height": 2500,
-                                            "width": 2500,
-                                            "src": "\/\/boxfox.com\/cdn\/shop\/files\/CREMESTARSHOLLOWBOXTOP45.png?v=1757461905"
-                                        },
-                                        "aspect_ratio": 1.0,
-                                        "height": 2500,
-                                        "media_type": "image",
-                                        "src": "\/\/boxfox.com\/cdn\/shop\/files\/CREMESTARSHOLLOWBOXTOP45.png?v=1757461905",
-                                        "width": 2500
-                                    }, {
-                                        "alt": "Keychain with book design packaging on a white background",
-                                        "id": 26312214904950,
-                                        "position": 3,
-                                        "preview_image": {
-                                            "aspect_ratio": 1.0,
-                                            "height": 3119,
-                                            "width": 3119,
-                                            "src": "\/\/boxfox.com\/cdn\/shop\/files\/BLACKSTARSHOLLOW.png?v=1757461905"
-                                        },
-                                        "aspect_ratio": 1.0,
-                                        "height": 3119,
-                                        "media_type": "image",
-                                        "src": "\/\/boxfox.com\/cdn\/shop\/files\/BLACKSTARSHOLLOW.png?v=1757461905",
-                                        "width": 3119
-                                    }, {
-                                        "alt": "Gift box with 'Box Fox' branding, candle, and keychain on a white background",
-                                        "id": 26312214970486,
-                                        "position": 4,
-                                        "preview_image": {
-                                            "aspect_ratio": 1.0,
-                                            "height": 4124,
-                                            "width": 4124,
-                                            "src": "\/\/boxfox.com\/cdn\/shop\/files\/CREMESTARSHOLLOWBOXTOP.png?v=1757461905"
-                                        },
-                                        "aspect_ratio": 1.0,
-                                        "height": 4124,
-                                        "media_type": "image",
-                                        "src": "\/\/boxfox.com\/cdn\/shop\/files\/CREMESTARSHOLLOWBOXTOP.png?v=1757461905",
-                                        "width": 4124
-                                    }],
-                                    "requires_selling_plan": false,
-                                    "selling_plan_groups": [],
-                                    "content": "\u003cp\u003e\u003cmeta charset=\"utf-8\"\u003eAll the feels of a back-to-school fall all in one box. It's almost like you're transported to study hall in a 100 year old library with nothing else to do but learn! From soothing Tea with Tae blends to a Fireside Flannel candle and a charming keychain, this box invites slow moments, cozy rituals, and a little everyday joy.\u003c\/p\u003e\n\u003cp\u003eInterested in corporate gifting in bulk? Learn more \u003ca href=\"https:\/\/shopboxfox.com\/pages\/new-corp\" target=\"_blank\"\u003ehere\u003c\/a\u003e.\u003cbr\u003e\u003cbr\u003eIncludes:\u003cbr\u003eMersea \/\/ Fireside Flannel Mini Tin Candle\u003cbr\u003eTea with Tae \/\/ Rooibos Chai Sahcets (2)\u003cbr\u003eRifle Paper Co. \/\/ Book Club Enamel Keychain\u003cbr\u003eStojo \/\/ 12oz Denim Collapsible Cup\u003cbr\u003eKeepsake Box \u0026amp; Handwritten Card\u003cbr\u003e\u003cbr\u003eEach carefully curated and hand-wrapped box ships as a gift, with a handwritten note and no pricing information. Orders take 1-3 days to process, after which you'll receive an email with tracking information. Whether you want to hand deliver your gifts or ship around the country, you can add separate notes and addresses at checkout.\u003c\/p\u003e"
-                                })
-                                </script>
 
-                                <!-- /snippets/product-grid-item-variant.liquid -->
+
+
 
 
                                 <product-grid-item-variant class="product-grid-item__content is-slideshow"
@@ -1545,7 +1419,7 @@
                                                     data-grid-image="0" data-grid-image-target="26312091566198"
                                                     data-variant-id="" loading="lazy" data-grid-current-image="">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/BOXFOXSTARSHOLLOWCropped.png?v=1757460878&amp;width=3912"
@@ -1563,7 +1437,7 @@
                                                     data-grid-image="1" data-grid-image-target="26312215101558"
                                                     data-variant-id="" loading="eager">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/CREMESTARSHOLLOWBOXTOP45.png?v=1757461905&amp;width=2500"
@@ -1581,7 +1455,7 @@
                                                     data-grid-image="2" data-grid-image-target="26312214904950"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/BLACKSTARSHOLLOW.png?v=1757461905&amp;width=3119"
@@ -1599,7 +1473,7 @@
                                                     data-grid-image="3" data-grid-image-target="26312214970486"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/CREMESTARSHOLLOWBOXTOP.png?v=1757461905&amp;width=4124"
@@ -1616,7 +1490,7 @@
                                         </a>
 
                                         <div class="product-grid-item__actions">
-                                            <!-- /snippets/button-instant-add.liquid -->
+
                                             <form method="post" action="/cart/add" id="product_form_7814367314038"
                                                 accept-charset="UTF-8" class="shopify-product-form"
                                                 enctype="multipart/form-data"><input type="hidden" name="form_type"
@@ -1698,136 +1572,13 @@
                                     </div>
                                 </div>
                             </product-grid-item>
-                            <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                             <product-grid-item aria-label="CINNAMON SWIRL" data-id="42539055513718"
                                 class="product-grid-item">
-                                <script>
-                                console.log('test', {
-                                    "id": 7814370918518,
-                                    "title": "CINNAMON SWIRL",
-                                    "handle": "cinnamon-swirl",
-                                    "description": "\u003cp\u003e\u003cmeta charset=\"utf-8\"\u003eA cozy, fall weekend morning in a box. This autumn-inspired curation brings all the warm and golden notes of the season. Featuring a Pumpkin candle, Cinnamon Roll chocolate, and luxe self-care essentials, it’s the sweetest way to send comfort and fall magic to anyone on your list.\u003c\/p\u003e\n\u003cp\u003eInterested in corporate gifting in bulk? Learn more \u003ca href=\"https:\/\/shopboxfox.com\/pages\/new-corp\" target=\"_blank\"\u003ehere\u003c\/a\u003e.\u003cbr\u003e\u003cbr\u003eIncludes:\u003cbr\u003eMersea \/\/ Pumpkin Whimsea Mini Tin Candle\u003cbr\u003eGoodio \/\/ Cinnamon Roll Chocolate Bar\u003cbr\u003eESW \/\/ Vanilla Almond Butter Smoothie Lip Treatment\u003cbr\u003eVivie \/\/ Brown Claw Clip\u003cbr\u003eKeepsake Box \u0026amp; Handwritten Card\u003cbr\u003e\u003cbr\u003eEach carefully curated and hand-wrapped box ships as a gift, with a handwritten note and no pricing information. Orders take 1-3 days to process, after which you'll receive an email with tracking information. Whether you want to hand deliver your gifts or ship around the country, you can add separate notes and addresses at checkout.\u003c\/p\u003e",
-                                    "published_at": "2025-09-09T20:30:34-07:00",
-                                    "created_at": "2025-09-08T23:30:11-07:00",
-                                    "vendor": "BOXFOX",
-                                    "type": "Gift Box",
-                                    "tags": ["Build a BOXFOX", "Corporate Favorites", "RTS"],
-                                    "price": 5400,
-                                    "price_min": 5400,
-                                    "price_max": 5400,
-                                    "available": true,
-                                    "price_varies": false,
-                                    "compare_at_price": null,
-                                    "compare_at_price_min": 0,
-                                    "compare_at_price_max": 0,
-                                    "compare_at_price_varies": false,
-                                    "variants": [{
-                                        "id": 42539055513718,
-                                        "title": "Original Creme",
-                                        "option1": "Original Creme",
-                                        "option2": null,
-                                        "option3": null,
-                                        "sku": "BOX-GFT-CNM-F25-1",
-                                        "requires_shipping": true,
-                                        "taxable": true,
-                                        "featured_image": null,
-                                        "available": true,
-                                        "name": "CINNAMON SWIRL - Original Creme",
-                                        "public_title": "Original Creme",
-                                        "options": ["Original Creme"],
-                                        "price": 5400,
-                                        "weight": 2041,
-                                        "compare_at_price": null,
-                                        "inventory_quantity": 11,
-                                        "inventory_management": "shopify",
-                                        "inventory_policy": "deny",
-                                        "barcode": "",
-                                        "requires_selling_plan": false,
-                                        "selling_plan_allocations": [],
-                                        "quantity_rule": {
-                                            "min": 1,
-                                            "max": null,
-                                            "increment": 1
-                                        }
-                                    }],
-                                    "images": [
-                                        "\/\/boxfox.com\/cdn\/shop\/files\/CINNAMONSWIRLBOXFOX.png?v=1757460274",
-                                        "\/\/boxfox.com\/cdn\/shop\/files\/CREMECINNAMONROLLBOXTOP_3eacc20c-c35f-4f11-8e6c-e89118c6307b.png?v=1757460274",
-                                        "\/\/boxfox.com\/cdn\/shop\/files\/CREMECINNAMONROLL45.png?v=1757460274",
-                                        "\/\/boxfox.com\/cdn\/shop\/files\/CREMECINNAMONROLL.png?v=1757460274"
-                                    ],
-                                    "featured_image": "\/\/boxfox.com\/cdn\/shop\/files\/CINNAMONSWIRLBOXFOX.png?v=1757460274",
-                                    "options": ["AANVIO Color"],
-                                    "media": [{
-                                        "alt": null,
-                                        "id": 26311978319990,
-                                        "position": 1,
-                                        "preview_image": {
-                                            "aspect_ratio": 1.0,
-                                            "height": 1369,
-                                            "width": 1369,
-                                            "src": "\/\/boxfox.com\/cdn\/shop\/files\/CINNAMONSWIRLBOXFOX.png?v=1757460274"
-                                        },
-                                        "aspect_ratio": 1.0,
-                                        "height": 1369,
-                                        "media_type": "image",
-                                        "src": "\/\/boxfox.com\/cdn\/shop\/files\/CINNAMONSWIRLBOXFOX.png?v=1757460274",
-                                        "width": 1369
-                                    }, {
-                                        "alt": null,
-                                        "id": 26311965573238,
-                                        "position": 2,
-                                        "preview_image": {
-                                            "aspect_ratio": 1.0,
-                                            "height": 4065,
-                                            "width": 4065,
-                                            "src": "\/\/boxfox.com\/cdn\/shop\/files\/CREMECINNAMONROLLBOXTOP_3eacc20c-c35f-4f11-8e6c-e89118c6307b.png?v=1757460274"
-                                        },
-                                        "aspect_ratio": 1.0,
-                                        "height": 4065,
-                                        "media_type": "image",
-                                        "src": "\/\/boxfox.com\/cdn\/shop\/files\/CREMECINNAMONROLLBOXTOP_3eacc20c-c35f-4f11-8e6c-e89118c6307b.png?v=1757460274",
-                                        "width": 4065
-                                    }, {
-                                        "alt": null,
-                                        "id": 26311970422902,
-                                        "position": 3,
-                                        "preview_image": {
-                                            "aspect_ratio": 1.0,
-                                            "height": 2500,
-                                            "width": 2500,
-                                            "src": "\/\/boxfox.com\/cdn\/shop\/files\/CREMECINNAMONROLL45.png?v=1757460274"
-                                        },
-                                        "aspect_ratio": 1.0,
-                                        "height": 2500,
-                                        "media_type": "image",
-                                        "src": "\/\/boxfox.com\/cdn\/shop\/files\/CREMECINNAMONROLL45.png?v=1757460274",
-                                        "width": 2500
-                                    }, {
-                                        "alt": null,
-                                        "id": 26311965606006,
-                                        "position": 4,
-                                        "preview_image": {
-                                            "aspect_ratio": 1.0,
-                                            "height": 3440,
-                                            "width": 3440,
-                                            "src": "\/\/boxfox.com\/cdn\/shop\/files\/CREMECINNAMONROLL.png?v=1757460274"
-                                        },
-                                        "aspect_ratio": 1.0,
-                                        "height": 3440,
-                                        "media_type": "image",
-                                        "src": "\/\/boxfox.com\/cdn\/shop\/files\/CREMECINNAMONROLL.png?v=1757460274",
-                                        "width": 3440
-                                    }],
-                                    "requires_selling_plan": false,
-                                    "selling_plan_groups": [],
-                                    "content": "\u003cp\u003e\u003cmeta charset=\"utf-8\"\u003eA cozy, fall weekend morning in a box. This autumn-inspired curation brings all the warm and golden notes of the season. Featuring a Pumpkin candle, Cinnamon Roll chocolate, and luxe self-care essentials, it’s the sweetest way to send comfort and fall magic to anyone on your list.\u003c\/p\u003e\n\u003cp\u003eInterested in corporate gifting in bulk? Learn more \u003ca href=\"https:\/\/shopboxfox.com\/pages\/new-corp\" target=\"_blank\"\u003ehere\u003c\/a\u003e.\u003cbr\u003e\u003cbr\u003eIncludes:\u003cbr\u003eMersea \/\/ Pumpkin Whimsea Mini Tin Candle\u003cbr\u003eGoodio \/\/ Cinnamon Roll Chocolate Bar\u003cbr\u003eESW \/\/ Vanilla Almond Butter Smoothie Lip Treatment\u003cbr\u003eVivie \/\/ Brown Claw Clip\u003cbr\u003eKeepsake Box \u0026amp; Handwritten Card\u003cbr\u003e\u003cbr\u003eEach carefully curated and hand-wrapped box ships as a gift, with a handwritten note and no pricing information. Orders take 1-3 days to process, after which you'll receive an email with tracking information. Whether you want to hand deliver your gifts or ship around the country, you can add separate notes and addresses at checkout.\u003c\/p\u003e"
-                                })
-                                </script>
 
-                                <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                                 <product-grid-item-variant class="product-grid-item__content is-slideshow"
@@ -1850,7 +1601,7 @@
                                                     data-grid-image="0" data-grid-image-target="26311978319990"
                                                     data-variant-id="" loading="lazy" data-grid-current-image="">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/CINNAMONSWIRLBOXFOX.png?v=1757460274&amp;width=1369"
@@ -1867,7 +1618,7 @@
                                                     data-grid-image="1" data-grid-image-target="26311965573238"
                                                     data-variant-id="" loading="eager">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/CREMECINNAMONROLLBOXTOP_3eacc20c-c35f-4f11-8e6c-e89118c6307b.png?v=1757460274&amp;width=4065"
@@ -1884,7 +1635,7 @@
                                                     data-grid-image="2" data-grid-image-target="26311970422902"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/CREMECINNAMONROLL45.png?v=1757460274&amp;width=2500"
@@ -1901,7 +1652,7 @@
                                                     data-grid-image="3" data-grid-image-target="26311965606006"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/CREMECINNAMONROLL.png?v=1757460274&amp;width=3440"
@@ -1917,7 +1668,7 @@
                                         </a>
 
                                         <div class="product-grid-item__actions">
-                                            <!-- /snippets/button-instant-add.liquid -->
+
                                             <form method="post" action="/cart/add" id="product_form_7814370918518"
                                                 accept-charset="UTF-8" class="shopify-product-form"
                                                 enctype="multipart/form-data"><input type="hidden" name="form_type"
@@ -2000,7 +1751,7 @@
                                     </div>
                                 </div>
                             </product-grid-item>
-                            <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                             <product-grid-item aria-label="WHISKEY BUSINESS" data-id="39852328288374"
@@ -2149,7 +1900,7 @@
                                 })
                                 </script>
 
-                                <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                                 <product-grid-item-variant class="product-grid-item__content is-slideshow"
@@ -2172,7 +1923,7 @@
                                                     data-grid-image="0" data-grid-image-target="26038062219382"
                                                     data-variant-id="" loading="lazy" data-grid-current-image="">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/whiskey_business.jpg?v=1751315231&amp;width=3756"
@@ -2189,7 +1940,7 @@
                                                     data-grid-image="1" data-grid-image-target="26038062153846"
                                                     data-variant-id="" loading="eager">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/whiskey_business_boxtop.jpg?v=1751315231&amp;width=4424"
@@ -2206,7 +1957,7 @@
                                                     data-grid-image="2" data-grid-image-target="26038062088310"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/whiskey_business_45_f3923716-b40d-4b89-885f-49c30dc206d9.jpg?v=1751315231&amp;width=4480"
@@ -2223,7 +1974,7 @@
                                                     data-grid-image="3" data-grid-image-target="26038062252150"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/whiskey_business_boxtop_45.jpg?v=1751315231&amp;width=4480"
@@ -2240,7 +1991,7 @@
                                                     data-grid-image="4" data-grid-image-target="26038062055542"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/whiskey_business_45.jpg?v=1751315231&amp;width=4480"
@@ -2256,7 +2007,7 @@
                                         </a>
 
                                         <div class="product-grid-item__actions">
-                                            <!-- /snippets/button-instant-add.liquid -->
+
                                             <form method="post" action="/cart/add" id="product_form_4523124490358"
                                                 accept-charset="UTF-8" class="shopify-product-form"
                                                 enctype="multipart/form-data"><input type="hidden" name="form_type"
@@ -2339,7 +2090,7 @@
                                     </div>
                                 </div>
                             </product-grid-item>
-                            <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                             <product-grid-item aria-label="COFFEE" data-id="39852322324598" class="product-grid-item">
@@ -2560,7 +2311,7 @@
                                 })
                                 </script>
 
-                                <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                                 <product-grid-item-variant class="product-grid-item__content is-slideshow"
@@ -2583,7 +2334,7 @@
                                                     data-grid-image="0" data-grid-image-target="26073472270454"
                                                     data-variant-id="" loading="lazy" data-grid-current-image="">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/8u7a6335.png?v=1752165315&amp;width=3098"
@@ -2600,7 +2351,7 @@
                                                     data-grid-image="1" data-grid-image-target="26073472335990"
                                                     data-variant-id="" loading="eager">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/8u7a6335.png?v=1752165323&amp;width=3722"
@@ -2617,7 +2368,7 @@
                                                     data-grid-image="2" data-grid-image-target="26073484394614"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/Screenshot2025-07-10at9.38.10AM.png?v=1752165587&amp;width=2430"
@@ -2634,7 +2385,7 @@
                                                     data-grid-image="3" data-grid-image-target="26073472303222"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/8u7a6328.png?v=1752165587&amp;width=3880"
@@ -2651,7 +2402,7 @@
                                                     data-grid-image="4" data-grid-image-target="26073472368758"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/8u7a6321.png?v=1752165587&amp;width=4378"
@@ -2668,7 +2419,7 @@
                                                     data-grid-image="5" data-grid-image-target="26073485279350"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/Screenshot2025-07-10at9.39.16AM.png?v=1752165587&amp;width=2434"
@@ -2684,7 +2435,7 @@
                                         </a>
 
                                         <div class="product-grid-item__actions">
-                                            <!-- /snippets/button-instant-add.liquid -->
+
                                             <form method="post" action="/cart/add" id="product_form_3877348180086"
                                                 accept-charset="UTF-8" class="shopify-product-form"
                                                 enctype="multipart/form-data"><input type="hidden" name="form_type"
@@ -2715,7 +2466,7 @@
                                         </div>
                                     </div>
                                 </product-grid-item-variant>
-                                <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                                 <product-grid-item-variant class="product-grid-item__content is-slideshow"
@@ -2739,7 +2490,7 @@
                                                     data-grid-image="0" data-grid-image-target="26073472270454"
                                                     data-variant-id="" loading="lazy" data-grid-current-image="true">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/8u7a6335.png?v=1752165315&amp;width=3098"
@@ -2756,7 +2507,7 @@
                                                     data-grid-image="1" data-grid-image-target="26073472335990"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/8u7a6335.png?v=1752165323&amp;width=3722"
@@ -2773,7 +2524,7 @@
                                                     data-grid-image="2" data-grid-image-target="26073484394614"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/Screenshot2025-07-10at9.38.10AM.png?v=1752165587&amp;width=2430"
@@ -2790,7 +2541,7 @@
                                                     data-grid-image="3" data-grid-image-target="26073472303222"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/8u7a6328.png?v=1752165587&amp;width=3880"
@@ -2807,7 +2558,7 @@
                                                     data-grid-image="4" data-grid-image-target="26073472368758"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/8u7a6321.png?v=1752165587&amp;width=4378"
@@ -2824,7 +2575,7 @@
                                                     data-grid-image="5" data-grid-image-target="26073485279350"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/Screenshot2025-07-10at9.39.16AM.png?v=1752165587&amp;width=2434"
@@ -2840,7 +2591,7 @@
                                         </a>
 
                                         <div class="product-grid-item__actions">
-                                            <!-- /snippets/button-instant-add.liquid -->
+
                                             <form method="post" action="/cart/add" id="product_form_3877348180086"
                                                 accept-charset="UTF-8" class="shopify-product-form"
                                                 enctype="multipart/form-data"><input type="hidden" name="form_type"
@@ -2931,7 +2682,7 @@
                                     </div>
                                 </div>
                             </product-grid-item>
-                            <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                             <product-grid-item aria-label="SWEETS" data-id="42015509151862" class="product-grid-item">
@@ -3153,7 +2904,7 @@
                                 })
                                 </script>
 
-                                <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                                 <product-grid-item-variant class="product-grid-item__content is-slideshow"
@@ -3176,7 +2927,7 @@
                                                     data-grid-image="0" data-grid-image-target="25944777556086"
                                                     data-variant-id="" loading="lazy" data-grid-current-image="">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/Screenshot2025-06-10at2.46.31PM.png?v=1750459219&amp;width=2270"
@@ -3194,7 +2945,7 @@
                                                     data-grid-image="1" data-grid-image-target="26008272076918"
                                                     data-variant-id="" loading="eager">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/Screenshot2025-06-23at4.10.50PM.png?v=1750721010&amp;width=1015"
@@ -3212,7 +2963,7 @@
                                                     data-grid-image="2" data-grid-image-target="26008272109686"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/Screenshot2025-06-23at4.11.11PM.png?v=1750721010&amp;width=1454"
@@ -3230,7 +2981,7 @@
                                                     data-grid-image="3" data-grid-image-target="26008271978614"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/Screenshot2025-06-23at4.09.40PM.png?v=1750721010&amp;width=1466"
@@ -3248,7 +2999,7 @@
                                                     data-grid-image="4" data-grid-image-target="26008272175222"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/Screenshot2025-06-23at4.12.16PM.png?v=1750721010&amp;width=1368"
@@ -3266,7 +3017,7 @@
                                                     data-grid-image="5" data-grid-image-target="26008272207990"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/Screenshot2025-06-23at4.12.34PM.png?v=1750721010&amp;width=1000"
@@ -3283,7 +3034,7 @@
                                         </a>
 
                                         <div class="product-grid-item__actions">
-                                            <!-- /snippets/button-instant-add.liquid -->
+
                                             <form method="post" action="/cart/add" id="product_form_7673334071414"
                                                 accept-charset="UTF-8" class="shopify-product-form"
                                                 enctype="multipart/form-data"><input type="hidden" name="form_type"
@@ -3314,7 +3065,7 @@
                                         </div>
                                     </div>
                                 </product-grid-item-variant>
-                                <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                                 <product-grid-item-variant class="product-grid-item__content is-slideshow"
@@ -3338,7 +3089,7 @@
                                                     data-grid-image="0" data-grid-image-target="25944777556086"
                                                     data-variant-id="" loading="lazy" data-grid-current-image="true">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/Screenshot2025-06-10at2.46.31PM.png?v=1750459219&amp;width=2270"
@@ -3356,7 +3107,7 @@
                                                     data-grid-image="1" data-grid-image-target="26008272076918"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/Screenshot2025-06-23at4.10.50PM.png?v=1750721010&amp;width=1015"
@@ -3374,7 +3125,7 @@
                                                     data-grid-image="2" data-grid-image-target="26008272109686"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/Screenshot2025-06-23at4.11.11PM.png?v=1750721010&amp;width=1454"
@@ -3392,7 +3143,7 @@
                                                     data-grid-image="3" data-grid-image-target="26008271978614"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/Screenshot2025-06-23at4.09.40PM.png?v=1750721010&amp;width=1466"
@@ -3410,7 +3161,7 @@
                                                     data-grid-image="4" data-grid-image-target="26008272175222"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/Screenshot2025-06-23at4.12.16PM.png?v=1750721010&amp;width=1368"
@@ -3428,7 +3179,7 @@
                                                     data-grid-image="5" data-grid-image-target="26008272207990"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/Screenshot2025-06-23at4.12.34PM.png?v=1750721010&amp;width=1000"
@@ -3445,7 +3196,7 @@
                                         </a>
 
                                         <div class="product-grid-item__actions">
-                                            <!-- /snippets/button-instant-add.liquid -->
+
                                             <form method="post" action="/cart/add" id="product_form_7673334071414"
                                                 accept-charset="UTF-8" class="shopify-product-form"
                                                 enctype="multipart/form-data"><input type="hidden" name="form_type"
@@ -3537,7 +3288,7 @@
                                     </div>
                                 </div>
                             </product-grid-item>
-                            <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                             <product-grid-item aria-label="SWEETS FOR ALL" data-id="42015547523190"
@@ -3728,7 +3479,7 @@
                                 })
                                 </script>
 
-                                <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                                 <product-grid-item-variant class="product-grid-item__content is-slideshow"
@@ -3752,7 +3503,7 @@
                                                     data-grid-image="0" data-grid-image-target="25944742920310"
                                                     data-variant-id="" loading="lazy" data-grid-current-image="">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/Screenshot2025-06-10at2.32.08PM.png?v=1750459208&amp;width=2425"
@@ -3775,7 +3526,7 @@
                                                     data-grid-image="1" data-grid-image-target="26008264671350"
                                                     data-variant-id="" loading="eager">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/Screenshot2025-06-23at3.50.59PM.png?v=1750719658&amp;width=1458"
@@ -3798,7 +3549,7 @@
                                                     data-grid-image="2" data-grid-image-target="26008264704118"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/Screenshot2025-06-23at3.51.48PM.png?v=1750719679&amp;width=1462"
@@ -3821,7 +3572,7 @@
                                                     data-grid-image="3" data-grid-image-target="26008264736886"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/Screenshot2025-06-23at3.52.42PM.png?v=1750719716&amp;width=1407"
@@ -3844,7 +3595,7 @@
                                                     data-grid-image="4" data-grid-image-target="26008264769654"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/Screenshot2025-06-23at3.51.22PM.png?v=1750719754&amp;width=1462"
@@ -3867,7 +3618,7 @@
                                                     data-grid-image="5" data-grid-image-target="26008264835190"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/Screenshot2025-06-23at3.50.38PM.png?v=1750719793&amp;width=1212"
@@ -3889,7 +3640,7 @@
                                         </a>
 
                                         <div class="product-grid-item__actions">
-                                            <!-- /snippets/button-instant-add.liquid -->
+
                                             <form method="post" action="/cart/add" id="product_form_7673356189814"
                                                 accept-charset="UTF-8" class="shopify-product-form"
                                                 enctype="multipart/form-data"><input type="hidden" name="form_type"
@@ -3920,7 +3671,7 @@
                                         </div>
                                     </div>
                                 </product-grid-item-variant>
-                                <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                                 <product-grid-item-variant class="product-grid-item__content is-slideshow"
@@ -3945,7 +3696,7 @@
                                                     data-grid-image="0" data-grid-image-target="25944742920310"
                                                     data-variant-id="" loading="lazy" data-grid-current-image="true">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/Screenshot2025-06-10at2.32.08PM.png?v=1750459208&amp;width=2425"
@@ -3968,7 +3719,7 @@
                                                     data-grid-image="1" data-grid-image-target="26008264671350"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/Screenshot2025-06-23at3.50.59PM.png?v=1750719658&amp;width=1458"
@@ -3991,7 +3742,7 @@
                                                     data-grid-image="2" data-grid-image-target="26008264704118"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/Screenshot2025-06-23at3.51.48PM.png?v=1750719679&amp;width=1462"
@@ -4014,7 +3765,7 @@
                                                     data-grid-image="3" data-grid-image-target="26008264736886"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/Screenshot2025-06-23at3.52.42PM.png?v=1750719716&amp;width=1407"
@@ -4037,7 +3788,7 @@
                                                     data-grid-image="4" data-grid-image-target="26008264769654"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/Screenshot2025-06-23at3.51.22PM.png?v=1750719754&amp;width=1462"
@@ -4060,7 +3811,7 @@
                                                     data-grid-image="5" data-grid-image-target="26008264835190"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/Screenshot2025-06-23at3.50.38PM.png?v=1750719793&amp;width=1212"
@@ -4082,7 +3833,7 @@
                                         </a>
 
                                         <div class="product-grid-item__actions">
-                                            <!-- /snippets/button-instant-add.liquid -->
+
                                             <form method="post" action="/cart/add" id="product_form_7673356189814"
                                                 accept-charset="UTF-8" class="shopify-product-form"
                                                 enctype="multipart/form-data"><input type="hidden" name="form_type"
@@ -4175,7 +3926,7 @@
                                     </div>
                                 </div>
                             </product-grid-item>
-                            <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                             <product-grid-item aria-label="DANKE" data-id="39852324028534" class="product-grid-item">
@@ -4286,7 +4037,7 @@
                                 })
                                 </script>
 
-                                <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                                 <product-grid-item-variant class="product-grid-item__content is-slideshow"
@@ -4303,7 +4054,7 @@
                                                     data-grid-image="0" data-grid-image-target="24661744124022"
                                                     data-variant-id="" loading="lazy" data-grid-current-image="">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/danke_boxfox_2.jpg?v=1750460228&amp;width=3301"
@@ -4320,7 +4071,7 @@
                                         </a>
 
                                         <div class="product-grid-item__actions">
-                                            <!-- /snippets/button-instant-add.liquid -->
+
                                             <form method="post" action="/cart/add" id="product_form_11593075852"
                                                 accept-charset="UTF-8" class="shopify-product-form"
                                                 enctype="multipart/form-data"><input type="hidden" name="form_type"
@@ -4351,7 +4102,7 @@
                                         </div>
                                     </div>
                                 </product-grid-item-variant>
-                                <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                                 <product-grid-item-variant class="product-grid-item__content is-slideshow"
@@ -4369,7 +4120,7 @@
                                                     data-grid-image="0" data-grid-image-target="24661744124022"
                                                     data-variant-id="" loading="lazy" data-grid-current-image="true">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/danke_boxfox_2.jpg?v=1750460228&amp;width=3301"
@@ -4386,7 +4137,7 @@
                                         </a>
 
                                         <div class="product-grid-item__actions">
-                                            <!-- /snippets/button-instant-add.liquid -->
+
                                             <form method="post" action="/cart/add" id="product_form_11593075852"
                                                 accept-charset="UTF-8" class="shopify-product-form"
                                                 enctype="multipart/form-data"><input type="hidden" name="form_type"
@@ -4477,7 +4228,7 @@
                                     </div>
                                 </div>
                             </product-grid-item>
-                            <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                             <product-grid-item aria-label="THANKS" data-id="39852352536694" class="product-grid-item">
@@ -4718,7 +4469,7 @@
                                 })
                                 </script>
 
-                                <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                                 <product-grid-item-variant class="product-grid-item__content is-slideshow"
@@ -4741,7 +4492,7 @@
                                                     data-grid-image="0" data-grid-image-target="26038031024246"
                                                     data-variant-id="" loading="lazy" data-grid-current-image="">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/thanks_creme_boxtop.jpg?v=1751314730&amp;width=3889"
@@ -4758,7 +4509,7 @@
                                                     data-grid-image="1" data-grid-image-target="26038030991478"
                                                     data-variant-id="" loading="eager">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/thanks_creme_45.jpg?v=1751314730&amp;width=4480"
@@ -4775,7 +4526,7 @@
                                                     data-grid-image="2" data-grid-image-target="26038030958710"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/thanks_creme_boxtop_45.jpg?v=1751314730&amp;width=4480"
@@ -4792,7 +4543,7 @@
                                                     data-grid-image="3" data-grid-image-target="26038031057014"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/thanks_creme.jpg?v=1751314730&amp;width=2696"
@@ -4809,7 +4560,7 @@
                                                     data-grid-image="4" data-grid-image-target="26038030827638"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/thanks_black_boxtop.jpg?v=1751314730&amp;width=4285"
@@ -4826,7 +4577,7 @@
                                                     data-grid-image="5" data-grid-image-target="26038030860406"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/thanks_black_45.jpg?v=1751314730&amp;width=4480"
@@ -4842,7 +4593,7 @@
                                         </a>
 
                                         <div class="product-grid-item__actions">
-                                            <!-- /snippets/button-instant-add.liquid -->
+
                                             <form method="post" action="/cart/add" id="product_form_350057255"
                                                 accept-charset="UTF-8" class="shopify-product-form"
                                                 enctype="multipart/form-data"><input type="hidden" name="form_type"
@@ -4873,7 +4624,7 @@
                                         </div>
                                     </div>
                                 </product-grid-item-variant>
-                                <!-- /snippets/product-grid-item-variant.liquid -->
+
 
 
                                 <product-grid-item-variant class="product-grid-item__content is-slideshow"
@@ -4897,7 +4648,7 @@
                                                     data-grid-image="0" data-grid-image-target="26038031024246"
                                                     data-variant-id="" loading="lazy" data-grid-current-image="true">
 
-                                                    <!-- /snippets/image.liquid -->
+
 
 
                                                     <img src="<?php echo BASE_URL; ?>images/thanks_creme_boxtop.jpg?v=1751314730&amp;width=3889"
@@ -4914,7 +4665,7 @@
                                                     data-grid-image="1" data-grid-image-target="26038030991478"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/thanks_creme_45.jpg?v=1751314730&amp;width=4480"
@@ -4931,7 +4682,7 @@
                                                     data-grid-image="2" data-grid-image-target="26038030958710"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/thanks_creme_boxtop_45.jpg?v=1751314730&amp;width=4480"
@@ -4948,7 +4699,7 @@
                                                     data-grid-image="3" data-grid-image-target="26038031057014"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/thanks_creme.jpg?v=1751314730&amp;width=2696"
@@ -4965,7 +4716,7 @@
                                                     data-grid-image="4" data-grid-image-target="26038030827638"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/thanks_black_boxtop.jpg?v=1751314730&amp;width=4285"
@@ -4982,7 +4733,7 @@
                                                     data-grid-image="5" data-grid-image-target="26038030860406"
                                                     data-variant-id="" loading="lazy">
                                                     <template>
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/thanks_black_45.jpg?v=1751314730&amp;width=4480"
@@ -4998,7 +4749,7 @@
                                         </a>
 
                                         <div class="product-grid-item__actions">
-                                            <!-- /snippets/button-instant-add.liquid -->
+
                                             <form method="post" action="/cart/add" id="product_form_350057255"
                                                 accept-charset="UTF-8" class="shopify-product-form"
                                                 enctype="multipart/form-data"><input type="hidden" name="form_type"
@@ -5097,7 +4848,7 @@
 
             </div>
             <div id="shopify-section-template--14655948128374__logos" class="shopify-section">
-                <!-- /sections/section-logos.liquid -->
+
 
 
 
@@ -5123,7 +4874,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/slack.png?v=1657823002&amp;width=140"
@@ -5143,7 +4894,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/home_depot.png?v=1657822940&amp;width=140"
@@ -5163,7 +4914,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/google.png?v=1657822911&amp;width=140"
@@ -5183,7 +4934,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/nespresso.png?v=1657822969&amp;width=140"
@@ -5204,7 +4955,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/youtube_cea42b19-0d7f-434d-81c0-8f811a9d54f6.png?v=1657822868&amp;width=140"
@@ -5225,7 +4976,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/nike.png?v=1657822895&amp;width=140"
@@ -5246,7 +4997,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/visa_6de2eeb1-b14c-411d-bebb-306aa180e349.png?v=1657822918&amp;width=140"
@@ -5267,7 +5018,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/salesforce.png?v=1657822994&amp;width=140"
@@ -5288,7 +5039,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/pinterest.png?v=1657822976&amp;width=140"
@@ -5309,7 +5060,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/sephora.png?v=1657822985&amp;width=140"
@@ -5330,7 +5081,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/amazon.png?v=1657822880&amp;width=140"
@@ -5351,7 +5102,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/adobe.png?v=1657822856&amp;width=140"
@@ -5371,7 +5122,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/hyatt.png?v=1657822946&amp;width=140"
@@ -5393,7 +5144,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/slack.png?v=1657823002&amp;width=140"
@@ -5413,7 +5164,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/home_depot.png?v=1657822940&amp;width=140"
@@ -5433,7 +5184,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/google.png?v=1657822911&amp;width=140"
@@ -5453,7 +5204,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/nespresso.png?v=1657822969&amp;width=140"
@@ -5474,7 +5225,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/youtube_cea42b19-0d7f-434d-81c0-8f811a9d54f6.png?v=1657822868&amp;width=140"
@@ -5495,7 +5246,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/nike.png?v=1657822895&amp;width=140"
@@ -5516,7 +5267,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/visa_6de2eeb1-b14c-411d-bebb-306aa180e349.png?v=1657822918&amp;width=140"
@@ -5537,7 +5288,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/salesforce.png?v=1657822994&amp;width=140"
@@ -5558,7 +5309,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/pinterest.png?v=1657822976&amp;width=140"
@@ -5579,7 +5330,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/sephora.png?v=1657822985&amp;width=140"
@@ -5600,7 +5351,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/amazon.png?v=1657822880&amp;width=140"
@@ -5621,7 +5372,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/adobe.png?v=1657822856&amp;width=140"
@@ -5641,7 +5392,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/hyatt.png?v=1657822946&amp;width=140"
@@ -5663,7 +5414,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/slack.png?v=1657823002&amp;width=140"
@@ -5683,7 +5434,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/home_depot.png?v=1657822940&amp;width=140"
@@ -5703,7 +5454,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/google.png?v=1657822911&amp;width=140"
@@ -5723,7 +5474,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/nespresso.png?v=1657822969&amp;width=140"
@@ -5744,7 +5495,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/youtube_cea42b19-0d7f-434d-81c0-8f811a9d54f6.png?v=1657822868&amp;width=140"
@@ -5765,7 +5516,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/nike.png?v=1657822895&amp;width=140"
@@ -5786,7 +5537,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/visa_6de2eeb1-b14c-411d-bebb-306aa180e349.png?v=1657822918&amp;width=140"
@@ -5807,7 +5558,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/salesforce.png?v=1657822994&amp;width=140"
@@ -5828,7 +5579,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/pinterest.png?v=1657822976&amp;width=140"
@@ -5849,7 +5600,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/sephora.png?v=1657822985&amp;width=140"
@@ -5870,7 +5621,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/amazon.png?v=1657822880&amp;width=140"
@@ -5891,7 +5642,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/adobe.png?v=1657822856&amp;width=140"
@@ -5911,7 +5662,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/hyatt.png?v=1657822946&amp;width=140"
@@ -5933,7 +5684,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/slack.png?v=1657823002&amp;width=140"
@@ -5953,7 +5704,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/home_depot.png?v=1657822940&amp;width=140"
@@ -5973,7 +5724,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/google.png?v=1657822911&amp;width=140"
@@ -5993,7 +5744,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/nespresso.png?v=1657822969&amp;width=140"
@@ -6014,7 +5765,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/youtube_cea42b19-0d7f-434d-81c0-8f811a9d54f6.png?v=1657822868&amp;width=140"
@@ -6035,7 +5786,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/nike.png?v=1657822895&amp;width=140"
@@ -6056,7 +5807,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/visa_6de2eeb1-b14c-411d-bebb-306aa180e349.png?v=1657822918&amp;width=140"
@@ -6077,7 +5828,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/salesforce.png?v=1657822994&amp;width=140"
@@ -6098,7 +5849,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/pinterest.png?v=1657822976&amp;width=140"
@@ -6119,7 +5870,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/sephora.png?v=1657822985&amp;width=140"
@@ -6140,7 +5891,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/amazon.png?v=1657822880&amp;width=140"
@@ -6161,7 +5912,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/adobe.png?v=1657822856&amp;width=140"
@@ -6181,7 +5932,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/hyatt.png?v=1657822946&amp;width=140"
@@ -6203,7 +5954,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/slack.png?v=1657823002&amp;width=140"
@@ -6223,7 +5974,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/home_depot.png?v=1657822940&amp;width=140"
@@ -6243,7 +5994,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/google.png?v=1657822911&amp;width=140"
@@ -6263,7 +6014,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/nespresso.png?v=1657822969&amp;width=140"
@@ -6284,7 +6035,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/youtube_cea42b19-0d7f-434d-81c0-8f811a9d54f6.png?v=1657822868&amp;width=140"
@@ -6305,7 +6056,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/nike.png?v=1657822895&amp;width=140"
@@ -6326,7 +6077,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/visa_6de2eeb1-b14c-411d-bebb-306aa180e349.png?v=1657822918&amp;width=140"
@@ -6347,7 +6098,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/salesforce.png?v=1657822994&amp;width=140"
@@ -6368,7 +6119,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/pinterest.png?v=1657822976&amp;width=140"
@@ -6389,7 +6140,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/sephora.png?v=1657822985&amp;width=140"
@@ -6410,7 +6161,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/amazon.png?v=1657822880&amp;width=140"
@@ -6431,7 +6182,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/adobe.png?v=1657822856&amp;width=140"
@@ -6451,7 +6202,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/hyatt.png?v=1657822946&amp;width=140"
@@ -6473,7 +6224,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/slack.png?v=1657823002&amp;width=140"
@@ -6493,7 +6244,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/home_depot.png?v=1657822940&amp;width=140"
@@ -6513,7 +6264,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/google.png?v=1657822911&amp;width=140"
@@ -6533,7 +6284,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/nespresso.png?v=1657822969&amp;width=140"
@@ -6554,7 +6305,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/youtube_cea42b19-0d7f-434d-81c0-8f811a9d54f6.png?v=1657822868&amp;width=140"
@@ -6575,7 +6326,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/nike.png?v=1657822895&amp;width=140"
@@ -6596,7 +6347,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/visa_6de2eeb1-b14c-411d-bebb-306aa180e349.png?v=1657822918&amp;width=140"
@@ -6617,7 +6368,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/salesforce.png?v=1657822994&amp;width=140"
@@ -6638,7 +6389,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/pinterest.png?v=1657822976&amp;width=140"
@@ -6659,7 +6410,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/sephora.png?v=1657822985&amp;width=140"
@@ -6680,7 +6431,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/amazon.png?v=1657822880&amp;width=140"
@@ -6701,7 +6452,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/adobe.png?v=1657822856&amp;width=140"
@@ -6721,7 +6472,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/hyatt.png?v=1657822946&amp;width=140"
@@ -6743,7 +6494,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/slack.png?v=1657823002&amp;width=140"
@@ -6763,7 +6514,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/home_depot.png?v=1657822940&amp;width=140"
@@ -6783,7 +6534,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/google.png?v=1657822911&amp;width=140"
@@ -6803,7 +6554,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/nespresso.png?v=1657822969&amp;width=140"
@@ -6824,7 +6575,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/youtube_cea42b19-0d7f-434d-81c0-8f811a9d54f6.png?v=1657822868&amp;width=140"
@@ -6845,7 +6596,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/nike.png?v=1657822895&amp;width=140"
@@ -6866,7 +6617,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/visa_6de2eeb1-b14c-411d-bebb-306aa180e349.png?v=1657822918&amp;width=140"
@@ -6887,7 +6638,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/salesforce.png?v=1657822994&amp;width=140"
@@ -6908,7 +6659,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/pinterest.png?v=1657822976&amp;width=140"
@@ -6929,7 +6680,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/sephora.png?v=1657822985&amp;width=140"
@@ -6950,7 +6701,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/amazon.png?v=1657822880&amp;width=140"
@@ -6971,7 +6722,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/adobe.png?v=1657822856&amp;width=140"
@@ -6991,7 +6742,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/hyatt.png?v=1657822946&amp;width=140"
@@ -7013,7 +6764,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/slack.png?v=1657823002&amp;width=140"
@@ -7033,7 +6784,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/home_depot.png?v=1657822940&amp;width=140"
@@ -7053,7 +6804,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/google.png?v=1657822911&amp;width=140"
@@ -7073,7 +6824,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/nespresso.png?v=1657822969&amp;width=140"
@@ -7094,7 +6845,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/youtube_cea42b19-0d7f-434d-81c0-8f811a9d54f6.png?v=1657822868&amp;width=140"
@@ -7115,7 +6866,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/nike.png?v=1657822895&amp;width=140"
@@ -7136,7 +6887,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/visa_6de2eeb1-b14c-411d-bebb-306aa180e349.png?v=1657822918&amp;width=140"
@@ -7157,7 +6908,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/salesforce.png?v=1657822994&amp;width=140"
@@ -7178,7 +6929,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/pinterest.png?v=1657822976&amp;width=140"
@@ -7199,7 +6950,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/sephora.png?v=1657822985&amp;width=140"
@@ -7220,7 +6971,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/amazon.png?v=1657822880&amp;width=140"
@@ -7241,7 +6992,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/adobe.png?v=1657822856&amp;width=140"
@@ -7261,7 +7012,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/hyatt.png?v=1657822946&amp;width=140"
@@ -7283,7 +7034,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/slack.png?v=1657823002&amp;width=140"
@@ -7303,7 +7054,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/home_depot.png?v=1657822940&amp;width=140"
@@ -7323,7 +7074,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/google.png?v=1657822911&amp;width=140"
@@ -7343,7 +7094,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/nespresso.png?v=1657822969&amp;width=140"
@@ -7364,7 +7115,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/youtube_cea42b19-0d7f-434d-81c0-8f811a9d54f6.png?v=1657822868&amp;width=140"
@@ -7385,7 +7136,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/nike.png?v=1657822895&amp;width=140"
@@ -7406,7 +7157,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/visa_6de2eeb1-b14c-411d-bebb-306aa180e349.png?v=1657822918&amp;width=140"
@@ -7427,7 +7178,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/salesforce.png?v=1657822994&amp;width=140"
@@ -7448,7 +7199,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/pinterest.png?v=1657822976&amp;width=140"
@@ -7469,7 +7220,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/sephora.png?v=1657822985&amp;width=140"
@@ -7490,7 +7241,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/amazon.png?v=1657822880&amp;width=140"
@@ -7511,7 +7262,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/adobe.png?v=1657822856&amp;width=140"
@@ -7531,7 +7282,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/hyatt.png?v=1657822946&amp;width=140"
@@ -7553,7 +7304,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/slack.png?v=1657823002&amp;width=140"
@@ -7573,7 +7324,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/home_depot.png?v=1657822940&amp;width=140"
@@ -7593,7 +7344,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/google.png?v=1657822911&amp;width=140"
@@ -7613,7 +7364,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/nespresso.png?v=1657822969&amp;width=140"
@@ -7634,7 +7385,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/youtube_cea42b19-0d7f-434d-81c0-8f811a9d54f6.png?v=1657822868&amp;width=140"
@@ -7655,7 +7406,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/nike.png?v=1657822895&amp;width=140"
@@ -7676,7 +7427,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/visa_6de2eeb1-b14c-411d-bebb-306aa180e349.png?v=1657822918&amp;width=140"
@@ -7697,7 +7448,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/salesforce.png?v=1657822994&amp;width=140"
@@ -7718,7 +7469,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/pinterest.png?v=1657822976&amp;width=140"
@@ -7739,7 +7490,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/sephora.png?v=1657822985&amp;width=140"
@@ -7760,7 +7511,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/amazon.png?v=1657822880&amp;width=140"
@@ -7781,7 +7532,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/adobe.png?v=1657822856&amp;width=140"
@@ -7801,7 +7552,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/hyatt.png?v=1657822946&amp;width=140"
@@ -7823,7 +7574,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/slack.png?v=1657823002&amp;width=140"
@@ -7843,7 +7594,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/home_depot.png?v=1657822940&amp;width=140"
@@ -7863,7 +7614,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/google.png?v=1657822911&amp;width=140"
@@ -7883,7 +7634,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/nespresso.png?v=1657822969&amp;width=140"
@@ -7904,7 +7655,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/youtube_cea42b19-0d7f-434d-81c0-8f811a9d54f6.png?v=1657822868&amp;width=140"
@@ -7925,7 +7676,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/nike.png?v=1657822895&amp;width=140"
@@ -7946,7 +7697,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/visa_6de2eeb1-b14c-411d-bebb-306aa180e349.png?v=1657822918&amp;width=140"
@@ -7967,7 +7718,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/salesforce.png?v=1657822994&amp;width=140"
@@ -7988,7 +7739,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/pinterest.png?v=1657822976&amp;width=140"
@@ -8009,7 +7760,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/sephora.png?v=1657822985&amp;width=140"
@@ -8030,7 +7781,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/amazon.png?v=1657822880&amp;width=140"
@@ -8051,7 +7802,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/adobe.png?v=1657822856&amp;width=140"
@@ -8071,7 +7822,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/hyatt.png?v=1657822946&amp;width=140"
@@ -8093,7 +7844,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/slack.png?v=1657823002&amp;width=140"
@@ -8113,7 +7864,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/home_depot.png?v=1657822940&amp;width=140"
@@ -8133,7 +7884,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/google.png?v=1657822911&amp;width=140"
@@ -8153,7 +7904,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/nespresso.png?v=1657822969&amp;width=140"
@@ -8174,7 +7925,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/youtube_cea42b19-0d7f-434d-81c0-8f811a9d54f6.png?v=1657822868&amp;width=140"
@@ -8195,7 +7946,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/nike.png?v=1657822895&amp;width=140"
@@ -8216,7 +7967,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/visa_6de2eeb1-b14c-411d-bebb-306aa180e349.png?v=1657822918&amp;width=140"
@@ -8237,7 +7988,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/salesforce.png?v=1657822994&amp;width=140"
@@ -8258,7 +8009,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/pinterest.png?v=1657822976&amp;width=140"
@@ -8279,7 +8030,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/sephora.png?v=1657822985&amp;width=140"
@@ -8300,7 +8051,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/amazon.png?v=1657822880&amp;width=140"
@@ -8321,7 +8072,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/adobe.png?v=1657822856&amp;width=140"
@@ -8341,7 +8092,7 @@
                                                         <div class="logo-bar__image">
 
 
-                                                            <!-- /snippets/image.liquid -->
+
 
 
                                                             <img src="<?php echo BASE_URL; ?>images/hyatt.png?v=1657822946&amp;width=140"
@@ -8363,7 +8114,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/slack.png?v=1657823002&amp;width=140"
@@ -8383,7 +8134,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/home_depot.png?v=1657822940&amp;width=140"
@@ -8403,7 +8154,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/google.png?v=1657822911&amp;width=140"
@@ -8423,7 +8174,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/nespresso.png?v=1657822969&amp;width=140"
@@ -8444,7 +8195,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/youtube_cea42b19-0d7f-434d-81c0-8f811a9d54f6.png?v=1657822868&amp;width=140"
@@ -8465,7 +8216,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/nike.png?v=1657822895&amp;width=140"
@@ -8486,7 +8237,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/visa_6de2eeb1-b14c-411d-bebb-306aa180e349.png?v=1657822918&amp;width=140"
@@ -8507,7 +8258,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/salesforce.png?v=1657822994&amp;width=140"
@@ -8528,7 +8279,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/pinterest.png?v=1657822976&amp;width=140"
@@ -8549,7 +8300,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/sephora.png?v=1657822985&amp;width=140"
@@ -8570,7 +8321,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/amazon.png?v=1657822880&amp;width=140"
@@ -8591,7 +8342,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/adobe.png?v=1657822856&amp;width=140"
@@ -8611,7 +8362,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/hyatt.png?v=1657822946&amp;width=140"
@@ -8638,7 +8389,7 @@
             </div>
             <div id="shopify-section-template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622"
                 class="shopify-section">
-                <!-- /sections/section-double.liquid -->
+
                 <section data-section-id="template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622"
                     data-section-type="custom-content" style="--PT: 36px; --PB: 0px; --BRICK-GUTTER: 0px; ">
                     <div class="section-padding wrapper--none" data-wrapper="">
@@ -8710,7 +8461,7 @@
 
                                     </div>
 
-                                    <!-- /snippets/hero.liquid -->
+
 
 
                                     <div class="image__hero__frame fade-in-child use_screen_one_half "
@@ -8719,7 +8470,7 @@
                                             <div class="image__hero__scale"
                                                 style="height: 100vw; transform: translate3d(0px, 15px, 0px);"
                                                 data-parallax-img="">
-                                                <!-- /snippets/image.liquid -->
+
 
 
                                                 <img src="<?php echo BASE_URL; ?>images/Holiday22-337_1_1.jpg?v=1686589162&amp;width=4455"
@@ -8774,7 +8525,7 @@
         </div>
         <div id="shopify-section-template--14655948128374__1b7ff409-e580-49b9-adbe-499f766e325b"
             class="shopify-section">
-            <!-- /sections/section-logos.liquid -->
+
 
             <div class="section-logos palette--light bg--neutral section-logos--tall" style="--PT: 36px; --PB: 36px; "
                 data-section-id="template--14655948128374__1b7ff409-e580-49b9-adbe-499f766e325b"
@@ -8800,7 +8551,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/forbes_0e8040f1-76a5-445d-bb87-87367d94cc07.png?v=1657741692&amp;width=140"
@@ -8821,7 +8572,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/racked_2a12cedd-74c0-4397-bbc2-2b7ff95f2757.png?v=1657741705&amp;width=140"
@@ -8842,7 +8593,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/refinery_29.png?v=1657741714&amp;width=140"
@@ -8863,7 +8614,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/people_ab48eb37-ce79-448b-b3ca-12ae0b9ff407.png?v=1657741775&amp;width=140"
@@ -8884,7 +8635,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/entrepreneur_66ca3bbd-2d81-4e95-a59d-f4f662a77405.png?v=1657741796&amp;width=140"
@@ -8905,7 +8656,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/glamour_f16f4596-be76-4eb9-8e8e-6ca72ed0d8eb.png?v=1657741806&amp;width=140"
@@ -8926,7 +8677,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/New-York-Times-Logo.jpg?v=1613529544&amp;width=140"
@@ -8947,7 +8698,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/inc_199de14b-b229-47b2-8fa5-644f98129999.png?v=1657741848&amp;width=140"
@@ -8968,7 +8719,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/elle_69b268b5-6a0c-4ac0-beb7-d6439dc3821b.png?v=1657741601&amp;width=140"
@@ -8989,7 +8740,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/bbc.png?v=1657741921&amp;width=140"
@@ -9010,7 +8761,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/gq_ded68769-9531-41f7-998b-27625886be39.png?v=1657741768&amp;width=140"
@@ -9031,7 +8782,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/marthastew.png?v=1657662819&amp;width=140"
@@ -9052,7 +8803,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/hello_giggles.png?v=1657741839&amp;width=140"
@@ -9073,7 +8824,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/tc_5e0a6cd9-aaaa-4273-a6f3-089c6c873cfe.png?v=1657741723&amp;width=140"
@@ -9094,7 +8845,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/vogue_44b0364b-8750-42e2-a160-b0a1c9ac10db.png?v=1657741754&amp;width=140"
@@ -9115,7 +8866,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/buzzfeed_8c657acf-ee4e-4651-9f91-36a80bfb91f9.png?v=1657741824&amp;width=140"
@@ -9136,7 +8887,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/hollywood.png?v=1657741940&amp;width=140"
@@ -9157,7 +8908,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/cosmo_10aa9e52-916a-4532-b10d-b2c307faf9cc.png?v=1657741995&amp;width=140"
@@ -9180,7 +8931,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/forbes_0e8040f1-76a5-445d-bb87-87367d94cc07.png?v=1657741692&amp;width=140"
@@ -9201,7 +8952,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/racked_2a12cedd-74c0-4397-bbc2-2b7ff95f2757.png?v=1657741705&amp;width=140"
@@ -9222,7 +8973,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/refinery_29.png?v=1657741714&amp;width=140"
@@ -9243,7 +8994,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/people_ab48eb37-ce79-448b-b3ca-12ae0b9ff407.png?v=1657741775&amp;width=140"
@@ -9264,7 +9015,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/entrepreneur_66ca3bbd-2d81-4e95-a59d-f4f662a77405.png?v=1657741796&amp;width=140"
@@ -9285,7 +9036,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/glamour_f16f4596-be76-4eb9-8e8e-6ca72ed0d8eb.png?v=1657741806&amp;width=140"
@@ -9306,7 +9057,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/New-York-Times-Logo.jpg?v=1613529544&amp;width=140"
@@ -9327,7 +9078,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/inc_199de14b-b229-47b2-8fa5-644f98129999.png?v=1657741848&amp;width=140"
@@ -9348,7 +9099,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/elle_69b268b5-6a0c-4ac0-beb7-d6439dc3821b.png?v=1657741601&amp;width=140"
@@ -9369,7 +9120,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/bbc.png?v=1657741921&amp;width=140"
@@ -9390,7 +9141,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/gq_ded68769-9531-41f7-998b-27625886be39.png?v=1657741768&amp;width=140"
@@ -9411,7 +9162,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/marthastew.png?v=1657662819&amp;width=140"
@@ -9432,7 +9183,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/hello_giggles.png?v=1657741839&amp;width=140"
@@ -9453,7 +9204,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/tc_5e0a6cd9-aaaa-4273-a6f3-089c6c873cfe.png?v=1657741723&amp;width=140"
@@ -9474,7 +9225,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/vogue_44b0364b-8750-42e2-a160-b0a1c9ac10db.png?v=1657741754&amp;width=140"
@@ -9495,7 +9246,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/buzzfeed_8c657acf-ee4e-4651-9f91-36a80bfb91f9.png?v=1657741824&amp;width=140"
@@ -9516,7 +9267,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/hollywood.png?v=1657741940&amp;width=140"
@@ -9537,7 +9288,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/cosmo_10aa9e52-916a-4532-b10d-b2c307faf9cc.png?v=1657741995&amp;width=140"
@@ -9560,7 +9311,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/forbes_0e8040f1-76a5-445d-bb87-87367d94cc07.png?v=1657741692&amp;width=140"
@@ -9581,7 +9332,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/racked_2a12cedd-74c0-4397-bbc2-2b7ff95f2757.png?v=1657741705&amp;width=140"
@@ -9602,7 +9353,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/refinery_29.png?v=1657741714&amp;width=140"
@@ -9623,7 +9374,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/people_ab48eb37-ce79-448b-b3ca-12ae0b9ff407.png?v=1657741775&amp;width=140"
@@ -9644,7 +9395,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/entrepreneur_66ca3bbd-2d81-4e95-a59d-f4f662a77405.png?v=1657741796&amp;width=140"
@@ -9665,7 +9416,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/glamour_f16f4596-be76-4eb9-8e8e-6ca72ed0d8eb.png?v=1657741806&amp;width=140"
@@ -9686,7 +9437,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/New-York-Times-Logo.jpg?v=1613529544&amp;width=140"
@@ -9707,7 +9458,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/inc_199de14b-b229-47b2-8fa5-644f98129999.png?v=1657741848&amp;width=140"
@@ -9728,7 +9479,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/elle_69b268b5-6a0c-4ac0-beb7-d6439dc3821b.png?v=1657741601&amp;width=140"
@@ -9749,7 +9500,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/bbc.png?v=1657741921&amp;width=140"
@@ -9770,7 +9521,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/gq_ded68769-9531-41f7-998b-27625886be39.png?v=1657741768&amp;width=140"
@@ -9791,7 +9542,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/marthastew.png?v=1657662819&amp;width=140"
@@ -9812,7 +9563,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/hello_giggles.png?v=1657741839&amp;width=140"
@@ -9833,7 +9584,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/tc_5e0a6cd9-aaaa-4273-a6f3-089c6c873cfe.png?v=1657741723&amp;width=140"
@@ -9854,7 +9605,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/vogue_44b0364b-8750-42e2-a160-b0a1c9ac10db.png?v=1657741754&amp;width=140"
@@ -9875,7 +9626,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/buzzfeed_8c657acf-ee4e-4651-9f91-36a80bfb91f9.png?v=1657741824&amp;width=140"
@@ -9896,7 +9647,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/hollywood.png?v=1657741940&amp;width=140"
@@ -9917,7 +9668,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/cosmo_10aa9e52-916a-4532-b10d-b2c307faf9cc.png?v=1657741995&amp;width=140"
@@ -9940,7 +9691,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/forbes_0e8040f1-76a5-445d-bb87-87367d94cc07.png?v=1657741692&amp;width=140"
@@ -9961,7 +9712,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/racked_2a12cedd-74c0-4397-bbc2-2b7ff95f2757.png?v=1657741705&amp;width=140"
@@ -9982,7 +9733,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/refinery_29.png?v=1657741714&amp;width=140"
@@ -10003,7 +9754,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/people_ab48eb37-ce79-448b-b3ca-12ae0b9ff407.png?v=1657741775&amp;width=140"
@@ -10024,7 +9775,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/entrepreneur_66ca3bbd-2d81-4e95-a59d-f4f662a77405.png?v=1657741796&amp;width=140"
@@ -10045,7 +9796,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/glamour_f16f4596-be76-4eb9-8e8e-6ca72ed0d8eb.png?v=1657741806&amp;width=140"
@@ -10066,7 +9817,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/New-York-Times-Logo.jpg?v=1613529544&amp;width=140"
@@ -10087,7 +9838,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/inc_199de14b-b229-47b2-8fa5-644f98129999.png?v=1657741848&amp;width=140"
@@ -10108,7 +9859,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/elle_69b268b5-6a0c-4ac0-beb7-d6439dc3821b.png?v=1657741601&amp;width=140"
@@ -10129,7 +9880,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/bbc.png?v=1657741921&amp;width=140"
@@ -10150,7 +9901,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/gq_ded68769-9531-41f7-998b-27625886be39.png?v=1657741768&amp;width=140"
@@ -10171,7 +9922,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/marthastew.png?v=1657662819&amp;width=140"
@@ -10192,7 +9943,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/hello_giggles.png?v=1657741839&amp;width=140"
@@ -10213,7 +9964,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/tc_5e0a6cd9-aaaa-4273-a6f3-089c6c873cfe.png?v=1657741723&amp;width=140"
@@ -10234,7 +9985,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/vogue_44b0364b-8750-42e2-a160-b0a1c9ac10db.png?v=1657741754&amp;width=140"
@@ -10255,7 +10006,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/buzzfeed_8c657acf-ee4e-4651-9f91-36a80bfb91f9.png?v=1657741824&amp;width=140"
@@ -10276,7 +10027,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/hollywood.png?v=1657741940&amp;width=140"
@@ -10297,7 +10048,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/cosmo_10aa9e52-916a-4532-b10d-b2c307faf9cc.png?v=1657741995&amp;width=140"
@@ -10320,7 +10071,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/forbes_0e8040f1-76a5-445d-bb87-87367d94cc07.png?v=1657741692&amp;width=140"
@@ -10341,7 +10092,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/racked_2a12cedd-74c0-4397-bbc2-2b7ff95f2757.png?v=1657741705&amp;width=140"
@@ -10362,7 +10113,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/refinery_29.png?v=1657741714&amp;width=140"
@@ -10383,7 +10134,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/people_ab48eb37-ce79-448b-b3ca-12ae0b9ff407.png?v=1657741775&amp;width=140"
@@ -10404,7 +10155,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/entrepreneur_66ca3bbd-2d81-4e95-a59d-f4f662a77405.png?v=1657741796&amp;width=140"
@@ -10425,7 +10176,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/glamour_f16f4596-be76-4eb9-8e8e-6ca72ed0d8eb.png?v=1657741806&amp;width=140"
@@ -10446,7 +10197,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/New-York-Times-Logo.jpg?v=1613529544&amp;width=140"
@@ -10467,7 +10218,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/inc_199de14b-b229-47b2-8fa5-644f98129999.png?v=1657741848&amp;width=140"
@@ -10488,7 +10239,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/elle_69b268b5-6a0c-4ac0-beb7-d6439dc3821b.png?v=1657741601&amp;width=140"
@@ -10509,7 +10260,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/bbc.png?v=1657741921&amp;width=140"
@@ -10530,7 +10281,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/gq_ded68769-9531-41f7-998b-27625886be39.png?v=1657741768&amp;width=140"
@@ -10551,7 +10302,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/marthastew.png?v=1657662819&amp;width=140"
@@ -10572,7 +10323,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/hello_giggles.png?v=1657741839&amp;width=140"
@@ -10593,7 +10344,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/tc_5e0a6cd9-aaaa-4273-a6f3-089c6c873cfe.png?v=1657741723&amp;width=140"
@@ -10614,7 +10365,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/vogue_44b0364b-8750-42e2-a160-b0a1c9ac10db.png?v=1657741754&amp;width=140"
@@ -10635,7 +10386,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/buzzfeed_8c657acf-ee4e-4651-9f91-36a80bfb91f9.png?v=1657741824&amp;width=140"
@@ -10656,7 +10407,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/hollywood.png?v=1657741940&amp;width=140"
@@ -10677,7 +10428,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/cosmo_10aa9e52-916a-4532-b10d-b2c307faf9cc.png?v=1657741995&amp;width=140"
@@ -10700,7 +10451,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/forbes_0e8040f1-76a5-445d-bb87-87367d94cc07.png?v=1657741692&amp;width=140"
@@ -10721,7 +10472,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/racked_2a12cedd-74c0-4397-bbc2-2b7ff95f2757.png?v=1657741705&amp;width=140"
@@ -10742,7 +10493,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/refinery_29.png?v=1657741714&amp;width=140"
@@ -10763,7 +10514,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/people_ab48eb37-ce79-448b-b3ca-12ae0b9ff407.png?v=1657741775&amp;width=140"
@@ -10784,7 +10535,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/entrepreneur_66ca3bbd-2d81-4e95-a59d-f4f662a77405.png?v=1657741796&amp;width=140"
@@ -10805,7 +10556,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/glamour_f16f4596-be76-4eb9-8e8e-6ca72ed0d8eb.png?v=1657741806&amp;width=140"
@@ -10826,7 +10577,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/New-York-Times-Logo.jpg?v=1613529544&amp;width=140"
@@ -10847,7 +10598,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/inc_199de14b-b229-47b2-8fa5-644f98129999.png?v=1657741848&amp;width=140"
@@ -10868,7 +10619,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/elle_69b268b5-6a0c-4ac0-beb7-d6439dc3821b.png?v=1657741601&amp;width=140"
@@ -10889,7 +10640,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/bbc.png?v=1657741921&amp;width=140"
@@ -10910,7 +10661,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/gq_ded68769-9531-41f7-998b-27625886be39.png?v=1657741768&amp;width=140"
@@ -10931,7 +10682,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/marthastew.png?v=1657662819&amp;width=140"
@@ -10952,7 +10703,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/hello_giggles.png?v=1657741839&amp;width=140"
@@ -10973,7 +10724,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/tc_5e0a6cd9-aaaa-4273-a6f3-089c6c873cfe.png?v=1657741723&amp;width=140"
@@ -10994,7 +10745,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/vogue_44b0364b-8750-42e2-a160-b0a1c9ac10db.png?v=1657741754&amp;width=140"
@@ -11015,7 +10766,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/buzzfeed_8c657acf-ee4e-4651-9f91-36a80bfb91f9.png?v=1657741824&amp;width=140"
@@ -11036,7 +10787,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/hollywood.png?v=1657741940&amp;width=140"
@@ -11057,7 +10808,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/cosmo_10aa9e52-916a-4532-b10d-b2c307faf9cc.png?v=1657741995&amp;width=140"
@@ -11080,7 +10831,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/forbes_0e8040f1-76a5-445d-bb87-87367d94cc07.png?v=1657741692&amp;width=140"
@@ -11101,7 +10852,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/racked_2a12cedd-74c0-4397-bbc2-2b7ff95f2757.png?v=1657741705&amp;width=140"
@@ -11122,7 +10873,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/refinery_29.png?v=1657741714&amp;width=140"
@@ -11143,7 +10894,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/people_ab48eb37-ce79-448b-b3ca-12ae0b9ff407.png?v=1657741775&amp;width=140"
@@ -11164,7 +10915,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/entrepreneur_66ca3bbd-2d81-4e95-a59d-f4f662a77405.png?v=1657741796&amp;width=140"
@@ -11185,7 +10936,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/glamour_f16f4596-be76-4eb9-8e8e-6ca72ed0d8eb.png?v=1657741806&amp;width=140"
@@ -11206,7 +10957,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/New-York-Times-Logo.jpg?v=1613529544&amp;width=140"
@@ -11227,7 +10978,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/inc_199de14b-b229-47b2-8fa5-644f98129999.png?v=1657741848&amp;width=140"
@@ -11248,7 +10999,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/elle_69b268b5-6a0c-4ac0-beb7-d6439dc3821b.png?v=1657741601&amp;width=140"
@@ -11269,7 +11020,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/bbc.png?v=1657741921&amp;width=140"
@@ -11290,7 +11041,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/gq_ded68769-9531-41f7-998b-27625886be39.png?v=1657741768&amp;width=140"
@@ -11311,7 +11062,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/marthastew.png?v=1657662819&amp;width=140"
@@ -11332,7 +11083,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/hello_giggles.png?v=1657741839&amp;width=140"
@@ -11353,7 +11104,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/tc_5e0a6cd9-aaaa-4273-a6f3-089c6c873cfe.png?v=1657741723&amp;width=140"
@@ -11374,7 +11125,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/vogue_44b0364b-8750-42e2-a160-b0a1c9ac10db.png?v=1657741754&amp;width=140"
@@ -11395,7 +11146,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/buzzfeed_8c657acf-ee4e-4651-9f91-36a80bfb91f9.png?v=1657741824&amp;width=140"
@@ -11416,7 +11167,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/hollywood.png?v=1657741940&amp;width=140"
@@ -11437,7 +11188,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/cosmo_10aa9e52-916a-4532-b10d-b2c307faf9cc.png?v=1657741995&amp;width=140"
@@ -11460,7 +11211,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/forbes_0e8040f1-76a5-445d-bb87-87367d94cc07.png?v=1657741692&amp;width=140"
@@ -11481,7 +11232,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/racked_2a12cedd-74c0-4397-bbc2-2b7ff95f2757.png?v=1657741705&amp;width=140"
@@ -11502,7 +11253,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/refinery_29.png?v=1657741714&amp;width=140"
@@ -11523,7 +11274,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/people_ab48eb37-ce79-448b-b3ca-12ae0b9ff407.png?v=1657741775&amp;width=140"
@@ -11544,7 +11295,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/entrepreneur_66ca3bbd-2d81-4e95-a59d-f4f662a77405.png?v=1657741796&amp;width=140"
@@ -11565,7 +11316,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/glamour_f16f4596-be76-4eb9-8e8e-6ca72ed0d8eb.png?v=1657741806&amp;width=140"
@@ -11586,7 +11337,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/New-York-Times-Logo.jpg?v=1613529544&amp;width=140"
@@ -11607,7 +11358,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/inc_199de14b-b229-47b2-8fa5-644f98129999.png?v=1657741848&amp;width=140"
@@ -11628,7 +11379,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/elle_69b268b5-6a0c-4ac0-beb7-d6439dc3821b.png?v=1657741601&amp;width=140"
@@ -11649,7 +11400,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/bbc.png?v=1657741921&amp;width=140"
@@ -11670,7 +11421,7 @@
                                                     <div class="logo-bar__image">
 
 
-                                                        <!-- /snippets/image.liquid -->
+
 
 
                                                         <img src="<?php echo BASE_URL; ?>images/gq_ded68769-9531-41f7-998b-27625886be39.png?v=1657741768&amp;width=140"
@@ -11689,7 +11440,7 @@
 
 
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/marthastew.png?v=1657662819&amp;width=140"
                                                             alt="" width="140" height="36" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -11705,7 +11456,7 @@
                                                     data-slide="e0f5b4fe-bc2b-401e-8630-973b97c52efa"
                                                     data-slide-index="12">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/hello_giggles.png?v=1657741839&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -11721,7 +11472,7 @@
                                                     data-slide="d7f3cfd8-b974-451f-98ef-dc6535ccc31d"
                                                     data-slide-index="13">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/tc_5e0a6cd9-aaaa-4273-a6f3-089c6c873cfe.png?v=1657741723&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -11737,7 +11488,7 @@
                                                     data-slide="50590f3a-1e73-4485-b316-21b167530ed1"
                                                     data-slide-index="14">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/vogue_44b0364b-8750-42e2-a160-b0a1c9ac10db.png?v=1657741754&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -11753,7 +11504,7 @@
                                                     data-slide="cb562161-3c69-46f8-955b-7da4a3f1f531"
                                                     data-slide-index="15">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/buzzfeed_8c657acf-ee4e-4651-9f91-36a80bfb91f9.png?v=1657741824&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -11769,7 +11520,7 @@
                                                     data-slide="1a127faf-131f-4e43-b478-2d39669bb6bf"
                                                     data-slide-index="16">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/hollywood.png?v=1657741940&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -11785,7 +11536,7 @@
                                                     data-slide="dd2c6d1c-5b93-460d-92fd-192cffeac0da"
                                                     data-slide-index="17">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/cosmo_10aa9e52-916a-4532-b10d-b2c307faf9cc.png?v=1657741995&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -11807,7 +11558,7 @@
                                                     data-slide="7cfd8d54-aa64-442d-ba8a-50d3558a8a1e"
                                                     data-slide-index="0">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/forbes_0e8040f1-76a5-445d-bb87-87367d94cc07.png?v=1657741692&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -11823,7 +11574,7 @@
                                                     data-slide="08c0c9b8-4dc8-4f42-9e60-c1611ff6d64e"
                                                     data-slide-index="1">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/racked_2a12cedd-74c0-4397-bbc2-2b7ff95f2757.png?v=1657741705&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -11839,7 +11590,7 @@
                                                     data-slide="b432543e-830f-458c-9b19-3b2786041d4f"
                                                     data-slide-index="2">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/refinery_29.png?v=1657741714&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -11855,7 +11606,7 @@
                                                     data-slide="132036b0-b4de-4679-be2a-5b33c575db21"
                                                     data-slide-index="3">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/people_ab48eb37-ce79-448b-b3ca-12ae0b9ff407.png?v=1657741775&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -11871,7 +11622,7 @@
                                                     data-slide="9d23b8d7-598b-4007-8e5b-8400d87e1620"
                                                     data-slide-index="4">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/entrepreneur_66ca3bbd-2d81-4e95-a59d-f4f662a77405.png?v=1657741796&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -11887,7 +11638,7 @@
                                                     data-slide="14738bf5-b41d-4f03-b13e-c3d2f001f5c8"
                                                     data-slide-index="5">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/glamour_f16f4596-be76-4eb9-8e8e-6ca72ed0d8eb.png?v=1657741806&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -11903,7 +11654,7 @@
                                                     data-slide="a7b42cc1-e586-4bdc-ab3b-e55c717ee5b2"
                                                     data-slide-index="6">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/New-York-Times-Logo.jpg?v=1613529544&amp;width=140"
                                                             alt="" width="140" height="44" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -11919,7 +11670,7 @@
                                                     data-slide="b851a361-4034-451a-a201-5116899885d0"
                                                     data-slide-index="7">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/inc_199de14b-b229-47b2-8fa5-644f98129999.png?v=1657741848&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -11935,7 +11686,7 @@
                                                     data-slide="d2f52dd6-5409-471c-b58a-2ee3d0c75da1"
                                                     data-slide-index="8">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/elle_69b268b5-6a0c-4ac0-beb7-d6439dc3821b.png?v=1657741601&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -11951,7 +11702,7 @@
                                                     data-slide="10edc393-cbb0-4cc1-a34f-436ed6954fe9"
                                                     data-slide-index="9">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/bbc.png?v=1657741921&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -11967,7 +11718,7 @@
                                                     data-slide="c3ce6039-09a2-4466-b2a0-dfe4d27d2bb0"
                                                     data-slide-index="10">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/gq_ded68769-9531-41f7-998b-27625886be39.png?v=1657741768&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -11983,7 +11734,7 @@
                                                     data-slide="d3823bd7-c4fd-4280-a8e1-b4096066bff2"
                                                     data-slide-index="11">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/marthastew.png?v=1657662819&amp;width=140"
                                                             alt="" width="140" height="36" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -11999,7 +11750,7 @@
                                                     data-slide="e0f5b4fe-bc2b-401e-8630-973b97c52efa"
                                                     data-slide-index="12">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/hello_giggles.png?v=1657741839&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12015,7 +11766,7 @@
                                                     data-slide="d7f3cfd8-b974-451f-98ef-dc6535ccc31d"
                                                     data-slide-index="13">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/tc_5e0a6cd9-aaaa-4273-a6f3-089c6c873cfe.png?v=1657741723&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12031,7 +11782,7 @@
                                                     data-slide="50590f3a-1e73-4485-b316-21b167530ed1"
                                                     data-slide-index="14">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/vogue_44b0364b-8750-42e2-a160-b0a1c9ac10db.png?v=1657741754&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12047,7 +11798,7 @@
                                                     data-slide="cb562161-3c69-46f8-955b-7da4a3f1f531"
                                                     data-slide-index="15">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/buzzfeed_8c657acf-ee4e-4651-9f91-36a80bfb91f9.png?v=1657741824&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12063,7 +11814,7 @@
                                                     data-slide="1a127faf-131f-4e43-b478-2d39669bb6bf"
                                                     data-slide-index="16">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/hollywood.png?v=1657741940&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12079,7 +11830,7 @@
                                                     data-slide="dd2c6d1c-5b93-460d-92fd-192cffeac0da"
                                                     data-slide-index="17">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/cosmo_10aa9e52-916a-4532-b10d-b2c307faf9cc.png?v=1657741995&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12101,7 +11852,7 @@
                                                     data-slide="7cfd8d54-aa64-442d-ba8a-50d3558a8a1e"
                                                     data-slide-index="0">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/forbes_0e8040f1-76a5-445d-bb87-87367d94cc07.png?v=1657741692&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12117,7 +11868,7 @@
                                                     data-slide="08c0c9b8-4dc8-4f42-9e60-c1611ff6d64e"
                                                     data-slide-index="1">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/racked_2a12cedd-74c0-4397-bbc2-2b7ff95f2757.png?v=1657741705&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12133,7 +11884,7 @@
                                                     data-slide="b432543e-830f-458c-9b19-3b2786041d4f"
                                                     data-slide-index="2">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/refinery_29.png?v=1657741714&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12149,7 +11900,7 @@
                                                     data-slide="132036b0-b4de-4679-be2a-5b33c575db21"
                                                     data-slide-index="3">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/people_ab48eb37-ce79-448b-b3ca-12ae0b9ff407.png?v=1657741775&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12165,7 +11916,7 @@
                                                     data-slide="9d23b8d7-598b-4007-8e5b-8400d87e1620"
                                                     data-slide-index="4">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/entrepreneur_66ca3bbd-2d81-4e95-a59d-f4f662a77405.png?v=1657741796&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12181,7 +11932,7 @@
                                                     data-slide="14738bf5-b41d-4f03-b13e-c3d2f001f5c8"
                                                     data-slide-index="5">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/glamour_f16f4596-be76-4eb9-8e8e-6ca72ed0d8eb.png?v=1657741806&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12197,7 +11948,7 @@
                                                     data-slide="a7b42cc1-e586-4bdc-ab3b-e55c717ee5b2"
                                                     data-slide-index="6">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/New-York-Times-Logo.jpg?v=1613529544&amp;width=140"
                                                             alt="" width="140" height="44" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12213,7 +11964,7 @@
                                                     data-slide="b851a361-4034-451a-a201-5116899885d0"
                                                     data-slide-index="7">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/inc_199de14b-b229-47b2-8fa5-644f98129999.png?v=1657741848&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12229,7 +11980,7 @@
                                                     data-slide="d2f52dd6-5409-471c-b58a-2ee3d0c75da1"
                                                     data-slide-index="8">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/elle_69b268b5-6a0c-4ac0-beb7-d6439dc3821b.png?v=1657741601&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12245,7 +11996,7 @@
                                                     data-slide="10edc393-cbb0-4cc1-a34f-436ed6954fe9"
                                                     data-slide-index="9">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/bbc.png?v=1657741921&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12261,7 +12012,7 @@
                                                     data-slide="c3ce6039-09a2-4466-b2a0-dfe4d27d2bb0"
                                                     data-slide-index="10">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/gq_ded68769-9531-41f7-998b-27625886be39.png?v=1657741768&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12277,7 +12028,7 @@
                                                     data-slide="d3823bd7-c4fd-4280-a8e1-b4096066bff2"
                                                     data-slide-index="11">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/marthastew.png?v=1657662819&amp;width=140"
                                                             alt="" width="140" height="36" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12293,7 +12044,7 @@
                                                     data-slide="e0f5b4fe-bc2b-401e-8630-973b97c52efa"
                                                     data-slide-index="12">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/hello_giggles.png?v=1657741839&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12309,7 +12060,7 @@
                                                     data-slide="d7f3cfd8-b974-451f-98ef-dc6535ccc31d"
                                                     data-slide-index="13">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/tc_5e0a6cd9-aaaa-4273-a6f3-089c6c873cfe.png?v=1657741723&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12325,7 +12076,7 @@
                                                     data-slide="50590f3a-1e73-4485-b316-21b167530ed1"
                                                     data-slide-index="14">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/vogue_44b0364b-8750-42e2-a160-b0a1c9ac10db.png?v=1657741754&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12341,7 +12092,7 @@
                                                     data-slide="cb562161-3c69-46f8-955b-7da4a3f1f531"
                                                     data-slide-index="15">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/buzzfeed_8c657acf-ee4e-4651-9f91-36a80bfb91f9.png?v=1657741824&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12357,7 +12108,7 @@
                                                     data-slide="1a127faf-131f-4e43-b478-2d39669bb6bf"
                                                     data-slide-index="16">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/hollywood.png?v=1657741940&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12373,7 +12124,7 @@
                                                     data-slide="dd2c6d1c-5b93-460d-92fd-192cffeac0da"
                                                     data-slide-index="17">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/cosmo_10aa9e52-916a-4532-b10d-b2c307faf9cc.png?v=1657741995&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12395,7 +12146,7 @@
                                                     data-slide="7cfd8d54-aa64-442d-ba8a-50d3558a8a1e"
                                                     data-slide-index="0">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/forbes_0e8040f1-76a5-445d-bb87-87367d94cc07.png?v=1657741692&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12411,7 +12162,7 @@
                                                     data-slide="08c0c9b8-4dc8-4f42-9e60-c1611ff6d64e"
                                                     data-slide-index="1">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/racked_2a12cedd-74c0-4397-bbc2-2b7ff95f2757.png?v=1657741705&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12427,7 +12178,7 @@
                                                     data-slide="b432543e-830f-458c-9b19-3b2786041d4f"
                                                     data-slide-index="2">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/refinery_29.png?v=1657741714&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12443,7 +12194,7 @@
                                                     data-slide="132036b0-b4de-4679-be2a-5b33c575db21"
                                                     data-slide-index="3">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/people_ab48eb37-ce79-448b-b3ca-12ae0b9ff407.png?v=1657741775&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12459,7 +12210,7 @@
                                                     data-slide="9d23b8d7-598b-4007-8e5b-8400d87e1620"
                                                     data-slide-index="4">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/entrepreneur_66ca3bbd-2d81-4e95-a59d-f4f662a77405.png?v=1657741796&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12475,7 +12226,7 @@
                                                     data-slide="14738bf5-b41d-4f03-b13e-c3d2f001f5c8"
                                                     data-slide-index="5">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/glamour_f16f4596-be76-4eb9-8e8e-6ca72ed0d8eb.png?v=1657741806&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12491,7 +12242,7 @@
                                                     data-slide="a7b42cc1-e586-4bdc-ab3b-e55c717ee5b2"
                                                     data-slide-index="6">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/New-York-Times-Logo.jpg?v=1613529544&amp;width=140"
                                                             alt="" width="140" height="44" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12507,7 +12258,7 @@
                                                     data-slide="b851a361-4034-451a-a201-5116899885d0"
                                                     data-slide-index="7">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/inc_199de14b-b229-47b2-8fa5-644f98129999.png?v=1657741848&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12523,7 +12274,7 @@
                                                     data-slide="d2f52dd6-5409-471c-b58a-2ee3d0c75da1"
                                                     data-slide-index="8">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/elle_69b268b5-6a0c-4ac0-beb7-d6439dc3821b.png?v=1657741601&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12539,7 +12290,7 @@
                                                     data-slide="10edc393-cbb0-4cc1-a34f-436ed6954fe9"
                                                     data-slide-index="9">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/bbc.png?v=1657741921&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12555,7 +12306,7 @@
                                                     data-slide="c3ce6039-09a2-4466-b2a0-dfe4d27d2bb0"
                                                     data-slide-index="10">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/gq_ded68769-9531-41f7-998b-27625886be39.png?v=1657741768&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12571,7 +12322,7 @@
                                                     data-slide="d3823bd7-c4fd-4280-a8e1-b4096066bff2"
                                                     data-slide-index="11">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/marthastew.png?v=1657662819&amp;width=140"
                                                             alt="" width="140" height="36" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12587,7 +12338,7 @@
                                                     data-slide="e0f5b4fe-bc2b-401e-8630-973b97c52efa"
                                                     data-slide-index="12">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/hello_giggles.png?v=1657741839&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12603,7 +12354,7 @@
                                                     data-slide="d7f3cfd8-b974-451f-98ef-dc6535ccc31d"
                                                     data-slide-index="13">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/tc_5e0a6cd9-aaaa-4273-a6f3-089c6c873cfe.png?v=1657741723&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12619,7 +12370,7 @@
                                                     data-slide="50590f3a-1e73-4485-b316-21b167530ed1"
                                                     data-slide-index="14">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/vogue_44b0364b-8750-42e2-a160-b0a1c9ac10db.png?v=1657741754&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12635,7 +12386,7 @@
                                                     data-slide="cb562161-3c69-46f8-955b-7da4a3f1f531"
                                                     data-slide-index="15">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/buzzfeed_8c657acf-ee4e-4651-9f91-36a80bfb91f9.png?v=1657741824&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12651,7 +12402,7 @@
                                                     data-slide="1a127faf-131f-4e43-b478-2d39669bb6bf"
                                                     data-slide-index="16">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/hollywood.png?v=1657741940&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12667,7 +12418,7 @@
                                                     data-slide="dd2c6d1c-5b93-460d-92fd-192cffeac0da"
                                                     data-slide-index="17">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/cosmo_10aa9e52-916a-4532-b10d-b2c307faf9cc.png?v=1657741995&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12689,7 +12440,7 @@
                                                     data-slide="7cfd8d54-aa64-442d-ba8a-50d3558a8a1e"
                                                     data-slide-index="0">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/forbes_0e8040f1-76a5-445d-bb87-87367d94cc07.png?v=1657741692&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12705,7 +12456,7 @@
                                                     data-slide="08c0c9b8-4dc8-4f42-9e60-c1611ff6d64e"
                                                     data-slide-index="1">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/racked_2a12cedd-74c0-4397-bbc2-2b7ff95f2757.png?v=1657741705&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12721,7 +12472,7 @@
                                                     data-slide="b432543e-830f-458c-9b19-3b2786041d4f"
                                                     data-slide-index="2">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/refinery_29.png?v=1657741714&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12737,7 +12488,7 @@
                                                     data-slide="132036b0-b4de-4679-be2a-5b33c575db21"
                                                     data-slide-index="3">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/people_ab48eb37-ce79-448b-b3ca-12ae0b9ff407.png?v=1657741775&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12753,7 +12504,7 @@
                                                     data-slide="9d23b8d7-598b-4007-8e5b-8400d87e1620"
                                                     data-slide-index="4">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/entrepreneur_66ca3bbd-2d81-4e95-a59d-f4f662a77405.png?v=1657741796&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12769,7 +12520,7 @@
                                                     data-slide="14738bf5-b41d-4f03-b13e-c3d2f001f5c8"
                                                     data-slide-index="5">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/glamour_f16f4596-be76-4eb9-8e8e-6ca72ed0d8eb.png?v=1657741806&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12785,7 +12536,7 @@
                                                     data-slide="a7b42cc1-e586-4bdc-ab3b-e55c717ee5b2"
                                                     data-slide-index="6">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/New-York-Times-Logo.jpg?v=1613529544&amp;width=140"
                                                             alt="" width="140" height="44" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12801,7 +12552,7 @@
                                                     data-slide="b851a361-4034-451a-a201-5116899885d0"
                                                     data-slide-index="7">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/inc_199de14b-b229-47b2-8fa5-644f98129999.png?v=1657741848&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12817,7 +12568,7 @@
                                                     data-slide="d2f52dd6-5409-471c-b58a-2ee3d0c75da1"
                                                     data-slide-index="8">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/elle_69b268b5-6a0c-4ac0-beb7-d6439dc3821b.png?v=1657741601&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12833,7 +12584,7 @@
                                                     data-slide="10edc393-cbb0-4cc1-a34f-436ed6954fe9"
                                                     data-slide-index="9">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/bbc.png?v=1657741921&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12849,7 +12600,7 @@
                                                     data-slide="c3ce6039-09a2-4466-b2a0-dfe4d27d2bb0"
                                                     data-slide-index="10">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/gq_ded68769-9531-41f7-998b-27625886be39.png?v=1657741768&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12865,7 +12616,7 @@
                                                     data-slide="d3823bd7-c4fd-4280-a8e1-b4096066bff2"
                                                     data-slide-index="11">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/marthastew.png?v=1657662819&amp;width=140"
                                                             alt="" width="140" height="36" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12881,7 +12632,7 @@
                                                     data-slide="e0f5b4fe-bc2b-401e-8630-973b97c52efa"
                                                     data-slide-index="12">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/hello_giggles.png?v=1657741839&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12897,7 +12648,7 @@
                                                     data-slide="d7f3cfd8-b974-451f-98ef-dc6535ccc31d"
                                                     data-slide-index="13">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/tc_5e0a6cd9-aaaa-4273-a6f3-089c6c873cfe.png?v=1657741723&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12913,7 +12664,7 @@
                                                     data-slide="50590f3a-1e73-4485-b316-21b167530ed1"
                                                     data-slide-index="14">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/vogue_44b0364b-8750-42e2-a160-b0a1c9ac10db.png?v=1657741754&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12929,7 +12680,7 @@
                                                     data-slide="cb562161-3c69-46f8-955b-7da4a3f1f531"
                                                     data-slide-index="15">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/buzzfeed_8c657acf-ee4e-4651-9f91-36a80bfb91f9.png?v=1657741824&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12945,7 +12696,7 @@
                                                     data-slide="1a127faf-131f-4e43-b478-2d39669bb6bf"
                                                     data-slide-index="16">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/hollywood.png?v=1657741940&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12961,7 +12712,7 @@
                                                     data-slide="dd2c6d1c-5b93-460d-92fd-192cffeac0da"
                                                     data-slide-index="17">
                                                     <div class="logo-bar__image">
-                                                        <!-- /snippets/image.liquid -->
+
                                                         <img src="<?php echo BASE_URL; ?>images/cosmo_10aa9e52-916a-4532-b10d-b2c307faf9cc.png?v=1657741995&amp;width=140"
                                                             alt="" width="140" height="112" loading="lazy"
                                                             class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12982,7 +12733,7 @@
                                             <div class="logo-bar__item" style="--gutter: 50px; --width: 140px;"
                                                 data-slide="7cfd8d54-aa64-442d-ba8a-50d3558a8a1e" data-slide-index="0">
                                                 <div class="logo-bar__image">
-                                                    <!-- /snippets/image.liquid -->
+
                                                     <img src="<?php echo BASE_URL; ?>images/forbes_0e8040f1-76a5-445d-bb87-87367d94cc07.png?v=1657741692&amp;width=140"
                                                         alt="" width="140" height="112" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -12996,7 +12747,7 @@
                                             <div class="logo-bar__item" style="--gutter: 50px; --width: 140px;"
                                                 data-slide="08c0c9b8-4dc8-4f42-9e60-c1611ff6d64e" data-slide-index="1">
                                                 <div class="logo-bar__image">
-                                                    <!-- /snippets/image.liquid -->
+
                                                     <img src="<?php echo BASE_URL; ?>images/racked_2a12cedd-74c0-4397-bbc2-2b7ff95f2757.png?v=1657741705&amp;width=140"
                                                         alt="" width="140" height="112" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -13010,7 +12761,7 @@
                                             <div class="logo-bar__item" style="--gutter: 50px; --width: 140px;"
                                                 data-slide="b432543e-830f-458c-9b19-3b2786041d4f" data-slide-index="2">
                                                 <div class="logo-bar__image">
-                                                    <!-- /snippets/image.liquid -->
+
                                                     <img src="<?php echo BASE_URL; ?>images/refinery_29.png?v=1657741714&amp;width=140"
                                                         alt="" width="140" height="112" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -13024,7 +12775,7 @@
                                             <div class="logo-bar__item" style="--gutter: 50px; --width: 140px;"
                                                 data-slide="132036b0-b4de-4679-be2a-5b33c575db21" data-slide-index="3">
                                                 <div class="logo-bar__image">
-                                                    <!-- /snippets/image.liquid -->
+
                                                     <img src="<?php echo BASE_URL; ?>images/people_ab48eb37-ce79-448b-b3ca-12ae0b9ff407.png?v=1657741775&amp;width=140"
                                                         alt="" width="140" height="112" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -13038,7 +12789,7 @@
                                             <div class="logo-bar__item" style="--gutter: 50px; --width: 140px;"
                                                 data-slide="9d23b8d7-598b-4007-8e5b-8400d87e1620" data-slide-index="4">
                                                 <div class="logo-bar__image">
-                                                    <!-- /snippets/image.liquid -->
+
                                                     <img src="<?php echo BASE_URL; ?>images/entrepreneur_66ca3bbd-2d81-4e95-a59d-f4f662a77405.png?v=1657741796&amp;width=140"
                                                         alt="" width="140" height="112" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -13052,7 +12803,7 @@
                                             <div class="logo-bar__item" style="--gutter: 50px; --width: 140px;"
                                                 data-slide="14738bf5-b41d-4f03-b13e-c3d2f001f5c8" data-slide-index="5">
                                                 <div class="logo-bar__image">
-                                                    <!-- /snippets/image.liquid -->
+
                                                     <img src="<?php echo BASE_URL; ?>images/glamour_f16f4596-be76-4eb9-8e8e-6ca72ed0d8eb.png?v=1657741806&amp;width=140"
                                                         alt="" width="140" height="112" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -13066,7 +12817,7 @@
                                             <div class="logo-bar__item" style="--gutter: 50px; --width: 140px;"
                                                 data-slide="a7b42cc1-e586-4bdc-ab3b-e55c717ee5b2" data-slide-index="6">
                                                 <div class="logo-bar__image">
-                                                    <!-- /snippets/image.liquid -->
+
                                                     <img src="<?php echo BASE_URL; ?>images/New-York-Times-Logo.jpg?v=1613529544&amp;width=140"
                                                         alt="" width="140" height="44" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -13080,7 +12831,7 @@
                                             <div class="logo-bar__item" style="--gutter: 50px; --width: 140px;"
                                                 data-slide="b851a361-4034-451a-a201-5116899885d0" data-slide-index="7">
                                                 <div class="logo-bar__image">
-                                                    <!-- /snippets/image.liquid -->
+
                                                     <img src="<?php echo BASE_URL; ?>images/inc_199de14b-b229-47b2-8fa5-644f98129999.png?v=1657741848&amp;width=140"
                                                         alt="" width="140" height="112" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -13094,7 +12845,7 @@
                                             <div class="logo-bar__item" style="--gutter: 50px; --width: 140px;"
                                                 data-slide="d2f52dd6-5409-471c-b58a-2ee3d0c75da1" data-slide-index="8">
                                                 <div class="logo-bar__image">
-                                                    <!-- /snippets/image.liquid -->
+
                                                     <img src="<?php echo BASE_URL; ?>images/elle_69b268b5-6a0c-4ac0-beb7-d6439dc3821b.png?v=1657741601&amp;width=140"
                                                         alt="" width="140" height="112" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -13108,7 +12859,7 @@
                                             <div class="logo-bar__item" style="--gutter: 50px; --width: 140px;"
                                                 data-slide="10edc393-cbb0-4cc1-a34f-436ed6954fe9" data-slide-index="9">
                                                 <div class="logo-bar__image">
-                                                    <!-- /snippets/image.liquid -->
+
                                                     <img src="<?php echo BASE_URL; ?>images/bbc.png?v=1657741921&amp;width=140"
                                                         alt="" width="140" height="112" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -13122,7 +12873,7 @@
                                             <div class="logo-bar__item" style="--gutter: 50px; --width: 140px;"
                                                 data-slide="c3ce6039-09a2-4466-b2a0-dfe4d27d2bb0" data-slide-index="10">
                                                 <div class="logo-bar__image">
-                                                    <!-- /snippets/image.liquid -->
+
                                                     <img src="<?php echo BASE_URL; ?>images/gq_ded68769-9531-41f7-998b-27625886be39.png?v=1657741768&amp;width=140"
                                                         alt="" width="140" height="112" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -13136,7 +12887,7 @@
                                             <div class="logo-bar__item" style="--gutter: 50px; --width: 140px;"
                                                 data-slide="d3823bd7-c4fd-4280-a8e1-b4096066bff2" data-slide-index="11">
                                                 <div class="logo-bar__image">
-                                                    <!-- /snippets/image.liquid -->
+
                                                     <img src="<?php echo BASE_URL; ?>images/marthastew.png?v=1657662819&amp;width=140"
                                                         alt="" width="140" height="36" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -13150,7 +12901,7 @@
                                             <div class="logo-bar__item" style="--gutter: 50px; --width: 140px;"
                                                 data-slide="e0f5b4fe-bc2b-401e-8630-973b97c52efa" data-slide-index="12">
                                                 <div class="logo-bar__image">
-                                                    <!-- /snippets/image.liquid -->
+
                                                     <img src="<?php echo BASE_URL; ?>images/hello_giggles.png?v=1657741839&amp;width=140"
                                                         alt="" width="140" height="112" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -13164,7 +12915,7 @@
                                             <div class="logo-bar__item" style="--gutter: 50px; --width: 140px;"
                                                 data-slide="d7f3cfd8-b974-451f-98ef-dc6535ccc31d" data-slide-index="13">
                                                 <div class="logo-bar__image">
-                                                    <!-- /snippets/image.liquid -->
+
                                                     <img src="<?php echo BASE_URL; ?>images/tc_5e0a6cd9-aaaa-4273-a6f3-089c6c873cfe.png?v=1657741723&amp;width=140"
                                                         alt="" width="140" height="112" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -13178,7 +12929,7 @@
                                             <div class="logo-bar__item" style="--gutter: 50px; --width: 140px;"
                                                 data-slide="50590f3a-1e73-4485-b316-21b167530ed1" data-slide-index="14">
                                                 <div class="logo-bar__image">
-                                                    <!-- /snippets/image.liquid -->
+
                                                     <img src="<?php echo BASE_URL; ?>images/vogue_44b0364b-8750-42e2-a160-b0a1c9ac10db.png?v=1657741754&amp;width=140"
                                                         alt="" width="140" height="112" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -13192,7 +12943,7 @@
                                             <div class="logo-bar__item" style="--gutter: 50px; --width: 140px;"
                                                 data-slide="cb562161-3c69-46f8-955b-7da4a3f1f531" data-slide-index="15">
                                                 <div class="logo-bar__image">
-                                                    <!-- /snippets/image.liquid -->
+
                                                     <img src="<?php echo BASE_URL; ?>images/buzzfeed_8c657acf-ee4e-4651-9f91-36a80bfb91f9.png?v=1657741824&amp;width=140"
                                                         alt="" width="140" height="112" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -13206,7 +12957,7 @@
                                             <div class="logo-bar__item" style="--gutter: 50px; --width: 140px;"
                                                 data-slide="1a127faf-131f-4e43-b478-2d39669bb6bf" data-slide-index="16">
                                                 <div class="logo-bar__image">
-                                                    <!-- /snippets/image.liquid -->
+
                                                     <img src="<?php echo BASE_URL; ?>images/hollywood.png?v=1657741940&amp;width=140"
                                                         alt="" width="140" height="112" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -13220,7 +12971,7 @@
                                             <div class="logo-bar__item" style="--gutter: 50px; --width: 140px;"
                                                 data-slide="dd2c6d1c-5b93-460d-92fd-192cffeac0da" data-slide-index="17">
                                                 <div class="logo-bar__image">
-                                                    <!-- /snippets/image.liquid -->
+
                                                     <img src="<?php echo BASE_URL; ?>images/cosmo_10aa9e52-916a-4532-b10d-b2c307faf9cc.png?v=1657741995&amp;width=140"
                                                         alt="" width="140" height="112" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
@@ -13342,7 +13093,7 @@
 
         </div>
         <div id="shopify-section-template--14655948128374__section_richtext_KeEtfP" class="shopify-section">
-            <!-- /sections/section-richtext.liquid-->
+
             <section class="text--neutral palette--light bg--neutral"
                 data-section-id="template--14655948128374__section_richtext_KeEtfP" data-section-type="rich-text" style="
         --PT: 36px;
@@ -13393,7 +13144,7 @@
 
         </div>
         <div id="shopify-section-template--14655948128374__section_newsletter_fnFzyq" class="shopify-section">
-            <!-- /sections/section-newsletter.liquid -->
+
 
             <!-- "options": [
           { "value": "palette--light bg--neutral", "label": "Default"},
@@ -13423,7 +13174,7 @@
                     <div class="one-whole text-center">
                         <div class="newsletter__contain palette--dark">
 
-                            <!-- /snippets/newsletter-form.liquid -->
+
 
                             <form method="post"
                                 action="/contact#section-newslettertemplate--14655948128374__section_newsletter_fnFzyq"
