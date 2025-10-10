@@ -376,8 +376,8 @@
                             <div class="index__column grid__item slide-item text-center" data-item="">
 
                                 <div class="column__image" data-grid-slide=""><img style="width: 100%;"
-                                        src="<?php echo BASE_URL; ?>images/website_illustrations-02.png?crop=center&amp;height=800&amp;v=1687905872&amp;width=800"
-                                        data-src="<?php echo BASE_URL; ?>images/website_illustrations-02.png?crop=center&amp;height=800&amp;v=1687905872&amp;width=800"
+                                        src="<?php echo BASE_URL; ?>images/illustrations/illustrations-01.png?crop=center&amp;height=800&amp;v=1687905872&amp;width=800"
+                                        data-src="<?php echo BASE_URL; ?>images/illustrations/illustrations-01.png?crop=center&amp;height=800&amp;v=1687905872&amp;width=800"
                                         class="lazy-figure is-loaded">
                                 </div>
 
@@ -393,7 +393,7 @@
                                 </div>
 
 
-                                <a href="https://boxfox.com/collections/all?step=2&amp;build_box=1"
+                                <a href="<?php echo BASE_URL; ?>contact" 
                                     class="btn--neutral btn--soft">
                                     GET TO GIFTING
                                 </a>
@@ -403,13 +403,13 @@
                             <div class="index__column grid__item slide-item text-center" data-item="">
 
                                 <div class="column__image" data-grid-slide=""><img style="width: 100%;"
-                                        src="<?php echo BASE_URL; ?>images/website_illustrations-01.png?crop=center&amp;height=800&amp;v=1687905869&amp;width=800"
-                                        data-src="<?php echo BASE_URL; ?>images/website_illustrations-01.png?crop=center&amp;height=800&amp;v=1687905869&amp;width=800"
+                                        src="<?php echo BASE_URL; ?>images/illustrations/illustrations-02.png?crop=center&amp;height=800&amp;v=1687905869&amp;width=800"
+                                        data-src="<?php echo BASE_URL; ?>images/illustrations/illustrations-02.png?crop=center&amp;height=800&amp;v=1687905869&amp;width=800"
                                         class="lazy-figure is-loaded">
                                 </div>
 
 
-                                <div class="accent-title-large strong mb2">BUILD A BOXFOX</div>
+                                <div class="accent-title-large strong mb2">CUSTOMIZE GIFT</div>
 
 
                                 <div class="rte body-size-4">
@@ -419,7 +419,7 @@
                                 </div>
 
 
-                                <a href="https://boxfox.com/pages/build-a-boxfox?step=2&amp;build_box=1"
+                                <a  href="<?php echo BASE_URL; ?>contact" 
                                     class="btn--neutral btn--soft">
                                     GET PERSONAL
                                 </a>
@@ -429,8 +429,8 @@
                             <div class="index__column grid__item slide-item text-center" data-item="">
 
                                 <div class="column__image" data-grid-slide=""><img style="width: 100%;"
-                                        src="<?php echo BASE_URL; ?>images/website_illustrations-03.png?crop=center&amp;height=800&amp;v=1687905874&amp;width=800"
-                                        data-src="<?php echo BASE_URL; ?>images/website_illustrations-03.png?crop=center&amp;height=800&amp;v=1687905874&amp;width=800"
+                                        src="<?php echo BASE_URL; ?>images/illustrations/illustrations-03.png?crop=center&amp;height=800&amp;v=1687905874&amp;width=800"
+                                        data-src="<?php echo BASE_URL; ?>images/illustrations/illustrations-03.png?crop=center&amp;height=800&amp;v=1687905874&amp;width=800"
                                         class="lazy-figure is-loaded">
                                 </div>
 
@@ -445,7 +445,7 @@
                                 </div>
 
 
-                                <a href="https://boxfox.com/collections/marketplace?step=2&amp;build_box=1"
+                                <a  href="<?php echo BASE_URL; ?>contact" 
                                     class="btn--neutral btn--soft">
                                     TREAT YOURSELF
                                 </a>
@@ -455,8 +455,8 @@
                             <div class="index__column grid__item slide-item text-center" data-item="">
 
                                 <div class="column__image" data-grid-slide=""><img style="width: 100%;"
-                                        src="<?php echo BASE_URL; ?>images/website_illustrations-04.png?crop=center&amp;height=800&amp;v=1687905877&amp;width=800"
-                                        data-src="<?php echo BASE_URL; ?>images/website_illustrations-04.png?crop=center&amp;height=800&amp;v=1687905877&amp;width=800"
+                                        src="<?php echo BASE_URL; ?>images/illustrations/illustrations-04.png?crop=center&amp;height=800&amp;v=1687905877&amp;width=800"
+                                        data-src="<?php echo BASE_URL; ?>images/illustrations/illustrations-04.png?crop=center&amp;height=800&amp;v=1687905877&amp;width=800"
                                         class="lazy-figure is-loaded">
                                 </div>
 
@@ -471,7 +471,7 @@
                                 </div>
 
 
-                                <a href="https://boxfox.com/pages/corporate" class="btn--neutral btn--soft">
+                                <a  href="<?php echo BASE_URL; ?>contact" class="btn--neutral btn--soft">
                                     INQUIRE TODAY
                                 </a>
 
@@ -4847,11 +4847,7 @@
 
 
             </div>
-            <div id="shopify-section-template--14655948128374__logos" class="shopify-section">
-
-
-
-
+            <!-- <div id="shopify-section-template--14655948128374__logos" class="shopify-section">
                 <div class="section-logos palette--light bg--neutral section-logos--tall"
                     style="--PT: 36px; --PB: 36px; " data-section-id="template--14655948128374__logos"
                     data-section-type="logos">
@@ -8386,7 +8382,7 @@
                 </div>
 
 
-            </div>
+            </div> -->
             <div id="shopify-section-template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622"
                 class="shopify-section">
 
@@ -8523,10 +8519,8 @@
         </div>
 
         </div>
-        <div id="shopify-section-template--14655948128374__1b7ff409-e580-49b9-adbe-499f766e325b"
+        <!-- <div id="shopify-section-template--14655948128374__1b7ff409-e580-49b9-adbe-499f766e325b"
             class="shopify-section">
-
-
             <div class="section-logos palette--light bg--neutral section-logos--tall" style="--PT: 36px; --PB: 36px; "
                 data-section-id="template--14655948128374__1b7ff409-e580-49b9-adbe-499f766e325b"
                 data-section-type="logos">
@@ -12995,7 +12989,7 @@
             </div>
 
 
-        </div>
+        </div> -->
         <div id="shopify-section-template--14655948128374__fe357e62-9613-4fe3-b40d-1b707beb98d8"
             class="shopify-section">
             <script type="text/javascript">
@@ -13156,7 +13150,7 @@
         ]
    -->
             <div class="section-newsletter" style="--PT: 36px; --PB: 36px;
-    background-color: black">
+    background-color: #6E7A77">
                 <div class="wrapper section-padding newsletter-wrapper">
                     <div style="padding-bottom: 10px;">
 

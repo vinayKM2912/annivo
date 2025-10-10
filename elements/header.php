@@ -61,7 +61,7 @@ window.addEventListener("klaviyoForms", function(a) {
     <!-- /sections/header.liquid -->
     <style data-shopify="">
     :root {
-        --COLOR-NAV-TEXT-TRANSPARENT: #ffffff;
+        --COLOR-NAV-TEXT-TRANSPARENT: #efffff;
         --COLOR-HEADER-TRANSPARENT-GRADIENT: rgba(0, 0, 0, 0.2);
         --LOGO-PADDING: 15px;
         --menu-backfill-height: auto;
@@ -108,12 +108,12 @@ window.addEventListener("klaviyoForms", function(a) {
                         <div class="header__logo header__logo--image header__logo--has-transparent">
                             <a class="header__logo__link" href="/" style="--LOGO-WIDTH: 100px">
 
-                                <img src="<?php echo BASE_URL; ?>images/logo.png?v=1658854306&amp;width=50" alt="BOXFOX"
+                                <img src="<?php echo BASE_URL; ?>images/logo.png?v=1658854306&amp;width=50" alt="ANNVIO"
                                     width="50" height="46" loading="eager" class="logo__img logo__img--color"
                                     srcset="<?php echo BASE_URL; ?>images/logo.png?v=1658854306&amp;width=100 2x,<?php echo BASE_URL; ?>images/logo.png?v=1658854306&amp;width=150 3x,<?php echo BASE_URL; ?>images/logo.png?v=1658854306&amp;width=50">
 
                                 <img src="<?php echo BASE_URL; ?>images/boxfox_primary_logo_reverse_rgb_1909px_72ppi.png?v=1657568393&amp;width=50"
-                                    alt="BOXFOX" width="50" height="46" loading="eager"
+                                    alt="ANNVIO" width="50" height="46" loading="eager"
                                     class="logo__img logo__img--transparent" srcset="<?php echo BASE_URL; ?>images/boxfox_primary_logo_reverse_rgb_1909px_72ppi.png?v=1657568393&amp;width=100 2x,<?php echo BASE_URL; ?>images/boxfox_primary_logo_reverse_rgb_1909px_72ppi.png?v=1657568393&amp;width=50
       ">
 
@@ -739,7 +739,7 @@ window.addEventListener("klaviyoForms", function(a) {
                 <div class="header__backfill__content">
                     <div class="header__logo">
                         <div class="header__logo__link" style="--LOGO-WIDTH: 100px"><img data-src="logo__img"
-                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII="
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
                                 width="1909" height="1773" style="width: 100%;
                      display: block;
                      aspect-ratio: 1.0767061477721376;"></div>
@@ -1267,18 +1267,20 @@ window.addEventListener("klaviyoForms", function(a) {
                         color: #333333 !important;
                     }
 
-                    /* Logo adjustments if needed */
+                    /* Logo image visibility - Show white/transparent logo by default */
                     .theme__header .logo__img--color {
                         display: block;
                     }
 
                     .theme__header .logo__img--transparent {
                         display: none;
+                        filter: brightness(0) invert(1) !important; /* Force white color */
                     }
 
-                    /* Logo visibility when scrolled */
+                    /* Logo visibility when scrolled - Show color/black logo */
                     .js__header__stuck .theme__header .logo__img--color {
-                        display: block;
+                        display: block !important;
+                        filter: none !important;
                     }
 
                     .js__header__stuck .theme__header .logo__img--transparent {

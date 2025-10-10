@@ -7,7 +7,7 @@
 }
 
 .filling-path {
-    fill: #000;
+    fill: #efffff;
     /* The color that will fill the path */
     stroke: none;
     clip-path: url(#fill-clip);

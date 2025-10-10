@@ -92,10 +92,10 @@ HTML;
                 <p id="product-{$productId}-title" class="product__grid__title">{$title}</p>
             </div>
 
-            <div class="product__grid__price product__grid__price--nowrap">
+            <!-- <div class="product__grid__price product__grid__price--nowrap">
                 <span class="product__grid__cutline"></span>
                 <span class="price">AED {$price}</span>
-            </div>
+            </div> -->
         </a>
     </div>
 </product-grid-item>

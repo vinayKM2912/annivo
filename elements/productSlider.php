@@ -193,12 +193,9 @@ document.addEventListener("DOMContentLoaded", () => {
         const name = document.createElement("strong");
         name.textContent = item.name;
 
-        const price = document.createElement("p");
-        price.textContent = "AED. " + item.price;
 
         card.appendChild(image);
         card.appendChild(name);
-        card.appendChild(price);
 
         list.appendChild(card);
         wrapper.appendChild(list);

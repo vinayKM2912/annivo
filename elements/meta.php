@@ -573,14 +573,14 @@
         --COLOR-HIGHLIGHT-LINK: #ff1d1d;
 
         /* === Site Footer ===*/
-        --COLOR-FOOTER-BG: #000000;
+        --COLOR-FOOTER-BG: #6E7A77;
         --COLOR-FOOTER-TEXT: #ffffff;
         --COLOR-FOOTER-A5: rgba(255, 255, 255, 0.05);
         --COLOR-FOOTER-A15: rgba(255, 255, 255, 0.15);
         --COLOR-FOOTER-A90: rgba(255, 255, 255, 0.9);
 
         /* === Sub-Footer ===*/
-        --COLOR-SUB-FOOTER-BG: #000000;
+        --COLOR-SUB-FOOTER-BG: #6E7A77;
         --COLOR-SUB-FOOTER-TEXT: #ffffff;
         --COLOR-SUB-FOOTER-A5: rgba(255, 255, 255, 0.05);
         --COLOR-SUB-FOOTER-A15: rgba(255, 255, 255, 0.15);
