@@ -20,7 +20,7 @@ $expItems = [
                 <div class="px-ytk lgpx-8my xlpx-xcg w-e68 order-lkm lgorder-g14">
                     <?php foreach ($expItems as $item): ?>
                     <div class="w-e68 border-ejz border-oob" style="border-color: rgba(255, 255, 255, 0.2);">
-                        <a href="<?php echo BASE_URL; ?>category/<?php echo $item["slug"] ?>"
+                        <a href="<?php echo BASE_URL; ?>contact<?php echo $item["slug"] ?>"
                             class="fle-31r item-ych rel-jvn w-e68 form-dob py-pnv transition-nkm lgpy-9oa">
                             <div
                                 class="rel-jvn flex-shrink-t6t rotate-jhp duration-r4k bg-gray-2pl translate-z-ocd rounded-887 overflow-bsr inline-3c2 item-ych justify-29z transition-736 form-ojx h-n7j mdh-1x8 lgrounded-h7d lgw-vbc w-y4o mdw-i9a">

@@ -56,7 +56,7 @@ HTML;
 
             <div class="product-grid-item__actions">
                 <!-- /snippets/button-instant-add.liquid -->
-                <form method="post" action="/cart/add" id="product_form_{$productId}"
+                <!-- <form method="post" action="/cart/add" id="product_form_{$productId}"
                     accept-charset="UTF-8" class="shopify-product-form"
                     enctype="multipart/form-data">
 
@@ -74,11 +74,11 @@ HTML;
                     <input type="hidden" name="product-id" value="{$productId}">
                     <input type="hidden" name="section-id"
                         value="template--14655948128374__be424ce9-435e-4178-81b6-d74fd52dc84a">
-                </form>
+                </form> -->
             </div>
         </div>
 
-        <div class="moniker product__badge">PERSONALIZE ME</div>
+        <!-- <div class="moniker product__badge">PERSONALIZE ME</div> -->
     </product-grid-item-variant>
 
     <div class="product__grid__info text-center">

@@ -635,7 +635,7 @@ include "config.php";
                                 <br>
                             </div>
 
-                            <div class="internal-form">
+                            <!-- <div class="internal-form">
                                 International Shipping?:
                                 <select id="international_shipping" name="international_shipping"
                                     title="International Shipping?" required="">
@@ -644,7 +644,7 @@ include "config.php";
                                     <option value="No">No</option>
                                 </select>
                                 <br>
-                            </div>
+                            </div> -->
 
                             <div>
                                 Comments:

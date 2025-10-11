@@ -454,7 +454,7 @@
 
         /* === Backgrounds ===*/
         --COLOR-BG: #ffffff;
-        --COLOR-BG-ACCENT: #fdf0e2;
+        --COLOR-BG-ACCENT: #efffff;
 
         /* === Text colors ===*/
         --COLOR-TEXT-DARK: #111c19;

@@ -604,9 +604,9 @@ font-weight:800;
     <option value="Referral">Referral</option>
     <option value="Sales Club">Sales Club</option>
     </select><br></div>
-    <div class="internal-form">International Shipping?:<select id="00N4W00000FmoVF" name="00N4W00000FmoVF" title="International Shipping?" required=""><option value="">--None--</option><option value="Yes">Yes</option>
+    <!-- <div class="internal-form">International Shipping?:<select id="00N4W00000FmoVF" name="00N4W00000FmoVF" title="International Shipping?" required=""><option value="">--None--</option><option value="Yes">Yes</option>
     <option value="No">No</option>
-    </select><br></div>
+    </select><br></div> -->
     <div>
     Comments:<textarea id="00N4W00000FmoVK" name="00N4W00000FmoVK" rows="5" type="text" wrap="soft" required=""></textarea><br></div>
     <!-- <div class="recaptcha-wrapper" style="margin: 20px 0; display: flex; justify-content: center;">
@@ -717,7 +717,7 @@ function resetRecaptcha() {
 <style> #shopify-section-template--14655948521590__25dd63b1-619c-474b-bac7-e94af6deb016 .form-desc {text-align: center; margin-bottom: 30px;} #shopify-section-template--14655948521590__25dd63b1-619c-474b-bac7-e94af6deb016 #hidden-form {padding: 50px 0;} </style></div><div id="shopify-section-template--14655948521590__5524185e-eb37-4d02-9c04-76e78f946d3c" class="shopify-section"><section class="tab-selector-section">
   <div class="tab-details">
     <div class="tab-selectors"><button class="tab active" data-progress="progress-1" data-tab="tab-1">
-          Why ANNVIO?
+          Why AANVIO?
           <img src="//boxfox.com/cdn/shop/t/153/assets/arrow.svg?v=44432580695374726241698607520">
         </button><button class="tab" data-progress="progress-2" data-tab="tab-2">
           Our Stats

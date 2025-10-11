@@ -4,9 +4,10 @@
 <?php include "./elements/meta.php"; ?>
 
 <body id="custom-amp-curated-gift-boxes-boxfox" ng-app="BOXFOX" ng-controller="App"
-    class="template-index theme-animate-hover" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+    class="pageLoad template-index theme-animate-hover" data-aos-easing="ease" data-aos-duration="400"
+    data-aos-delay="0" style="background-color: #efffff;">
     <?php include "./elements/header.php"; ?>
-    <main class="main-content" id="MainContent">
+    <main class="main-content" id="MainContent" style="background-color: #efffff;">
         <div id="shopify-section-template--14655948128374__hero" class="shopify-section">
 
 
@@ -160,8 +161,8 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="https://boxfox.com/pages/corporate-inquiry"
-                                                            title="https://boxfox.com/pages/corporate-inquiry"><em><strong>CLICK
+                                                            href="<?php echo BASE_URL; ?>contact" 
+                                                            title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
                                                         </a>
@@ -175,8 +176,8 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="https://boxfox.com/pages/corporate-inquiry"
-                                                            title="https://boxfox.com/pages/corporate-inquiry"><em><strong>CLICK
+                                                            href="<?php echo BASE_URL; ?>contact" 
+                                                            title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
                                                         </a>
@@ -190,8 +191,8 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="https://boxfox.com/pages/corporate-inquiry"
-                                                            title="https://boxfox.com/pages/corporate-inquiry"><em><strong>CLICK
+                                                            href="<?php echo BASE_URL; ?>contact" 
+                                                            title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
                                                         </a>
@@ -205,8 +206,8 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="https://boxfox.com/pages/corporate-inquiry"
-                                                            title="https://boxfox.com/pages/corporate-inquiry"><em><strong>CLICK
+                                                            href="<?php echo BASE_URL; ?>contact" 
+                                                            title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
                                                         </a>
@@ -220,8 +221,8 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="https://boxfox.com/pages/corporate-inquiry"
-                                                            title="https://boxfox.com/pages/corporate-inquiry"><em><strong>CLICK
+                                                            href="<?php echo BASE_URL; ?>contact" 
+                                                            title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
                                                         </a>
@@ -235,8 +236,8 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="https://boxfox.com/pages/corporate-inquiry"
-                                                            title="https://boxfox.com/pages/corporate-inquiry"><em><strong>CLICK
+                                                            href="<?php echo BASE_URL; ?>contact" 
+                                                            title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
                                                         </a>
@@ -250,8 +251,8 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="https://boxfox.com/pages/corporate-inquiry"
-                                                            title="https://boxfox.com/pages/corporate-inquiry"><em><strong>CLICK
+                                                            href="<?php echo BASE_URL; ?>contact" 
+                                                            title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
                                                         </a>
@@ -265,8 +266,8 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="https://boxfox.com/pages/corporate-inquiry"
-                                                            title="https://boxfox.com/pages/corporate-inquiry"><em><strong>CLICK
+                                                            href="<?php echo BASE_URL; ?>contact" 
+                                                            title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
                                                         </a>
@@ -280,8 +281,8 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="https://boxfox.com/pages/corporate-inquiry"
-                                                            title="https://boxfox.com/pages/corporate-inquiry"><em><strong>CLICK
+                                                            href="<?php echo BASE_URL; ?>contact" 
+                                                            title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
                                                         </a>
@@ -295,8 +296,8 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="https://boxfox.com/pages/corporate-inquiry"
-                                                            title="https://boxfox.com/pages/corporate-inquiry"><em><strong>CLICK
+                                                            href="<?php echo BASE_URL; ?>contact" 
+                                                            title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
                                                         </a>
@@ -310,8 +311,8 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="https://boxfox.com/pages/corporate-inquiry"
-                                                            title="https://boxfox.com/pages/corporate-inquiry"><em><strong>CLICK
+                                                            href="<?php echo BASE_URL; ?>contact" 
+                                                            title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
                                                         </a>
@@ -325,8 +326,8 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="https://boxfox.com/pages/corporate-inquiry"
-                                                            title="https://boxfox.com/pages/corporate-inquiry"><em><strong>CLICK
+                                                            href="<?php echo BASE_URL; ?>contact" 
+                                                            title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
                                                         </a>
@@ -340,8 +341,8 @@
                                                 <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                             class="announcement__divider">
                                                         </span>&nbsp;</strong><a
-                                                        href="https://boxfox.com/pages/corporate-inquiry"
-                                                        title="https://boxfox.com/pages/corporate-inquiry"><em><strong>CLICK
+                                                        href="<?php echo BASE_URL; ?>contact" 
+                                                        title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                 HERE</strong>
                                                         </em>
                                                     </a>
@@ -357,14 +358,14 @@
 
 
             </div>
-            <div id="shopify-section-template--14655948128374__section_announcement_PetCjB" class="shopify-section">
+            <div id="shopify-section-template--14655948128374__section_announcement_PetCjB" class="shopify-section" style="background-color: #efffff;">
                 <?php include "./elements/productSlider.php"; ?>
             </div>
             <div id="shopify-section-template--14655948128374__cols" class="shopify-section">
 
 
                 <div class="section-columns palette--light bg--accent" data-section-id="template--14655948128374__cols"
-                    data-section-type="section-columns" style="--PT: 36px; --PB: 36px;">
+                    data-section-type="section-columns" style="--PT: 36px; --PB: 36px; background-color: #efffff;">
                     <div class="wrapper section-padding">
 
                         <h2 class="kicker-flourished mb-7">HOW CAN WE HELP YOU?</h2>
@@ -582,6 +583,94 @@
                 });
                 </script>
             </div> -->
+             <!-- Why AANVIO Section -->
+               <div id="shopify-section-template--14655948521590__5524185e-eb37-4d02-9c04-76e78f946d3c" class="shopify-section"><section class="tab-selector-section">
+  <div class="tab-details">
+    <div class="tab-selectors"><button class="tab active" data-progress="progress-1" data-tab="tab-1">
+          Why AANVIO?
+          <img src="//boxfox.com/cdn/shop/t/153/assets/arrow.svg?v=44432580695374726241698607520">
+        </button><button class="tab" data-progress="progress-2" data-tab="tab-2">
+          Our Stats
+          <img src="//boxfox.com/cdn/shop/t/153/assets/arrow.svg?v=44432580695374726241698607520">
+        </button><button class="tab" data-progress="progress-3" data-tab="tab-3">
+          Our Values
+          <img src="//boxfox.com/cdn/shop/t/153/assets/arrow.svg?v=44432580695374726241698607520">
+        </button></div>
+    <div class="tab-progress">
+      <span class="tab-progress-bar">
+        <span>01</span>
+        <span class="status"><span class="tab-prog active" id="progress-1"></span><span class="tab-prog" id="progress-2"></span><span class="tab-prog" id="progress-3"></span></span>
+        <span>03</span>
+      </span>
+    </div>
+    <div class="tab-contents"><div id="tab-1" class="tab-pane active">
+          <p><strong>Bespoke Solutions – Tailor-made merchandise designed for your brand’s unique journey.</strong></p>
+          
+          <p>To redefine corporate merchandising in the UAE and beyond by offering bespoke solutions that blend creativity, craftsmanship, and brand storytelling. We aim to transform how businesses connect with employees, clients, and partners—through products that are not only functional, but also memorable and meaningful.</p>
+          
+          <p><strong>Uncompromising Quality – Products created with attention to detail and premium craftsmanship.</strong></p>
+        </div><div id="tab-2" class="tab-pane">
+          <p>Aanvio is a bespoke <strong>B2B merchandising solutions company</strong> founded in the <strong>UAE with many years</strong>. We design and deliver <strong>premium products</strong> and <strong>curated gifting</strong> experiences that help businesses express their story with elegance and impact. We're thrilled to have served over <strong>800</strong> corporate clients.</p>
+        </div><div id="tab-3" class="tab-pane">
+          <p>Here at ANNVIO, we are <b>HUMAN</b>, <b>GENEROUS</b>, <b>THOUGHTFUL</b>, <b>RESOURCEFUL</b> and <b>PIONEERING</b>.</p>
+        </div></div>
+  </div>
+</section>
+
+<script>
+  // Get the tabs and content elements
+  const tabs = document.querySelectorAll('.tab');
+  const tabContent = document.querySelectorAll('.tab-pane');
+  const tabProgress = document.querySelectorAll('.tab-prog');
+
+  // Loop through each tab element
+  tabs.forEach(tab => {
+    // Add a click event listener to each tab
+    tab.addEventListener('click', () => {
+      // Remove the active class from all tabs and content elements
+      tabs.forEach(tab => tab.classList.remove('active'));
+      tabContent.forEach(content => content.classList.remove('active'));
+      tabProgress.forEach(content => content.classList.remove('active'));
+
+      // Add the active class to the clicked tab and corresponding content element
+      const tabId = tab.getAttribute('data-tab');
+      const progId = tab.getAttribute('data-progress');
+      const activeTab = document.getElementById(tabId);
+      const activeProg = document.getElementById(progId);
+      tab.classList.add('active');
+      activeTab.classList.add('active');
+      activeProg.classList.add('active');
+    });
+  });
+</script>
+</div>
+            <!-- End Why AANVIO Section -->
+
+<div id="shopify-section-template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed" class="shopify-section"><!-- /sections/section-richtext.liquid--><section class="text--neutral palette--light bg--neutral" data-section-id="template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed" data-section-type="rich-text" style="
+      --PT: 36px;
+      --PB: 0px;
+      --FLEX-POSITION: center;
+      --CONTENT-WIDTH: 2000px;">
+    <div class="wrapper section-padding">
+      <div class="text__standard text-center"><div class="standard__heading heading-size-8 aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed']" data-aos-order="2">
+                <p>Our Factory Partners</p>
+                <div class="standard__kicker accent-size-4 block__kicker--flourished aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed']" data-aos-order="1">
+              </div>
+              </div><div class="rte body-size-5 columns--1 aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed']" data-aos-order="3">
+                <p>Behind every Aanvio creation is a network of trusted factory partners who share our values. We work only with certified manufacturers that use safe, high-quality materials and follow strict global standards.
+
+Every product is made responsibly, in environments where workers are treated fairly and with dignity. Ethical practices are not an afterthought for us, they are the foundation of our partnerships.
+
+When you choose Aanvio, you choose products that are not only premium in quality but also created with respect for people and the planet.<br></p>
+              </div>
+
+        <div class="hero__cta__wrapper">
+  
+        </div></div>
+    </div>
+  </section>
+
+</div>
             <div id="shopify-section-template--14655948128374__be424ce9-435e-4178-81b6-d74fd52dc84a"
                 class="shopify-section">
                 <link href="cdn/shop/t/153/assets/mote.css?v=111603181540343972631698607520" rel="stylesheet"
@@ -589,7 +678,7 @@
 
                 <div class="section-collection homepage--white"
                     data-section-id="template--14655948128374__be424ce9-435e-4178-81b6-d74fd52dc84a"
-                    data-section-type="collection-row" style="--PT: 36px; --PB: 36px;">
+                    data-section-type="collection-row" style="--PT: 36px; --PB: 36px; background-color: #efffff;">
                     <div class="wrapper section-padding">
 
                         <h2 class="kicker-flourished mb-7">ANNVIO Collections</h2>
@@ -1284,7 +1373,7 @@
 
                 <section data-section-id="template--14655948128374__8092b13e-4149-4e1f-95af-e79d67a7d8b1"
                     data-section-type="custom-content" data-overlay-header=""
-                    style="--PT: 0px; --PB: 0px; --BRICK-GUTTER: 0px; background-color: #367a84;">
+                    style="--PT: 0px; --PB: 0px; --BRICK-GUTTER: 0px; background-color: #6E7A77;">
                     <div class="section-padding wrapper--none" data-wrapper="">
                         <div class="brick__section brick--2   use_screen_one_half " data-overflow-wrapper=""
                             style="min-height: 352px;">
@@ -1381,7 +1470,7 @@
 
                 <div class="section-collection homepage--white"
                     data-section-id="template--14655948128374__be424ce9-435e-4178-81b6-d74fd52dc84a"
-                    data-section-type="collection-row" style="--PT: 36px; --PB: 36px;">
+                    data-section-type="collection-row" style="--PT: 36px; --PB: 36px; background-color: #efffff;">
                     <div class="wrapper section-padding">
 
                         <h2 class="kicker-flourished mb-7">SOME OF OUR BEST PRODUCTS</h2>
@@ -8390,7 +8479,7 @@
 
 
             </div> -->
-            <div id="shopify-section-template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622"
+            <!-- <div id="shopify-section-template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622"
                 class="shopify-section">
 
                 <section data-section-id="template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622"
@@ -8492,26 +8581,9 @@
 
                     </div>
                 </section>
-            </div>
+            </div> -->
+
             <?php include "./elements/expertise.php"; ?>
-            <button class="flickity-button flickity-prev-next-button previous" type="button" aria-label="Previous"
-                disabled="true">
-                <svg class="flickity-button-icon" viewBox="0 0 100 100">
-                    <title>Previous</title>
-                    <path d="M 10, 50L 60, 100 L 65, 95 L 20, 50 L 65, 5 L 60, 0 Z" class="arrow">
-                    </path>
-                </svg>
-            </button><button class="flickity-button flickity-prev-next-button next" type="button" aria-label="Next"><svg
-                    class="flickity-button-icon" viewBox="0 0 100 100">
-                    <title>Next</title>
-                    <path d="M 10, 50L 60, 100 L 65, 95 L 20, 50 L 65, 5 L 60, 0 Z" class="arrow"
-                        transform="translate(100, 100) rotate(180)">
-                    </path>
-                </svg>
-            </button>
-        </div>
-
-
         <div class="custom-scrollbar small-down--show" data-custom-scrollbar=""
             style="--track-width: 33.4658610377728%;">
             <div class="custom-scrollbar__track" data-custom-scrollbar-track="">
@@ -13097,42 +13169,14 @@
         --PT: 36px;
         --PB: 36px;
         --FLEX-POSITION: flex-start;
-        --CONTENT-WIDTH: 2000px;">
+        --CONTENT-WIDTH: 2000px;
+        background-color: #efffff;">
                 <div class="wrapper section-padding">
                     <div class="text__standard text-left">
                         <div class="rte body-size-4 columns--1 aos-init aos-animate" data-aos="hero"
                             data-aos-anchor="[data-section-id='template--14655948128374__section_richtext_KeEtfP']"
                             data-aos-order="1">
-                            <p>Welcome to AANVIO - your go-to for gifting since 2014 and the home of&nbsp;<a
-                                    href="https://boxfox.com/collections/all" target="_blank"
-                                    title="https://boxfox.com/collections/all">ready to ship gift boxes and </a>our
-                                custom gift and care
-                                package builder <a href="https://boxfox.com/pages/build-a-boxfox?step=1&amp;build_box=1"
-                                    title="https://boxfox.com/pages/build-a-boxfox?step=1&amp;build_box=1">Build a
-                                    BOXFOX</a> - where
-                                customers can curate gifts and care packages for anything from <a
-                                    href="https://boxfox.com/pages/birthday-gifts"
-                                    title="https://boxfox.com/pages/birthday-gifts">birthday gifts</a> to <a
-                                    href="https://boxfox.com/pages/the-wedding-shop" target="_blank"
-                                    title="https://boxfox.com/pages/the-wedding-shop">bridal gifts</a>, for big days
-                                to
-                                <a href="https://boxfox.com/pages/corporate" target="_blank"
-                                    title="https://boxfox.com/pages/corporate">business gifting </a>and everything
-                                in
-                                between.&nbsp;Personalize your own unique accessory or gifts for them with our
-                                selection
-                                of&nbsp;<a href="https://boxfox.com/pages/the-personalization-shop" target="_blank"
-                                    title="https://boxfox.com/pages/the-personalization-shop">customizable
-                                    products</a>,&nbsp;including
-                                custom tea towels and personalized baby gifts. No matter the reason or season, we
-                                have
-                                the perfect gift
-                                to help you be there for others, even if you can't physically be there. We're here
-                                to
-                                help you maintain
-                                and grow your most important personal and professional relationships with gifts so
-                                personal, each one is
-                                topped with your note, handwritten.
+                            <p>Welcome to AANVIO - Aanvio is a bespoke B2B merchandising solutions company founded in the UAE. We design and deliver premium products and curated gifting experiences that help businesses express their story with elegance and impact.We believe merchandise is not just about branding—it’s about crafting touchpoints that build connections and embody values. Every product we create is a reflection of our philosophy: quality, meaning, and distinction in every detail.
                             </p>
                         </div>
                     </div>
@@ -13209,6 +13253,29 @@
         </div>
     </main>
     <?php include "./elements/footer.php"; ?>
+    <style>
+        /* Additional background color enforcement for homepage */
+        body.template-index {
+            background-color: #efffff !important;
+        }
+        
+        .main-content {
+            background-color: #efffff;
+        }
+        
+        /* Ensure sections maintain the theme color */
+        .section-columns.palette--light.bg--accent {
+            background-color: #efffff !important;
+        }
+        
+        .section-collection.homepage--white {
+            background-color: #efffff !important;
+        }
+        
+        .text--neutral.palette--light.bg--neutral {
+            background-color: #efffff !important;
+        }
+    </style>
 </body>
 
 </html>

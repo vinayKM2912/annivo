@@ -1,13 +1,15 @@
 <?php
 $desktop = [
-    "BoxFoxHoliday-564_a4bd19a8-d68c-4b3e-8d2f-447bf1ee74f7.jpg",
-    "Screenshot_2025-04-30_at_9.36.29_PM_74c37e46-0710-499e-b219-f62e6b8aacd3.png",
-    "Screenshot_2025-06-30_at_11.26.31_AM.png",
+    "banner/banner4.webp",
+    "banner/banner2.jpg",
+    "banner/banner1.jpg",
+    "banner/banner2.jpg",
 ];
 $mobile = [
-    "BoxFoxHoliday-564_a4bd19a8-d68c-4b3e-8d2f-447bf1ee74f7.jpg",
-    "Screenshot_2025-04-30_at_9.36.29_PM_74c37e46-0710-499e-b219-f62e6b8aacd3.png",
-    "Screenshot_2025-06-30_at_11.26.31_AM.png"
+   "banner/banner4.webp",
+    "banner/banner2.jpg",
+    "banner/banner1.jpg",
+    "banner/banner4.webp",
 ];
 ?>
 <link rel="stylesheet" type="text/css" href="wowslider/style.css" />
