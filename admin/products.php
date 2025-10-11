@@ -1,63 +1,29 @@
 <?php return array (
   0 => 
   array (
-    'product_title' => 'Customized Gift',
+    'product_title' => 'BAGS',
     'product_price' => '6',
     'images' => 
     array (
       0 => 
       array (
-        'thumb' => 'uploads/thumb/68e6afb0c5fe0_WhatsApp_Image_2025-10-07_at_23.13.28.jpeg',
-        'medium' => 'uploads/medium/68e6afb0c5fe0_WhatsApp_Image_2025-10-07_at_23.13.28.jpeg',
-        'original' => 'uploads/original/68e6afb0c5fe0_WhatsApp_Image_2025-10-07_at_23.13.28.jpeg',
+        'original' => 'uploads/original/bag4.png',
       ),
       1 => 
       array (
-        'thumb' => 'uploads/thumb/68e6afb10bf2d_WhatsApp_Image_2025-10-07_at_23.13.27.jpeg',
-        'medium' => 'uploads/medium/68e6afb10bf2d_WhatsApp_Image_2025-10-07_at_23.13.27.jpeg',
-        'original' => 'uploads/original/68e6afb10bf2d_WhatsApp_Image_2025-10-07_at_23.13.27.jpeg',
+        'original' => 'uploads/original/bag1.png',
       ),
       2 => 
       array (
-        'thumb' => 'uploads/thumb/68e6afb12ec69_WhatsApp_Image_2025-10-07_at_23.13.26__1_.jpeg',
-        'medium' => 'uploads/medium/68e6afb12ec69_WhatsApp_Image_2025-10-07_at_23.13.26__1_.jpeg',
-        'original' => 'uploads/original/68e6afb12ec69_WhatsApp_Image_2025-10-07_at_23.13.26__1_.jpeg',
+        'original' => 'uploads/original/bag3.png',
       ),
       3 => 
       array (
-        'thumb' => 'uploads/thumb/68e6afb13b31d_WhatsApp_Image_2025-10-07_at_23.13.26.jpeg',
-        'medium' => 'uploads/medium/68e6afb13b31d_WhatsApp_Image_2025-10-07_at_23.13.26.jpeg',
-        'original' => 'uploads/original/68e6afb13b31d_WhatsApp_Image_2025-10-07_at_23.13.26.jpeg',
+        'original' => 'uploads/original/bag5.png',
       ),
       4 => 
       array (
-        'thumb' => 'uploads/thumb/68e6afb16b63a_WhatsApp_Image_2025-10-07_at_23.13.25.jpeg',
-        'medium' => 'uploads/medium/68e6afb16b63a_WhatsApp_Image_2025-10-07_at_23.13.25.jpeg',
-        'original' => 'uploads/original/68e6afb16b63a_WhatsApp_Image_2025-10-07_at_23.13.25.jpeg',
-      ),
-      5 => 
-      array (
-        'thumb' => 'uploads/thumb/68e6afb1900ac_WhatsApp_Image_2025-10-07_at_23.13.24__1_.jpeg',
-        'medium' => 'uploads/medium/68e6afb1900ac_WhatsApp_Image_2025-10-07_at_23.13.24__1_.jpeg',
-        'original' => 'uploads/original/68e6afb1900ac_WhatsApp_Image_2025-10-07_at_23.13.24__1_.jpeg',
-      ),
-      6 => 
-      array (
-        'thumb' => 'uploads/thumb/68e6afb1a7683_WhatsApp_Image_2025-10-07_at_23.13.24.jpeg',
-        'medium' => 'uploads/medium/68e6afb1a7683_WhatsApp_Image_2025-10-07_at_23.13.24.jpeg',
-        'original' => 'uploads/original/68e6afb1a7683_WhatsApp_Image_2025-10-07_at_23.13.24.jpeg',
-      ),
-      7 => 
-      array (
-        'thumb' => 'uploads/thumb/68e6afb1c20d1_WhatsApp_Image_2025-10-07_at_23.13.23__1_.jpeg',
-        'medium' => 'uploads/medium/68e6afb1c20d1_WhatsApp_Image_2025-10-07_at_23.13.23__1_.jpeg',
-        'original' => 'uploads/original/68e6afb1c20d1_WhatsApp_Image_2025-10-07_at_23.13.23__1_.jpeg',
-      ),
-      8 => 
-      array (
-        'thumb' => 'uploads/thumb/68e6afb1e1dac_WhatsApp_Image_2025-10-07_at_23.13.23.jpeg',
-        'medium' => 'uploads/medium/68e6afb1e1dac_WhatsApp_Image_2025-10-07_at_23.13.23.jpeg',
-        'original' => 'uploads/original/68e6afb1e1dac_WhatsApp_Image_2025-10-07_at_23.13.23.jpeg',
+        'original' => 'uploads/original/bag2.png',
       ),
     ),
     'product_id' => '21544721768e6afb0c5fc4',
@@ -68,130 +34,26 @@
   ),
   1 => 
   array (
-    'product_title' => 'Apparel Gift',
+    'product_title' => 'APPARELS',
     'product_price' => '26',
     'images' => 
     array (
-      0 => 
-      array (
-        'thumb' => 'uploads/thumb/68e6b316afc29_WhatsApp_Image_2025-10-08_at_21.50.52.jpeg',
-        'medium' => 'uploads/medium/68e6b316afc29_WhatsApp_Image_2025-10-08_at_21.50.52.jpeg',
-        'original' => 'uploads/original/68e6b316afc29_WhatsApp_Image_2025-10-08_at_21.50.52.jpeg',
-      ),
-      1 => 
-      array (
-        'thumb' => 'uploads/thumb/68e6b316cc96e_WhatsApp_Image_2025-10-08_at_21.50.51.jpeg',
-        'medium' => 'uploads/medium/68e6b316cc96e_WhatsApp_Image_2025-10-08_at_21.50.51.jpeg',
-        'original' => 'uploads/original/68e6b316cc96e_WhatsApp_Image_2025-10-08_at_21.50.51.jpeg',
-      ),
-      2 => 
-      array (
-        'thumb' => 'uploads/thumb/68e6b316f0f3a_WhatsApp_Image_2025-10-08_at_21.50.50.jpeg',
-        'medium' => 'uploads/medium/68e6b316f0f3a_WhatsApp_Image_2025-10-08_at_21.50.50.jpeg',
-        'original' => 'uploads/original/68e6b316f0f3a_WhatsApp_Image_2025-10-08_at_21.50.50.jpeg',
-      ),
-      3 => 
-      array (
-        'thumb' => 'uploads/thumb/68e6b3170cff0_WhatsApp_Image_2025-10-08_at_21.50.49.jpeg',
-        'medium' => 'uploads/medium/68e6b3170cff0_WhatsApp_Image_2025-10-08_at_21.50.49.jpeg',
-        'original' => 'uploads/original/68e6b3170cff0_WhatsApp_Image_2025-10-08_at_21.50.49.jpeg',
-      ),
-      4 => 
-      array (
-        'thumb' => 'uploads/thumb/68e6b3171a33f_WhatsApp_Image_2025-10-08_at_21.50.48.jpeg',
-        'medium' => 'uploads/medium/68e6b3171a33f_WhatsApp_Image_2025-10-08_at_21.50.48.jpeg',
-        'original' => 'uploads/original/68e6b3171a33f_WhatsApp_Image_2025-10-08_at_21.50.48.jpeg',
-      ),
-      5 => 
-      array (
-        'thumb' => 'uploads/thumb/68e6b31727162_WhatsApp_Image_2025-10-08_at_21.50.47.jpeg',
-        'medium' => 'uploads/medium/68e6b31727162_WhatsApp_Image_2025-10-08_at_21.50.47.jpeg',
-        'original' => 'uploads/original/68e6b31727162_WhatsApp_Image_2025-10-08_at_21.50.47.jpeg',
-      ),
-      6 => 
-      array (
-        'thumb' => 'uploads/thumb/68e6b317529e6_WhatsApp_Image_2025-10-08_at_21.50.46.jpeg',
-        'medium' => 'uploads/medium/68e6b317529e6_WhatsApp_Image_2025-10-08_at_21.50.46.jpeg',
-        'original' => 'uploads/original/68e6b317529e6_WhatsApp_Image_2025-10-08_at_21.50.46.jpeg',
-      ),
-      7 => 
-      array (
-        'thumb' => 'uploads/thumb/68e6b3175c5e2_WhatsApp_Image_2025-10-08_at_21.50.45.jpeg',
-        'medium' => 'uploads/medium/68e6b3175c5e2_WhatsApp_Image_2025-10-08_at_21.50.45.jpeg',
-        'original' => 'uploads/original/68e6b3175c5e2_WhatsApp_Image_2025-10-08_at_21.50.45.jpeg',
-      ),
-      8 => 
-      array (
-        'thumb' => 'uploads/thumb/68e6b3176b841_WhatsApp_Image_2025-10-08_at_21.50.44.jpeg',
-        'medium' => 'uploads/medium/68e6b3176b841_WhatsApp_Image_2025-10-08_at_21.50.44.jpeg',
-        'original' => 'uploads/original/68e6b3176b841_WhatsApp_Image_2025-10-08_at_21.50.44.jpeg',
-      ),
-      9 => 
-      array (
-        'thumb' => 'uploads/thumb/68e6b31777a10_WhatsApp_Image_2025-10-08_at_21.50.43.jpeg',
-        'medium' => 'uploads/medium/68e6b31777a10_WhatsApp_Image_2025-10-08_at_21.50.43.jpeg',
-        'original' => 'uploads/original/68e6b31777a10_WhatsApp_Image_2025-10-08_at_21.50.43.jpeg',
-      ),
-      10 => 
-      array (
-        'thumb' => 'uploads/thumb/68e6b317a3098_WhatsApp_Image_2025-10-08_at_21.50.42.jpeg',
-        'medium' => 'uploads/medium/68e6b317a3098_WhatsApp_Image_2025-10-08_at_21.50.42.jpeg',
-        'original' => 'uploads/original/68e6b317a3098_WhatsApp_Image_2025-10-08_at_21.50.42.jpeg',
-      ),
-      11 => 
-      array (
-        'thumb' => 'uploads/thumb/68e6b317cd64c_WhatsApp_Image_2025-10-08_at_21.50.41.jpeg',
-        'medium' => 'uploads/medium/68e6b317cd64c_WhatsApp_Image_2025-10-08_at_21.50.41.jpeg',
-        'original' => 'uploads/original/68e6b317cd64c_WhatsApp_Image_2025-10-08_at_21.50.41.jpeg',
-      ),
-      12 => 
-      array (
-        'thumb' => 'uploads/thumb/68e6b31808a49_WhatsApp_Image_2025-10-08_at_21.50.40.jpeg',
-        'medium' => 'uploads/medium/68e6b31808a49_WhatsApp_Image_2025-10-08_at_21.50.40.jpeg',
-        'original' => 'uploads/original/68e6b31808a49_WhatsApp_Image_2025-10-08_at_21.50.40.jpeg',
-      ),
-      13 => 
-      array (
-        'thumb' => 'uploads/thumb/68e6b3183255e_WhatsApp_Image_2025-10-08_at_21.50.39.jpeg',
-        'medium' => 'uploads/medium/68e6b3183255e_WhatsApp_Image_2025-10-08_at_21.50.39.jpeg',
-        'original' => 'uploads/original/68e6b3183255e_WhatsApp_Image_2025-10-08_at_21.50.39.jpeg',
-      ),
-      14 => 
-      array (
-        'thumb' => 'uploads/thumb/68e6b3185d134_WhatsApp_Image_2025-10-08_at_21.50.37.jpeg',
-        'medium' => 'uploads/medium/68e6b3185d134_WhatsApp_Image_2025-10-08_at_21.50.37.jpeg',
-        'original' => 'uploads/original/68e6b3185d134_WhatsApp_Image_2025-10-08_at_21.50.37.jpeg',
-      ),
-      15 => 
-      array (
-        'thumb' => 'uploads/thumb/68e6b31893280_WhatsApp_Image_2025-10-08_at_21.50.38.jpeg',
-        'medium' => 'uploads/medium/68e6b31893280_WhatsApp_Image_2025-10-08_at_21.50.38.jpeg',
-        'original' => 'uploads/original/68e6b31893280_WhatsApp_Image_2025-10-08_at_21.50.38.jpeg',
-      ),
-      16 => 
-      array (
-        'thumb' => 'uploads/thumb/68e6b318a2d2b_WhatsApp_Image_2025-10-08_at_21.50.36.jpeg',
-        'medium' => 'uploads/medium/68e6b318a2d2b_WhatsApp_Image_2025-10-08_at_21.50.36.jpeg',
-        'original' => 'uploads/original/68e6b318a2d2b_WhatsApp_Image_2025-10-08_at_21.50.36.jpeg',
-      ),
-      17 => 
-      array (
-        'thumb' => 'uploads/thumb/68e6b318d82e9_WhatsApp_Image_2025-10-08_at_21.50.35__1_.jpeg',
-        'medium' => 'uploads/medium/68e6b318d82e9_WhatsApp_Image_2025-10-08_at_21.50.35__1_.jpeg',
-        'original' => 'uploads/original/68e6b318d82e9_WhatsApp_Image_2025-10-08_at_21.50.35__1_.jpeg',
-      ),
-      18 => 
-      array (
-        'thumb' => 'uploads/thumb/68e6b31918f09_WhatsApp_Image_2025-10-08_at_21.50.35.jpeg',
-        'medium' => 'uploads/medium/68e6b31918f09_WhatsApp_Image_2025-10-08_at_21.50.35.jpeg',
-        'original' => 'uploads/original/68e6b31918f09_WhatsApp_Image_2025-10-08_at_21.50.35.jpeg',
-      ),
-      19 => 
-      array (
-        'thumb' => 'uploads/thumb/68e6b3194be62_WhatsApp_Image_2025-10-08_at_21.50.34.jpeg',
-        'medium' => 'uploads/medium/68e6b3194be62_WhatsApp_Image_2025-10-08_at_21.50.34.jpeg',
-        'original' => 'uploads/original/68e6b3194be62_WhatsApp_Image_2025-10-08_at_21.50.34.jpeg',
-      ),
+            0 => 
+            array (
+                'original' => 'uploads/original/apprals/1.png',
+            ),
+            1 => 
+            array (
+                'original' => 'uploads/original/apprals/2.png',
+            ),
+            2 => 
+            array (
+                'original' => 'uploads/original/apprals/3.png',
+            ),
+            3 => 
+            array (
+                'original' => 'uploads/original/apprals/6.png',
+            ),
     ),
     'product_id' => '96877552068e6b316afc16',
     'variant_id' => '96877552068e6b316afc16',
@@ -201,7 +63,7 @@
   ),
   2 => 
   array (
-    'product_title' => 'Corporate Gift',
+    'product_title' => 'CORPORATE GIFTS',
     'product_price' => '6',
     'images' => 
     array (
@@ -250,7 +112,7 @@
   ),
   3 => 
   array (
-    'product_title' => 'Key Chain',
+    'product_title' => 'KEY CHAINS',
     'product_price' => '4',
     'images' => 
     array (

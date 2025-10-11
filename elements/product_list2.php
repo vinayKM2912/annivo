@@ -1,5 +1,5 @@
 <?php
-$products = include './admin/products.php'; // Adjust path if needed
+$products = include './admin/bestProducts.php'; // Adjust path if needed
 
 foreach ($products as $product) {
     $title = htmlspecialchars($product['product_title']);
@@ -29,8 +29,6 @@ foreach ($products as $product) {
 HTML;
 
     foreach ($images as $i => $img) {
-        $thumb = BASE_URL . 'admin/' . htmlspecialchars($img['thumb']);
-        $medium = BASE_URL . 'admin/' . htmlspecialchars($img['medium']);
         $original = BASE_URL . 'admin/' . htmlspecialchars($img['original']);
         echo <<<HTML
 
@@ -39,16 +37,15 @@ HTML;
                         data-grid-image-target="{$variantId}_{$i}" data-variant-id=""
                         loading="lazy" data-grid-current-image="">
 
-                        <img src="{$thumb}"
+                        <img src="{$original}"
                             alt="{$title}" width="3024" height="3024"
                             loading="lazy"
                             class="tw-block tw-overflow-hidden tw-object-contain tw-w-full tw-h-full product-grid-item__image"
-                            srcset="{$thumb}, {$medium} 1x, {$original} 2x"
                             sizes="(min-width: 1024px) calc(min(px, 100vw) / 1),
                                    (min-width: 768px) calc(min(px, 100vw) / 1),
                                    calc(min(px, 100vw) / 1.0)"
                             fetchpriority="high"
-                            style="aspect-ratio: 1.0;object-position: center center;">
+                       >
                     </product-grid-item-image>
 HTML;
     }
@@ -92,10 +89,9 @@ HTML;
                 <p id="product-{$productId}-title" class="product__grid__title">{$title}</p>
             </div>
 
-            <!-- UNCOMMENTED: Displaying the calculated average price for the category -->
             <!-- <div class="product__grid__price product__grid__price--nowrap">
                 <span class="product__grid__cutline"></span>
-                <span class="price">AVG AED {$price}</span>
+                <span class="price">AED {$price}</span>
             </div> -->
         </a>
     </div>

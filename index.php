@@ -593,8 +593,6 @@
                     <div class="wrapper section-padding">
 
                         <h2 class="kicker-flourished mb-7">ANNVIO Collections</h2>
-
-
                         <p class="fea-description" style="padding-bottom: 32px;text-align:center;">Every product we create is a reflection of our philosophy: quality, meaning, and distinction in every detail! Just hover and click
                             equiry now!</p>
                             <div class="js-grid" data-grid-large="4" data-grid-small="2">
@@ -1280,8 +1278,6 @@
                         </div> -->
                     </div>
                 </div>
-
-
             </div>
             <div id="shopify-section-template--14655948128374__8092b13e-4149-4e1f-95af-e79d67a7d8b1"
                 class="shopify-section">
@@ -1378,8 +1374,25 @@
                     </div>
                 </section>
             </div>
-            <div id="shopify-section-template--14655948128374__product-grid" class="shopify-section">
+            <div id="shopify-section-template--14655948128374__product-grid"
+                class="shopify-section">
+                <link href="cdn/shop/t/153/assets/mote.css?v=111603181540343972631698607520" rel="stylesheet"
+                    type="text/css" media="all">
 
+                <div class="section-collection homepage--white"
+                    data-section-id="template--14655948128374__be424ce9-435e-4178-81b6-d74fd52dc84a"
+                    data-section-type="collection-row" style="--PT: 36px; --PB: 36px;">
+                    <div class="wrapper section-padding">
+
+                        <h2 class="kicker-flourished mb-7">SOME OF OUR BEST PRODUCTS</h2>
+                            <div class="js-grid" data-grid-large="4" data-grid-small="2">
+                            <?php include "./elements/product_list2.php"; ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- some bestproducts -->
+            <!-- <div id="shopify-section-template--14655948128374__product-grid" class="shopify-section">
                 <div class="section-collection palette--light bg--neutral"
                     data-section-id="template--14655948128374__product-grid" data-section-type="collection-row"
                     style="--PT: 36px; --PB: 36px;">
@@ -1418,15 +1431,11 @@
                                                     class="product-grid-item__image-wrapper is-active"
                                                     data-grid-image="0" data-grid-image-target="26312091566198"
                                                     data-variant-id="" loading="lazy" data-grid-current-image="">
-
-
-
-
-                                                    <img src="<?php echo BASE_URL; ?>images/BOXFOXSTARSHOLLOWCropped.png?v=1757460878&amp;width=3912"
+                                                    <img src="<?php echo BASE_URL; ?>uploads/original/keychain/1.jpg?v=1757460878&amp;width=3912"
                                                         alt="Gift box with 'Box Fox' branding, keychain, and small items on a dark blue background"
                                                         width="3912" height="3912" loading="lazy"
                                                         class="tw-block tw-overflow-hidden tw-object-contain tw-w-full tw-h-full product-grid-item__image"
-                                                        srcset="<?php echo BASE_URL; ?>images/BOXFOXSTARSHOLLOWCropped.png?crop=center&amp;height=3912&amp;v=1757460878&amp;width=3912, <?php echo BASE_URL; ?>images/BOXFOXSTARSHOLLOWCropped.png?crop=center&amp;height=1028&amp;v=1757460878&amp;width=1028 1028w,<?php echo BASE_URL; ?>images/BOXFOXSTARSHOLLOWCropped.png?crop=center&amp;height=2056&amp;v=1757460878&amp;width=2056 2056w, <?php echo BASE_URL; ?>images/BOXFOXSTARSHOLLOWCropped.png?crop=center&amp;height=1328&amp;v=1757460878&amp;width=1328 1328w,<?php echo BASE_URL; ?>images/BOXFOXSTARSHOLLOWCropped.png?crop=center&amp;height=2656&amp;v=1757460878&amp;width=2656 2656w, <?php echo BASE_URL; ?>images/BOXFOXSTARSHOLLOWCropped.png?crop=center&amp;height=164&amp;v=1757460878&amp;width=164 164w,<?php echo BASE_URL; ?>images/BOXFOXSTARSHOLLOWCropped.png?crop=center&amp;height=328&amp;v=1757460878&amp;width=328 328w, <?php echo BASE_URL; ?>images/BOXFOXSTARSHOLLOWCropped.png?crop=center&amp;height=696&amp;v=1757460878&amp;width=696 696w,<?php echo BASE_URL; ?>images/BOXFOXSTARSHOLLOWCropped.png?crop=center&amp;height=1392&amp;v=1757460878&amp;width=1392 1392w, <?php echo BASE_URL; ?>images/BOXFOXSTARSHOLLOWCropped.png?crop=center&amp;height=952&amp;v=1757460878&amp;width=952 952w,<?php echo BASE_URL; ?>images/BOXFOXSTARSHOLLOWCropped.png?crop=center&amp;height=1904&amp;v=1757460878&amp;width=1904 1904w"
+                                                        srcset="<?php echo BASE_URL; ?>uploads/original/keychain/1.jpg?crop=center&amp;height=3912&amp;v=1757460878&amp;width=3912, <?php echo BASE_URL; ?>images/BOXFOXSTARSHOLLOWCropped.png?crop=center&amp;height=1028&amp;v=1757460878&amp;width=1028 1028w,<?php echo BASE_URL; ?>images/BOXFOXSTARSHOLLOWCropped.png?crop=center&amp;height=2056&amp;v=1757460878&amp;width=2056 2056w, <?php echo BASE_URL; ?>images/BOXFOXSTARSHOLLOWCropped.png?crop=center&amp;height=1328&amp;v=1757460878&amp;width=1328 1328w,<?php echo BASE_URL; ?>images/BOXFOXSTARSHOLLOWCropped.png?crop=center&amp;height=2656&amp;v=1757460878&amp;width=2656 2656w, <?php echo BASE_URL; ?>images/BOXFOXSTARSHOLLOWCropped.png?crop=center&amp;height=164&amp;v=1757460878&amp;width=164 164w,<?php echo BASE_URL; ?>images/BOXFOXSTARSHOLLOWCropped.png?crop=center&amp;height=328&amp;v=1757460878&amp;width=328 328w, <?php echo BASE_URL; ?>images/BOXFOXSTARSHOLLOWCropped.png?crop=center&amp;height=696&amp;v=1757460878&amp;width=696 696w,<?php echo BASE_URL; ?>images/BOXFOXSTARSHOLLOWCropped.png?crop=center&amp;height=1392&amp;v=1757460878&amp;width=1392 1392w, <?php echo BASE_URL; ?>images/BOXFOXSTARSHOLLOWCropped.png?crop=center&amp;height=952&amp;v=1757460878&amp;width=952 952w,<?php echo BASE_URL; ?>images/BOXFOXSTARSHOLLOWCropped.png?crop=center&amp;height=1904&amp;v=1757460878&amp;width=1904 1904w"
                                                         sizes="(min-width: 1024px) calc(min(100vw, 1450px, 100vw) / 1),(min-width: 768px) calc(min(100vw, 1450px, 100vw) / 1), calc(min(100vw, 1450px, 100vw) / 2)"
                                                         fetchpriority="high"
                                                         style="aspect-ratio: 1.0;object-position: center center;">
@@ -4844,9 +4853,7 @@
 
                     </div>
                 </div>
-
-
-            </div>
+            </div> -->
             <!-- <div id="shopify-section-template--14655948128374__logos" class="shopify-section">
                 <div class="section-logos palette--light bg--neutral section-logos--tall"
                     style="--PT: 36px; --PB: 36px; " data-section-id="template--14655948128374__logos"
@@ -8431,7 +8438,7 @@
                                                     time.</p>
                                             </div>
 
-                                            <a href="<?php echo BASE_URL; ?>corporate.php"
+                                            <a href="<?php echo BASE_URL; ?>corporate"
                                                 class="standard__cta btn btn--long btn--white aos-init aos-animate"
                                                 data-aos="hero"
                                                 data-aos-anchor="[data-section-id='template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622']"
@@ -8486,9 +8493,6 @@
                     </div>
                 </section>
             </div>
-
-
-
             <?php include "./elements/expertise.php"; ?>
             <button class="flickity-button flickity-prev-next-button previous" type="button" aria-label="Previous"
                 disabled="true">
