@@ -9214,6 +9214,66 @@
         height: 100%;
         width: 100%
     }
+
+    .carousel-wrapper {
+            width: 100%;
+            overflow: hidden;
+            padding: 50px 0;
+        }
+
+        .carousel-container {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+
+        .carousel-track {
+            display: flex;
+            position: relative;
+            will-change: transform;
+        }
+
+        .location-card {
+            position: relative;
+            width: 400px;
+            height: 250px;
+            margin-right: 24px;
+            /* border-radius: 20px; */
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            flex-shrink: 0;
+            transition: transform 0.3s ease;
+        }
+
+        .location-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .location-card img {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        @media (max-width: 768px) {
+            .carousel-wrapper{
+            padding: 20px 0;
+            }
+            .location-card {
+                width: 300px;
+                height: 200px;
+                margin-right: 16px;
+            }
+
+            .location-label {
+                font-size: 14px;
+                padding: 10px 16px;
+            }
+        }
     </style>
     <script type="text/javascript" async="true" src="https://omnisnippet1.com/monitoring/monitoring.js?v=2025-09-28T08">
     </script>
