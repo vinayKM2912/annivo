@@ -9226,6 +9226,7 @@
             width: 100%;
             overflow: hidden;
             padding: 20px 0;
+            height: 240px;
         }
 
         .carousel-track {

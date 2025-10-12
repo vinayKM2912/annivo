@@ -12,40 +12,42 @@ if (is_dir($images_dir)) {
             $extension = strtolower($file->getExtension());
 
             if (in_array($extension, ['jpg', 'jpeg', 'png', 'gif', 'webp'])) {
-
                 $all_images[] = $file->getPathname();
             }
         }
     }
 }
 
-if (empty($all_images)) {
-
-} else {
-    $image_urls = array_map(function ($filesystem_path) {
-
+if (!empty($all_images)) {
+    ?>
+    <div class="carousel-wrapper">
+        <div class="carousel-container">
+            <div class="carousel-track" id="carousel-track">
+                <?php
+foreach ($all_images as $filesystem_path) {
+        // Convert filesystem path to URL
         $normalized_path = str_replace('\\', '/', $filesystem_path);
         $relative_path = str_replace(
             str_replace('\\', '/', PROJECT_ROOT),
             '',
             $normalized_path
         );
-        return BASE_URL . ltrim($relative_path, '/');
-    }, $all_images);
-    $images_json = json_encode($image_urls);
+        $image_url = BASE_URL . ltrim($relative_path, '/');
+        ?>
+                    <div class="location-card">
+                        <img src="<?php echo htmlspecialchars($image_url); ?>" alt="Product Image">
+                    </div>
+                    <?php
+}
     ?>
-    <div class="carousel-wrapper">
-        <div class="carousel-container">
-            <div class="carousel-track" id="carousel-track"></div>
+            </div>
         </div>
     </div>
     <script src="<?php echo BASE_URL; ?>js/80codes-slider.js" type="text/javascript"></script>
-
     <script>
-
-    var images_list = <?php echo $images_json; ?>;
-
-    initLocationCarousel(images_list);
+        // Initialize carousel if needed (for navigation/autoplay functionality)
+        initLocationCarousel();
     </script>
     <?php
 }
+?>
