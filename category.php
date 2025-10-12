@@ -9357,7 +9357,7 @@ if (isset($_GET["slug"])) {
         href="https://cdn.shopify.com/s/files/1/0558/2845/files/boxfox-logo_x320.png?v=1724220863" crossorigin="">
 </head>
 
-<body id="custom-amp-curated-gift-boxes-boxfox" ng-app="BOXFOX" ng-controller="App"
+<body id="custom-amp-curated-gift-boxes-boxfox" ng-app="AANIVO" ng-controller="App"
     class="template-index theme-animate-hover" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <?php include_once "./elements/header.php"; ?>
     <?php if (!isset($_GET['slug']) || !$category) {?>

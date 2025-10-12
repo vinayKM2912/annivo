@@ -9,7 +9,7 @@ include "config.php";
 <body id="custom-amp-curated-gift-boxes-boxfox" ng-app="BOXFOX" ng-controller="App"
     class="template-index theme-animate-hover" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <?php include "./elements/header.php"; ?>
-    <main class="main-content" id="MainContent">
+    <main class="main-content" id="MainContent" style="background-color: #efffff;">
         <div id="shopify-section-template--14655948488822__798650bf-c362-4d70-93a0-f02f30d8f91b"
             class="shopify-section">
             <!-- /sections/section-hero.liquid -->
@@ -604,14 +604,14 @@ include "config.php";
                                 <br>
                             </div>
 
-                            <div class="ship-form">
+                            <!-- <div class="ship-form">
                                 Desired Arrival Date:
                                 <span class="dateInput dateOnlyInput">
                                     <input id="desired_arrival_date" name="desired_arrival_date" size="12" type="date"
                                         required="">
                                 </span>
                                 <br>
-                            </div>
+                            </div> -->
 
                             <div class="use-form">
                                 Gifting Reason:
@@ -727,12 +727,8 @@ include "config.php";
 
 
         </div>
-        <div id="shopify-section-template--14655948488822__df52b13c-ace8-422f-abb6-b46f3f6e2499"
+        <!-- <div id="shopify-section-template--14655948488822__df52b13c-ace8-422f-abb6-b46f3f6e2499"
             class="shopify-section">
-            <!-- /sections/section-double.liquid -->
-
-
-
             <section data-section-id="template--14655948488822__df52b13c-ace8-422f-abb6-b46f3f6e2499"
                 data-section-type="custom-content" style="--PT: 36px; --PB: 36px; --BRICK-GUTTER: 0px; ">
                 <div class="section-padding wrapper" data-wrapper="">
@@ -798,7 +794,7 @@ include "config.php";
 
                                 <div class="image-overlay" style="--bg:#000000; opacity:0.05;"></div>
 
-                                <!-- /snippets/hero.liquid -->
+
 
 
                                 <div class="image__hero__frame fade-in-child use_screen_one_half "
@@ -807,7 +803,6 @@ include "config.php";
                                         <div class="image__hero__scale"
                                             style="height: 100vw; transform: translate3d(0px, -37px, 0px);"
                                             data-parallax-img="">
-                                            <!-- /snippets/image.liquid -->
 
 
 
@@ -842,7 +837,7 @@ include "config.php";
 
 
 
-        </div>
+        </div> -->
         <div id="shopify-section-template--14655948488822__b7492f32-bb35-425b-9718-c7fbcfe3a0c5"
             class="shopify-section">
             <!-- /sections/section-hero.liquid -->

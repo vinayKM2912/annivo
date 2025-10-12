@@ -5,7 +5,7 @@
 
 <body id="custom-amp-curated-gift-boxes-boxfox" ng-app="BOXFOX" ng-controller="App"
     class="pageLoad template-index theme-animate-hover" data-aos-easing="ease" data-aos-duration="400"
-    data-aos-delay="0" style="background-color: #efffff;">
+    data-aos-delay="0">
     <?php include "./elements/header.php"; ?>
     <main class="main-content" id="MainContent" style="background-color: #efffff;">
         <div id="shopify-section-template--14655948128374__hero" class="shopify-section">
@@ -142,14 +142,12 @@
 
             </div>
             <div id="shopify-section-template--14655948128374__section_announcement_PetCjB" class="shopify-section">
-
-
                 <div class="announcement__wrapper" data-announcement-wrapper=""
                     data-section-id="template--14655948128374__section_announcement_PetCjB"
                     data-section-type="announcement" style="--PT: 14px; --PB: 14px;">
 
                     <div>
-                        <div class="announcement__bar-outer" data-bar="" style="--bg: #ffffff; --text: #ff1d1d;">
+                        <div class="announcement__bar-outer" data-bar="" style="--bg: #ffffff; --text: #1703afff;">
                             <div class="announcement__bar-holder">
                                 <div class="announcement__bar section-padding">
                                     <div data-ticker-frame="" class="announcement__message">
@@ -161,7 +159,7 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="<?php echo BASE_URL; ?>contact"
+                                                            href="<?php echo BASE_URL; ?>contact" 
                                                             title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
@@ -176,7 +174,7 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="<?php echo BASE_URL; ?>contact"
+                                                            href="<?php echo BASE_URL; ?>contact" 
                                                             title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
@@ -191,7 +189,7 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="<?php echo BASE_URL; ?>contact"
+                                                            href="<?php echo BASE_URL; ?>contact" 
                                                             title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
@@ -206,7 +204,7 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="<?php echo BASE_URL; ?>contact"
+                                                            href="<?php echo BASE_URL; ?>contact" 
                                                             title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
@@ -221,7 +219,7 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="<?php echo BASE_URL; ?>contact"
+                                                            href="<?php echo BASE_URL; ?>contact" 
                                                             title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
@@ -236,7 +234,7 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="<?php echo BASE_URL; ?>contact"
+                                                            href="<?php echo BASE_URL; ?>contact" 
                                                             title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
@@ -251,7 +249,7 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="<?php echo BASE_URL; ?>contact"
+                                                            href="<?php echo BASE_URL; ?>contact" 
                                                             title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
@@ -266,7 +264,7 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="<?php echo BASE_URL; ?>contact"
+                                                            href="<?php echo BASE_URL; ?>contact" 
                                                             title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
@@ -281,7 +279,7 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="<?php echo BASE_URL; ?>contact"
+                                                            href="<?php echo BASE_URL; ?>contact" 
                                                             title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
@@ -296,7 +294,7 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="<?php echo BASE_URL; ?>contact"
+                                                            href="<?php echo BASE_URL; ?>contact" 
                                                             title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
@@ -311,7 +309,7 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="<?php echo BASE_URL; ?>contact"
+                                                            href="<?php echo BASE_URL; ?>contact" 
                                                             title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
@@ -326,7 +324,7 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="<?php echo BASE_URL; ?>contact"
+                                                            href="<?php echo BASE_URL; ?>contact" 
                                                             title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
@@ -341,7 +339,7 @@
                                                 <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                             class="announcement__divider">
                                                         </span>&nbsp;</strong><a
-                                                        href="<?php echo BASE_URL; ?>contact"
+                                                        href="<?php echo BASE_URL; ?>contact" 
                                                         title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                 HERE</strong>
                                                         </em>
@@ -394,7 +392,7 @@
                                 </div>
 
 
-                                <a href="<?php echo BASE_URL; ?>contact"
+                                <a href="<?php echo BASE_URL; ?>contact" 
                                     class="btn--neutral btn--soft">
                                     GET TO GIFTING
                                 </a>
@@ -420,7 +418,7 @@
                                 </div>
 
 
-                                <a  href="<?php echo BASE_URL; ?>contact"
+                                <a  href="<?php echo BASE_URL; ?>contact" 
                                     class="btn--neutral btn--soft">
                                     GET PERSONAL
                                 </a>
@@ -446,7 +444,7 @@
                                 </div>
 
 
-                                <a  href="<?php echo BASE_URL; ?>contact"
+                                <a  href="<?php echo BASE_URL; ?>contact" 
                                     class="btn--neutral btn--soft">
                                     TREAT YOURSELF
                                 </a>
@@ -605,9 +603,9 @@
     </div>
     <div class="tab-contents"><div id="tab-1" class="tab-pane active">
           <p><strong>Bespoke Solutions – Tailor-made merchandise designed for your brand’s unique journey.</strong></p>
-
+          
           <p>To redefine corporate merchandising in the UAE and beyond by offering bespoke solutions that blend creativity, craftsmanship, and brand storytelling. We aim to transform how businesses connect with employees, clients, and partners—through products that are not only functional, but also memorable and meaningful.</p>
-
+          
           <p><strong>Uncompromising Quality – Products created with attention to detail and premium craftsmanship.</strong></p>
         </div><div id="tab-2" class="tab-pane">
           <p>Aanvio is a bespoke <strong>B2B merchandising solutions company</strong> founded in the <strong>UAE with many years</strong>. We design and deliver <strong>premium products</strong> and <strong>curated gifting</strong> experiences that help businesses express their story with elegance and impact. We're thrilled to have served over <strong>800</strong> corporate clients.</p>
@@ -644,33 +642,74 @@
   });
 </script>
 </div>
-            <!-- End Why AANVIO Section -->
+    <!-- Our Factory Partners Section -->
+     <div id="shopify-section-template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622"
+                class="shopify-section">
+                <section data-section-id="template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622"
+                    data-section-type="custom-content" style="--PT: 36px; --PB: 0px; --BRICK-GUTTER: 0px; ">
+                    <div class="section-padding wrapper--none" data-wrapper="">
+                        <div class="brick__section brick--2   use_screen_one_half brick__section--reverse"
+                            data-overflow-wrapper="" style="min-height: 447px;">
+                            <div class="brick__block" data-prevent-transparent-header="">
+                                <div class="brick__block__text  text--white" data-overflow-frame=""
+                                    style="--bg: #6e7a77; min-height: 445px;">
+                                    <div class="brick__block__text__inner">
+                                        <div class="text__standard text-left" data-overflow-content="">
 
-<div id="shopify-section-template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed" class="shopify-section"><!-- /sections/section-richtext.liquid--><section class="text--neutral palette--light bg--neutral" data-section-id="template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed" data-section-type="rich-text" style="
-      --PT: 36px;
-      --PB: 0px;
-      --FLEX-POSITION: center;
-      --CONTENT-WIDTH: 2000px;">
-    <div class="wrapper section-padding">
-      <div class="text__standard text-center"><div class="standard__heading heading-size-8 aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed']" data-aos-order="2">
-                <p>Our Factory Partners</p>
-                <div class="standard__kicker accent-size-4 block__kicker--flourished aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed']" data-aos-order="1">
-              </div>
-              </div><div class="rte body-size-5 columns--1 aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed']" data-aos-order="3">
-                <p>Behind every Aanvio creation is a network of trusted factory partners who share our values. We work only with certified manufacturers that use safe, high-quality materials and follow strict global standards.
+                                            <h2 class="standard__heading heading-size-9 aos-init aos-animate"
+                                                data-aos="hero"
+                                                data-aos-anchor="[data-section-id='template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622']"
+                                                data-aos-order="2">
+                                               Our Factory Partners
+                                            </h2>
 
-Every product is made responsibly, in environments where workers are treated fairly and with dignity. Ethical practices are not an afterthought for us, they are the foundation of our partnerships.
+                                            <div class="rte body-size-4 columns--1 aos-init aos-animate" data-aos="hero"
+                                                data-aos-anchor="[data-section-id='template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622']"
+                                                data-aos-order="3">
+                                                <p>Behind every Aanvio creation is a network of trusted factory partners who share our values. 
+                                                    We work only with certified manufacturers that use safe, high-quality materials and follow strict global standards.
+                                                    <br><br>Every product is made responsibly, in environments where workers are treated fairly and with dignity. 
+                                                    Ethical practices are not an afterthought for us, they are the foundation of our partnerships.<br><br>
+                                                    When you choose Aanvio, you choose products that are not only premium in quality but also created with respect for people and the planet.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="brick__block" data-overflow-frame="" style="min-height: 445px;">
+                                <div class="brick__block__image text--white">
+                                    <div class="hero__content__wrapper align--middle-center">
+                                        <div class="hero__content " data-overflow-content="">
+                                        </div><a href="<?php echo BASE_URL; ?>about" class="link-over-image"
+                                            aria-label="">
+                                        </a>
+                                    </div>
+                                    <div class="image-overlay" style="--bg:#000000; opacity:0.15;">
+                                    </div>
+                                    <div class="image__hero__frame fade-in-child use_screen_one_half "
+                                        data-overflow-background="" data-parallax-wrapper="" style="min-height: 445px;">
+                                        <div class="image__hero__pane">
+                                            <div class="image__hero__scale"
+                                                style="height: 100vw; transform: translate3d(0px, 15px, 0px);"
+                                                data-parallax-img="">
+                                                <img src="<?php echo BASE_URL; ?>images/factory6.webp&amp;width=4455"
+                                                    alt="" width="4455" height="4455" loading="lazy"
+                                                    class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
+                                                    srcset="<?php echo BASE_URL; ?>images/factory6.webp&amp;v=1686589162&amp;width=4455, <?php echo BASE_URL; ?>images/factory6.webp?height=384&amp;v=1686589162&amp;width=384 384w,<?php echo BASE_URL; ?>images/factory6.webp?height=768&amp;v=1686589162&amp;width=768 768w, <?php echo BASE_URL; ?>images/factory6.webp?height=400&amp;v=1686589162&amp;width=400 400w,<?php echo BASE_URL; ?>images/factory6.webp?height=800&amp;v=1686589162&amp;width=800 800w, <?php echo BASE_URL; ?>images/factory6.webp?height=512&amp;v=1686589162&amp;width=512 512w,<?php echo BASE_URL; ?>images/factory6.webp?height=1024&amp;v=1686589162&amp;width=1024 1024w, <?php echo BASE_URL; ?>images/factory6.webp?height=550&amp;v=1686589162&amp;width=550 550w,<?php echo BASE_URL; ?>images/factory6.webp?height=1100&amp;v=1686589162&amp;width=1100 1100w, <?php echo BASE_URL; ?>images/factory6.webp?height=700&amp;v=1686589162&amp;width=700 700w,<?php echo BASE_URL; ?>images/factory6.webp?height=1400&amp;v=1686589162&amp;width=1400 1400w"
+                                                    sizes="(min-width: 1024px) calc(100vw / 2), (min-width: 768px) calc(100vw / 2), calc(100vw / 1.0)"
+                                                    fetchpriority="auto"
+                                                    style="aspect-ratio: 1.0;object-position: center center;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-When you choose Aanvio, you choose products that are not only premium in quality but also created with respect for people and the planet.<br></p>
-              </div>
-
-        <div class="hero__cta__wrapper">
-
-        </div></div>
-    </div>
-  </section>
-
-</div>
+                    </div>
+                </section>
+            </div>
             <div id="shopify-section-template--14655948128374__be424ce9-435e-4178-81b6-d74fd52dc84a"
                 class="shopify-section">
                 <link href="cdn/shop/t/153/assets/mote.css?v=111603181540343972631698607520" rel="stylesheet"
@@ -1368,12 +1407,7 @@ When you choose Aanvio, you choose products that are not only premium in quality
                     </div>
                 </div>
             </div>
-
-
-           <?php include_once "elements\carousel.php"; ?>
-
-
-            <div id="shopify-section-template--14655948128374__8092b13e-4149-4e1f-95af-e79d67a7d8b1"
+            <!-- <div id="shopify-section-template--14655948128374__8092b13e-4149-4e1f-95af-e79d67a7d8b1"
                 class="shopify-section">
 
                 <section data-section-id="template--14655948128374__8092b13e-4149-4e1f-95af-e79d67a7d8b1"
@@ -1437,7 +1471,7 @@ When you choose Aanvio, you choose products that are not only premium in quality
                                                 data-aos="hero"
                                                 data-aos-anchor="[data-section-id='template--14655948128374__8092b13e-4149-4e1f-95af-e79d67a7d8b1']"
                                                 data-aos-order="2">
-                                                Put Their Name On It
+                                                Put Your Name On It
                                             </h2>
 
 
@@ -1446,18 +1480,18 @@ When you choose Aanvio, you choose products that are not only premium in quality
                                                 data-aos-order="3">
                                                 <p>We all know the next step in the ultimate in personalized gifting is
                                                     putting their name on it!
-                                                    Check out our Personalization Shop and see all the ways you can add
+                                                    Check out our Personalization.see all the ways you can add
                                                     their name! PS: We're
                                                     <em>just</em> getting started.
                                                 </p>
                                             </div>
 
-                                            <a href="https://boxfox.com/pages/the-personalization-shop?_pos=1&amp;_psq=personali&amp;_ss=e&amp;_v=1.0"
+                                            <a href="<?php echo BASE_URL; ?>contact"
                                                 class="standard__cta btn--outline btn--long btn--white aos-init aos-animate"
                                                 data-aos="hero"
                                                 data-aos-anchor="[data-section-id='template--14655948128374__8092b13e-4149-4e1f-95af-e79d67a7d8b1']"
                                                 data-aos-order="4">
-                                                SHOP IT, SHIP IT
+                                                CUSTOMIZE NOW
                                             </a>
                                         </div>
                                     </div>
@@ -1467,8 +1501,8 @@ When you choose Aanvio, you choose products that are not only premium in quality
 
                     </div>
                 </section>
-            </div>
-            <div id="shopify-section-template--14655948128374__product-grid"
+            </div> -->
+            <!-- <div id="shopify-section-template--14655948128374__product-grid"
                 class="shopify-section">
                 <link href="cdn/shop/t/153/assets/mote.css?v=111603181540343972631698607520" rel="stylesheet"
                     type="text/css" media="all">
@@ -1480,11 +1514,10 @@ When you choose Aanvio, you choose products that are not only premium in quality
 
                         <h2 class="kicker-flourished mb-7">SOME OF OUR BEST PRODUCTS</h2>
                             <div class="js-grid" data-grid-large="4" data-grid-small="2">
-                            <?php include "./elements/product_list2.php"; ?>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- some bestproducts -->
             <!-- <div id="shopify-section-template--14655948128374__product-grid" class="shopify-section">
                 <div class="section-collection palette--light bg--neutral"
@@ -8484,109 +8517,6 @@ When you choose Aanvio, you choose products that are not only premium in quality
 
 
             </div> -->
-            <!-- <div id="shopify-section-template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622"
-                class="shopify-section">
-
-                <section data-section-id="template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622"
-                    data-section-type="custom-content" style="--PT: 36px; --PB: 0px; --BRICK-GUTTER: 0px; ">
-                    <div class="section-padding wrapper--none" data-wrapper="">
-                        <div class="brick__section brick--2   use_screen_one_half brick__section--reverse"
-                            data-overflow-wrapper="" style="min-height: 447px;">
-
-
-                            <div class="brick__block" data-prevent-transparent-header="">
-                                <div class="brick__block__text  text--black" data-overflow-frame=""
-                                    style="--bg: #e2dad3; min-height: 445px;">
-                                    <div class="brick__block__text__inner">
-                                        <div class="text__standard text-left" data-overflow-content="">
-
-                                            <p class="standard__kicker aos-init aos-animate" data-aos="hero"
-                                                data-aos-anchor="[data-section-id='template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622']"
-                                                data-aos-order="1">
-                                                DIRECT MAIL THAT DELIVERS
-                                            </p>
-
-                                            <h2 class="standard__heading heading-size-9 aos-init aos-animate"
-                                                data-aos="hero"
-                                                data-aos-anchor="[data-section-id='template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622']"
-                                                data-aos-order="2">
-                                                Custom Corporate Gifting
-                                            </h2>
-
-
-                                            <div class="rte body-size-4 columns--1 aos-init aos-animate" data-aos="hero"
-                                                data-aos-anchor="[data-section-id='template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622']"
-                                                data-aos-order="3">
-                                                <p>Whether you need enterprise-level efficiency or small business savvy,
-                                                    you
-                                                    can count on a
-                                                    best-in-class gifting experience.<br><br>AANVIO Concierge brings the
-                                                    AANVIO aesthetic and human
-                                                    touch to scale, offering personal gifting solutions for companies
-                                                    large
-                                                    and small. We promise to
-                                                    be your go-to for gifting! With a dedicated sales manager, all-star
-                                                    production team, and
-                                                    countless customization options, we make it all happen, on brand,
-                                                    and on
-                                                    time.</p>
-                                            </div>
-
-                                            <a href="<?php echo BASE_URL; ?>corporate"
-                                                class="standard__cta btn btn--long btn--white aos-init aos-animate"
-                                                data-aos="hero"
-                                                data-aos-anchor="[data-section-id='template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622']"
-                                                data-aos-order="4">
-                                                GET STARTED TODAY
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="brick__block" data-overflow-frame="" style="min-height: 445px;">
-                                <div class="brick__block__image text--white">
-                                    <div class="hero__content__wrapper align--middle-center">
-                                        <div class="hero__content " data-overflow-content="">
-
-                                        </div><a href="https://boxfox.com/pages/corporate" class="link-over-image"
-                                            aria-label="">
-                                        </a>
-                                    </div>
-
-
-                                    <div class="image-overlay" style="--bg:#000000; opacity:0.15;">
-
-                                    </div>
-
-
-
-
-                                    <div class="image__hero__frame fade-in-child use_screen_one_half "
-                                        data-overflow-background="" data-parallax-wrapper="" style="min-height: 445px;">
-                                        <div class="image__hero__pane">
-                                            <div class="image__hero__scale"
-                                                style="height: 100vw; transform: translate3d(0px, 15px, 0px);"
-                                                data-parallax-img="">
-
-
-
-                                                <img src="<?php echo BASE_URL; ?>images/Holiday22-337_1_1.jpg?v=1686589162&amp;width=4455"
-                                                    alt="" width="4455" height="4455" loading="lazy"
-                                                    class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
-                                                    srcset="<?php echo BASE_URL; ?>images/Holiday22-337_1_1.jpg?height=4455&amp;v=1686589162&amp;width=4455, <?php echo BASE_URL; ?>images/Holiday22-337_1_1.jpg?height=384&amp;v=1686589162&amp;width=384 384w,<?php echo BASE_URL; ?>images/Holiday22-337_1_1.jpg?height=768&amp;v=1686589162&amp;width=768 768w, <?php echo BASE_URL; ?>images/Holiday22-337_1_1.jpg?height=400&amp;v=1686589162&amp;width=400 400w,<?php echo BASE_URL; ?>images/Holiday22-337_1_1.jpg?height=800&amp;v=1686589162&amp;width=800 800w, <?php echo BASE_URL; ?>images/Holiday22-337_1_1.jpg?height=512&amp;v=1686589162&amp;width=512 512w,<?php echo BASE_URL; ?>images/Holiday22-337_1_1.jpg?height=1024&amp;v=1686589162&amp;width=1024 1024w, <?php echo BASE_URL; ?>images/Holiday22-337_1_1.jpg?height=550&amp;v=1686589162&amp;width=550 550w,<?php echo BASE_URL; ?>images/Holiday22-337_1_1.jpg?height=1100&amp;v=1686589162&amp;width=1100 1100w, <?php echo BASE_URL; ?>images/Holiday22-337_1_1.jpg?height=700&amp;v=1686589162&amp;width=700 700w,<?php echo BASE_URL; ?>images/Holiday22-337_1_1.jpg?height=1400&amp;v=1686589162&amp;width=1400 1400w"
-                                                    sizes="(min-width: 1024px) calc(100vw / 2), (min-width: 768px) calc(100vw / 2), calc(100vw / 1.0)"
-                                                    fetchpriority="auto"
-                                                    style="aspect-ratio: 1.0;object-position: center center;">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </section>
-            </div> -->
 
             <?php include "./elements/expertise.php"; ?>
         <div class="custom-scrollbar small-down--show" data-custom-scrollbar=""
@@ -13263,20 +13193,20 @@ When you choose Aanvio, you choose products that are not only premium in quality
         body.template-index {
             background-color: #efffff !important;
         }
-
+        
         .main-content {
             background-color: #efffff;
         }
-
+        
         /* Ensure sections maintain the theme color */
         .section-columns.palette--light.bg--accent {
             background-color: #efffff !important;
         }
-
+        
         .section-collection.homepage--white {
             background-color: #efffff !important;
         }
-
+        
         .text--neutral.palette--light.bg--neutral {
             background-color: #efffff !important;
         }

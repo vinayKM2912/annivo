@@ -559,13 +559,6 @@ window.addEventListener("klaviyoForms", function(a) {
                     </div>
 
                     <div class="drawer__menu" data-stagger-animation="" data-sliderule-pane="0">
-                        <!-- <div class="sliderule__wrapper">
-                            <div class="sliderow" data-animates="0" style="transition-delay: 60ms;">
-                                <a class="sliderow__title"
-                                    href="https://boxfox.com/pages/build-a-boxfox?step=1&amp;build_box=1">COPORATE 
-                                    GIFTS</a>
-                            </div>
-                        </div> -->
                         <div class="sliderule__wrapper"><button class="sliderow" data-animates="0"
                                 data-sliderule-open="sliderule-f657d26d9ee18efab82204da1855e6a2" aria-haspopup="true"
                                 aria-expanded="false" aria-controls="sliderule-f657d26d9ee18efab82204da1855e6a2"

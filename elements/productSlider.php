@@ -139,40 +139,41 @@ li.andyslider-item {
 
 <script>
 const images = [{
-        img: "https://cdn11.bigcommerce.com/s-fz2bnmwg7y/images/stencil/1920w/products/3946/115288/MUM3B__10793.1727977339.jpg",
-        name: "Mumy Bob",
+        img: "uploads/products/apparel/1.png",
+        name: "Apparels",
+        href: "<?php echo BASE_URL; ?>category/apparel",
         price: "100"
     },
     {
-        img: "https://cdn11.bigcommerce.com/s-fz2bnmwg7y/images/stencil/1920w/products/3636/112234/BARM3BR__78679.1749224393.jpg",
-        name: "Teddy Bear",
+        img: "uploads/products/corporate-gifts/11.png",
+        name: "Corporate Gifts",
+        href: "<?php echo BASE_URL; ?>category/corporate-gifts",
         price: "200"
     },
     {
-        img: "https://cdn11.bigcommerce.com/s-fz2bnmwg7y/images/stencil/1920w/products/4099/119814/BPM3BM__79446.1734429866.jpg",
-        name: "Blossom Bunny",
+        img: "uploads/products/customized-items/5.png",
+        name: "Customized Items",
+        href: "<?php echo BASE_URL; ?>category/customized-items",
         price: "300"
     },
     {
-        img: "https://cdn11.bigcommerce.com/s-fz2bnmwg7y/images/stencil/1920w/products/3476/119637/SKE3B__73495.1753463910.jpg",
-        name: "Skeleton Bear",
+        img: "uploads/products/key-rings/3.png",
+        name: "Key Rings",
+        href: "<?php echo BASE_URL; ?>category/key-rings",
         price: "200"
     },
     {
-        img: "https://cdn11.bigcommerce.com/s-fz2bnmwg7y/images/stencil/1920w/products/4242/121514/PNP4PP__44125.1752859088.jpg",
-        name: "Pink Panda",
+        img: "uploads/products/plush-toys/2.png",
+        name: "Plush Toys",
+        href: "<?php echo BASE_URL; ?>category/plush-toys",
         price: "150"
     },
     {
-        img: "https://cdn11.bigcommerce.com/s-fz2bnmwg7y/images/stencil/1920w/products/3946/115288/MUM3B__10793.1727977339.jpg",
-        name: "Mumy Bob 2",
+        img: "uploads/products/sustainability/4.png",
+        name: "Sustainability",
+        href: "<?php echo BASE_URL; ?>category/sustainability",
         price: "110"
     },
-    {
-        img: "https://cdn11.bigcommerce.com/s-fz2bnmwg7y/images/stencil/1280w/products/4279/121915/TIM3TSK__43226.1756728294.png",
-        name: "Timmy Turtle 'Skating",
-        price: "110"
-    }
 
 ];
 
@@ -185,6 +186,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const card = document.createElement("div");
         card.classList.add("andyslider-card");
+        
+        // Add cursor pointer style to indicate clickability
+        card.style.cursor = "pointer";
 
         const image = document.createElement("img");
         image.src = item.img;
@@ -193,6 +197,10 @@ document.addEventListener("DOMContentLoaded", () => {
         const name = document.createElement("strong");
         name.textContent = item.name;
 
+        // Add click event listener to the card
+        card.addEventListener("click", () => {
+            window.location.href = item.href;
+        });
 
         card.appendChild(image);
         card.appendChild(name);
