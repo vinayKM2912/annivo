@@ -9374,7 +9374,7 @@ if (isset($_GET["slug"])) {
             <div class="hero__content hero__content--transparent js-overflow-content">
               <div class="text__standard text--white ">
                 <div class="hero__title heading-size-10 aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__62c60dd6-ae76-4dea-aa45-d480b86f8210']" data-aos-order="1">
-                  <h1> <?php echo $category['category_title']; ?> </h1>
+                  <!-- <h1> <?php echo $category['category_title']; ?> </h1> -->
                 </div>
               </div>
             </div>
@@ -9400,9 +9400,9 @@ if (isset($_GET["slug"])) {
       --CONTENT-WIDTH: 2000px;">
       <div class="wrapper section-padding">
         <div class="text__standard text-center">
-          <div class="standard__kicker accent-size-4 block__kicker--flourished aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed']" data-aos-order="1">
+          <!-- <div class="standard__kicker accent-size-4 block__kicker--flourished aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed']" data-aos-order="1">
             <p> <?php echo $category['variant_title']; ?> </p>
-          </div>
+          </div> -->
           <div class="standard__heading heading-size-8 aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed']" data-aos-order="2">
             <p> <?php echo $category['category_title']; ?> </p>
           </div>

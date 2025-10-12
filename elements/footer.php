@@ -169,7 +169,7 @@
 
                 <div class="subfooter__item subfooter__item--copyright">
                     <span class="subfooter__copyright">
-                        © <a href="/" title="">ANNVIO</a>
+                        © <a href="/" title="">AANVIO</a>
                         2025
                     </span>
 

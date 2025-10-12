@@ -5,7 +5,7 @@ include "config.php";
 <html class="js aos-initialized" lang="en"
     style="--full-screen: 738px; --three-quarters: 553.5px; --two-thirds: 487.08000000000004px; --one-half: 369px; --one-third: 243.54000000000002px; --one-fifth: 147.6px; --menu-height: 105px; --scrollbar-width: 15px; --footer-logo: 80px; --announcement-height: 0px; --toolbar-height: 20px; --header-height: 105px; --footer-height: 396px; --content-full: 593px; --menu-height-sticky: 105px; --menu-backfill-height: 105px;">
 <?php include "./elements/meta.php"; ?>
-<body id="custom-amp-curated-gift-boxes-boxfox" ng-app="ANNVIO" ng-controller="App"
+<body id="custom-amp-curated-gift-boxes-boxfox" ng-app="AANVIO" ng-controller="App"
     class="template-index theme-animate-hover" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <?php include "./elements/header.php"; ?>
 <main class="main-content" id="MainContent">
@@ -742,7 +742,7 @@ function resetRecaptcha() {
         </div><div id="tab-2" class="tab-pane">
           <p>Aanvio is a bespoke <strong>B2B merchandising solutions company</strong> founded in the <strong>UAE with many years</strong>. We design and deliver <strong>premium products</strong> and <strong>curated gifting</strong> experiences that help businesses express their story with elegance and impact. We're thrilled to have served over <strong>800</strong> corporate clients.</p>
         </div><div id="tab-3" class="tab-pane">
-          <p>Here at ANNVIO, we are <b>HUMAN</b>, <b>GENEROUS</b>, <b>THOUGHTFUL</b>, <b>RESOURCEFUL</b> and <b>PIONEERING</b>.</p>
+          <p>Here at AANVIO, we are <b>HUMAN</b>, <b>GENEROUS</b>, <b>THOUGHTFUL</b>, <b>RESOURCEFUL</b> and <b>PIONEERING</b>.</p>
         </div></div>
   </div>
 </section>
@@ -1158,7 +1158,7 @@ let x = 0
         <div class="details-wrapper">
           <div class="details-list">
             <h2 class="details-title">Just looking for sourced/ branded merch?</h2>
-            <p class="details-desc">We do swag, merchandise, and all promotional goods. ANNVIO Concierge is a one-stop shop for everything and anything branded. 
+            <p class="details-desc">We do swag, merchandise, and all promotional goods. AANVIO Concierge is a one-stop shop for everything and anything branded. 
 
 We can package them in our signature boxes or send all the product to your event or HQ! You can even store with us so that we send out as-needed.</p>
           </div>
@@ -1189,17 +1189,17 @@ We can package them in our signature boxes or send all the product to your event
       <div class="reviews-slick" data-slick="{&quot;slidesToShow&quot;: 2, &quot;slidesToScroll&quot;: 1, &quot;arrows&quot;: true, &quot;vertical&quot;: true}"><div class="review-card">
           <img src="//boxfox.com/cdn/shop/t/153/assets/star.svg?v=63785359823433115261698607520" class="review-star">
           <h6>Personalized, Custom and Meticulous</h6>
-          <p>ANNVIO has so many options to choose from. Their customer service is exceptional. Last Christmas, they were able to help me ship 3 large orders internationally. They were quick, helpful, kind and efficient. The team loved the beautiful products inside, and the beautiful presentation of the high quality box. They are my go to present for anyone. HIGHLY RECOMMEND!</p>
+          <p>AANVIO has so many options to choose from. Their customer service is exceptional. Last Christmas, they were able to help me ship 3 large orders internationally. They were quick, helpful, kind and efficient. The team loved the beautiful products inside, and the beautiful presentation of the high quality box. They are my go to present for anyone. HIGHLY RECOMMEND!</p>
           <label>-Salesforce</label>
         </div><div class="review-card">
           <img src="//boxfox.com/cdn/shop/t/153/assets/star.svg?v=63785359823433115261698607520" class="review-star">
           <h6>The Most Elevated Packaging</h6>
-          <p>“The packaging, elevated products, balance of turn-key, and highly flexible customized service is what sets ANNVIO apart.”</p>
+          <p>“The packaging, elevated products, balance of turn-key, and highly flexible customized service is what sets AANVIO apart.”</p>
           <label>-LinkedIn</label>
         </div><div class="review-card">
           <img src="//boxfox.com/cdn/shop/t/153/assets/star.svg?v=63785359823433115261698607520" class="review-star">
           <h6>Our Go-To for Gifting</h6>
-          <p>ANNVIO is my go-to vendor for high-touch client gifting. Their gift boxes are always so personalized and meticulously curated to meet the exact needs I’m looking for.</p>
+          <p>AANVIO is my go-to vendor for high-touch client gifting. Their gift boxes are always so personalized and meticulously curated to meet the exact needs I’m looking for.</p>
           <label>-Zillow</label>
         </div></div>
     </div>

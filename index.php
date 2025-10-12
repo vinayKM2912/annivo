@@ -39,7 +39,7 @@
                                             data-aos-anchor="[data-section-id='template--14655948128374__hero']"
                                             data-aos-order="3"
                                             style="flex: 1 1 auto; min-width: 180px; text-align: center; margin: 5px;">
-                                            COPORATE GIFTS
+                                            CORPORATE GIFTS
                                         </a>
                                         <a class="standard__cta hero__btn btn--outline btn--white btn--long aos-init aos-animate"
                                             href="<?php echo BASE_URL; ?>contact" data-aos="hero"
@@ -391,11 +391,12 @@
                                         a hand written note &amp; photo. No packing slip or pricing included, ever.</p>
                                 </div>
 
-
-                                <a href="<?php echo BASE_URL; ?>contact" 
-                                    class="btn--neutral btn--soft">
-                                    GET TO GIFTING
-                                </a>
+                                <div class="rte body-size-4">
+                                    <a href="<?php echo BASE_URL; ?>contact" 
+                                        class="btn--neutral btn--soft">
+                                        GET TO GIFTING
+                                    </a>
+                                </div>
 
                             </div>
 
@@ -417,11 +418,12 @@
                                         ever.</p>
                                 </div>
 
-
-                                <a  href="<?php echo BASE_URL; ?>contact" 
-                                    class="btn--neutral btn--soft">
-                                    GET PERSONAL
-                                </a>
+                                <div style="padding-top: 2.1rem">
+                                    <a  href="<?php echo BASE_URL; ?>contact" 
+                                        class="btn--neutral btn--soft">
+                                        GET PERSONAL
+                                    </a>
+                                </div>
 
                             </div>
 
@@ -443,11 +445,13 @@
                                         slip. No hand written note here.</p>
                                 </div>
 
-
-                                <a  href="<?php echo BASE_URL; ?>contact" 
+                                <div style="padding-top: 1.5rem">
+                                    <a  href="<?php echo BASE_URL; ?>contact" 
                                     class="btn--neutral btn--soft">
                                     TREAT YOURSELF
-                                </a>
+                                    </a>
+                                </div>
+                                
 
                             </div>
 
@@ -469,10 +473,11 @@
                                         solutions for companies large and small.</p>
                                 </div>
 
-
-                                <a  href="<?php echo BASE_URL; ?>contact" class="btn--neutral btn--soft">
-                                    INQUIRE TODAY
-                                </a>
+                                <div style="padding-top: 1.6rem">
+                                    <a  href="<?php echo BASE_URL; ?>contact" class="btn--neutral btn--soft">
+                                        INQUIRE TODAY
+                                    </a>
+                                </div>
 
                             </div>
 
@@ -610,7 +615,7 @@
         </div><div id="tab-2" class="tab-pane">
           <p>Aanvio is a bespoke <strong>B2B merchandising solutions company</strong> founded in the <strong>UAE with many years</strong>. We design and deliver <strong>premium products</strong> and <strong>curated gifting</strong> experiences that help businesses express their story with elegance and impact. We're thrilled to have served over <strong>800</strong> corporate clients.</p>
         </div><div id="tab-3" class="tab-pane">
-          <p>Here at ANNVIO, we are <b>HUMAN</b>, <b>GENEROUS</b>, <b>THOUGHTFUL</b>, <b>RESOURCEFUL</b> and <b>PIONEERING</b>.</p>
+          <p>Here at AANVIO, we are <b>HUMAN</b>, <b>GENEROUS</b>, <b>THOUGHTFUL</b>, <b>RESOURCEFUL</b> and <b>PIONEERING</b>.</p>
         </div></div>
   </div>
 </section>
@@ -720,7 +725,7 @@
                     data-section-type="collection-row" style="--PT: 36px; --PB: 36px; background-color: #efffff;">
                         <div class="wrapper section-padding">
 
-                        <h2 class="kicker-flourished mb-7">ANNVIO Collections</h2>
+                        <h2 class="kicker-flourished mb-7">AANVIO Collections</h2>
                         <p class="fea-description" style="padding-bottom: 32px;text-align:center;">Every product we create is a reflection of our philosophy: quality, meaning, and distinction in every detail! Just hover and click
                             equiry now!</p>
                             <div class="js-grid" data-grid-large="4" data-grid-small="2">

@@ -108,11 +108,11 @@ window.addEventListener("klaviyoForms", function(a) {
                         <div class="header__logo header__logo--image header__logo--has-transparent">
                             <a class="header__logo__link" href="/" style="--LOGO-WIDTH: 100px">
 
-                                <img src="<?php echo BASE_URL; ?>images/logo.svg?v=1658854306&amp;width=50" alt="ANNVIO"
+                                <img src="<?php echo BASE_URL; ?>images/logo.svg?v=1658854306&amp;width=50" alt="AANVIO"
                                     width="50" height="46" loading="eager" class="logo__img logo__img--color"
                                     srcset="<?php echo BASE_URL; ?>images/logo.svg?v=1658854306&amp;width=100 2x,<?php echo BASE_URL; ?>images/logo.svg?v=1658854306&amp;width=150 3x,<?php echo BASE_URL; ?>images/logo.svg?v=1658854306&amp;width=50">
                                 <!-- <img src="<?php echo BASE_URL; ?>images/boxfox_primary_logo_reverse_rgb_1909px_72ppi.png?v=1657568393&amp;width=50"
-                                    alt="ANNVIO" width="50" height="46" loading="eager"
+                                    alt="AANVIO" width="50" height="46" loading="eager"
                                     class="logo__img logo__img--transparent" srcset="<?php echo BASE_URL; ?>images/boxfox_primary_logo_reverse_rgb_1909px_72ppi.png?v=1657568393&amp;width=100 2x,<?php echo BASE_URL; ?>images/boxfox_primary_logo_reverse_rgb_1909px_72ppi.png?v=1657568393&amp;width=50
       "> -->
 
@@ -226,7 +226,7 @@ window.addEventListener("klaviyoForms", function(a) {
                             <div class="header__logo header__logo--image header__logo--has-transparent">
                                 <a class="header__logo__link" href="/" style="--LOGO-WIDTH: 100px">
                                     <img src="<?php echo BASE_URL; ?>images/logo.svg?v=1658854306&amp;width=50"
-                                        alt="ANNVIO" width="50" height="46" loading="eager"
+                                        alt="AANVIO" width="50" height="46" loading="eager"
                                         class="logo__img logo__img--color" srcset="<?php echo BASE_URL; ?>images/logo.svg?v=1658854306&amp;width=100 2x,<?php echo BASE_URL; ?>images/logo.svg?v=1658854306&amp;width=150 3x,<?php echo BASE_URL; ?>images/logo.svg?v=1658854306&amp;width=50
       ">
 
@@ -732,7 +732,7 @@ window.addEventListener("klaviyoForms", function(a) {
     {
         "@context": "http://schema.org",
         "@type": "Organization",
-        "name": "ANNVIO",
+        "name": "AANVIO",
 
 
         "logo": "https:\/\/boxfox.com\/cdn\/shop\/files\/boxfox_primary_logo_full_color_rgb_1909px_72ppi_66a16369-fdf2-4d0a-a365-99d42f0fccb8_1909x.png?v=1658854306",
