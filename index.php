@@ -718,14 +718,14 @@
                 <div class="section-collection homepage--white"
                     data-section-id="template--14655948128374__be424ce9-435e-4178-81b6-d74fd52dc84a"
                     data-section-type="collection-row" style="--PT: 36px; --PB: 36px; background-color: #efffff;">
-                    <div class="wrapper section-padding">
+                        <div class="wrapper section-padding">
 
                         <h2 class="kicker-flourished mb-7">ANNVIO Collections</h2>
                         <p class="fea-description" style="padding-bottom: 32px;text-align:center;">Every product we create is a reflection of our philosophy: quality, meaning, and distinction in every detail! Just hover and click
                             equiry now!</p>
                             <div class="js-grid" data-grid-large="4" data-grid-small="2">
-                            <?php include "./elements/product_list.php"; ?>
                         </div>
+                        <?php include_once "./elements/carousel.php"; ?>
                         <!-- <div class="js-grid" data-grid-large="4" data-grid-small="2">
 
 
