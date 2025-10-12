@@ -146,7 +146,7 @@ window.addEventListener("klaviyoForms", function(a) {
                                         aria-haspopup="true" aria-expanded="false"
                                         data-hover-disclosure-toggle="dropdown-9a4e4911799e5e9bb06ee35ec9699be8"
                                         aria-controls="dropdown-9a4e4911799e5e9bb06ee35ec9699be8">
-                                        <a href="<?php echo BASE_URL; ?>contact"  data-top-link=""
+                                        <a href="<?php echo BASE_URL; ?>category/plush-toys"  data-top-link=""
                                             class="navlink navlink--toplevel">
                                             <span class="navtext">CATEGORIES</span>
                                         </a>
@@ -157,37 +157,37 @@ window.addEventListener("klaviyoForms", function(a) {
                                                 <div class="header__dropdown__inner">
 
 
-                                                    <a href="<?php echo BASE_URL; ?>contact"  data-stagger=""
+                                                    <a href="<?php echo BASE_URL; ?>category/plush-toys"  data-stagger=""
                                                         class="navlink navlink--child" style="transition-delay: 10ms;">
                                                         <span class="navtext">PLUSH TOYS</span>
                                                     </a>
 
 
-                                                    <a href="<?php echo BASE_URL; ?>contact" data-stagger=""
+                                                    <a href="<?php echo BASE_URL; ?>category/apparel" data-stagger=""
                                                         class="navlink navlink--child" style="transition-delay: 60ms;">
                                                         <span class="navtext">APPAREL</span>
                                                     </a>
 
 
-                                                    <a href="<?php echo BASE_URL; ?>contact"  data-stagger=""
+                                                    <a href="<?php echo BASE_URL; ?>category/key-rings"  data-stagger=""
                                                         class="navlink navlink--child" style="transition-delay: 110ms;">
                                                         <span class="navtext">KEY RINGS</span>
                                                     </a>
 
 
-                                                    <a href="<?php echo BASE_URL; ?>contact"  data-stagger=""
+                                                    <a href="<?php echo BASE_URL; ?>category/corporate-gifts"  data-stagger=""
                                                         class="navlink navlink--child" style="transition-delay: 160ms;">
                                                         <span class="navtext">CORPORATE GIFTS</span>
                                                     </a>
 
 
-                                                    <a href="<?php echo BASE_URL; ?>contact"  data-stagger=""
+                                                    <a href="<?php echo BASE_URL; ?>category/customized-items"  data-stagger=""
                                                         class="navlink navlink--child" style="transition-delay: 210ms;">
                                                         <span class="navtext">CUSTOMIZED ITEMS</span>
                                                     </a>
 
 
-                                                    <a href="<?php echo BASE_URL; ?>contact" 
+                                                    <a href="<?php echo BASE_URL; ?>category/sustainability" 
                                                         data-stagger="" class="navlink navlink--child"
                                                         style="transition-delay: 260ms;">
                                                         <span class="navtext">SUSTAINABILITY</span>
@@ -212,8 +212,8 @@ window.addEventListener("klaviyoForms", function(a) {
                                     </div>
                                     <!-- /snippets/nav-item.liquid -->
                                     <div class="menu__item  child" data-main-menu-text-item="">
-                                        <a  href="<?php echo BASE_URL; ?>corporate" data-top-link="" class="navlink navlink--toplevel">
-                                            <span class="navtext">CORPORATE GIFTING</span>
+                                        <a  href="<?php echo BASE_URL; ?>contact" data-top-link="" class="navlink navlink--toplevel">
+                                            <span class="navtext">CUSTOMIZED ITEMS</span>
                                         </a>
 
                                     </div>
@@ -558,7 +558,7 @@ window.addEventListener("klaviyoForms", function(a) {
 
                     </div>
 
-                    <div class="drawer__menu" data-stagger-animation="" data-sliderule-pane="0">
+                    <div class="drawer__menu" style="background-color: #efffff" data-stagger-animation="" data-sliderule-pane="0">
                         <div class="sliderule__wrapper"><button class="sliderow" data-animates="0"
                                 data-sliderule-open="sliderule-f657d26d9ee18efab82204da1855e6a2" aria-haspopup="true"
                                 aria-expanded="false" aria-controls="sliderule-f657d26d9ee18efab82204da1855e6a2"
@@ -590,13 +590,13 @@ window.addEventListener("klaviyoForms", function(a) {
                                             <span class="visually-hidden">Hide menu</span>
                                         </span>
                                     </button>
-                                    <a class="sliderow__title" href="https://shopboxfox.com/collections/all">SHOP</a>
+                                    <a class="sliderow__title" href="<?php echo BASE_URL; ?>contact">Enquiry Now</a>
                                 </div>
                                 <div class="sliderow__links" data-links="">
                                     <!-- /snippets/nav-item-mobile.liquid -->
                                     <div class="sliderule__wrapper">
                                         <div class="sliderow" data-animates="1" style="transition-delay: 60ms;">
-                                            <a href="<?php echo BASE_URL; ?>contact" class="sliderow__title">PLUSH TOYS
+                                            <a href="<?php echo BASE_URL; ?>category/plush-toys" class="sliderow__title">PLUSH TOYS
                                             </a>
                                         </div>
                                     </div>
@@ -604,7 +604,7 @@ window.addEventListener("klaviyoForms", function(a) {
                                     <!-- /snippets/nav-item-mobile.liquid -->
                                     <div class="sliderule__wrapper">
                                         <div class="sliderow" data-animates="1" style="transition-delay: 110ms;">
-                                            <a href="<?php echo BASE_URL; ?>contact" class="sliderow__title">APPAREL
+                                            <a href="<?php echo BASE_URL; ?>category/apparel" class="sliderow__title">APPAREL
                                             </a>
                                         </div>
                                     </div>
@@ -615,7 +615,7 @@ window.addEventListener("klaviyoForms", function(a) {
                                     <!-- /snippets/nav-item-mobile.liquid -->
                                     <div class="sliderule__wrapper">
                                         <div class="sliderow" data-animates="1" style="transition-delay: 160ms;">
-                                            <a href="<?php echo BASE_URL; ?>contact" class="sliderow__title">KEY RINGS
+                                            <a href="<?php echo BASE_URL; ?>category/key-rings" class="sliderow__title">KEY RINGS
                                             </a>
                                         </div>
                                     </div>
@@ -626,7 +626,7 @@ window.addEventListener("klaviyoForms", function(a) {
                                     <!-- /snippets/nav-item-mobile.liquid -->
                                     <div class="sliderule__wrapper">
                                         <div class="sliderow" data-animates="1" style="transition-delay: 210ms;">
-                                            <a href="<?php echo BASE_URL; ?>contact" class="sliderow__title">CORPORATE GIFTS
+                                            <a href="<?php echo BASE_URL; ?>category/corporate-gifts" class="sliderow__title">CORPORATE GIFTS
                                             </a>
                                         </div>
                                     </div>
@@ -637,7 +637,7 @@ window.addEventListener("klaviyoForms", function(a) {
                                     <!-- /snippets/nav-item-mobile.liquid -->
                                     <div class="sliderule__wrapper">
                                         <div class="sliderow" data-animates="1" style="transition-delay: 260ms;">
-                                            <a href="<?php echo BASE_URL; ?>contact" class="sliderow__title">CUSTOMIZED ITEMS
+                                            <a href="<?php echo BASE_URL; ?>category/customized-items" class="sliderow__title">CUSTOMIZED ITEMS
                                             </a>
                                         </div>
                                     </div>
@@ -648,7 +648,7 @@ window.addEventListener("klaviyoForms", function(a) {
                                     <!-- /snippets/nav-item-mobile.liquid -->
                                     <div class="sliderule__wrapper">
                                         <div class="sliderow" data-animates="1" style="transition-delay: 310ms;">
-                                          <a href="<?php echo BASE_URL; ?>contact" class="sliderow__title">SUSTAINABILITY
+                                          <a href="<?php echo BASE_URL; ?>category/sustainability" class="sliderow__title">SUSTAINABILITY
                                             </a>
                                         </div>
                                     </div>
@@ -1327,9 +1327,90 @@ window.addEventListener("klaviyoForms", function(a) {
                         background-color: rgba(0, 0, 0, 0.05) !important;
                     }
 
-                    /* Mobile menu styling */
-                    .drawer .navlink {
+                    /* ===== MOBILE MENU STYLING ===== */
+                    
+                    /* Mobile drawer/hamburger menu background */
+                    .drawer.header__drawer {
+                        background-color: #efffff !important;
+                    }
+                    
+                    .drawer__content {
+                        background-color: #efffff !important;
+                    }
+                    
+                    .drawer__inner {
+                        background-color: #efffff !important;
+                    }
+                    
+                    /* Mobile menu individual items */
+                    .drawer__menu {
+                        background-color: #efffff !important;
+                    }
+                    
+                    .sliderule__wrapper {
+                        background-color: #efffff !important;
+                    }
+                    
+                    .sliderow {
+                        background-color: #efffff !important;
+                    }
+                    
+                    /* Mobile menu text styling */
+                    .drawer .navlink,
+                    .drawer .sliderow__title,
+                    .drawer a {
                         color: #333333 !important;
+                    }
+                    
+                    /* Mobile menu close button */
+                    .drawer__close svg,
+                    .drawer__button svg {
+                        color: #333333 !important;
+                        fill: #333333 !important;
+                    }
+                    
+                    /* Mobile menu items hover effect */
+                    .drawer .sliderow:hover,
+                    .drawer .navlink:hover {
+                        background-color: rgba(0, 0, 0, 0.05) !important;
+                    }
+                    
+                    /* Mobile submenu panel */
+                    .sliderule__panel {
+                        background-color: #efffff !important;
+                    }
+                    
+                    /* Mobile search area */
+                    .drawer__search {
+                        background-color: #efffff !important;
+                    }
+                    
+                    .search__predictive__outer {
+                        background-color: #efffff !important;
+                    }
+                    
+                    .search-drawer {
+                        background-color: #efffff !important;
+                    }
+                    
+                    /* Mobile menu back button */
+                    .sliderow__back {
+                        background-color: #efffff !important;
+                    }
+                    
+                    .sliderow__back .drawer__button svg {
+                        color: #333333 !important;
+                        fill: #333333 !important;
+                    }
+                    
+                    /* Mobile menu drawer top section */
+                    .drawer__top {
+                        background-color: #efffff !important;
+                    }
+                    
+                    /* Mobile menu underlay */
+                    .drawer__underlay {
+                        background-color: rgba(239, 255, 255, 0.9) !important;
                     }
 
                     /* Ensure dropdown text is readable */

@@ -1,8 +1,8 @@
 <?php
 $expItems = [
-    ["title" => "Branded Merchandise", "slug" => "", "img" => "CINNAMONSWIRLBOXFOX.png"],
-    ["title" => "Corporate Gifting & Bespoke Hampers", "slug" => "", "img" => "products/coporategift.jpeg"],
-    ["title" => "Premium Packaging", "slug" => "", "img" => "CREMESTARSHOLLOWBOXTOP45.png"],
+    ["title" => "Branded Merchandise", "slug" => "", "img" => "customized-items/yourlogomug.jpg"],
+    ["title" => "Corporate Gifting & Bespoke Hampers", "slug" => "", "img" => "corporate-gifts/cop1.jpeg"],
+    ["title" => "Premium Packaging", "slug" => "", "img" => "corporate-gifts/sustainbilityBook2.jpeg"],
 ]
 ?><div id="expertise" id="shopify-section-template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622"
     class="shopify-section">
@@ -26,7 +26,7 @@ $expItems = [
                                 class="rel-jvn flex-shrink-t6t rotate-jhp duration-r4k bg-gray-2pl translate-z-ocd rounded-887 overflow-bsr inline-3c2 item-ych justify-29z transition-736 form-ojx h-n7j mdh-1x8 lgrounded-h7d lgw-vbc w-y4o mdw-i9a">
                                 <div class="w-e68 h-2bn transition-nkm lgopacity-xji opacity-lde">
                                     <picture>
-                                        <img src="<?php echo BASE_URL; ?>images/<?php echo $item["img"]; ?>"
+                                        <img src="<?php echo BASE_URL; ?>uploads/products/<?php echo $item["img"]; ?>"
                                             class="w-e68 h-2bn abs-doq top-yj1 left-bjo object-tx3 object-zvy"
                                             width="400" height="300">
                                     </picture>
