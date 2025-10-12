@@ -590,7 +590,7 @@ font-weight:800;
     <option value="Utilities / Construction / Freight">Utilities / Construction / Freight</option>
     <option value="Other">Other</option>
     </select><br></div>
-    <div class="ship-form">Desired Arrival Date:<span class="dateInput dateOnlyInput"><input id="00N4W00000SLlGk" name="00N4W00000SLlGk" size="12" type="text" required=""></span><br></div>
+    <!-- <div class="ship-form">Desired Arrival Date:<span class="dateInput dateOnlyInput"><input id="00N4W00000SLlGk" name="00N4W00000SLlGk" size="12" type="text" required=""></span><br></div> -->
     <div class="use-form">Gifting Reason:<select id="00N4W00000SLlGf" name="00N4W00000SLlGf" title="Gifting Reason" required=""><option value="">--None--</option><option value="Customer Appreciation / Acquisition / Retention">Customer Appreciation / Acquisition / Retention</option>
     <option value="Employee Gift">Employee Gift</option>
     <option value="Event Welcome / Thank You">Event Welcome / Thank You</option>

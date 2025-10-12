@@ -8,7 +8,7 @@ include "config.php";
 <body id="custom-amp-curated-gift-boxes-boxfox" ng-app="BOXFOX" ng-controller="App"
     class="template-index theme-animate-hover" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <?php include "./elements/header.php"; ?>
-<main class="main-content" id="MainContent">
+<main class="main-content" id="MainContent" style="background-color: #efffff;">
     <div id="shopify-section-template--14655948226678__62c60dd6-ae76-4dea-aa45-d480b86f8210" class="shopify-section"><!-- /sections/section-hero.liquid -->
 
 
