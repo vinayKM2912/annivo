@@ -118,7 +118,7 @@ include "config.php";
                 data-section-type="announcement" style="--PT: 18px; --PB: 18px;">
 
                 <div>
-                    <div class="announcement__bar-outer" data-bar="" style="--bg: #ff0000; --text: #ffffff;">
+                    <div class="announcement__bar-outer" data-bar="" style="--bg: #3b77df; --text: #ffffff;">
                         <div class="announcement__bar-holder">
                             <div class="announcement__bar section-padding">
                                 <div data-ticker-frame="" class="announcement__message">

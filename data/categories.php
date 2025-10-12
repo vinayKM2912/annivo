@@ -13,12 +13,15 @@ detailing, balanced proportions, and consistent quality across production.',
     'category_ids' => 
     array (
     ),
-    'cover' => 'uploads/cover/plush-toys/plush-toys.jpeg',
+    'cover' => 'uploads/products/plush-toys/14.png',
     'slug' => 'plush-toys',
     'product_ids' => 
     array (
       0 => '68e9f613aede6',
-      1 => '68e9f63dc38bc',
+      1 => '68e9f613aede7',
+      2 => '68e9f613aede8',
+      3 => '68e9f613aede9',
+      4 => '68e9f613aede10',
     ),
   ),
   'apparel' => 
@@ -34,13 +37,15 @@ finishing to ensure comfort, accuracy, and durability at scale',
     'category_ids' => 
     array (
     ),
-    'cover' => 'uploads/cover/apparel/apparel.jpeg',
+    'cover' => 'uploads/products/apparel/app1.jpeg',
     'slug' => 'apparel',
     'product_ids' => 
     array (
-      0 => '68e9f3cabea88',
-      1 => '68e9f4cc555d5',
-      2 => '68e9f4f7161a7',
+      0 => '68e9f3cabea81',
+      1 => '68e9f3cabea82',
+      2 => '68e9f3cabea83',
+      3 => '68e9f3cabea84',
+      4 => '68e9f3cabea85',
     ),
   ),
   'key-rings' => 
@@ -56,12 +61,15 @@ product.',
     'category_ids' => 
     array (
     ),
-    'cover' => 'uploads/cover/key-rings/key-rings.jpeg',
+    'cover' => 'uploads/products/key-rings/4.png',
     'slug' => 'key-rings',
     'product_ids' => 
     array (
       0 => '68e9f59c35c2a',
-      1 => '68e9f5bb6cfeb',
+      1 => '68e9f59c35c3a',
+      2 => '68e9f59c35c4a',
+      3 => '68e9f59c35c5b',
+      
     ),
   ),
   'corporate-gifts' => 
@@ -77,12 +85,14 @@ and distinctly yours.',
     'category_ids' => 
     array (
     ),
-    'cover' => 'uploads/cover/corporate-gifts/corporate-gifts.jpeg',
+    'cover' => 'uploads/products/corporate-gifts/cop1.jpeg',
     'slug' => 'corporate-gifts',
     'product_ids' => 
     array (
       0 => '68e9f52725c8d',
-      1 => '68e9f549da500',
+      1 => '68e9f52725c9d',
+      2 => '68e9f52725c10d',
+      3 => '68e9f52725c11d',
     ),
   ),
   'customized-items' => 
@@ -97,12 +107,15 @@ process. shape, branding, finish, and presentation, is tailored to the idea and 
     'category_ids' => 
     array (
     ),
-    'cover' => 'uploads/cover/customized-items/customized-items.jpeg',
+    'cover' => 'uploads/products/customized-items/6.png',
     'slug' => 'customized-items',
     'product_ids' => 
     array (
-      0 => '68e9f45481ebc',
-      1 => '68e9f48d2fe4d',
+      0 => '68e9f48d2fe4d',
+      1 => '68e9f48d2fe5d',
+      2 => '68e9f48d2fe6d',
+      3 => '68e9f48d2fe7d',
+      4 => '68e9f48d2fe8d',
     ),
   ),
   'sustainability' => 
@@ -118,12 +131,14 @@ main line, while supporting a more responsible approach to production.',
     'category_ids' => 
     array (
     ),
-    'cover' => 'uploads/cover/sustainability/sustainability.jpeg',
+    'cover' => 'uploads/products/sustainability/14.png',
     'slug' => 'sustainability',
     'product_ids' => 
     array (
       0 => '68e9f3f9d5b91',
-      1 => '68e9f42ac1e30',
+      1 => '68e9f3f9d5b92',
+      2 => '68e9f3f9d5b93',
+      3 => '68e9f3f9d5b94',
     ),
   ),
 );

@@ -677,7 +677,7 @@ window.addEventListener("klaviyoForms", function(a) {
                         <!-- /snippets/nav-item-mobile.liquid -->
                         <div class="sliderule__wrapper">
                             <div class="sliderow" data-animates="0" style="transition-delay: 210ms;">
-                                <a class="sliderow__title" href="<?php echo BASE_URL; ?>corporate" >CORPORATE GIFTING</a>
+                                <a class="sliderow__title" href="<?php echo BASE_URL; ?>contact" >CUSTOMIZED ITEMS</a>
                             </div>
                         </div>
 
