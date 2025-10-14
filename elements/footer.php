@@ -512,3 +512,37 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 </script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // 1. Select the outermost element to observe
+    const blockToObserve = document.querySelector('.brick__block');
+
+    // 2. Define the observer options
+    const observerOptions = {
+        root: null, // relative to the viewport
+        rootMargin: '0px',
+        // Monitor continuously (low threshold) for a responsive in/out effect
+        threshold: 1
+    };
+
+    // 3. Create the observer function
+    function observerCallback(entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // ADD class when it enters view (Rolls into place)
+                blockToObserve.classList.add('is-visible');
+            } else {
+                // REMOVE class when it exits view (Rolls out of place)
+                blockToObserve.classList.remove('is-visible');
+            }
+        });
+    }
+
+    // 4. Instantiate and start observing
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+    if (blockToObserve) {
+        observer.observe(blockToObserve);
+    }
+});
+</script>
