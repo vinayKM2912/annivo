@@ -86,6 +86,11 @@ li.andyslider-item {
     border-radius: 8px;
     height: 100%;
     box-sizing: border-box;
+    border: 2px solid #ddd;
+}
+.andyslider-card:hover {
+    border-color: #bbb;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 .andyslider-card strong,
@@ -139,37 +144,37 @@ li.andyslider-item {
 
 <script>
 const images = [{
-        img: "uploads/products/apparel/1.png",
+        img: "images/categories/apprael2.png",
         name: "Apparels",
         href: "<?php echo BASE_URL; ?>category/apparel",
         price: "100"
     },
     {
-        img: "uploads/products/corporate-gifts/11.png",
+        img: "images/categories/corporate.png",
         name: "Corporate Gifts",
         href: "<?php echo BASE_URL; ?>category/corporate-gifts",
         price: "200"
     },
     {
-        img: "uploads/products/customized-items/5.png",
+        img: "images/categories/customized.png",
         name: "Customized Items",
         href: "<?php echo BASE_URL; ?>category/customized-items",
         price: "300"
     },
     {
-        img: "uploads/products/key-rings/3.png",
+        img: "images/categories/keychain3.png",
         name: "Key Rings",
         href: "<?php echo BASE_URL; ?>category/key-rings",
         price: "200"
     },
     {
-        img: "uploads/products/plush-toys/2.png",
+        img: "images/categories/plushtoycar.png",
         name: "Plush Toys",
         href: "<?php echo BASE_URL; ?>category/plush-toys",
         price: "150"
     },
     {
-        img: "uploads/products/sustainability/4.png",
+        img: "images/categories/sustainability.png",
         name: "Sustainability",
         href: "<?php echo BASE_URL; ?>category/sustainability",
         price: "110"
