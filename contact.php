@@ -254,14 +254,14 @@ include "config.php";
                             <div class="gallery__text border--line text-center ">
 
 
-                                <h2 class="custom__title accent-size-6">
+                                <h2 class="custom__title accent-size-6" style="color: #000000 !important;">
                                     Inquire today
                                 </h2>
 
 
 
-                                <div class="custom__text rte body-size-4">
-                                    <p>Our team of experts is here to help! We require a minimum order of 12 for any
+                                <div class="custom__text rte body-size-4" style="color: #000000 !important;">
+                                    <p style="color: #000000 !important;">Our team of experts is here to help! We require a minimum order of 12 for any
                                         additional branding!</p>
                                 </div>
 

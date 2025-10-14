@@ -174,21 +174,19 @@
                     </span>
 
 
-                    <span class="subfooter__copyright"><a href="/">TERMS OF SERVICE</a></span>
+                    <span class="subfooter__copyright"><a href="<?php echo BASE_URL; ?>terms-conditions">TERMS & CONDITIONS</a></span>
 
-                    <span class="subfooter__copyright"><a href="/">REFUND POLICY</a></span>
+                    <span class="subfooter__copyright"><a href="<?php echo BASE_URL; ?>refund-policy">REFUND POLICY</a></span>
 
-                    <span class="subfooter__copyright"><a href="/">PRIVACY POLICY</a></span>
+                    <span class="subfooter__copyright"><a href="<?php echo BASE_URL; ?>privacy-policy">PRIVACY POLICY</a></span>
 
 
                     <!-- The following lines fix Lighthouse security warnings on the Shopify link. -->
                 </div>
                 <div class="subfooter__item subfooter__item--social">
-                    <a class="footer__icon footer__icon--social" href="https://www.tiktok.com/@shopboxfox"
+                    <a class="footer__icon footer__icon--social" href="/"
                         title="Tiktok" target="_blank">
                         <!-- /snippets/social-icon.liquid -->
-
-
                         <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-tiktok"
                             viewBox="0 0 19 19">
                             <path
@@ -225,7 +223,7 @@
                     </a>
 
 
-                    <a class="footer__icon footer__icon--social" href="https://www.linkedin.com/company/anvio-vr/"
+                    <a class="footer__icon footer__icon--social" href="/"
                         title="Linkedin" target="_blank">
                         <!-- /snippets/social-icon.liquid -->
 

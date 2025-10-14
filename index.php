@@ -524,7 +524,7 @@
 
 
                                 <div class="accent-title-large strong mb2">THANK YOU GIFTS</div>
-                                <a href="https://boxfox.com/pages/thank-you" class="btn--neutral btn--soft">
+                                <a href="https://aanvio.com/pages/thank-you" class="btn--neutral btn--soft">
                                     SHOP
                                 </a>
 
@@ -540,7 +540,7 @@
 
 
                                 <div class="accent-title-large strong mb2">NEW BABY GIFTS</div>
-                                <a href="https://boxfox.com/pages/new-baby-and-new-family-gifts"
+                                <a href="https://aanvio.com/pages/new-baby-and-new-family-gifts"
                                     class="btn--neutral btn--soft">
                                     SHOP
                                 </a>
@@ -557,7 +557,7 @@
 
 
                                 <div class="accent-title-large strong mb2">BIRTHDAY GIFTS</div>
-                                <a href="https://boxfox.com/pages/birthday-gifts" class="btn--neutral btn--soft">
+                                <a href="https://aanvio.com/pages/birthday-gifts" class="btn--neutral btn--soft">
                                     SHOP
                                 </a>
 
@@ -13137,7 +13137,7 @@
           { "value": "palette--bright bg--bright--accent", "label": "Bright accent"}
         ]
    -->
-            <div class="section-newsletter" style="--PT: 36px; --PB: 36px;
+            <!-- <div class="section-newsletter" style="--PT: 36px; --PB: 36px;
     background-color: #6E7A77">
                 <div class="wrapper section-padding newsletter-wrapper">
                     <div style="padding-bottom: 10px;">
@@ -13190,7 +13190,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </main>
     <?php include "./elements/footer.php"; ?>
     <style>

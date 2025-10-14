@@ -293,26 +293,27 @@ include "config.php";
                 <div class="brick__block__text__inner">
                   <div class="text__standard text-left" data-overflow-content="">
                     
-
-                    
-                      <p class="standard__kicker aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__b1f8d3fe-d927-4972-aa32-314b40c2cf4a']" data-aos-order="1">
-                        Our Team
-                      </p>
-                    
-
-                    
                       <h2 class="standard__heading heading-size-9 aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__b1f8d3fe-d927-4972-aa32-314b40c2cf4a']" data-aos-order="2">
-                        Meet the Team
+                        Founder’s Message
                       </h2>
                     
+                    <!-- <div class="standard__heading heading-size-8 aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__b1f8d3fe-d927-4972-aa32-314b40c2cf4a']" data-aos-order="2">
+                      <h3>Arman Jaitapkar</h3>
+                    </div> -->
+                    <div class="rte body-size-5 columns--1 aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__b1f8d3fe-d927-4972-aa32-314b40c2cf4a']" data-aos-order="3">
+                      <p>When I founded Aanvio, I didn't just want to start another merchandising company. My vision was to build a partner that helps businesses tell their story through thoughtfully designed products.</p>
+                      <p>The name Aanvio itself carries this philosophy. It comes from "Aan," which signifies honor and pride, and "Vio," which reflects vision and value. Aanvio means "a vision of pride and value." It is a reminder that what we create must always carry connection, meaning, and intention. Every piece is more than a product; it is a memory, a gesture, or a part of someone's identity.</p>
+                      <p>To me, a plush toy is not just a mascot, it is a memory that stays with you. A hamper is not just a collection of items, it is gratitude beautifully expressed. A branded accessory is not just merchandise, it is your story being carried forward.</p>
+                      <p>At Aanvio, we see every project as a collaboration. We listen, design, and deliver with creativity and care, because in the end, what we make is not just ours. It is yours, and it represents you.</p>
+                      <p>When you share an Aanvio creation with a client, an employee, or a guest, we want them to feel like they have become part of your story. That connection is where the true value lies, far beyond the product itself.</p>
+                      <p>In a world where experiences matter more than transactions, Aanvio exists to make your brand unforgettable, through products that are premium, meaningful, and crafted with heart.</p>
+                      <p><strong>Arman Jaitapkar</strong><br>Founder, Aanvio</p>
+                    </div>
 
                     
 
                     
-                      <a href="<?php echo BASE_URL; ?>pages/team" class="standard__cta btn--outline btn--long btn--black aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__b1f8d3fe-d927-4972-aa32-314b40c2cf4a']" data-aos-order="4">
-                        GET TO KNOW US
-                      </a>
-                    
+                     
 
                   </div>
                 </div>
@@ -341,7 +342,7 @@ include "config.php";
     <div class="image__hero__scale" style="height: 150vw; transform: translate3d(0px, -29px, 0px);" data-parallax-img="">
       <!-- /snippets/image.liquid -->
 
-  <img src="<?php echo BASE_URL; ?>images/Jenni_BOX_TOP.jpg" alt="" width="736" height="1104" loading="lazy" class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full" style="aspect-ratio: 0.6666666666666666; object-position: center center;">
+  <img src="<?php echo BASE_URL; ?>images/illustrations/business-man-cartoon.jpg" alt="" width="736" height="1104" loading="lazy" class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full" style="aspect-ratio: 0.6666666666666666; object-position: center center;">
 
 
     </div>
