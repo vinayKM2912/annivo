@@ -3,9 +3,9 @@
     style="--full-screen: 738px; --three-quarters: 553.5px; --two-thirds: 487.08000000000004px; --one-half: 369px; --one-third: 243.54000000000002px; --one-fifth: 147.6px; --menu-height: 105px; --scrollbar-width: 15px; --footer-logo: 80px; --announcement-height: 0px; --toolbar-height: 20px; --header-height: 105px; --footer-height: 396px; --content-full: 593px; --menu-height-sticky: 105px; --menu-backfill-height: 105px;">
 <?php include "./elements/meta.php"; ?>
 
-<body id="custom-amp-curated-gift-boxes-boxfox" ng-app="Aannvio" ng-controller="App"
-    class="pageLoad template-index theme-animate-hover" data-aos-easing="ease" data-aos-duration="400"
-    data-aos-delay="0">
+<body id="custom-amp-curated-gift-boxes-boxfox" ng-app="BOXFOX" ng-controller="App"
+    class="template-index theme-animate-hover" data-aos-easing="ease" data-aos-duration="400"
+    data-aos-delay="0" style="background-color: #efffff;">
     <?php include "./elements/header.php"; ?>
     <main class="main-content" id="MainContent" style="background-color: #efffff;">
         <div id="shopify-section-template--14655948128374__hero" class="shopify-section">
@@ -159,7 +159,7 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="<?php echo BASE_URL; ?>contact" 
+                                                            href="<?php echo BASE_URL; ?>contact"
                                                             title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
@@ -174,7 +174,7 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="<?php echo BASE_URL; ?>contact" 
+                                                            href="<?php echo BASE_URL; ?>contact"
                                                             title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
@@ -189,7 +189,7 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="<?php echo BASE_URL; ?>contact" 
+                                                            href="<?php echo BASE_URL; ?>contact"
                                                             title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
@@ -204,7 +204,7 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="<?php echo BASE_URL; ?>contact" 
+                                                            href="<?php echo BASE_URL; ?>contact"
                                                             title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
@@ -219,7 +219,7 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="<?php echo BASE_URL; ?>contact" 
+                                                            href="<?php echo BASE_URL; ?>contact"
                                                             title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
@@ -234,7 +234,7 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="<?php echo BASE_URL; ?>contact" 
+                                                            href="<?php echo BASE_URL; ?>contact"
                                                             title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
@@ -249,7 +249,7 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="<?php echo BASE_URL; ?>contact" 
+                                                            href="<?php echo BASE_URL; ?>contact"
                                                             title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
@@ -264,7 +264,7 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="<?php echo BASE_URL; ?>contact" 
+                                                            href="<?php echo BASE_URL; ?>contact"
                                                             title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
@@ -279,7 +279,7 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="<?php echo BASE_URL; ?>contact" 
+                                                            href="<?php echo BASE_URL; ?>contact"
                                                             title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
@@ -294,7 +294,7 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="<?php echo BASE_URL; ?>contact" 
+                                                            href="<?php echo BASE_URL; ?>contact"
                                                             title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
@@ -309,7 +309,7 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="<?php echo BASE_URL; ?>contact" 
+                                                            href="<?php echo BASE_URL; ?>contact"
                                                             title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
@@ -324,7 +324,7 @@
                                                     <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                                 class="announcement__divider">
                                                             </span>&nbsp;</strong><a
-                                                            href="<?php echo BASE_URL; ?>contact" 
+                                                            href="<?php echo BASE_URL; ?>contact"
                                                             title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                     HERE</strong>
                                                             </em>
@@ -339,7 +339,7 @@
                                                 <p><strong>LOOKING FOR BUSINESS GIFTING?&nbsp;<span
                                                             class="announcement__divider">
                                                         </span>&nbsp;</strong><a
-                                                        href="<?php echo BASE_URL; ?>contact" 
+                                                        href="<?php echo BASE_URL; ?>contact"
                                                         title="<?php echo BASE_URL; ?>contact" ><em><strong>CLICK
                                                                 HERE</strong>
                                                         </em>
@@ -392,7 +392,7 @@
                                 </div>
 
                                 <div class="rte body-size-4">
-                                    <a href="<?php echo BASE_URL; ?>contact" 
+                                    <a href="<?php echo BASE_URL; ?>contact"
                                         class="btn--neutral btn--soft">
                                         GET TO GIFTING
                                     </a>
@@ -419,7 +419,7 @@
                                 </div>
 
                                 <div style="padding-top: 2.1rem">
-                                    <a  href="<?php echo BASE_URL; ?>contact" 
+                                    <a  href="<?php echo BASE_URL; ?>contact"
                                         class="btn--neutral btn--soft">
                                         GET PERSONAL
                                     </a>
@@ -446,12 +446,12 @@
                                 </div>
 
                                 <div style="padding-top: 1.5rem">
-                                    <a  href="<?php echo BASE_URL; ?>contact" 
+                                    <a  href="<?php echo BASE_URL; ?>contact"
                                     class="btn--neutral btn--soft">
                                     TREAT YOURSELF
                                     </a>
                                 </div>
-                                
+
 
                             </div>
 
@@ -608,9 +608,9 @@
     </div>
     <div class="tab-contents"><div id="tab-1" class="tab-pane active">
           <p><strong>Bespoke Solutions – Tailor-made merchandise designed for your brand’s unique journey.</strong></p>
-          
+
           <p>To redefine corporate merchandising in the UAE and beyond by offering bespoke solutions that blend creativity, craftsmanship, and brand storytelling. We aim to transform how businesses connect with employees, clients, and partners—through products that are not only functional, but also memorable and meaningful.</p>
-          
+
           <p><strong>Uncompromising Quality – Products created with attention to detail and premium craftsmanship.</strong></p>
         </div><div id="tab-2" class="tab-pane">
           <p>Aanvio is a bespoke <strong>B2B merchandising solutions company</strong> founded in the <strong>UAE with many years</strong>. We design and deliver <strong>premium products</strong> and <strong>curated gifting</strong> experiences that help businesses express their story with elegance and impact. We're thrilled to have served over <strong>800</strong> corporate clients.</p>
@@ -671,9 +671,9 @@
                                             <div class="rte body-size-4 columns--1 aos-init aos-animate" data-aos="hero"
                                                 data-aos-anchor="[data-section-id='template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622']"
                                                 data-aos-order="3">
-                                                <p>Behind every Aanvio creation is a network of trusted factory partners who share our values. 
+                                                <p>Behind every Aanvio creation is a network of trusted factory partners who share our values.
                                                     We work only with certified manufacturers that use safe, high-quality materials and follow strict global standards.
-                                                    <br><br>Every product is made responsibly, in environments where workers are treated fairly and with dignity. 
+                                                    <br><br>Every product is made responsibly, in environments where workers are treated fairly and with dignity.
                                                     Ethical practices are not an afterthought for us, they are the foundation of our partnerships.<br><br>
                                                     When you choose Aanvio, you choose products that are not only premium in quality but also created with respect for people and the planet.
                                                 </p>
@@ -13198,20 +13198,20 @@
         body.template-index {
             background-color: #efffff !important;
         }
-        
+
         .main-content {
             background-color: #efffff;
         }
-        
+
         /* Ensure sections maintain the theme color */
         .section-columns.palette--light.bg--accent {
             background-color: #efffff !important;
         }
-        
+
         .section-collection.homepage--white {
             background-color: #efffff !important;
         }
-        
+
         .text--neutral.palette--light.bg--neutral {
             background-color: #efffff !important;
         }

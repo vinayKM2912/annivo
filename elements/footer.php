@@ -475,3 +475,40 @@ EightyCodesWA.init({
     <div id="omnisend-pixel-container"></div>
     <div id="omnisend-jsonp-container"></div>
 </div>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // 1. SELECT THE TRIGGER ELEMENT (the title)
+    const titles = document.querySelectorAll('.accent-title-large.strong.mb2');
+
+    // 2. Define the observer options
+    const observerOptions = {
+        root: null, // relative to the viewport
+        rootMargin: '0px',
+        // KEY CHANGE: Trigger when 50% (mid-line) of the title is visible.
+        threshold: 0.5
+    };
+
+    // The function to execute when titles enter or exit the view
+    function observerCallback(entries) {
+        entries.forEach(entry => {
+            // Find the parent column containing the animation classes
+            const columnToAnimate = entry.target.closest('.index__column.slide-item');
+
+            if (entry.isIntersecting) {
+                // Reveal: Add the class to the parent column
+                columnToAnimate.classList.add('is-visible');
+            } else {
+                // Disappear: Remove the class from the parent column
+                columnToAnimate.classList.remove('is-visible');
+            }
+        });
+    }
+
+    // Instantiate and start observing each title
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+    titles.forEach(title => {
+        observer.observe(title);
+    });
+});
+</script>
