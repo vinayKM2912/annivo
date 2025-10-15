@@ -232,7 +232,7 @@ window.addEventListener("klaviyoForms", function(a) {
 
 <!-- 
                                     <img src="<?php echo BASE_URL; ?>images/boxfox_primary_logo_reverse_rgb_1909px_72ppi.png?v=1657568393&amp;width=50"
-                                        alt="BOXFOX" width="50" height="46" loading="eager"
+                                        alt="AANVIO" width="50" height="46" loading="eager"
                                         class="logo__img logo__img--transparent" srcset="<?php echo BASE_URL; ?>images/boxfox_primary_logo_reverse_rgb_1909px_72ppi.png?v=1657568393&amp;width=100 2x,<?php echo BASE_URL; ?>images/boxfox_primary_logo_reverse_rgb_1909px_72ppi.png?v=1657568393&amp;width=50
       "> -->
 
@@ -758,7 +758,7 @@ window.addEventListener("klaviyoForms", function(a) {
     {
         "@context": "http://schema.org",
         "@type": "WebSite",
-        "name": "BOXFOX",
+        "name": "AANVIO",
         "potentialAction": {
             "@type": "SearchAction",
             "target": "https:\/\/boxfox.com\/search?q={search_term_string}",

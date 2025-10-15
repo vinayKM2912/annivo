@@ -1,15 +1,15 @@
 <?php
 $desktop = [
-    "banner/1.webp",
-    "banner/d2.webp",
-    "banner/2.webp",
-    "banner/d3.webp",
+    "banner/1.png",
+    "banner/2.png",
+    "banner/3.png",
+    "banner/4.png",
 ];
 $mobile = [
-    "banner/m5.webp",
-    "banner/m2.webp",
-    "banner/m4.webp",
-    "banner/m3.webp",
+    "banner/6.png",
+    "banner/7.png",
+    "banner/8.png",
+    "banner/9.png",
 ];
 ?>
 <link rel="stylesheet" type="text/css" href="wowslider/style.css" />

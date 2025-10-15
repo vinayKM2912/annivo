@@ -2,8 +2,9 @@
 <html class="js aos-initialized" lang="en"
     style="--full-screen: 738px; --three-quarters: 553.5px; --two-thirds: 487.08000000000004px; --one-half: 369px; --one-third: 243.54000000000002px; --one-fifth: 147.6px; --menu-height: 105px; --scrollbar-width: 15px; --footer-logo: 80px; --announcement-height: 0px; --toolbar-height: 20px; --header-height: 105px; --footer-height: 396px; --content-full: 593px; --menu-height-sticky: 105px; --menu-backfill-height: 105px;">
 <?php include "./elements/meta.php"; ?>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-<body id="custom-amp-curated-gift-boxes-boxfox" ng-app="BOXFOX" ng-controller="App"
+<body id="custom-amp-curated-gift-boxes-boxfox" ng-app="AANVIO" ng-controller="App"
     class="template-index theme-animate-hover" data-aos-easing="ease" data-aos-duration="400"
     data-aos-delay="0" style="background-color: #efffff;">
     <?php include "./elements/header.php"; ?>
@@ -658,9 +659,10 @@
             </div>
 
             <div class="grid grid--stacked grid--uniform" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-top: 3rem;">
+                
                 <div class="grid__item text-center">
                     <div class="icon__column icon--top icon--large">
-                        <div class="aos-init aos-animate" data-aos-delay="100" data-aos="fade-up">
+                        <div data-aos="fade-up" data-aos-delay="100">
                             <img src="<?php echo BASE_URL; ?>images/illustrations/why1.png"
                                  alt="Bespoke product Design"
                                  style="width: 120px; height: 120px; object-fit: contain; margin: 0 auto;">
@@ -673,7 +675,7 @@
 
                 <div class="grid__item text-center">
                     <div class="icon__column icon--top icon--large">
-                        <div class="aos-init aos-animate" data-aos-delay="200" data-aos="fade-up">
+                        <div data-aos="fade-up" data-aos-delay="200">
                             <img src="<?php echo BASE_URL; ?>images/illustrations/why2.png"
                                  alt="Premium Hamper Creation"
                                  style="width: 120px; height: 120px; object-fit: contain; margin: 0 auto;">
@@ -686,7 +688,7 @@
 
                 <div class="grid__item text-center">
                     <div class="icon__column icon--top icon--large">
-                        <div class="aos-init aos-animate" data-aos-delay="300" data-aos="fade-up">
+                        <div data-aos="fade-up" data-aos-delay="300">
                             <img src="<?php echo BASE_URL; ?>images/illustrations/why3.png"
                                  alt="Corporate and Hotel Gifting"
                                  style="width: 120px; height: 120px; object-fit: contain; margin: 0 auto;">
@@ -696,9 +698,10 @@
                         </div>
                     </div>
                 </div>
+                
                 <div class="grid__item text-center">
                     <div class="icon__column icon--top icon--large">
-                        <div class="aos-init aos-animate" data-aos-delay="400" data-aos="fade-up">
+                        <div data-aos="fade-up" data-aos-delay="400">
                             <img src="<?php echo BASE_URL; ?>images/illustrations/why4.png"
                                  alt="Eco-Friendly Merchandising"
                                  style="width: 120px; height: 120px; object-fit: contain; margin: 0 auto;">
@@ -711,7 +714,7 @@
 
                 <div class="grid__item text-center">
                     <div class="icon__column icon--top icon--large">
-                        <div class="aos-init aos-animate" data-aos-delay="500" data-aos="fade-up">
+                        <div data-aos="fade-up" data-aos-delay="500">
                             <img src="<?php echo BASE_URL; ?>images/illustrations/why5.png"
                                  alt="Custom Packaging Solutions"
                                  style="width: 120px; height: 120px; object-fit: contain; margin: 0 auto;">
@@ -724,7 +727,7 @@
 
                 <div class="grid__item text-center">
                     <div class="icon__column icon--top icon--large">
-                        <div class="aos-init aos-animate" data-aos-delay="600" data-aos="fade-up">
+                        <div data-aos="fade-up" data-aos-delay="600">
                             <img src="<?php echo BASE_URL; ?>images/illustrations/why6.png"
                                  alt="End-to-End Production Management"
                                  style="width: 120px; height: 120px; object-fit: contain; margin: 0 auto;">
@@ -1998,9 +2001,9 @@
                                     "description": "\u003cp\u003eFor the person who knows their Japanese from their Tennessee, we’ve pulled out all the stops with this consciously curated concoction. They’ll be excited to play bartender courtesy of a whiskey wedge glass (goodbye, watered down), Jack Rudy bitters and cherries, a zester for the perfect finish, and a few whiskey-flavored treats to elevate the experience.\u003c\/p\u003e\n\u003cp\u003eInterested in corporate gifting in bulk? Learn more \u003ca href=\"https:\/\/shopboxfox.com\/pages\/corporate\" target=\"_blank\"\u003ehere.\u003c\/a\u003e\u003cb\u003e\u003cbr\u003e\u003cbr\u003e\u003c\/b\u003eIncludes:\u003cbr\u003e\u003cmeta charset=\"utf-8\"\u003e\u003cspan\u003eMcCrea's \/\/ Single Malt Scotch Caramels\u003c\/span\u003e\u003cbr\u003eViski \/\/ Revolving Rocks Glass\u003cbr\u003eMielle \/\/ Citrus Peeler\u003cbr\u003eJack Rudy Cocktail Co. \/\/ Aromatic Bitters\u003cbr\u003eJack Rudy Cocktail Co.\/\/ Bourbon Cocktail Cherries\u003cbr\u003eKeepsake Box \u0026amp; Handwritten Card\u003cbr\u003e\u003cbr\u003eEach carefully curated and hand-wrapped box ships as a gift, with a handwritten note and no pricing information. Orders take 3-8 business days to deliver, after which you'll receive an email with tracking information. Whether you want to hand deliver your gifts or ship around the country, you can add separate notes and addresses at checkout.\u003c\/p\u003e",
                                     "published_at": "2024-01-22T14:24:45-08:00",
                                     "created_at": "2020-06-08T15:27:59-07:00",
-                                    "vendor": "BOXFOX",
+                                    "vendor": "AANVIO",
                                     "type": "Gift Box",
-                                    "tags": ["BOXFOX", "AANVIO BOXES", "Build a BOXFOX", "Corporate Favorites",
+                                    "tags": ["AANVIO", "AANVIO BOXES", "Build a AANVIO", "Corporate Favorites",
                                         "CURATED GIFT BOXES", "father's day", "Food \u0026 Treats",
                                         "For Her",
                                         "For Him", "GIFT BOX", "holiday", "RTS"
@@ -2336,7 +2339,7 @@
                                     "description": "\u003cp\u003eWe all know someone who literally can't be bothered until they've had their coffee. Lift their spirits with this curated COFFEE gift that's filled with coffees, candies, and some next-level essentials that will make someone's caffeinated kick even better.\u003c\/p\u003e\n\u003cp\u003eInterested in corporate gifting in bulk? Learn more \u003ca href=\"https:\/\/shopboxfox.com\/pages\/new-corp\" target=\"_blank\"\u003ehere.\u003c\/a\u003e\u003cbr\u003e\u003cbr\u003eIncludes:\u003cbr\u003eBOXFOX \/\/ Gold Clip + Scoop\u003cbr\u003eStumptown \/\/ French Roast\u003cbr\u003eSugarfina \/\/ Cold Brew Cordials\u003cbr\u003eSugarfina \/\/ Dark Roast Espresso Beans\u003cbr\u003eS'well  \/\/ 12oz Teakwood Mug\u003cbr\u003eGoodio \/\/ Coffee Chocolate Bar\u003cbr\u003eKeepsake Box \u0026amp; Handwritten Card\u003cbr\u003e\u003cbr\u003eEach carefully curated and hand-wrapped box ships as a gift, with a handwritten note and no pricing information. Orders take 1-3 days to process, after which you'll receive an email with tracking information. Whether you want to hand deliver your gifts or ship around the country, you can add separate notes and addresses at checkout.\u003c\/p\u003e",
                                     "published_at": "2024-01-17T16:53:19-08:00",
                                     "created_at": "2019-06-25T16:14:37-07:00",
-                                    "vendor": "BOXFOX",
+                                    "vendor": "AANVIO",
                                     "type": "Gift Box",
                                     "tags": ["Corporate Favorites", "Food \u0026 Treats", "For Her", "For Him",
                                         "GIFTBOX", "housewarming", "RTS", "thank you"
@@ -2928,9 +2931,9 @@
                                     "description": "\u003cp class=\"p1\"\u003e\u003cspan class=\"s1\"\u003eOur Holiday best-seller is now available all year round! We've taste-tested the best to bring you a collection of sweets that are anything but conventional. With a selection of decadent chocolates, delicious gummies, and gourmet popcorn, this best-selling gift is made even more special with exclusive treats they won’t find anywhere else.\u003c\/span\u003e\u003c\/p\u003e\n\u003cp class=\"p1\"\u003e\u003cspan class=\"s1\"\u003e\u003cmeta charset=\"utf-8\"\u003eInterested in corporate gifting in bulk? Learn more \u003ca href=\"https:\/\/shopboxfox.com\/pages\/corporate\" target=\"_blank\"\u003ehere.\u003c\/a\u003e\u003c\/span\u003e\u003c\/p\u003e\n\u003cp\u003e\u003cspan data-stringify-type=\"paragraph-break\" class=\"c-mrkdwn__br\" aria-label=\"\"\u003e\u003c\/span\u003e\u003cspan\u003eIncludes:\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eSugarfina \/\/ Sea Salt Caramels\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eRitual \/\/ Mid Mountain Blend Chocolate Bar\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eMast \/\/ Organic Dark Chocolate with Sea Salt\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eJacobsen \/\/ Salty Classic Caramels\u003cbr\u003e\u003cspan\u003e\u003cmeta charset=\"utf-8\"\u003eRustic Bakery \/\/ Chocolate Chip Cookies\u003cbr\u003eHandwritten Card. \u003c\/span\u003e\u003c\/span\u003e\u003c\/p\u003e\n\u003cp\u003e\u003cspan data-stringify-type=\"paragraph-break\" class=\"c-mrkdwn__br\" aria-label=\"\"\u003e\u003c\/span\u003e\u003cspan\u003eEach carefully curated and hand-wrapped box ships as a gift, with a handwritten note and no pricing information. Orders take 1-3 days to process, after which you'll receive an email with tracking information. Whether you want to hand deliver your gifts or ship around the country, you can add separate notes and addresses at checkout.\u003c\/span\u003e\u003cbr\u003e\u003c\/p\u003e",
                                     "published_at": "2025-02-19T11:57:51-08:00",
                                     "created_at": "2025-02-19T09:38:01-08:00",
-                                    "vendor": "BOXFOX",
+                                    "vendor": "AANVIO",
                                     "type": "Gift Box",
-                                    "tags": ["BOXFOX", "AANVIO BOXES", "Build a BOXFOX", "CURATED GIFT BOXES",
+                                    "tags": ["AANVIO", "AANVIO BOXES", "Build a AANVIO", "CURATED GIFT BOXES",
                                         "For Her", "GIFT BOX", "RTS"
                                     ],
                                     "price": 6500,
@@ -3532,12 +3535,12 @@
                                     "id": 7673356189814,
                                     "title": "SWEETS FOR ALL",
                                     "handle": "sweets-for-all-2025",
-                                    "description": "\u003cp class=\"p1\"\u003e\u003cspan class=\"s1\"\u003eThe XL version of our SWEETS BOXFOX, built for a crowd, team, couple or family! With double the treats comes double the delight - so good they’ll savor every bite. From almond toffee treats to tangerine marmalade, these treats will surely give them the cheeriness they deserve all year round!\u003c\/span\u003e\u003c\/p\u003e\n\u003cp class=\"p1\"\u003e\u003cspan class=\"s1\"\u003e\u003cmeta charset=\"utf-8\"\u003eInterested in corporate gifting in bulk? Learn more \u003ca href=\"https:\/\/shopboxfox.com\/pages\/corporate\" target=\"_blank\"\u003ehere.\u003c\/a\u003e\u003c\/span\u003e\u003c\/p\u003e\n\u003cp\u003e\u003cspan data-stringify-type=\"paragraph-break\" class=\"c-mrkdwn__br\" aria-label=\"\"\u003e\u003c\/span\u003e\u003cspan\u003eIncludes:\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eSugarfina \/\/ Sea Salt Caramels\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eSugarfina \/\/ Cold Brew Cordials\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eSugarfina \/\/ Champagne Bubbles\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eRitual \/\/ Mid Mountain Blend Chocolate Bar\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eMast \/\/ Organic Dark Chocolate with Sea Salt\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eMast \/\/ Organic Dark Chocolate 70% Cacao\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eMast \/\/ Organic Oat Milk Chocolate 50% Cacao\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eMcCrea's \/\/ Cape Cod Sea Salt Caramels\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eJacobsen \/\/ Salty Classic Caramels\u003cbr\u003e\u003cspan\u003eValerie Confections \/\/ Almond Toffee Treats\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eMarmalade Grove \/\/ \"Sunrise\" Pixie Tangerine Marmalade\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eRustic Bakery \/\/ Chocolate Chip Cookies\u003c\/span\u003e\u003cbr\u003e\u003c\/span\u003e\u003c\/p\u003e\n\u003cp\u003e\u003cspan\u003eKeepsake Box \u0026amp; Handwritten Card\u003c\/span\u003e\u003cspan data-stringify-type=\"paragraph-break\" class=\"c-mrkdwn__br\" aria-label=\"\"\u003e\u003c\/span\u003e\u003cspan\u003eEach carefully curated and hand-wrapped box ships as a gift, with a handwritten note and no pricing information. Orders take 1-3 days to process, after which you'll receive an email with tracking information. Whether you want to hand deliver your gifts or ship around the country, you can add separate notes and addresses at checkout.\u003c\/span\u003e\u003cbr\u003e\u003c\/p\u003e",
+                                    "description": "\u003cp class=\"p1\"\u003e\u003cspan class=\"s1\"\u003eThe XL version of our SWEETS AANVIO, built for a crowd, team, couple or family! With double the treats comes double the delight - so good they’ll savor every bite. From almond toffee treats to tangerine marmalade, these treats will surely give them the cheeriness they deserve all year round!\u003c\/span\u003e\u003c\/p\u003e\n\u003cp class=\"p1\"\u003e\u003cspan class=\"s1\"\u003e\u003cmeta charset=\"utf-8\"\u003eInterested in corporate gifting in bulk? Learn more \u003ca href=\"https:\/\/shopboxfox.com\/pages\/corporate\" target=\"_blank\"\u003ehere.\u003c\/a\u003e\u003c\/span\u003e\u003c\/p\u003e\n\u003cp\u003e\u003cspan data-stringify-type=\"paragraph-break\" class=\"c-mrkdwn__br\" aria-label=\"\"\u003e\u003c\/span\u003e\u003cspan\u003eIncludes:\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eSugarfina \/\/ Sea Salt Caramels\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eSugarfina \/\/ Cold Brew Cordials\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eSugarfina \/\/ Champagne Bubbles\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eRitual \/\/ Mid Mountain Blend Chocolate Bar\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eMast \/\/ Organic Dark Chocolate with Sea Salt\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eMast \/\/ Organic Dark Chocolate 70% Cacao\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eMast \/\/ Organic Oat Milk Chocolate 50% Cacao\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eMcCrea's \/\/ Cape Cod Sea Salt Caramels\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eJacobsen \/\/ Salty Classic Caramels\u003cbr\u003e\u003cspan\u003eValerie Confections \/\/ Almond Toffee Treats\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eMarmalade Grove \/\/ \"Sunrise\" Pixie Tangerine Marmalade\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eRustic Bakery \/\/ Chocolate Chip Cookies\u003c\/span\u003e\u003cbr\u003e\u003c\/span\u003e\u003c\/p\u003e\n\u003cp\u003e\u003cspan\u003eKeepsake Box \u0026amp; Handwritten Card\u003c\/span\u003e\u003cspan data-stringify-type=\"paragraph-break\" class=\"c-mrkdwn__br\" aria-label=\"\"\u003e\u003c\/span\u003e\u003cspan\u003eEach carefully curated and hand-wrapped box ships as a gift, with a handwritten note and no pricing information. Orders take 1-3 days to process, after which you'll receive an email with tracking information. Whether you want to hand deliver your gifts or ship around the country, you can add separate notes and addresses at checkout.\u003c\/span\u003e\u003cbr\u003e\u003c\/p\u003e",
                                     "published_at": "2025-08-07T16:09:26-07:00",
                                     "created_at": "2025-02-19T09:55:45-08:00",
-                                    "vendor": "BOXFOX",
+                                    "vendor": "AANVIO",
                                     "type": "Gift Box",
-                                    "tags": ["BOXFOX", "AANVIO BOXES", "Build a BOXFOX", "CURATED GIFT BOXES",
+                                    "tags": ["AANVIO", "AANVIO BOXES", "Build a AANVIO", "CURATED GIFT BOXES",
                                         "For Her", "GIFT BOX", "RTS"
                                     ],
                                     "price": 15499,
@@ -3709,7 +3712,7 @@
                                     }],
                                     "requires_selling_plan": false,
                                     "selling_plan_groups": [],
-                                    "content": "\u003cp class=\"p1\"\u003e\u003cspan class=\"s1\"\u003eThe XL version of our SWEETS BOXFOX, built for a crowd, team, couple or family! With double the treats comes double the delight - so good they’ll savor every bite. From almond toffee treats to tangerine marmalade, these treats will surely give them the cheeriness they deserve all year round!\u003c\/span\u003e\u003c\/p\u003e\n\u003cp class=\"p1\"\u003e\u003cspan class=\"s1\"\u003e\u003cmeta charset=\"utf-8\"\u003eInterested in corporate gifting in bulk? Learn more \u003ca href=\"https:\/\/shopboxfox.com\/pages\/corporate\" target=\"_blank\"\u003ehere.\u003c\/a\u003e\u003c\/span\u003e\u003c\/p\u003e\n\u003cp\u003e\u003cspan data-stringify-type=\"paragraph-break\" class=\"c-mrkdwn__br\" aria-label=\"\"\u003e\u003c\/span\u003e\u003cspan\u003eIncludes:\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eSugarfina \/\/ Sea Salt Caramels\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eSugarfina \/\/ Cold Brew Cordials\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eSugarfina \/\/ Champagne Bubbles\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eRitual \/\/ Mid Mountain Blend Chocolate Bar\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eMast \/\/ Organic Dark Chocolate with Sea Salt\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eMast \/\/ Organic Dark Chocolate 70% Cacao\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eMast \/\/ Organic Oat Milk Chocolate 50% Cacao\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eMcCrea's \/\/ Cape Cod Sea Salt Caramels\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eJacobsen \/\/ Salty Classic Caramels\u003cbr\u003e\u003cspan\u003eValerie Confections \/\/ Almond Toffee Treats\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eMarmalade Grove \/\/ \"Sunrise\" Pixie Tangerine Marmalade\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eRustic Bakery \/\/ Chocolate Chip Cookies\u003c\/span\u003e\u003cbr\u003e\u003c\/span\u003e\u003c\/p\u003e\n\u003cp\u003e\u003cspan\u003eKeepsake Box \u0026amp; Handwritten Card\u003c\/span\u003e\u003cspan data-stringify-type=\"paragraph-break\" class=\"c-mrkdwn__br\" aria-label=\"\"\u003e\u003c\/span\u003e\u003cspan\u003eEach carefully curated and hand-wrapped box ships as a gift, with a handwritten note and no pricing information. Orders take 1-3 days to process, after which you'll receive an email with tracking information. Whether you want to hand deliver your gifts or ship around the country, you can add separate notes and addresses at checkout.\u003c\/span\u003e\u003cbr\u003e\u003c\/p\u003e"
+                                    "content": "\u003cp class=\"p1\"\u003e\u003cspan class=\"s1\"\u003eThe XL version of our SWEETS AANVIO, built for a crowd, team, couple or family! With double the treats comes double the delight - so good they’ll savor every bite. From almond toffee treats to tangerine marmalade, these treats will surely give them the cheeriness they deserve all year round!\u003c\/span\u003e\u003c\/p\u003e\n\u003cp class=\"p1\"\u003e\u003cspan class=\"s1\"\u003e\u003cmeta charset=\"utf-8\"\u003eInterested in corporate gifting in bulk? Learn more \u003ca href=\"https:\/\/shopboxfox.com\/pages\/corporate\" target=\"_blank\"\u003ehere.\u003c\/a\u003e\u003c\/span\u003e\u003c\/p\u003e\n\u003cp\u003e\u003cspan data-stringify-type=\"paragraph-break\" class=\"c-mrkdwn__br\" aria-label=\"\"\u003e\u003c\/span\u003e\u003cspan\u003eIncludes:\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eSugarfina \/\/ Sea Salt Caramels\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eSugarfina \/\/ Cold Brew Cordials\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eSugarfina \/\/ Champagne Bubbles\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eRitual \/\/ Mid Mountain Blend Chocolate Bar\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eMast \/\/ Organic Dark Chocolate with Sea Salt\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eMast \/\/ Organic Dark Chocolate 70% Cacao\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eMast \/\/ Organic Oat Milk Chocolate 50% Cacao\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eMcCrea's \/\/ Cape Cod Sea Salt Caramels\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eJacobsen \/\/ Salty Classic Caramels\u003cbr\u003e\u003cspan\u003eValerie Confections \/\/ Almond Toffee Treats\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eMarmalade Grove \/\/ \"Sunrise\" Pixie Tangerine Marmalade\u003c\/span\u003e\u003cbr\u003e\u003cspan\u003eRustic Bakery \/\/ Chocolate Chip Cookies\u003c\/span\u003e\u003cbr\u003e\u003c\/span\u003e\u003c\/p\u003e\n\u003cp\u003e\u003cspan\u003eKeepsake Box \u0026amp; Handwritten Card\u003c\/span\u003e\u003cspan data-stringify-type=\"paragraph-break\" class=\"c-mrkdwn__br\" aria-label=\"\"\u003e\u003c\/span\u003e\u003cspan\u003eEach carefully curated and hand-wrapped box ships as a gift, with a handwritten note and no pricing information. Orders take 1-3 days to process, after which you'll receive an email with tracking information. Whether you want to hand deliver your gifts or ship around the country, you can add separate notes and addresses at checkout.\u003c\/span\u003e\u003cbr\u003e\u003c\/p\u003e"
                                 })
                                 </script>
 
@@ -4172,9 +4175,9 @@
                                     "description": "\u003cp\u003eA \"thank you\" is appreciated no matter where in the world you are. This curation packs a big gesture in a small package. A little bit of thoughtfulness goes a long way.\u003c\/p\u003e\n\u003cp\u003e\u003cmeta charset=\"utf-8\"\u003eInterested in corporate gifting in bulk? Learn more \u003ca href=\"https:\/\/shopboxfox.com\/pages\/corporate\" target=\"_blank\"\u003ehere.\u003c\/a\u003e\u003c\/p\u003e\n\u003c!-- split --\u003e\n\u003cp\u003eBrady Jones \/\/ Black Lined Pocket Notebook\u003cbr\u003eBOXFOX \/\/ Black Bullet Pen\u003cbr\u003eGoodio \/\/ Sea Salt Chocolate Bar\u003cbr\u003eCopper Cow \/\/ Single Vietnamese Coffee Sachet\u003cbr\u003eKeepsake Box \u0026amp; Handwritten Card\u003cbr\u003e\u003c\/p\u003e\n\u003c!-- split --\u003e\n\u003cp\u003e\u003cmeta charset=\"utf-8\"\u003eEach carefully curated and hand-wrapped box ships as a gift, with a handwritten note and no pricing information. Orders take 1-3 days to process, after which you'll receive an email with tracking information. Whether you want to hand deliver your gifts or ship around the country, you can add separate notes and addresses at checkout.\u003c\/p\u003e",
                                     "published_at": "2025-09-22T12:56:36-07:00",
                                     "created_at": "2017-09-03T18:11:02-07:00",
-                                    "vendor": "BOXFOX",
+                                    "vendor": "AANVIO",
                                     "type": "Gift Box",
-                                    "tags": ["BOXFOX", "Build a BOXFOX", "Corporate Favorites",
+                                    "tags": ["AANVIO", "Build a AANVIO", "Corporate Favorites",
                                         "CURATED GIFT BOXES", "Food \u0026 Treats", "For Her", "For Him",
                                         "GIFT BASKET", "GIFT BOX", "LE PENS", "RTS", "thank you"
                                     ],
@@ -4474,7 +4477,7 @@
                                     "description": "\u003cp\u003eThere are certain gestures that call for an equally considerate acknowledgement. our thanks box is sleek simple and sophisticated much like the person it gifted to. a beautifully curated gift where most of work done you welcome.\u003c\/p\u003e\n\u003cp\u003eInterested in corporate gifting in bulk? Learn more \u003ca href=\"https:\/\/shopboxfox.com\/pages\/corporate\" target=\"_blank\"\u003ehere.\u003c\/a\u003e\u003cb\u003e\u003cbr\u003e\u003cbr\u003e\u003c\/b\u003eIncludes:\u003cbr\u003eVoluspa \/\/ Bourbon Vanille Tin Candle\u003cbr\u003eFormulary 55 \/\/ Eucalyptus + Peppermint Foot Soak\u003cbr\u003eSugarfina \/\/ Dark Chocolate Sea Salt Caramels\u003cbr\u003eKeepsake Box \u0026amp; Handwritten Card\u003cbr\u003e\u003cbr\u003eEach carefully curated and hand-wrapped box ships as a gift, with a handwritten note and no pricing information. Orders take 3-8 business days to deliver, after which you'll receive an email with tracking information. Whether you want to hand deliver your gifts or ship around the country, you can add separate notes and addresses at checkout.\u003c\/p\u003e",
                                     "published_at": "2024-01-17T16:45:12-08:00",
                                     "created_at": "2014-09-02T12:53:50-07:00",
-                                    "vendor": "BOXFOX",
+                                    "vendor": "AANVIO",
                                     "type": "Gift Box",
                                     "tags": ["BIPOC Owned", "Build a Boxfox", "Corporate Favorites",
                                         "Earth Day",
@@ -13400,6 +13403,14 @@ document.addEventListener("DOMContentLoaded", function() {
         observer.observe(blockToObserve);
     }
 });
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    // Optional configuration
+    once: false, // ensures the animation repeats every time the element comes into view
+    mirror: true // makes the animation reverse when scrolling up/out of view
+  });
 </script>
 
 </body>

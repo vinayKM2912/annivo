@@ -13,7 +13,7 @@ detailing, balanced proportions, and consistent quality across production.',
     'category_ids' => 
     array (
     ),
-    'cover' => 'uploads/products/plush-toys/14.png',
+    'cover' => 'images/banner/2.png',
     'slug' => 'plush-toys',
     'product_ids' => 
     array (
@@ -37,7 +37,7 @@ finishing to ensure comfort, accuracy, and durability at scale',
     'category_ids' => 
     array (
     ),
-    'cover' => 'uploads/products/apparel/app1.jpeg',
+    'cover' => 'images/banner/3.png',
     'slug' => 'apparel',
     'product_ids' => 
     array (
@@ -61,7 +61,7 @@ product.',
     'category_ids' => 
     array (
     ),
-    'cover' => 'uploads/products/key-rings/4.png',
+    'cover' => 'images/banner/26.png',
     'slug' => 'key-rings',
     'product_ids' => 
     array (
@@ -85,7 +85,7 @@ and distinctly yours.',
     'category_ids' => 
     array (
     ),
-    'cover' => 'uploads/products/corporate-gifts/cop1.jpeg',
+    'cover' => 'images/banner/1.png',
     'slug' => 'corporate-gifts',
     'product_ids' => 
     array (
@@ -107,7 +107,7 @@ process. shape, branding, finish, and presentation, is tailored to the idea and 
     'category_ids' => 
     array (
     ),
-    'cover' => 'uploads/products/customized-items/6.png',
+    'cover' => 'images/banner/5.png',
     'slug' => 'customized-items',
     'product_ids' => 
     array (
@@ -131,7 +131,7 @@ main line, while supporting a more responsible approach to production.',
     'category_ids' => 
     array (
     ),
-    'cover' => 'uploads/products/sustainability/14.png',
+    'cover' => 'images/banner/4.png',
     'slug' => 'sustainability',
     'product_ids' => 
     array (

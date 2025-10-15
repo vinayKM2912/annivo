@@ -14,7 +14,7 @@
                                 <a href="/" class="footer__logo" style="width: 120px;" data-footer-logo="">
 
                                     <img src="<?php echo BASE_URL; ?>images/logo.svg?v=1689116844&amp;width=120"
-                                        alt="BOXFOX" data-color="white" width="120" height="60" loading="lazy"
+                                        alt="AANVIO" data-color="white" width="120" height="60" loading="lazy"
                                         sizes="120px" srcset="<?php echo BASE_URL; ?>images/logo.svg?v=1689116844&amp;width=240 2x,<?php echo BASE_URL; ?>images/logo.svg?v=1689116844&amp;width=120
           ">
                                 </a>
@@ -428,7 +428,7 @@ EightyCodesWA.init({
     <script id="chat-button-container" data-horizontal-position="bottom_left" data-vertical-position="higher"
         data-icon="chat_bubble" data-text="no_text" data-color="#5894b3" data-secondary-color="#ffffff"
         data-ternary-color="#6a6a6a"
-        data-greeting-message="%F0%9F%91%8B+Welcome+to+BOXFOX%21+This+chat+is+monitored+by+our+very+real%2C+human+team%21+How+can+we+help%3F"
+        data-greeting-message="%F0%9F%91%8B+Welcome+to+AANVIO%21+This+chat+is+monitored+by+our+very+real%2C+human+team%21+How+can+we+help%3F"
         data-domain="boxfox.com" data-shop-domain="boxfox.com"
         data-external-identifier="tL_nks2zcYr2OkopjymhAGL49EjPIEo4GYKO2d2XgHw">
     </script>

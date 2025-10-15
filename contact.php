@@ -26,7 +26,7 @@ body {
 </style>
 </head>
 
-<body id="custom-amp-curated-gift-boxes-boxfox" ng-app="BOXFOX" ng-controller="App"
+<body id="custom-amp-curated-gift-boxes-boxfox" ng-app="AANVIO" ng-controller="App"
     class="template-index theme-animate-hover" style="background-color: #efffff !important;" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <?php include "./elements/header.php"; ?>
     <main class="main-content" id="MainContent" style="background-color: #efffff;">
