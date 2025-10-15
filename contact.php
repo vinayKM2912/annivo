@@ -5,9 +5,29 @@ include "config.php";
 <html class="js aos-initialized" lang="en"
     style="--full-screen: 738px; --three-quarters: 553.5px; --two-thirds: 487.08000000000004px; --one-half: 369px; --one-third: 243.54000000000002px; --one-fifth: 147.6px; --menu-height: 105px; --scrollbar-width: 15px; --footer-logo: 80px; --announcement-height: 0px; --toolbar-height: 20px; --header-height: 105px; --footer-height: 396px; --content-full: 593px; --menu-height-sticky: 105px; --menu-backfill-height: 105px;">
 <?php include "./elements/meta.php"; ?>
+<head>
+<style>
+body {
+    background-color: #efffff !important;
+}
+.main-content {
+    background-color: #efffff !important;
+}
+.bg--neutral, .palette--light, .section-faq {
+    background-color: #efffff !important;
+}
+#shopify-section-template--14655948488822__8ef9a75b-6172-48f0-9db9-5c77739cd5de,
+#shopify-section-template--14655948488822__8ef9a75b-6172-48f0-9db9-5c77739cd5de .section-faq,
+#shopify-section-template--14655948488822__8ef9a75b-6172-48f0-9db9-5c77739cd5de .wrapper,
+.accordion__wrapper,
+.accordion__body {
+    background-color: #efffff !important;
+}
+</style>
+</head>
 
 <body id="custom-amp-curated-gift-boxes-boxfox" ng-app="BOXFOX" ng-controller="App"
-    class="template-index theme-animate-hover" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+    class="template-index theme-animate-hover" style="background-color: #efffff !important;" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <?php include "./elements/header.php"; ?>
     <main class="main-content" id="MainContent" style="background-color: #efffff;">
         <div id="shopify-section-template--14655948488822__798650bf-c362-4d70-93a0-f02f30d8f91b"
@@ -219,6 +239,62 @@ include "config.php";
                                                         GIFTING</strong></p>
                                             </div>
                                         </div>
+                                        <div data-ticker-text=""
+                                            class="announcement__text accent-size-5 ticker--animated" aria-hidden="true"
+                                            data-clone="">
+                                            <div>
+                                                <p><strong>YOUR ONE STOP SHOP FOR CORPORATE, CUSTOM, &amp; PROMOTIONAL
+                                                        GIFTING</strong></p>
+                                            </div>
+                                        </div>
+                                        <div data-ticker-text=""
+                                            class="announcement__text accent-size-5 ticker--animated" aria-hidden="true"
+                                            data-clone="">
+                                            <div>
+                                                <p><strong>YOUR ONE STOP SHOP FOR CORPORATE, CUSTOM, &amp; PROMOTIONAL
+                                                        GIFTING</strong></p>
+                                            </div>
+                                        </div>
+                                        <div data-ticker-text=""
+                                            class="announcement__text accent-size-5 ticker--animated" aria-hidden="true"
+                                            data-clone="">
+                                            <div>
+                                                <p><strong>YOUR ONE STOP SHOP FOR CORPORATE, CUSTOM, &amp; PROMOTIONAL
+                                                        GIFTING</strong></p>
+                                            </div>
+                                        </div>
+                                        <div data-ticker-text=""
+                                            class="announcement__text accent-size-5 ticker--animated" aria-hidden="true"
+                                            data-clone="">
+                                            <div>
+                                                <p><strong>YOUR ONE STOP SHOP FOR CORPORATE, CUSTOM, &amp; PROMOTIONAL
+                                                        GIFTING</strong></p>
+                                            </div>
+                                        </div>
+                                        <div data-ticker-text=""
+                                            class="announcement__text accent-size-5 ticker--animated" aria-hidden="true"
+                                            data-clone="">
+                                            <div>
+                                                <p><strong>YOUR ONE STOP SHOP FOR CORPORATE, CUSTOM, &amp; PROMOTIONAL
+                                                        GIFTING</strong></p>
+                                            </div>
+                                        </div>
+                                        <div data-ticker-text=""
+                                            class="announcement__text accent-size-5 ticker--animated" aria-hidden="true"
+                                            data-clone="">
+                                            <div>
+                                                <p><strong>YOUR ONE STOP SHOP FOR CORPORATE, CUSTOM, &amp; PROMOTIONAL
+                                                        GIFTING</strong></p>
+                                            </div>
+                                        </div>
+                                        <div data-ticker-text=""
+                                            class="announcement__text accent-size-5 ticker--animated" aria-hidden="true"
+                                            data-clone="">
+                                            <div>
+                                                <p><strong>YOUR ONE STOP SHOP FOR CORPORATE, CUSTOM, &amp; PROMOTIONAL
+                                                        GIFTING</strong></p>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div data-ticker-text=""
                                         class="announcement__text accent-size-5 ticker__comparitor">
@@ -254,14 +330,14 @@ include "config.php";
                             <div class="gallery__text border--line text-center ">
 
 
-                                <h2 class="custom__title accent-size-6">
+                                <h2 class="custom__title accent-size-6" style="color: #000000 !important;">
                                     Inquire today
                                 </h2>
 
 
 
-                                <div class="custom__text rte body-size-4">
-                                    <p>Our team of experts is here to help! We require a minimum order of 12 for any
+                                <div class="custom__text rte body-size-4" style="color: #000000 !important;">
+                                    <p style="color: #000000 !important;">Our team of experts is here to help! We require a minimum order of 12 for any
                                         additional branding!</p>
                                 </div>
 
@@ -907,12 +983,10 @@ include "config.php";
         </div>
         <div id="shopify-section-template--14655948488822__8ef9a75b-6172-48f0-9db9-5c77739cd5de"
             class="shopify-section">
-            <!-- /sections/section-faq.liquid-->
-
-            <section class="section-faq text--neutral  palette--light bg--neutral"
+            <section class="section-faq text--neutral palette--light bg--neutral"
                 data-section-id="template--14655948488822__8ef9a75b-6172-48f0-9db9-5c77739cd5de"
-                data-section-type="page-faq" style="--PT: 36px; --PB: 36px;">
-                <div class="wrapper section-padding">
+                data-section-type="page-faq" style="--PT: 36px; --PB: 36px; background-color: #efffff !important;">
+                <div class="wrapper section-padding" style="background-color: #efffff !important;">
                     <div class="text__standard" data-accordion-group="">
 
 

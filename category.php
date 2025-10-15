@@ -66,10 +66,10 @@ if (isset($_GET["slug"])) {
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "BOXFOX",
-        "url": "https://boxfox.com",
+        "url": "https://aanvio.com",
         "description": "Shop BOXFOX's expertly curated gift boxes, build a fully custom gift set, or put together a corporate gift box. Free shipping over $125.",
-        "image": "https://boxfox.com/cdn/shop/t/153/assets/logo.png?75168",
-        "logo": "https://boxfox.com/cdn/shop/t/153/assets/logo.png?75168",
+        "image": "https://aanvio.com/cdn/shop/t/153/assets/logo.png?75168",
+        "logo": "https://aanvio.com/cdn/shop/t/153/assets/logo.png?75168",
         "sameAs": ["https://facebook.com/shopboxfox", "https://facebook.com/shopboxfox",
             "https://pinterest.com/shopboxfox"
         ],
@@ -89,11 +89,11 @@ if (isset($_GET["slug"])) {
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "BOXFOX",
-        "url": "https://boxfox.com",
+        "url": "https://aanvio.com",
         "potentialAction": {
             "@type": "SearchAction",
             "query-input": "required name=query",
-            "target": "https://boxfox.com/search?q={query}"
+            "target": "https://aanvio.com/search?q={query}"
         }
     }
     </script>
@@ -103,7 +103,7 @@ if (isset($_GET["slug"])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="theme-color" content="#568eae">
-    <link rel="canonical" href="https://boxfox.com/">
+    <link rel="canonical" href="https://aanvio.com/">
     <script type="text/javascript">
     window.showEmbroidery = false;
     window.embroideryProducts = [];
@@ -408,7 +408,7 @@ if (isset($_GET["slug"])) {
 
     <!-- /snippets/social-meta-tags.liquid -->
     <meta property="og:site_name" content="BOXFOX">
-    <meta property="og:url" content="https://boxfox.com/">
+    <meta property="og:url" content="https://aanvio.com/">
     <meta property="og:title" content="Custom &amp; Curated Gift Boxes | BOXFOX">
     <meta property="og:type" content="website">
     <meta property="og:description"
@@ -1234,7 +1234,7 @@ if (isset($_GET["slug"])) {
         init: function() {
             window.Shopify.PaymentButton.init = function() {};
             var t = document.createElement("script");
-            t.src = "https://boxfox.com/cdn/shopifycloud/portable-wallets/latest/portable-wallets.en.js", t
+            t.src = "https://aanvio.com/cdn/shopifycloud/portable-wallets/latest/portable-wallets.en.js", t
                 .type = "module", document.head.appendChild(t)
         }
     };
@@ -1271,9 +1271,9 @@ if (isset($_GET["slug"])) {
     }));
     </script>
     <script id="scb4127" type="text/javascript" async=""
-        src="https://boxfox.com/cdn/shopifycloud/privacy-banner/storefront-banner.js"></script>
+        src="https://aanvio.com/cdn/shopifycloud/privacy-banner/storefront-banner.js"></script>
     <link id="shopify-accelerated-checkout-styles" rel="stylesheet" media="screen"
-        href="https://boxfox.com/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css"
+        href="https://aanvio.com/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css"
         crossorigin="anonymous">
     <style id="shopify-accelerated-checkout-cart">
     #shopify-buyer-consent {
@@ -1644,7 +1644,7 @@ if (isset($_GET["slug"])) {
         }
     })({
         shopId: 5582845,
-        storefrontBaseUrl: "https://boxfox.com",
+        storefrontBaseUrl: "https://aanvio.com",
         extensionsBaseUrl: "https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager",
         monorailEndpoint: "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
         surface: "storefront-renderer",
@@ -1755,7 +1755,7 @@ if (isset($_GET["slug"])) {
             "productVariants": [],
             "purchasingCompany": null
         },
-    }, "https://boxfox.com/cdn", "a678f985wf512d8e4p074b229bma05a5fb0", {
+    }, "https://aanvio.com/cdn", "a678f985wf512d8e4p074b229bma05a5fb0", {
         "modern": "",
         "legacy": ""
     }, {
@@ -1770,8 +1770,8 @@ if (isset($_GET["slug"])) {
         "events": "[[\"page_viewed\",{}]]"
     });
     </script>
-    <script async="" src="https://boxfox.com/cdn/wpm/ba678f985wf512d8e4p074b229bma05a5fb0m.js" data-shop-id="5582845"
-        data-storefront-base-url="https://boxfox.com"
+    <script async="" src="https://aanvio.com/cdn/wpm/ba678f985wf512d8e4p074b229bma05a5fb0m.js" data-shop-id="5582845"
+        data-storefront-base-url="https://aanvio.com"
         data-extension-base-url="https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager"
         data-surface="storefront-renderer" data-enabled-beta-flags="[]" data-is-merchant-request="false"
         data-hash-version="a678f985wf512d8e4p074b229bma05a5fb0" data-publish="custom"
@@ -1981,7 +1981,7 @@ if (isset($_GET["slug"])) {
     })();
     </script>
     <script async="" src="<?php echo BASE_URL; ?>cdn/shopifycloud/storefront/assets/shop_events_listener-abeef7a0.js"></script>
-    <script defer="" src="https://boxfox.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-2.0.8.min.js"
+    <script defer="" src="https://aanvio.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-2.0.8.min.js"
         data-application="storefront-renderer" data-shop-id="5582845" data-render-region="gcp-asia-southeast1"
         data-page-type="index" data-theme-instance-id="122801422454" data-theme-name="Pipeline"
         data-theme-version="7.0.2" data-monorail-region="shop_domain" data-resource-timing-sampling-rate="10"
@@ -1995,10 +1995,10 @@ if (isset($_GET["slug"])) {
     <link rel="preconnect" href="https://shopify-init.blackcrow.ai/">
     <link rel="dns-prefetch" href="https://shopify-init.blackcrow.ai/">
     <script
-        src="https://boxfox.com/web-pixels@a678f985wf512d8e4p074b229bma05a5fb0/app/web-pixel-329252982@b2a88bafab3e21179ed38636efcd8a93/pixel.modern.js"
+        src="https://aanvio.com/web-pixels@a678f985wf512d8e4p074b229bma05a5fb0/app/web-pixel-329252982@b2a88bafab3e21179ed38636efcd8a93/pixel.modern.js"
         async="" data-pixel-id="329252982" data-pixel-type="APP"></script>
     <script
-        src="https://boxfox.com/web-pixels@a678f985wf512d8e4p074b229bma05a5fb0/app/web-pixel-107380854@6d8c3ef0426b37b2a9b717daeb719f58/pixel.modern.js"
+        src="https://aanvio.com/web-pixels@a678f985wf512d8e4p074b229bma05a5fb0/app/web-pixel-107380854@6d8c3ef0426b37b2a9b717daeb719f58/pixel.modern.js"
         async="" data-pixel-id="107380854" data-pixel-type="APP"></script>
     <style>
     .yotpo-widget-empty-placeholder {
@@ -2110,7 +2110,7 @@ if (isset($_GET["slug"])) {
     }
     </style>
     <script type="module" defer=""
-        src="https://boxfox.com/cdn/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js"></script>
+        src="https://aanvio.com/cdn/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js"></script>
     <script src="https://cdn-widgetsrepository.yotpo.com/widget-assets/widget-loyalty-floater/app.v0.40.0-7321.js"
         async=""></script>
     <style type="text/css">

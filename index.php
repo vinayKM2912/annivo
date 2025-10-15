@@ -524,7 +524,7 @@
 
 
                                 <div class="accent-title-large strong mb2">THANK YOU GIFTS</div>
-                                <a href="https://boxfox.com/pages/thank-you" class="btn--neutral btn--soft">
+                                <a href="https://aanvio.com/pages/thank-you" class="btn--neutral btn--soft">
                                     SHOP
                                 </a>
 
@@ -540,7 +540,7 @@
 
 
                                 <div class="accent-title-large strong mb2">NEW BABY GIFTS</div>
-                                <a href="https://boxfox.com/pages/new-baby-and-new-family-gifts"
+                                <a href="https://aanvio.com/pages/new-baby-and-new-family-gifts"
                                     class="btn--neutral btn--soft">
                                     SHOP
                                 </a>
@@ -557,7 +557,7 @@
 
 
                                 <div class="accent-title-large strong mb2">BIRTHDAY GIFTS</div>
-                                <a href="https://boxfox.com/pages/birthday-gifts" class="btn--neutral btn--soft">
+                                <a href="https://aanvio.com/pages/birthday-gifts" class="btn--neutral btn--soft">
                                     SHOP
                                 </a>
 
@@ -586,7 +586,7 @@
                 });
                 </script>
             </div> -->
-             <!-- Why AANVIO Section -->
+ <!-- Why AANVIO Section -->
                <div id="shopify-section-template--14655948521590__5524185e-eb37-4d02-9c04-76e78f946d3c" class="shopify-section"><section class="tab-selector-section">
   <div class="tab-details">
     <div class="tab-selectors"><button class="tab active" data-progress="progress-1" data-tab="tab-1">
@@ -613,7 +613,7 @@
 
           <p><strong>Uncompromising Quality – Products created with attention to detail and premium craftsmanship.</strong></p>
         </div><div id="tab-2" class="tab-pane">
-          <p>Aanvio is a bespoke <strong>B2B merchandising solutions company</strong> founded in the <strong>UAE with many years</strong>. We design and deliver <strong>premium products</strong> and <strong>curated gifting</strong> experiences that help businesses express their story with elegance and impact. We're thrilled to have served over <strong>800</strong> corporate clients.</p>
+          <p>Aanvio is a bespoke <strong>B2B merchandising solutions company</strong> founded in the <strong>UAE with many years</strong>. We design and deliver <strong>premium products</strong> and <strong>curated gifting</strong> experiences that help businesses express their story with elegance and impact. We believe merchandise is not just about branding—it’s about crafting touchpoints that build connections and embody values.</p>
         </div><div id="tab-3" class="tab-pane">
           <p>Here at AANVIO, we are <b>HUMAN</b>, <b>GENEROUS</b>, <b>THOUGHTFUL</b>, <b>RESOURCEFUL</b> and <b>PIONEERING</b>.</p>
         </div></div>
@@ -647,6 +647,99 @@
   });
 </script>
 </div>
+<!-- Why to choose us Section -->
+<!-- <div id="shopify-section-template--14655948128374__why-choose-us" class="shopify-section">
+    <section class="section-icons section-padding palette--light bg--neutral" 
+             style="--PT: 36px; --PB: 36px; background-color: #efffff;">
+        <div class="wrapper icon--top icon--large">
+            <div class="text-center mb-7">
+                <h2 class="kicker-flourished" style="font-size: 2.5rem; margin-bottom: 1rem; color: #333;">Why Choose Us?</h2>
+                <p style="font-style: italic; color: #666; font-size: 1.1rem;">Refined. Reliable. Remarkable.</p>
+            </div>
+
+            <div class="grid grid--stacked grid--uniform" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-top: 3rem;">
+                <div class="grid__item text-center">
+                    <div class="icon__column icon--top icon--large">
+                        <div class="icon__column__icon aos-init aos-animate" data-aos-delay="100" data-aos="fade-up">
+                            <img src="<?php echo BASE_URL; ?>images/illustrations/why1.png" 
+                                 alt="Bespoke product Design" 
+                                 style="width: 120px; height: 120px; object-fit: contain; margin: 0 auto;">
+                        </div>
+                        <div class="icon__column__text">
+                            <p class="icon__column__heading" style="font-size: 1.2rem; font-weight: 600; margin: 1rem 0 0.5rem 0; color: #333;">Bespoke Product Design</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid__item text-center">
+                    <div class="icon__column icon--top icon--large">
+                        <div class="icon__column__icon aos-init aos-animate" data-aos-delay="200" data-aos="fade-up">
+                            <img src="<?php echo BASE_URL; ?>images/illustrations/why2.png" 
+                                 alt="Premium Hamper Creation" 
+                                 style="width: 120px; height: 120px; object-fit: contain; margin: 0 auto;">
+                        </div>
+                        <div class="icon__column__text">
+                            <p class="icon__column__heading" style="font-size: 1.2rem; font-weight: 600; margin: 1rem 0 0.5rem 0; color: #333;">Premium Hamper Creation</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid__item text-center">
+                    <div class="icon__column icon--top icon--large">
+                        <div class="icon__column__icon aos-init aos-animate" data-aos-delay="300" data-aos="fade-up">
+                            <img src="<?php echo BASE_URL; ?>images/illustrations/why3.png" 
+                                 alt="Corporate and Hotel Gifting" 
+                                 style="width: 120px; height: 120px; object-fit: contain; margin: 0 auto;">
+                        </div>
+                        <div class="icon__column__text">
+                            <p class="icon__column__heading" style="font-size: 1.2rem; font-weight: 600; margin: 1rem 0 0.5rem 0; color: #333;">Corporate and Hotel Gifting</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item text-center">
+                    <div class="icon__column icon--top icon--large">
+                        <div class="icon__column__icon aos-init aos-animate" data-aos-delay="400" data-aos="fade-up">
+                            <img src="<?php echo BASE_URL; ?>images/illustrations/why4.png" 
+                                 alt="Eco-Friendly Merchandising" 
+                                 style="width: 120px; height: 120px; object-fit: contain; margin: 0 auto;">
+                        </div>
+                        <div class="icon__column__text">
+                            <p class="icon__column__heading" style="font-size: 1.2rem; font-weight: 600; margin: 1rem 0 0.5rem 0; color: #333;">Eco-Friendly Merchandising</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid__item text-center">
+                    <div class="icon__column icon--top icon--large">
+                        <div class="icon__column__icon aos-init aos-animate" data-aos-delay="500" data-aos="fade-up">
+                            <img src="<?php echo BASE_URL; ?>images/illustrations/why5.png" 
+                                 alt="Custom Packaging Solutions" 
+                                 style="width: 120px; height: 120px; object-fit: contain; margin: 0 auto;">
+                        </div>
+                        <div class="icon__column__text">
+                            <p class="icon__column__heading" style="font-size: 1.2rem; font-weight: 600; margin: 1rem 0 0.5rem 0; color: #333;">Custom Packaging Solutions</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid__item text-center">
+                    <div class="icon__column icon--top icon--large">
+                        <div class="icon__column__icon aos-init aos-animate" data-aos-delay="600" data-aos="fade-up">
+                            <img src="<?php echo BASE_URL; ?>images/illustrations/why6.png" 
+                                 alt="End-to-End Production Management" 
+                                 style="width: 120px; height: 120px; object-fit: contain; margin: 0 auto;">
+                        </div>
+                        <div class="icon__column__text">
+                            <p class="icon__column__heading" style="font-size: 1.2rem; font-weight: 600; margin: 1rem 0 0.5rem 0; color: #333;">End-to-End Production Management</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</div> -->
+
     <!-- Our Factory Partners Section -->
      <div id="shopify-section-template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622"
                 class="shopify-section">
@@ -13137,7 +13230,7 @@
           { "value": "palette--bright bg--bright--accent", "label": "Bright accent"}
         ]
    -->
-            <div class="section-newsletter" style="--PT: 36px; --PB: 36px;
+            <!-- <div class="section-newsletter" style="--PT: 36px; --PB: 36px;
     background-color: #6E7A77">
                 <div class="wrapper section-padding newsletter-wrapper">
                     <div style="padding-bottom: 10px;">
@@ -13190,7 +13283,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </main>
     <?php include "./elements/footer.php"; ?>
     <style>

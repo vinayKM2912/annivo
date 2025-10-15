@@ -5,10 +5,20 @@ include "config.php";
 <html class="js aos-initialized" lang="en"
     style="--full-screen: 738px; --three-quarters: 553.5px; --two-thirds: 487.08000000000004px; --one-half: 369px; --one-third: 243.54000000000002px; --one-fifth: 147.6px; --menu-height: 105px; --scrollbar-width: 15px; --footer-logo: 80px; --announcement-height: 0px; --toolbar-height: 20px; --header-height: 105px; --footer-height: 396px; --content-full: 593px; --menu-height-sticky: 105px; --menu-backfill-height: 105px;">
 <?php include "./elements/meta.php"; ?>
+<head>
+<style>
+body {
+    background-color: #efffff !important;
+}
+.bg--neutral, .palette--light {
+    background-color: #efffff !important;
+}
+</style>
+</head>
 <body id="custom-amp-curated-gift-boxes-boxfox" ng-app="BOXFOX" ng-controller="App"
     class="template-index theme-animate-hover" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <?php include "./elements/header.php"; ?>
-<main class="main-content" id="MainContent" style="background-color: #efffff;">
+<main class="main-content" id="MainContent">
     <div id="shopify-section-template--14655948226678__62c60dd6-ae76-4dea-aa45-d480b86f8210" class="shopify-section"><!-- /sections/section-hero.liquid -->
 
 
@@ -64,7 +74,8 @@ include "config.php";
 
 
 </div>
-<div id="shopify-section-template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed" class="shopify-section"><!-- /sections/section-richtext.liquid--><section class="text--neutral palette--light bg--neutral" data-section-id="template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed" data-section-type="rich-text" style="
+<div style="background-color: #efffff" id="shopify-section-template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed" class="shopify-section">
+  <section class="text--neutral palette--light bg--neutral" data-section-id="template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed" data-section-type="rich-text" style="
       --PT: 36px;
       --PB: 0px;
       --FLEX-POSITION: center;
@@ -279,40 +290,40 @@ include "config.php";
 </div>
 
 
-<div id="shopify-section-template--14655948226678__b1f8d3fe-d927-4972-aa32-314b40c2cf4a" class="shopify-section"><!-- /sections/section-double.liquid -->
+<div id="shopify-section-template--14655948226678__b1f8d3fe-d927-4972-aa32-314b40c2cf4a" style="background-color: #efffff" class="shopify-section"><!-- /sections/section-double.liquid -->
 <section data-section-id="template--14655948226678__b1f8d3fe-d927-4972-aa32-314b40c2cf4a" data-section-type="custom-content" style="--PT: 36px;
          --PB: 36px;
-         --BRICK-GUTTER: 0px;
-         background-color: #ffffff;">
+         --BRICK-GUTTER: 0px;">
   <div class="section-padding wrapper" data-wrapper="">
     <div class="brick__section brick--2   use_screen_one_third brick__section--reverse" data-overflow-wrapper="" style="min-height: 246px;">
       
         
 <div class="brick__block" data-prevent-transparent-header="">
-              <div class="brick__block__text  text--neutral" data-overflow-frame="" style="--bg: #ffffff; min-height: 244px;">
+              <div class="brick__block__text  text--neutral" data-overflow-frame="" style="--bg: #efffff; min-height: 244px;">
                 <div class="brick__block__text__inner">
                   <div class="text__standard text-left" data-overflow-content="">
                     
-
-                    
-                      <p class="standard__kicker aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__b1f8d3fe-d927-4972-aa32-314b40c2cf4a']" data-aos-order="1">
-                        Our Team
-                      </p>
-                    
-
-                    
                       <h2 class="standard__heading heading-size-9 aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__b1f8d3fe-d927-4972-aa32-314b40c2cf4a']" data-aos-order="2">
-                        Meet the Team
+                        Founder’s Message
                       </h2>
                     
+                    <!-- <div class="standard__heading heading-size-8 aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__b1f8d3fe-d927-4972-aa32-314b40c2cf4a']" data-aos-order="2">
+                      <h3>Arman Jaitapkar</h3>
+                    </div> -->
+                    <div class="rte body-size-5 columns--1 aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__b1f8d3fe-d927-4972-aa32-314b40c2cf4a']" data-aos-order="3">
+                      <p>When I founded Aanvio, I didn't just want to start another merchandising company. My vision was to build a partner that helps businesses tell their story through thoughtfully designed products.</p>
+                      <p>The name Aanvio itself carries this philosophy. It comes from "Aan," which signifies honor and pride, and "Vio," which reflects vision and value. Aanvio means "a vision of pride and value." It is a reminder that what we create must always carry connection, meaning, and intention. Every piece is more than a product; it is a memory, a gesture, or a part of someone's identity.</p>
+                      <p>To me, a plush toy is not just a mascot, it is a memory that stays with you. A hamper is not just a collection of items, it is gratitude beautifully expressed. A branded accessory is not just merchandise, it is your story being carried forward.</p>
+                      <p>At Aanvio, we see every project as a collaboration. We listen, design, and deliver with creativity and care, because in the end, what we make is not just ours. It is yours, and it represents you.</p>
+                      <p>When you share an Aanvio creation with a client, an employee, or a guest, we want them to feel like they have become part of your story. That connection is where the true value lies, far beyond the product itself.</p>
+                      <p>In a world where experiences matter more than transactions, Aanvio exists to make your brand unforgettable, through products that are premium, meaningful, and crafted with heart.</p>
+                      <p><strong>Arman Jaitapkar</strong><br>Founder, Aanvio</p>
+                    </div>
 
                     
 
                     
-                      <a href="<?php echo BASE_URL; ?>pages/team" class="standard__cta btn--outline btn--long btn--black aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__b1f8d3fe-d927-4972-aa32-314b40c2cf4a']" data-aos-order="4">
-                        GET TO KNOW US
-                      </a>
-                    
+                     
 
                   </div>
                 </div>
@@ -341,7 +352,7 @@ include "config.php";
     <div class="image__hero__scale" style="height: 150vw; transform: translate3d(0px, -29px, 0px);" data-parallax-img="">
       <!-- /snippets/image.liquid -->
 
-  <img src="<?php echo BASE_URL; ?>images/Jenni_BOX_TOP.jpg" alt="" width="736" height="1104" loading="lazy" class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full" style="aspect-ratio: 0.6666666666666666; object-position: center center;">
+  <img src="<?php echo BASE_URL; ?>images/illustrations/business-man-cartoon.jpg" alt="" width="736" height="1104" loading="lazy" class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full" style="aspect-ratio: 0.6666666666666666; object-position: center center;">
 
 
     </div>
