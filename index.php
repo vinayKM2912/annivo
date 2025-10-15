@@ -13308,7 +13308,100 @@
         .text--neutral.palette--light.bg--neutral {
             background-color: #efffff !important;
         }
+
+.brick__block__text {
+  perspective: 800px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.brick__block__text .text__standard {
+  transform-origin: top center;
+  transform: rotateX(90deg);
+  opacity: 0;
+
+  transition: transform 1.0s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+    opacity 0.6s ease-out 0.4s;
+}
+
+.brick__block.is-visible .brick__block__text .text__standard {
+  transform: rotateX(0deg);
+  opacity: 1;
+}
+
     </style>
+    <script>
+document.addEventListener("DOMContentLoaded", function() {
+    // 1. SELECT THE TRIGGER ELEMENT (the title)
+    const titles = document.querySelectorAll('.accent-title-large.strong.mb2');
+
+    // 2. Define the observer options
+    const observerOptions = {
+        root: null, // relative to the viewport
+        rootMargin: '0px',
+        // KEY CHANGE: Trigger when 50% (mid-line) of the title is visible.
+        threshold: 0.5
+    };
+
+    // The function to execute when titles enter or exit the view
+    function observerCallback(entries) {
+        entries.forEach(entry => {
+            // Find the parent column containing the animation classes
+            const columnToAnimate = entry.target.closest('.index__column.slide-item');
+
+            if (entry.isIntersecting) {
+                // Reveal: Add the class to the parent column
+                columnToAnimate.classList.add('is-visible');
+            } else {
+                // Disappear: Remove the class from the parent column
+                columnToAnimate.classList.remove('is-visible');
+            }
+        });
+    }
+
+    // Instantiate and start observing each title
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+    titles.forEach(title => {
+        observer.observe(title);
+    });
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // 1. Select the outermost element to observe
+    const blockToObserve = document.querySelector('.brick__block');
+
+    // 2. Define the observer options
+    const observerOptions = {
+        root: null, // relative to the viewport
+        rootMargin: '0px',
+        // Monitor continuously (low threshold) for a responsive in/out effect
+        threshold: 1
+    };
+
+    // 3. Create the observer function
+    function observerCallback(entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // ADD class when it enters view (Rolls into place)
+                blockToObserve.classList.add('is-visible');
+            } else {
+                // REMOVE class when it exits view (Rolls out of place)
+                blockToObserve.classList.remove('is-visible');
+            }
+        });
+    }
+
+    // 4. Instantiate and start observing
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+    if (blockToObserve) {
+        observer.observe(blockToObserve);
+    }
+});
+</script>
+
 </body>
 
 </html>
