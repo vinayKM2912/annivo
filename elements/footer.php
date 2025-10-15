@@ -142,7 +142,7 @@
 
                                         <li><a href="<?php echo BASE_URL; ?>about">ABOUT</a></li>
 
-                                        <li><a href="<?php echo BASE_URL; ?>corporate">CORPORATE GIFTING</a></li>
+                                        <li><a href="<?php echo BASE_URL; ?>contact">CUSTOMISED ITEMS</a></li>
 
                                     </ul>
                                 </div>
