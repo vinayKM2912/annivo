@@ -648,8 +648,8 @@
 </script>
 </div>
 <!-- Why to choose us Section -->
-<!-- <div id="shopify-section-template--14655948128374__why-choose-us" class="shopify-section">
-    <section class="section-icons section-padding palette--light bg--neutral" 
+<div id="shopify-section-template--14655948128374__why-choose-us" class="shopify-section">
+    <section class="section-icons section-padding palette--light bg--neutral"
              style="--PT: 36px; --PB: 36px; background-color: #efffff;">
         <div class="wrapper icon--top icon--large">
             <div class="text-center mb-7">
@@ -660,9 +660,9 @@
             <div class="grid grid--stacked grid--uniform" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-top: 3rem;">
                 <div class="grid__item text-center">
                     <div class="icon__column icon--top icon--large">
-                        <div class="icon__column__icon aos-init aos-animate" data-aos-delay="100" data-aos="fade-up">
-                            <img src="<?php echo BASE_URL; ?>images/illustrations/why1.png" 
-                                 alt="Bespoke product Design" 
+                        <div class="aos-init aos-animate" data-aos-delay="100" data-aos="fade-up">
+                            <img src="<?php echo BASE_URL; ?>images/illustrations/why1.png"
+                                 alt="Bespoke product Design"
                                  style="width: 120px; height: 120px; object-fit: contain; margin: 0 auto;">
                         </div>
                         <div class="icon__column__text">
@@ -673,9 +673,9 @@
 
                 <div class="grid__item text-center">
                     <div class="icon__column icon--top icon--large">
-                        <div class="icon__column__icon aos-init aos-animate" data-aos-delay="200" data-aos="fade-up">
-                            <img src="<?php echo BASE_URL; ?>images/illustrations/why2.png" 
-                                 alt="Premium Hamper Creation" 
+                        <div class="aos-init aos-animate" data-aos-delay="200" data-aos="fade-up">
+                            <img src="<?php echo BASE_URL; ?>images/illustrations/why2.png"
+                                 alt="Premium Hamper Creation"
                                  style="width: 120px; height: 120px; object-fit: contain; margin: 0 auto;">
                         </div>
                         <div class="icon__column__text">
@@ -686,9 +686,9 @@
 
                 <div class="grid__item text-center">
                     <div class="icon__column icon--top icon--large">
-                        <div class="icon__column__icon aos-init aos-animate" data-aos-delay="300" data-aos="fade-up">
-                            <img src="<?php echo BASE_URL; ?>images/illustrations/why3.png" 
-                                 alt="Corporate and Hotel Gifting" 
+                        <div class="aos-init aos-animate" data-aos-delay="300" data-aos="fade-up">
+                            <img src="<?php echo BASE_URL; ?>images/illustrations/why3.png"
+                                 alt="Corporate and Hotel Gifting"
                                  style="width: 120px; height: 120px; object-fit: contain; margin: 0 auto;">
                         </div>
                         <div class="icon__column__text">
@@ -698,9 +698,9 @@
                 </div>
                 <div class="grid__item text-center">
                     <div class="icon__column icon--top icon--large">
-                        <div class="icon__column__icon aos-init aos-animate" data-aos-delay="400" data-aos="fade-up">
-                            <img src="<?php echo BASE_URL; ?>images/illustrations/why4.png" 
-                                 alt="Eco-Friendly Merchandising" 
+                        <div class="aos-init aos-animate" data-aos-delay="400" data-aos="fade-up">
+                            <img src="<?php echo BASE_URL; ?>images/illustrations/why4.png"
+                                 alt="Eco-Friendly Merchandising"
                                  style="width: 120px; height: 120px; object-fit: contain; margin: 0 auto;">
                         </div>
                         <div class="icon__column__text">
@@ -711,9 +711,9 @@
 
                 <div class="grid__item text-center">
                     <div class="icon__column icon--top icon--large">
-                        <div class="icon__column__icon aos-init aos-animate" data-aos-delay="500" data-aos="fade-up">
-                            <img src="<?php echo BASE_URL; ?>images/illustrations/why5.png" 
-                                 alt="Custom Packaging Solutions" 
+                        <div class="aos-init aos-animate" data-aos-delay="500" data-aos="fade-up">
+                            <img src="<?php echo BASE_URL; ?>images/illustrations/why5.png"
+                                 alt="Custom Packaging Solutions"
                                  style="width: 120px; height: 120px; object-fit: contain; margin: 0 auto;">
                         </div>
                         <div class="icon__column__text">
@@ -724,9 +724,9 @@
 
                 <div class="grid__item text-center">
                     <div class="icon__column icon--top icon--large">
-                        <div class="icon__column__icon aos-init aos-animate" data-aos-delay="600" data-aos="fade-up">
-                            <img src="<?php echo BASE_URL; ?>images/illustrations/why6.png" 
-                                 alt="End-to-End Production Management" 
+                        <div class="aos-init aos-animate" data-aos-delay="600" data-aos="fade-up">
+                            <img src="<?php echo BASE_URL; ?>images/illustrations/why6.png"
+                                 alt="End-to-End Production Management"
                                  style="width: 120px; height: 120px; object-fit: contain; margin: 0 auto;">
                         </div>
                         <div class="icon__column__text">
@@ -738,7 +738,7 @@
             </div>
         </div>
     </section>
-</div> -->
+</div>
 
     <!-- Our Factory Partners Section -->
      <div id="shopify-section-template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622"
