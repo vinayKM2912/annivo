@@ -97,7 +97,7 @@
                                         data-accordion-body="" data-accordion-body-mobile=""
                                         id="accordion-linklist-1-2">
 
-                                        <li><a href="https://shopboxfox.com/pages/faqs">FAQ</a></li>
+                                        <li><a href="<?php echo BASE_URL; ?>contact">FAQ</a></li>
                                         <li><a href="<?php echo BASE_URL; ?>contact">CONTACT</a></li>
                                         </li>
 
@@ -414,8 +414,9 @@
 <script src="js/80codes-wa.js"></script>
 <script>
 // Initialize the SDK with floating widget configuration
+
 EightyCodesWA.init({
-    phone: '15551234567',
+    phone: '971569603352',
     text: 'I saw your website and would like to chat about a project.',
     mode: 'floating',
     color: '#00A859'
