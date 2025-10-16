@@ -17,7 +17,7 @@ if (isset($_GET["slug"])) {
     <meta http-equiv="origin-trial"
         content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
     <!-- Start of Booster Apps Seo-0.1-->
-    <title>Custom &amp; Curated Gift Boxes | AANVIO</title>
+    <title>Custom &amp; Curated Gifts | AANVIO</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/v4-shims.min.css"
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="description"
@@ -423,7 +423,7 @@ if (isset($_GET["slug"])) {
 
     <meta name="twitter:site" content="@">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Custom &amp; Curated Gift Boxes | AANVIO">
+    <meta name="twitter:title" content="Custom &amp; Curated Gifts | AANVIO">
     <meta name="twitter:description"
         content="Shop AANVIO's expertly curated gift boxes, build a fully custom gift set, or put together a corporate gift box. Free shipping over $125.">
     <!-- CSS ================================================================== -->

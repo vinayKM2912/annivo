@@ -1,12 +1,22 @@
 <div class="andyslider">
-    <div class="andyslider-buttons" id="prev"><i class="fas fa-caret-left"></i></div>
+    <div class="andyslider-buttons" id="prev"><svg height="40px" width="40px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve" style="transform:rotate(180deg);">
+<path fill="#231F20" d="M15.563,40.836c0.195,0.195,0.451,0.293,0.707,0.293s0.512-0.098,0.707-0.293l15-15
+	c0.391-0.391,0.391-1.023,0-1.414l-15-15c-0.391-0.391-1.023-0.391-1.414,0s-0.391,1.023,0,1.414l14.293,14.293L15.563,39.422
+	C15.172,39.813,15.172,40.446,15.563,40.836z"/>
+</svg></div>
 
     <div class="andyslider-wrapper">
         <ul class="andyslider-items" id="items">
         </ul>
     </div>
 
-    <div class="andyslider-buttons" id="next"><i class="fas fa-caret-right"></i></div>
+    <div class="andyslider-buttons" id="next"><svg height="40px" width="40px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
+<path fill="#231F20" d="M15.563,40.836c0.195,0.195,0.451,0.293,0.707,0.293s0.512-0.098,0.707-0.293l15-15
+	c0.391-0.391,0.391-1.023,0-1.414l-15-15c-0.391-0.391-1.023-0.391-1.414,0s-0.391,1.023,0,1.414l14.293,14.293L15.563,39.422
+	C15.172,39.813,15.172,40.446,15.563,40.836z"/>
+</svg></div>
 </div>
 
 <style>
@@ -150,25 +160,25 @@ const images = [{
         price: "100"
     },
     {
-        img: "images/categories/corporate.png",
+        img: "images/categories/corporategift.png",
         name: "Corporate Gifts",
         href: "<?php echo BASE_URL; ?>category/corporate-gifts",
         price: "200"
     },
     {
-        img: "images/categories/customized.png",
+        img: "images/categories/customized3.png",
         name: "Customized Items",
         href: "<?php echo BASE_URL; ?>category/customized-items",
         price: "300"
     },
     {
-        img: "images/categories/keychain3.png",
+        img: "images/categories/keychain.png",
         name: "Key Rings",
         href: "<?php echo BASE_URL; ?>category/key-rings",
         price: "200"
     },
     {
-        img: "images/categories/plushtoycar.png",
+        img: "images/categories/plushtoy.png",
         name: "Plush Toys",
         href: "<?php echo BASE_URL; ?>category/plush-toys",
         price: "150"

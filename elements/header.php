@@ -108,14 +108,9 @@ window.addEventListener("klaviyoForms", function(a) {
                         <div class="header__logo header__logo--image header__logo--has-transparent">
                             <a class="header__logo__link" href="/" style="--LOGO-WIDTH: 100px">
 
-                                <img src="<?php echo BASE_URL; ?>images/logo.svg?v=1658854306&amp;width=50" alt="AANVIO"
+                                <img src="<?php echo BASE_URL; ?>images/aanviologo.svg?v=1658854306&amp;width=50" alt="AANVIO"
                                     width="50" height="46" loading="eager" class="logo__img logo__img--color"
-                                    srcset="<?php echo BASE_URL; ?>images/logo.svg?v=1658854306&amp;width=100 2x,<?php echo BASE_URL; ?>images/logo.svg?v=1658854306&amp;width=150 3x,<?php echo BASE_URL; ?>images/logo.svg?v=1658854306&amp;width=50">
-                                <!-- <img src="<?php echo BASE_URL; ?>images/boxfox_primary_logo_reverse_rgb_1909px_72ppi.png?v=1657568393&amp;width=50"
-                                    alt="AANVIO" width="50" height="46" loading="eager"
-                                    class="logo__img logo__img--transparent" srcset="<?php echo BASE_URL; ?>images/boxfox_primary_logo_reverse_rgb_1909px_72ppi.png?v=1657568393&amp;width=100 2x,<?php echo BASE_URL; ?>images/boxfox_primary_logo_reverse_rgb_1909px_72ppi.png?v=1657568393&amp;width=50
-      "> -->
-
+                                    srcset="<?php echo BASE_URL; ?>images/aanviologo.svg?v=1658854306&amp;width=100 2x,<?php echo BASE_URL; ?>images/aanviologo.svg?v=1658854306&amp;width=150 3x,<?php echo BASE_URL; ?>images/aanviologo.svg?v=1658854306&amp;width=50">
                             </a>
                         </div>
                         <!-- <div class="header__mobile__right">
@@ -225,9 +220,9 @@ window.addEventListener("klaviyoForms", function(a) {
                         <div data-takes-space="" class="header__desktop__bar__c">
                             <div class="header__logo header__logo--image header__logo--has-transparent">
                                 <a class="header__logo__link" href="/" style="--LOGO-WIDTH: 100px">
-                                    <img src="<?php echo BASE_URL; ?>images/logo.svg?v=1658854306&amp;width=50"
+                                    <img src="<?php echo BASE_URL; ?>images/aanviologo.svg?v=1658854306&amp;width=50"
                                         alt="AANVIO" width="50" height="46" loading="eager"
-                                        class="logo__img logo__img--color" srcset="<?php echo BASE_URL; ?>images/logo.svg?v=1658854306&amp;width=100 2x,<?php echo BASE_URL; ?>images/logo.svg?v=1658854306&amp;width=150 3x,<?php echo BASE_URL; ?>images/logo.svg?v=1658854306&amp;width=50
+                                        class="logo__img logo__img--color" srcset="<?php echo BASE_URL; ?>images/aanviologo.svg?v=1658854306&amp;width=100 2x,<?php echo BASE_URL; ?>images/aanviologo.svg?v=1658854306&amp;width=150 3x,<?php echo BASE_URL; ?>images/aanviologo.svg?v=1658854306&amp;width=50
       ">
 
 <!-- 

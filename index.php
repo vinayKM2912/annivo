@@ -392,12 +392,12 @@
                                         a hand written note &amp; photo. No packing slip or pricing included, ever.</p>
                                 </div>
 
-                                <div class="rte body-size-4">
+                                <!-- <div class="rte body-size-4">
                                     <a href="<?php echo BASE_URL; ?>contact"
                                         class="btn--neutral btn--soft">
                                         GET TO GIFTING
                                     </a>
-                                </div>
+                                </div> -->
 
                             </div>
 
@@ -419,12 +419,12 @@
                                         ever.</p>
                                 </div>
 
-                                <div style="padding-top: 2.1rem">
+                                <!-- <div style="padding-top: 2.1rem">
                                     <a  href="<?php echo BASE_URL; ?>contact"
                                         class="btn--neutral btn--soft">
                                         GET PERSONAL
                                     </a>
-                                </div>
+                                </div> -->
 
                             </div>
 
@@ -446,12 +446,12 @@
                                         slip. No hand written note here.</p>
                                 </div>
 
-                                <div style="padding-top: 1.5rem">
+                                <!-- <div style="padding-top: 1.5rem">
                                     <a  href="<?php echo BASE_URL; ?>contact"
                                     class="btn--neutral btn--soft">
                                     TREAT YOURSELF
                                     </a>
-                                </div>
+                                </div> -->
 
 
                             </div>
@@ -474,11 +474,11 @@
                                         solutions for companies large and small.</p>
                                 </div>
 
-                                <div style="padding-top: 1.6rem">
+                                <!-- <div style="padding-top: 1.6rem">
                                     <a  href="<?php echo BASE_URL; ?>contact" class="btn--neutral btn--soft">
                                         INQUIRE TODAY
                                     </a>
-                                </div>
+                                </div> -->
 
                             </div>
 
@@ -650,25 +650,103 @@
 </div>
 <!-- Why to choose us Section -->
 <div id="shopify-section-template--14655948128374__why-choose-us" class="shopify-section">
-    <section class="section-icons section-padding palette--light bg--neutral"
-             style="--PT: 36px; --PB: 36px; background-color: #efffff;">
+    <style>
+        /* * MOBILE-FIRST: Default to 1-column layout for all small screens 
+         * (This is the most critical fix to prevent content clipping)
+         */
+        .why-choose-grid {
+            display: grid;
+            /* Default: Single Column for all phones and small tablets */
+            grid-template-columns: 1fr; 
+            gap: 2rem;
+            margin-top: 3rem;
+            padding: 0 20px; /* Good padding for small screens */
+        }
+
+        /* Center content within the grid cell */
+        .icon__column {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center content horizontally */
+            justify-content: center;
+        }
+
+        .why-choose-icon {
+            /* Reduced size for better fit on small screens */
+            width: 120px; 
+            height: 120px;
+            margin: 0 auto;
+            object-fit: contain;
+            transition: transform 0.3s ease;
+        }
+        
+        .icon__column__heading {
+            text-align: center;
+            font-size: 1.1rem; /* Smaller font for mobile readability */
+            font-weight: 600;
+            margin: 1rem 0 0.5rem 0;
+            color: #333;
+            /* Added padding to prevent long text from hitting screen edges */
+            padding: 0 5px; 
+        }
+
+        /* --- Media Queries for Larger Devices (Min-Width) --- */
+
+        /* Small Tablet/Large Phone Landscape (e.g., 576px and up) - 2-column layout */
+        @media (min-width: 576px) {
+            .why-choose-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1.5rem;
+                padding: 0 15px;
+            }
+            .why-choose-icon {
+                width: 140px;
+                height: 140px;
+            }
+            .icon__column__heading {
+                font-size: 1.2rem;
+            }
+        }
+
+        /* Desktop/Large Tablet (e.g., 992px and up) - 3-column layout */
+        @media (min-width: 992px) {
+            .why-choose-grid {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 2rem;
+                padding: 0 15px;
+            }
+            .why-choose-icon {
+                width: 180px;
+                height: 180px;
+            }
+        }
+        
+        /* Utility styles (can be left as is) */
+        .section-icons {
+             padding: 50px 0; /* Use consistent padding if possible */
+        }
+        .text-center {
+            text-align: center;
+        }
+    </style>
+    <section class="section-icons section-padding palette--light bg--neutral" 
+             style="--PT: 50px; --PB: 50px; background-color: #efffff;">
         <div class="wrapper icon--top icon--large">
             <div class="text-center mb-7">
                 <h2 class="kicker-flourished" style="font-size: 2.5rem; margin-bottom: 1rem; color: #333;">Why Choose Us?</h2>
                 <p style="font-style: italic; color: #666; font-size: 1.1rem;">Refined. Reliable. Remarkable.</p>
             </div>
 
-            <div class="grid grid--stacked grid--uniform" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-top: 3rem;">
-                
+            <div class="why-choose-grid">
                 <div class="grid__item text-center">
                     <div class="icon__column icon--top icon--large">
                         <div data-aos="fade-up" data-aos-delay="100">
                             <img src="<?php echo BASE_URL; ?>images/illustrations/why1.png"
                                  alt="Bespoke product Design"
-                                 style="width: 120px; height: 120px; object-fit: contain; margin: 0 auto;">
+                                 class="why-choose-icon">
                         </div>
                         <div class="icon__column__text">
-                            <p class="icon__column__heading" style="font-size: 1.2rem; font-weight: 600; margin: 1rem 0 0.5rem 0; color: #333;">Bespoke Product Design</p>
+                            <p class="icon__column__heading">Bespoke Product Design</p>
                         </div>
                     </div>
                 </div>
@@ -678,10 +756,10 @@
                         <div data-aos="fade-up" data-aos-delay="200">
                             <img src="<?php echo BASE_URL; ?>images/illustrations/why2.png"
                                  alt="Premium Hamper Creation"
-                                 style="width: 120px; height: 120px; object-fit: contain; margin: 0 auto;">
+                                 class="why-choose-icon">
                         </div>
                         <div class="icon__column__text">
-                            <p class="icon__column__heading" style="font-size: 1.2rem; font-weight: 600; margin: 1rem 0 0.5rem 0; color: #333;">Premium Hamper Creation</p>
+                            <p class="icon__column__heading">Premium Hamper Creation</p>
                         </div>
                     </div>
                 </div>
@@ -691,10 +769,10 @@
                         <div data-aos="fade-up" data-aos-delay="300">
                             <img src="<?php echo BASE_URL; ?>images/illustrations/why3.png"
                                  alt="Corporate and Hotel Gifting"
-                                 style="width: 120px; height: 120px; object-fit: contain; margin: 0 auto;">
+                                 class="why-choose-icon">
                         </div>
                         <div class="icon__column__text">
-                            <p class="icon__column__heading" style="font-size: 1.2rem; font-weight: 600; margin: 1rem 0 0.5rem 0; color: #333;">Corporate and Hotel Gifting</p>
+                            <p class="icon__column__heading">Corporate and Hotel Gifting</p>
                         </div>
                     </div>
                 </div>
@@ -704,10 +782,10 @@
                         <div data-aos="fade-up" data-aos-delay="400">
                             <img src="<?php echo BASE_URL; ?>images/illustrations/why4.png"
                                  alt="Eco-Friendly Merchandising"
-                                 style="width: 120px; height: 120px; object-fit: contain; margin: 0 auto;">
+                                 class="why-choose-icon">
                         </div>
                         <div class="icon__column__text">
-                            <p class="icon__column__heading" style="font-size: 1.2rem; font-weight: 600; margin: 1rem 0 0.5rem 0; color: #333;">Eco-Friendly Merchandising</p>
+                            <p class="icon__column__heading">Eco-Friendly Merchandising</p>
                         </div>
                     </div>
                 </div>
@@ -717,10 +795,10 @@
                         <div data-aos="fade-up" data-aos-delay="500">
                             <img src="<?php echo BASE_URL; ?>images/illustrations/why5.png"
                                  alt="Custom Packaging Solutions"
-                                 style="width: 120px; height: 120px; object-fit: contain; margin: 0 auto;">
+                                 class="why-choose-icon">
                         </div>
                         <div class="icon__column__text">
-                            <p class="icon__column__heading" style="font-size: 1.2rem; font-weight: 600; margin: 1rem 0 0.5rem 0; color: #333;">Custom Packaging Solutions</p>
+                            <p class="icon__column__heading">Custom Packaging Solutions</p>
                         </div>
                     </div>
                 </div>
@@ -730,14 +808,13 @@
                         <div data-aos="fade-up" data-aos-delay="600">
                             <img src="<?php echo BASE_URL; ?>images/illustrations/why6.png"
                                  alt="End-to-End Production Management"
-                                 style="width: 120px; height: 120px; object-fit: contain; margin: 0 auto;">
+                                 class="why-choose-icon">
                         </div>
                         <div class="icon__column__text">
-                            <p class="icon__column__heading" style="font-size: 1.2rem; font-weight: 600; margin: 1rem 0 0.5rem 0; color: #333;">End-to-End Production Management</p>
+                            <p class="icon__column__heading">End-to-End Production Management</p>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>

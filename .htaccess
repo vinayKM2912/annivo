@@ -12,7 +12,7 @@ RewriteRule ^ %1 [R=301,L]
 RewriteRule ^category/([^/]+)/?$ category.php?slug=$1 [L,QSA]
 
 # 3. Prevent rewriting for actual files and directories
-# If the request matches a real file or directory (like /images/logo.png), stop rewriting.
+# If the request matches a real file or directory (like /images/aanviologo.svg), stop rewriting.
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 

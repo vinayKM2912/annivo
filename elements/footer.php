@@ -13,9 +13,9 @@
                             <div class="footer__logo__wrapper">
                                 <a href="/" class="footer__logo" style="width: 120px;" data-footer-logo="">
 
-                                    <img src="<?php echo BASE_URL; ?>images/logo.svg?v=1689116844&amp;width=120"
+                                    <img src="<?php echo BASE_URL; ?>images/aanviologo.svg?v=1689116844&amp;width=120"
                                         alt="AANVIO" data-color="white" width="120" height="60" loading="lazy"
-                                        sizes="120px" srcset="<?php echo BASE_URL; ?>images/logo.svg?v=1689116844&amp;width=240 2x,<?php echo BASE_URL; ?>images/logo.svg?v=1689116844&amp;width=120
+                                        sizes="120px" srcset="<?php echo BASE_URL; ?>images/aanviologo.svg?v=1689116844&amp;width=240 2x,<?php echo BASE_URL; ?>images/aanviologo.svg?v=1689116844&amp;width=120
           ">
                                 </a>
                             </div>
