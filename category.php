@@ -425,7 +425,7 @@ if (isset($_GET["slug"])) {
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Custom &amp; Curated Gifts | AANVIO">
     <meta name="twitter:description"
-        content="Shop AANVIO's expertly curated gift boxes, build a fully custom gift set, or put together a corporate gift box. Free shipping over $125.">
+        content="Aanvio is a best merchandising solutions company founded in the UAE. At Aanvio, gifting is an art. Our curated hampers and bespoke gift sets are designed to celebrate partnerships, honor achievements, and strengthen relationships.">
     <!-- CSS ================================================================== -->
 
     <link href="<?php echo BASE_URL; ?>cdn/shop/t/153/assets/font-settings.css?v=123918970589651187951698607520" rel="stylesheet"
