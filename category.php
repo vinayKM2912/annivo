@@ -9387,7 +9387,26 @@ if (isset($_GET["slug"])) {
               </div>
             </div>
           </div>
-          <img src="<?php echo $category['cover']; ?>" alt="<?php echo $category['aria_label']; ?>" class="hero-mobile-image is-loaded" style="min-height: calc(168px + var(--menu-height));">
+          <img src="<?php echo BASE_URL . $category['cover']; ?>" alt="<?php echo $category['aria_label']; ?>" class="hero-mobile-image is-loaded" style="min-height: calc(168px + var(--menu-height)); display: block; width: 100%; height: auto; object-fit: cover;">
+          <style>
+            @media only screen and (max-width: 767px) {
+              .image__hero__frame.desktop {
+                display: none !important;
+              }
+              .hero-mobile-image {
+                display: block !important;
+                width: 100% !important;
+                height: auto !important;
+                min-height: calc(168px + var(--menu-height)) !important;
+                object-fit: cover !important;
+              }
+            }
+            @media only screen and (min-width: 768px) {
+              .hero-mobile-image {
+                display: none !important;
+              }
+            }
+          </style>
         </div>
       </div>
     </div>
