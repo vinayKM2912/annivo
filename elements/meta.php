@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/v4-shims.min.css"
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="description"
-        content="Shop AANVIO's expertly curated gift boxes, build a fully custom gift set, or put together a corporate gift box. Free shipping over $125.">
+        content="Aanvio is a best B2B merchandising solutions company.We design and deliver premium products and curated gifting experiences that help businesses express their story with elegance and impact.">
     <script type="text/javascript" async="" src="https://omnisnippet1.com/inshop/launcher-v2.js?v=2025-09-28T08">
     </script>
     <script type="text/javascript" async=""
@@ -52,7 +52,7 @@
         "@type": "Organization",
         "name": "AANVIO",
         "url": "https://aanvio.com",
-        "description": "Shop AANVIO's expertly curated gift boxes, build a fully custom gift set, or put together a corporate gift box. Free shipping over $125.",
+        "description": "Aanvio is a best B2B merchandising solutions company.We design and deliver premium products and curated gifting experiences that help businesses express their story with elegance and impact.",
         "image": "https://aanvio.com/cdn/shop/t/153/assets/logo.png?75168",
         "logo": "https://aanvio.com/cdn/shop/t/153/assets/logo.png?75168",
         "sameAs": ["https://facebook.com/shopboxfox", "https://facebook.com/shopboxfox",
@@ -397,7 +397,7 @@
     <meta property="og:title" content="Custom &amp; Curated Gifts | AANVIO">
     <meta property="og:type" content="website">
     <meta property="og:description"
-        content="Shop AANVIO's expertly curated gift boxes, build a fully custom gift set, or put together a corporate gift box. Free shipping over $125.">
+        content="Aanvio is a best B2B merchandising solutions company.We design and deliver premium products and curated gifting experiences that help businesses express their story with elegance and impact.">
     <meta property="og:image"
         content="http:<?php echo BASE_URL; ?>images/Screen_Shot_2022-07-11_at_4.51.37_PM.png?v=1658172387">
     <meta property="og:image:secure_url"

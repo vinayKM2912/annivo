@@ -4,7 +4,7 @@
     "@type": "Organization",
       "name": "AANVIO",
         "url": "https://aanvio.com",
-          "description": "Shop AANVIO's expertly curated gift boxes, build a fully custom gift set, or put together a corporate gift box. Free shipping over $125.", "image": "https://aanvio.com/cdn/shop/t/153/assets/logo.png?75168",
+          "description": "Aanvio is a best B2B merchandising solutions company.", "image": "https://aanvio.com/cdn/shop/t/153/assets/logo.png?75168",
             "logo": "https://aanvio.com/cdn/shop/t/153/assets/logo.png?75168", "sameAs": ["https://facebook.com/shopboxfox", "https://facebook.com/shopboxfox", "https://pinterest.com/shopboxfox"],
               "telephone": "5622370130",
                 "address": {

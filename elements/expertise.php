@@ -1,8 +1,8 @@
 <?php
 $expItems = [
-    ["title" => "Branded Merchandise", "slug" => "", "img" => "customized-items/yourlogomug.jpg"],
-    ["title" => "Corporate Gifting & Bespoke Hampers", "slug" => "", "img" => "corporate-gifts/cop1.jpeg"],
-    ["title" => "Premium Packaging", "slug" => "", "img" => "corporate-gifts/sustainbilityBook2.jpeg"],
+    ["title" => "Branded Merchandise", "slug" => "", "img" => "expertise/brand-merchandising.jpg"],
+    ["title" => "Corporate Gifting & Bespoke Hampers", "slug" => "", "img" => "expertise/premium-hamper.jpg"],
+    ["title" => "Premium Packaging", "slug" => "", "img" => "expertise/corporatepackaging.jpg"],
 ]
 ?><div id="expertise" id="shopify-section-template--14655948128374__ead79b75-0cb4-48d5-8f5f-e780443c6622"
     class="shopify-section">
