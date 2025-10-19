@@ -154,37 +154,37 @@ li.andyslider-item {
 
 <script>
 const images = [{
-        img: "images/categories/apprael2.png",
+        img: "images/illustrations/1 apparel@300x-8.png",
         name: "Apparels",
         href: "<?php echo BASE_URL; ?>category/apparel",
         price: "100"
     },
     {
-        img: "images/categories/corporategift.png",
+        img: "images/illustrations/2 corporate gifts@300x-8.png",
         name: "Corporate Gifts",
         href: "<?php echo BASE_URL; ?>category/corporate-gifts",
         price: "200"
     },
     {
-        img: "images/categories/customized3.png",
+        img: "images/illustrations/3 customized item@300x-8.png",
         name: "Customized Items",
         href: "<?php echo BASE_URL; ?>category/customized-items",
         price: "300"
     },
     {
-        img: "images/categories/keychain.png",
+        img: "images/illustrations/4 keychain@300x-8.png",
         name: "Key Rings",
         href: "<?php echo BASE_URL; ?>category/key-rings",
         price: "200"
     },
     {
-        img: "images/categories/plushtoy.png",
+        img: "images/illustrations/5 plush@300x-8.png",
         name: "Plush Toys",
         href: "<?php echo BASE_URL; ?>category/plush-toys",
         price: "150"
     },
     {
-        img: "images/categories/sustainability.png",
+        img: "images/illustrations/10 bespoke product design@300x-8.png",
         name: "Sustainability",
         href: "<?php echo BASE_URL; ?>category/sustainability",
         price: "110"

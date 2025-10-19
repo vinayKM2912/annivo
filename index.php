@@ -376,8 +376,8 @@
                             <div class="index__column grid__item slide-item text-center" data-item="">
 
                                 <div class="column__image" data-grid-slide=""><img style="width: 100%;"
-                                        src="<?php echo BASE_URL; ?>images/illustrations/illustrations-01.png?crop=center&amp;height=800&amp;v=1687905872&amp;width=800"
-                                        data-src="<?php echo BASE_URL; ?>images/illustrations/illustrations-01.png?crop=center&amp;height=800&amp;v=1687905872&amp;width=800"
+                                        src="<?php echo BASE_URL; ?>images/illustrations/6 curated gift@300x-8.png?crop=center&amp;height=800&amp;v=1687905872&amp;width=800"
+                                        data-src="<?php echo BASE_URL; ?>images/illustrations/6 curated gift@300x-8.png?crop=center&amp;height=800&amp;v=1687905872&amp;width=800"
                                         class="lazy-figure is-loaded">
                                 </div>
 
@@ -404,8 +404,8 @@
                             <div class="index__column grid__item slide-item text-center" data-item="">
 
                                 <div class="column__image" data-grid-slide=""><img style="width: 100%;"
-                                        src="<?php echo BASE_URL; ?>images/illustrations/illustrations-02.png?crop=center&amp;height=800&amp;v=1687905869&amp;width=800"
-                                        data-src="<?php echo BASE_URL; ?>images/illustrations/illustrations-02.png?crop=center&amp;height=800&amp;v=1687905869&amp;width=800"
+                                        src="<?php echo BASE_URL; ?>images/illustrations/7 customize gift@300x-8.png?crop=center&amp;height=800&amp;v=1687905869&amp;width=800"
+                                        data-src="<?php echo BASE_URL; ?>images/illustrations/7 customize gift@300x-8.png?crop=center&amp;height=800&amp;v=1687905869&amp;width=800"
                                         class="lazy-figure is-loaded">
                                 </div>
 
@@ -431,8 +431,8 @@
                             <div class="index__column grid__item slide-item text-center" data-item="">
 
                                 <div class="column__image" data-grid-slide=""><img style="width: 100%;"
-                                        src="<?php echo BASE_URL; ?>images/illustrations/illustrations-03.png?crop=center&amp;height=800&amp;v=1687905874&amp;width=800"
-                                        data-src="<?php echo BASE_URL; ?>images/illustrations/illustrations-03.png?crop=center&amp;height=800&amp;v=1687905874&amp;width=800"
+                                        src="<?php echo BASE_URL; ?>images/illustrations/8 marketplace@300x-8.png?crop=center&amp;height=800&amp;v=1687905874&amp;width=800"
+                                        data-src="<?php echo BASE_URL; ?>images/illustrations/8 marketplace@300x-8.png?crop=center&amp;height=800&amp;v=1687905874&amp;width=800"
                                         class="lazy-figure is-loaded">
                                 </div>
 
@@ -459,8 +459,8 @@
                             <div class="index__column grid__item slide-item text-center" data-item="">
 
                                 <div class="column__image" data-grid-slide=""><img style="width: 100%;"
-                                        src="<?php echo BASE_URL; ?>images/illustrations/illustrations-04.png?crop=center&amp;height=800&amp;v=1687905877&amp;width=800"
-                                        data-src="<?php echo BASE_URL; ?>images/illustrations/illustrations-04.png?crop=center&amp;height=800&amp;v=1687905877&amp;width=800"
+                                        src="<?php echo BASE_URL; ?>images/illustrations/9 corporate gifting@300x-8.png?crop=center&amp;height=800&amp;v=1687905877&amp;width=800"
+                                        data-src="<?php echo BASE_URL; ?>images/illustrations/9 corporate gifting@300x-8.png?crop=center&amp;height=800&amp;v=1687905877&amp;width=800"
                                         class="lazy-figure is-loaded">
                                 </div>
 
