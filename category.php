@@ -9416,17 +9416,21 @@ if (isset($_GET["slug"])) {
       --PT: 36px;
       --PB: 0px;
       --FLEX-POSITION: center;
-      --CONTENT-WIDTH: 2000px;">
-      <div style="background-color: #efffff;" class="wrapper section-padding">
+      background-color: #efffff;
+      font-family: 'Brandon Text', Arial, Helvetica, sans-serif !important;
+      font-size: 13px;
+      color: #434343;
+      ">
+      <div class="wrapper section-padding">
         <div class="text__standard text-center">
           <!-- <div class="standard__kicker accent-size-4 block__kicker--flourished aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed']" data-aos-order="1">
             <p> <?php echo $category['variant_title']; ?> </p>
           </div> -->
           <div class="standard__heading heading-size-8 aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed']" data-aos-order="2">
-            <p> <?php echo $category['category_title']; ?> </p>
+            <p><?php echo $category['category_title']; ?></p>
           </div>
           <div class="rte body-size-5 columns--1 aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed']" data-aos-order="3">
-            <p> <?php echo $category['category_content']; ?> </p>
+            <p style="font-weight:300"> <?php echo $category['category_content']; ?> </p>
           </div>
           <div class="hero__cta__wrapper"></div>
         </div>

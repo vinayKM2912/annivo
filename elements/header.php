@@ -1217,13 +1217,13 @@ window.addEventListener("klaviyoForms", function(a) {
                 <style>
                     /* Default header background color */
                     .theme__header {
-                        background-color: #6E7A77 !important;
+                        background-color: transparent !important;
                         transition: background-color 0.3s ease;
                     }
 
                     /* Header background when scrolled/stuck */
                     .js__header__stuck .theme__header {
-                        background-color: #FFFFFF !important;
+                        background-color: #6e7a77 !important;
                     }
 
                     /* Ensure header wrapper respects the background */
