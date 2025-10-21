@@ -107,10 +107,10 @@ body {
 
 
 
-                                    <img src="<?php echo BASE_URL; ?>images/page/copgifts.png"
+                                    <img src="<?php echo BASE_URL; ?>images/banner/1.png"
                                         alt="Banner Image." width="1500" height="1000" loading="lazy"
                                         class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
-                                        srcset="<?php echo BASE_URL; ?>images/page/copgifts.png 1500w"
+                                        srcset="<?php echo BASE_URL; ?>images/banner/1.png 1500w"
                                         sizes="100vw" fetchpriority="auto"
                                         style="aspect-ratio: 1.5;object-position: center center;">
 
@@ -119,8 +119,8 @@ body {
                             </div>
                         </div>
 
-                        <img src="<?php echo BASE_URL; ?>images/page/copgifts.png"
-                            data-src="<?php echo BASE_URL; ?>images/page/copgifts.png"
+                        <img src="<?php echo BASE_URL; ?>images/banner/1.png"
+                            data-src="<?php echo BASE_URL; ?>images/banner/1.png"
                             alt="Banner Image;" class="hero-mobile-image is-loaded"
                             style="min-height: calc(256px + var(--menu-height));">
                     </div>

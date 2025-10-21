@@ -102,7 +102,7 @@ if (isset($_GET["slug"])) {
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-    <meta name="theme-color" content="#568eae">
+    <meta name="theme-color" content="#6E7A77">
     <link rel="canonical" href="https://aanvio.com/">
     <script type="text/javascript">
     window.showEmbroidery = false;
@@ -397,11 +397,11 @@ if (isset($_GET["slug"])) {
         as="font" type="font/woff2" crossorigin="">
 
 
-    <link href="<?php echo BASE_URL; ?>cdn/shop/t/153/assets/vendor.js?v=131139509784942254651698607520" as="script" rel="preload">
+    <!-- <link href="<?php echo BASE_URL; ?>cdn/shop/t/153/assets/vendor.js?v=131139509784942254651698607520" as="script" rel="preload">
     <link href="<?php echo BASE_URL; ?>cdn/shop/t/153/assets/theme.js?v=103721613404558466171723558553" as="script" rel="preload">
     <link href="<?php echo BASE_URL; ?>cdn/shop/t/153/assets/theme.css?v=125382239175603153071757012009" as="script" rel="preload">
     <link href="<?php echo BASE_URL; ?>cdn/shop/t/153/assets/boxfox.js?v=71093816292999086851698607520" as="script" rel="preload">
-    <link href="<?php echo BASE_URL; ?>cdn/shop/t/153/assets/app.min.js?v=98382192138131028181698607520" as="script" rel="preload">
+    <link href="<?php echo BASE_URL; ?>cdn/shop/t/153/assets/app.min.js?v=98382192138131028181698607520" as="script" rel="preload"> -->
 
     <!-- Title and description ================================================ -->
     <link rel="shortcut icon" href="<?php echo BASE_URL; ?>images/FAVICONFINAL_32x32.png?v=1613509506" type="image/png">
@@ -428,16 +428,16 @@ if (isset($_GET["slug"])) {
         content="Aanvio is a best merchandising solutions company founded in the UAE. At Aanvio, gifting is an art. Our curated hampers and bespoke gift sets are designed to celebrate partnerships, honor achievements, and strengthen relationships.">
     <!-- CSS ================================================================== -->
 
-    <link href="<?php echo BASE_URL; ?>cdn/shop/t/153/assets/font-settings.css?v=123918970589651187951698607520" rel="stylesheet"
-        type="text/css" media="all">
+    <!-- <link href="<?php echo BASE_URL; ?>cdn/shop/t/153/assets/font-settings.css?v=123918970589651187951698607520" rel="stylesheet"
+        type="text/css" media="all"> -->
     <style>
     @font-face {
-        font-family: "BrandonText";
+        font-family: "TT Ramillas";
         src: url("<?php echo BASE_URL; ?>cdn/shop/t/153/assets/BrandonText.otf?75168") format(".otf");
     }
 
     @font-face {
-        font-family: "BrandonText";
+        font-family: "TT Ramillas";
         src: url("<?php echo BASE_URL; ?>images/BrandonText.otf?v=11168972761688216017") format(".otf");
     }
     </style>
@@ -1437,6 +1437,72 @@ if (isset($_GET["slug"])) {
         src="https://cdn.shopify.com/extensions/c6defb98-55a3-4757-8c1c-9616760c9bd7/inbox-1247/assets/inbox-chat-loader.js"
         type="text/javascript" defer="defer"></script>
     <link href="https://monorail-edge.shopifysvc.com" rel="dns-prefetch">
+    
+    <!-- Google Fonts for Mobile Compatibility -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Mobile Font Override Styles -->
+    <style>
+        /* Force font loading on mobile */
+        @media screen and (max-width: 768px) {
+            .category-title-override {
+                font-family: 'TT Ramillas' !important;
+                font-weight: 400 !important;
+                font-size: clamp(24px, 8vw, 36px) !important;
+                line-height: 1.2 !important;
+                color: #000000 !important;
+                text-align: center !important;
+                letter-spacing: 0.02em !important;
+                margin-bottom: 20px !important;
+                display: block !important;
+                -webkit-font-smoothing: antialiased !important;
+                -moz-osx-font-smoothing: grayscale !important;
+            }
+            
+            .category-content-override {
+                font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
+                font-weight: 300 !important;
+                font-size: clamp(14px, 4vw, 16px) !important;
+                line-height: 1.6 !important;
+                color: #434343 !important;
+                text-align: center !important;
+                margin: 0 auto !important;
+                display: block !important;
+                -webkit-font-smoothing: antialiased !important;
+                -moz-osx-font-smoothing: grayscale !important;
+            }
+        }
+        
+        /* Desktop styles */
+        @media screen and (min-width: 769px) {
+            .category-title-override {
+                font-family: 'TT Ramillas' !important;
+                font-weight: 400 !important;
+                font-size: 45px !important;
+                line-height: 1.2 !important;
+                color: #000000 !important;
+                text-align: center !important;
+                letter-spacing: 0.02em !important;
+                margin-bottom: 30px !important;
+                -webkit-font-smoothing: antialiased !important;
+                -moz-osx-font-smoothing: grayscale !important;
+            }
+            
+            .category-content-override {
+                font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+                font-weight: 300 !important;
+                font-size: 16px !important;
+                line-height: 1.6 !important;
+                color: #434343 !important;
+                text-align: center !important;
+                margin: 0 auto !important;
+                -webkit-font-smoothing: antialiased !important;
+                -moz-osx-font-smoothing: grayscale !important;
+            }
+        }
+    </style>
     <script>
     (function() {
         if ("sendBeacon" in navigator && "performance" in window) {
@@ -9357,7 +9423,7 @@ if (isset($_GET["slug"])) {
         href="https://cdn.shopify.com/s/files/1/0558/2845/files/boxfox-logo_x320.png?v=1724220863" crossorigin="">
 </head>
 
-<body id="custom-amp-curated-gift-boxes-boxfox" ng-app="AANIVO" ng-controller="App"
+<body id="custom-amp-curated" ng-app="AANIVO" ng-controller="App"
     class="template-index theme-animate-hover" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <?php include_once "./elements/header.php"; ?>
     <?php if (!isset($_GET['slug']) || !$category) {?>
@@ -9417,9 +9483,6 @@ if (isset($_GET["slug"])) {
       --PB: 0px;
       --FLEX-POSITION: center;
       background-color: #efffff;
-      font-family: 'Brandon Text', Arial, Helvetica, sans-serif !important;
-      font-size: 13px;
-      color: #434343;
       ">
       <div class="wrapper section-padding">
         <div class="text__standard text-center">
@@ -9427,10 +9490,10 @@ if (isset($_GET["slug"])) {
             <p> <?php echo $category['variant_title']; ?> </p>
           </div> -->
           <div class="standard__heading heading-size-8 aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed']" data-aos-order="2">
-            <p><?php echo $category['category_title']; ?></p>
+            <p style="color:#000000; font-size: 45px;font-family:'TT Ramillas' !important";><?php echo $category['category_title']; ?></p>
           </div>
           <div class="rte body-size-5 columns--1 aos-init aos-animate" data-aos="hero" data-aos-anchor="[data-section-id='template--14655948226678__a9d57b25-8bce-4f64-bb69-5cd19867deed']" data-aos-order="3">
-            <p style="font-weight:300"> <?php echo $category['category_content']; ?> </p>
+            <p style="font-weight:300; color: #434343; font-size: 13px; font-family: 'Brandon Text', Arial, Helvetica, sans-serif !important;"> <?php echo $category['category_content']; ?> </p>
           </div>
           <div class="hero__cta__wrapper"></div>
         </div>
