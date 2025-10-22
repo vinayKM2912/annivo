@@ -1,6 +1,5 @@
 <?php
-define('MAIL_URL', 'https://api.brevo.com/v3/smtp/email');
-define('MAIL_API_KEY', '');
+include "../config.php";
 
 /**
  * PHP Endpoint for Contact Form Submission - AJAX Version
