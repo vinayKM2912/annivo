@@ -212,7 +212,7 @@ window.addEventListener("klaviyoForms", function(a) {
                                     </div>
                                     <!-- /snippets/nav-item.liquid -->
                                     <div class="menu__item  child" data-main-menu-text-item="">
-                                        <a  href="<?php echo BASE_URL; ?>contact" data-top-link="" class="navlink navlink--toplevel">
+                                        <a  href="<?php echo BASE_URL; ?>customized-gifts" data-top-link="" class="navlink navlink--toplevel">
                                             <span class="navtext">CUSTOMIZED ITEMS</span>
                                         </a>
 
