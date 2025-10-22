@@ -15,9 +15,9 @@ body {
 .bg--neutral, .palette--light {
     background-color: #efffff !important;
 }
-.canvas-container { 
-    border: 2px solid #ddd; 
-    margin: 20px 0; 
+.canvas-container {
+    border: 2px solid #ddd;
+    margin: 20px 0;
     display: inline-block;
     background: white;
 }
@@ -78,7 +78,7 @@ body {
     class="template-index theme-animate-hover" style="background-color: #efffff !important;" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <?php include "./elements/header.php"; ?>
     <main class="main-content" id="MainContent" style="background-color: #efffff;">
-        
+
         <!-- Hero Section -->
         <div class="section--image fade-in-child js-overflow-container has-overlay"
             style="--PT: 0px; --PB: 0px; --CONTENT-WIDTH: 2000px; --full-screen: 738px; min-height: calc(256px + var(--menu-height));">
@@ -110,7 +110,7 @@ body {
                             </div>
                         </div>
                     </div>
-                    <img src="<?php echo BASE_URL; ?>images/page/copgifts.png" alt="Customized Gifts Banner" 
+                    <img src="<?php echo BASE_URL; ?>images/page/copgifts.png" alt="Customized Gifts Banner"
                          class="hero-mobile-image is-loaded" style="min-height: calc(256px + var(--menu-height));">
                 </div>
             </div>
@@ -119,7 +119,7 @@ body {
         <!-- Main Form Section -->
         <div class="frame palette--light bg--neutral" style="--PT: 36px; --PB: 36px;">
             <div class="wrapper section-padding">
-                
+
                 <form id="customizedGiftForm" method="POST" enctype="multipart/form-data">
                     <input type="hidden" name="action" value="submit_customized_gift">
                     <input type="hidden" name="selected_product_id" id="selectedProductId">
@@ -131,21 +131,21 @@ body {
                         <h2 class="custom__title accent-size-6 mb-4">1. Select Your Product</h2>
                         <div class="product-selection" id="productSelection">
                             <?php
-                            $productsFile = './data/customized_products.json';
-                            $products = [];
-                            if (file_exists($productsFile)) {
-                                $products = json_decode(file_get_contents($productsFile), true) ?: [];
-                            }
-                            
-                            // Debug: Check if products are loaded
-                            echo "<!-- Debug: Products file exists: " . (file_exists($productsFile) ? 'Yes' : 'No') . " -->";
-                            echo "<!-- Debug: Products count: " . count($products) . " -->";
-                            
-                            if (empty($products)): ?>
+$productsFile = './data/customized_products.json';
+$products = [];
+if (file_exists($productsFile)) {
+    $products = json_decode(file_get_contents($productsFile), true) ?: [];
+}
+
+// Debug: Check if products are loaded
+echo "<!-- Debug: Products file exists: " . (file_exists($productsFile) ? 'Yes' : 'No') . " -->";
+echo "<!-- Debug: Products count: " . count($products) . " -->";
+
+if (empty($products)): ?>
                                 <p>No products available for customization at the moment.</p>
                             <?php else: ?>
                                 <?php foreach ($products as $product): ?>
-                                    <div class="product-option" data-product-id="<?php echo $product['id']; ?>" 
+                                    <div class="product-option" data-product-id="<?php echo $product['id']; ?>"
                                          data-product-image="<?php echo BASE_URL . $product['image']; ?>"
                                          data-printable-area='<?php echo json_encode($product['printable_area']); ?>'>
                                         <img src="<?php echo BASE_URL . $product['image']; ?>" alt="<?php echo htmlspecialchars($product['name']); ?>">
@@ -180,7 +180,7 @@ body {
                             </div>
                             <div class="mt-2">
                                 <small class="text-muted">
-                                    <strong>Tips:</strong> 
+                                    <strong>Tips:</strong>
                                     • The green area shows where your logo can be placed<br>
                                     • Drag the logo to move it around<br>
                                     • Use corner handles to resize the logo<br>
@@ -257,18 +257,18 @@ body {
         // Wait for DOM to be ready before setting up all event listeners
         document.addEventListener('DOMContentLoaded', function() {
             console.log('DOM loaded, setting up all event listeners...');
-            
+
             // Check if Fabric.js is loaded
             if (typeof fabric === 'undefined') {
                 console.error('Fabric.js is not loaded!');
                 alert('Error: Fabric.js library failed to load. Please refresh the page.');
                 return;
             }
-            
+
             // Product selection
             const productOptions = document.querySelectorAll('.product-option');
             console.log('Found product options:', productOptions.length);
-            
+
             // Debug: Log each product option
             productOptions.forEach((option, index) => {
                 console.log(`Product ${index}:`, {
@@ -277,7 +277,7 @@ body {
                     printableArea: option.dataset.printableArea
                 });
             });
-            
+
             productOptions.forEach(option => {
                 console.log('Setting up click handler for product:', option.dataset.productId);
                 option.addEventListener('click', function(event) {
@@ -285,10 +285,10 @@ body {
                     event.stopPropagation();
                     console.log('Product clicked:', this.dataset.productId);
                     alert('Product clicked: ' + this.dataset.productId); // Temporary debug alert
-                    
+
                     // Remove previous selection
                     document.querySelectorAll('.product-option').forEach(opt => opt.classList.remove('selected'));
-                    
+
                     // Select current option
                     this.classList.add('selected');
                     selectedProduct = {
@@ -296,10 +296,10 @@ body {
                         image: this.dataset.productImage,
                         printableArea: JSON.parse(this.dataset.printableArea)
                     };
-                    
+
                     console.log('Selected product:', selectedProduct);
                     document.getElementById('selectedProductId').value = selectedProduct.id;
-                    
+
                     // Initialize canvas if logo is already uploaded
                     if (logoImage) {
                         initializeCanvas();
@@ -334,17 +334,17 @@ body {
             if (customizedGiftForm) {
                 customizedGiftForm.addEventListener('submit', function(e) {
                     e.preventDefault();
-                    
+
                     if (!selectedProduct) {
                         alert('Please select a product.');
                         return;
                     }
-                    
+
                     if (!logoImage) {
                         alert('Please upload a logo.');
                         return;
                     }
-                    
+
                     // Generate preview image without green printable area
                     if (canvas) {
                         // Temporarily hide the printable area for export
@@ -352,24 +352,24 @@ body {
                             printableArea.set('visible', false);
                         }
                         canvas.renderAll();
-                        
+
                         // Generate preview
                         const previewData = canvas.toDataURL('image/png');
                         document.getElementById('previewImageData').value = previewData;
-                        
+
                         // Show the printable area again
                         if (printableArea) {
                             printableArea.set('visible', true);
                         }
                         canvas.renderAll();
                     }
-                    
+
                     // Submit form
                     const formData = new FormData(this);
-                    
+
                     document.getElementById('submitBtn').disabled = true;
                     document.getElementById('submitBtn').textContent = 'Submitting...';
-                    
+
                     fetch('./api/customized-gifts',{
                         method: 'POST',
                         body: formData
@@ -378,7 +378,7 @@ body {
                     .then(data => {
                         if (data.success) {
                             alert('Your customization request has been submitted successfully! You will receive a confirmation email shortly.');
-                            // window.location.href = '<?php echo BASE_URL; ?>contact-thanks';
+                            window.location.href = '<?php echo BASE_URL; ?>contact-thanks';
                         } else {
                             alert('Error: ' + (data.message || 'Failed to submit request'));
                             document.getElementById('submitBtn').disabled = false;
@@ -399,31 +399,31 @@ body {
 
         function initializeCanvas() {
             if (!selectedProduct || !logoImage) return;
-            
+
             document.getElementById('previewSection').style.display = 'block';
-            
+
             if (canvas) {
                 canvas.dispose();
             }
-            
+
             canvas = new fabric.Canvas('customizationCanvas');
-            
+
             // Load product image
             fabric.Image.fromURL(selectedProduct.image, function(img) {
                 // Set canvas size to match image dimensions (with max limits for UI)
                 const maxWidth = 800;
                 const maxHeight = 600;
                 const canvasScale = Math.min(maxWidth / img.width, maxHeight / img.height, 1); // Don't scale up
-                
+
                 const canvasWidth = Math.round(img.width * canvasScale);
                 const canvasHeight = Math.round(img.height * canvasScale);
-                
+
                 // Resize canvas to match scaled image
                 canvas.setDimensions({
                     width: canvasWidth,
                     height: canvasHeight
                 });
-                
+
                 img.scale(canvasScale);
                 img.set({
                     left: 0,
@@ -431,10 +431,10 @@ body {
                     selectable: false,
                     evented: false,
                 });
-                
+
                 productImage = img;
                 canvas.add(img);
-                
+
                 // Add printable area overlay - scale the admin-defined coordinates and apply perspective
                 const area = selectedProduct.printableArea;
                 printableArea = new fabric.Rect({
@@ -452,31 +452,31 @@ body {
                     evented: false,
                     excludeFromExport: true  // This will exclude it from preview generation
                 });
-                
+
                 canvas.add(printableArea);
-                
+
                 // Store the scale for coordinate calculations
                 canvas.imageScale = canvasScale;
-                
+
                 // Set up canvas event listeners
                 setupCanvasEvents();
-                
+
                 // Add logo
                 addLogoToCanvas();
-                
+
                 canvas.renderAll();
             });
         }
 
         function addLogoToCanvas() {
             if (!logoImage || !printableArea) return;
-            
+
             // Remove existing logo if any
             const existingLogo = canvas.getObjects().find(obj => obj.type === 'image' && obj !== productImage);
             if (existingLogo) {
                 canvas.remove(existingLogo);
             }
-            
+
             // Clone and configure logo
             logoImage.clone(function(clonedLogo) {
                 // Scale logo to fit within printable area
@@ -485,7 +485,7 @@ body {
                 const maxWidth = areaWidth * 0.8;
                 const maxHeight = areaHeight * 0.8;
                 const scale = Math.min(maxWidth / clonedLogo.width, maxHeight / clonedLogo.height);
-                
+
                 clonedLogo.scale(scale);
                 clonedLogo.set({
                     left: printableArea.left,
@@ -494,44 +494,44 @@ body {
                     selectable: true,
                     evented: true
                 });
-                
+
                 // Constrain logo movement and scaling to printable area
                 clonedLogo.on('moving', function() {
                     // Don't constrain during movement, only after
                 });
-                
+
                 clonedLogo.on('scaling', function() {
                     // Don't constrain during scaling, only after
                 });
-                
+
                 clonedLogo.on('rotating', function() {
                     // Don't constrain during rotation, only after
                 });
-                
+
                 clonedLogo.on('modified', function() {
                     // Constrain after any modification is complete
                     constrainToArea(this);
                 });
-                
+
                 canvas.add(clonedLogo);
                 canvas.setActiveObject(clonedLogo);
                 canvas.renderAll();
-                
+
                 updateCoordinates();
             });
         }
 
         function constrainToArea(obj) {
             const area = printableArea;
-            
+
             // For rotated areas, we need to be more flexible with constraints
             // Get both object and area bounding rectangles
             const objBounds = obj.getBoundingRect();
             const areaBounds = area.getBoundingRect();
-            
+
             // Calculate how much the object extends beyond the area bounds
             let deltaLeft = 0, deltaTop = 0, deltaRight = 0, deltaBottom = 0;
-            
+
             if (objBounds.left < areaBounds.left) {
                 deltaLeft = areaBounds.left - objBounds.left;
             }
@@ -544,7 +544,7 @@ body {
             if (objBounds.top + objBounds.height > areaBounds.top + areaBounds.height) {
                 deltaBottom = (objBounds.top + objBounds.height) - (areaBounds.top + areaBounds.height);
             }
-            
+
             // Apply corrections to the object's center position
             if (deltaLeft > 0 || deltaRight > 0 || deltaTop > 0 || deltaBottom > 0) {
                 obj.set({
@@ -552,24 +552,24 @@ body {
                     top: obj.top + deltaTop - deltaBottom
                 });
             }
-            
+
             // Constrain scaling - ensure scaled logo doesn't exceed printable area bounds
             const areaWidth = areaBounds.width;
             const areaHeight = areaBounds.height;
             const objWidth = objBounds.width;
             const objHeight = objBounds.height;
-            
+
             if (objWidth > areaWidth || objHeight > areaHeight) {
                 const maxScaleX = (areaWidth * 0.9) / obj.width;
                 const maxScaleY = (areaHeight * 0.9) / obj.height;
                 const maxScale = Math.min(maxScaleX, maxScaleY);
-                
+
                 obj.set({
                     scaleX: Math.min(obj.scaleX, maxScale),
                     scaleY: Math.min(obj.scaleY, maxScale)
                 });
             }
-            
+
             // Force canvas to update
             canvas.renderAll();
             updateCoordinates();
@@ -588,14 +588,14 @@ body {
                     scaleX: logo.scaleX,
                     scaleY: logo.scaleY,
                     angle: logo.angle || 0,  // Logo's rotation angle
-                    
+
                     // Include printable area perspective for reference
                     printableAreaAngle: selectedProduct.printableArea.angle || 0,
                     relativeAngle: (logo.angle || 0) - (selectedProduct.printableArea.angle || 0)  // Relative to printable area
                 };
-                
+
                 document.getElementById('logoCoordinates').value = JSON.stringify(coordinates);
-                
+
                 // Debug info
                 console.log('Logo coordinates with perspective:', coordinates);
                 console.log('Canvas scale factor:', scale);
@@ -618,7 +618,7 @@ body {
                     top: printableArea.top,
                     angle: printableArea.angle || 0  // Match the printable area's angle
                 });
-                
+
                 // Ensure it's still within bounds after centering
                 constrainToArea(logo);
                 canvas.renderAll();
@@ -636,7 +636,7 @@ body {
                         constrainToArea(obj);
                     }
                 });
-                
+
                 // Update coordinates during movement (for real-time feedback)
                 canvas.on('object:moving', function(e) {
                     const obj = e.target;
@@ -644,7 +644,7 @@ body {
                         updateCoordinates();
                     }
                 });
-                
+
                 // Update coordinates during scaling
                 canvas.on('object:scaling', function(e) {
                     const obj = e.target;
@@ -652,7 +652,7 @@ body {
                         updateCoordinates();
                     }
                 });
-                
+
                 // Update coordinates during rotation
                 canvas.on('object:rotating', function(e) {
                     const obj = e.target;
