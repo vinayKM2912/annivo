@@ -433,12 +433,12 @@ if (isset($_GET["slug"])) {
     <style>
     @font-face {
         font-family: "TT Ramillas";
-        src: url("<?php echo BASE_URL; ?>cdn/shop/t/153/assets/BrandonText.otf?75168") format(".otf");
+        src: url("<?php echo BASE_URL; ?>cdn/shop/t/153/assets/TTRamillas-Regular.woff2") format(".woff2");
     }
 
     @font-face {
         font-family: "TT Ramillas";
-        src: url("<?php echo BASE_URL; ?>images/BrandonText.otf?v=11168972761688216017") format(".otf");
+        src: url("<?php echo BASE_URL; ?>cdn/shop/t/153/assets/TTRamillas-Regular.woff2") format(".woff2");
     }
     </style>
 
@@ -2145,7 +2145,7 @@ if (isset($_GET["slug"])) {
 
     @font-face {
         font-family: 'Poppins-Klaviyo-Hosted';
-        src: url(https://static.klaviyo.com/onsite/hosted-fonts/Poppins/latin/poppins_latin_italic_400.woff2);
+        src: url(ht.wofftps://static.klaviyo.com/onsite/hosted-fonts/Poppins/latin/poppins_latin_italic_4002);
         font-weight: 400;
         font-style: italic;
         font-display: swap;

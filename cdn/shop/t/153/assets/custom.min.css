@@ -22,7 +22,7 @@
 @font-face {
   font-family: "TT Ramillas";
   src: url("TTRamillas-Regular.woff2"),
-    url("TTRamillas-Regular.woff") format("woff");
+    url("TTRamillas-Regular.woff2") format("woff");
   font-weight: normal;
 }
 
