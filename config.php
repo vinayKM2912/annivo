@@ -1,5 +1,5 @@
 <?php
-define("BASE_URL", "https://aanvio.gamer.gd/");
+define("BASE_URL", "http://localhost/aanvio/");
 // Debug: Check BASE_URL
 // echo "<!-- DEBUG BASE_URL: " . BASE_URL . " -->";
 define("PROJECT_ROOT", str_replace('\\', '/', realpath(dirname(__FILE__))));

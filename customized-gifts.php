@@ -377,7 +377,7 @@ if (empty($products)): ?>
                     .then(response => response.json())
                     .then(data => {
                         if (data.success) {
-                            alert('Your customization request has been submitted successfully! You will receive a confirmation email shortly.');
+                            // alert('Your customization request has been submitted successfully! You will receive a confirmation email shortly.');
                             window.location.href = '<?php echo BASE_URL; ?>contact-thanks';
                         } else {
                             alert('Error: ' + (data.message || 'Failed to submit request'));
