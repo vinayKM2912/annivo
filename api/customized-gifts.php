@@ -25,7 +25,7 @@ function sendEmails(array $formData) {
 
     // Send email
     $payload = json_encode([
-        'sender' => ['name' => '80Codes.pro Team', 'email' => 'aniketteltu@gmail.com'],
+        'sender' => ['name' => '80Codes.pro Team', 'email' => 'info@aanvio.com'],
         'to' => [['name' => $formData['to']['name'], 'email' => $formData['to']['email']]],
         'subject' => $formData['subject'],
         'htmlContent' => $formData['htmlContent'],

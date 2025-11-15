@@ -234,7 +234,7 @@ class ContactFormHandler
 
 // Instantiate and run the handler
 $handler = new ContactFormHandler(
-    adminEmail: 'aniketteltu@gmail.com',
+    adminEmail: 'info@aanvio.com ',
     websiteName: 'AANVIO'
 );
 

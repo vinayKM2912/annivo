@@ -4,7 +4,7 @@
     style="--full-screen: 738px; --three-quarters: 553.5px; --two-thirds: 487.08000000000004px; --one-half: 369px; --one-third: 243.54000000000002px; --one-fifth: 147.6px; --menu-height: 105px; --scrollbar-width: 15px; --footer-logo: 80px; --announcement-height: 0px; --toolbar-height: 20px; --header-height: 105px; --footer-height: 396px; --content-full: 593px; --menu-height-sticky: 105px; --menu-backfill-height: 105px;">
 <?php include "./elements/meta.php"; ?>
 <head>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
 <style>
 body {
     background-color: #efffff !important;
@@ -81,7 +81,7 @@ body {
 
         <!-- Hero Section -->
         <div class="section--image fade-in-child js-overflow-container has-overlay"
-            style="--PT: 0px; --PB: 0px; --CONTENT-WIDTH: 2000px; --full-screen: 738px; min-height: calc(256px + var(--menu-height));">
+            style="--PT: 0px; --PB: 0px; --CONTENT-WIDTH: 2000px; --full-screen: 738px; min-height: calc(400px + var(--menu-height));">
             <div class="wrapper--none section-padding">
                 <div class="section__inner">
                     <div class="hero__content__wrapper align--middle-center">
@@ -100,18 +100,18 @@ body {
                         </div>
                     </div>
                     <div class="image-overlay" style="--bg: #000000; opacity: 0.25;"></div>
-                    <div class="image__hero__frame fade-in-child use_screen_one_fifth desktop">
+                    <div class="image__hero__frame fade-in-child use_screen_one_fifth desktop" style="min-height: 400px;">
                         <div class="image__hero__pane">
                             <div class="image__hero__scale">
-                                <img src="<?php echo BASE_URL; ?>images/page/copgifts.png"
+                                <img src="<?php echo BASE_URL; ?>images/banner/3.png"
                                     alt="Customized Gifts Banner" width="1500" height="1000" loading="lazy"
                                     class="tw-block tw-overflow-hidden tw-object-cover tw-w-full tw-h-full"
                                     style="aspect-ratio: 1.5;object-position: center center;">
                             </div>
                         </div>
                     </div>
-                    <img src="<?php echo BASE_URL; ?>images/page/copgifts.png" alt="Customized Gifts Banner"
-                         class="hero-mobile-image is-loaded" style="min-height: calc(256px + var(--menu-height));">
+                    <img src="<?php echo BASE_URL; ?>images/banner/3.png" alt="Customized Gifts Banner"
+                         class="hero-mobile-image is-loaded" style="min-height: calc(400px + var(--menu-height));">
                 </div>
             </div>
         </div>
@@ -245,7 +245,7 @@ if (empty($products)): ?>
             </div>
         </div>
     </main>
-    <?php include "./elements/footer.php"; ?>
+   <?php include "./elements/footer.php"; ?>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.0/fabric.min.js"></script>
     <script>

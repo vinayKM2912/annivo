@@ -11,7 +11,7 @@ $base_path = str_replace(DOCUMENT_ROOT, '', PROJECT_ROOT);
 define('BASE_URL_PATH', './' . trim($base_path, '/') . '/');
 
 define('MAIL_URL', 'https://api.brevo.com/v3/smtp/email');
-define('MAIL_API_KEY', '');
+define('MAIL_API_KEY', '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');
 // Only include pageLoader for GET requests, not in admin area, and not for API routes
 if ($_SERVER['REQUEST_METHOD'] === 'GET' &&
     strpos($_SERVER['REQUEST_URI'], '/admin') === false &&
