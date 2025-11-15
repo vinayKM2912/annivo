@@ -10,7 +10,7 @@ $base_path = str_replace(DOCUMENT_ROOT, '', PROJECT_ROOT);
 
 define('BASE_URL_PATH', './' . trim($base_path, '/') . '/');
 
-define('MAIL_URL', 'https://api.brevo.com/v3/smtp/email');
+// define('MAIL_URL', 'https://api.brevo.com/v3/smtp/email');
 // define('MAIL_API_KEY', getenv('BREVO_API_KEY') ?: ''); // Use environment variable instead
 // Only include pageLoader for GET requests, not in admin area, and not for API routes
 if ($_SERVER['REQUEST_METHOD'] === 'GET' &&
