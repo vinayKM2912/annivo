@@ -245,7 +245,7 @@ if (empty($products)): ?>
             </div>
         </div>
     </main>
-   <?php include "./elements/footer.php"; ?>
+    <?php include "./elements/footer.php"; ?>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.0/fabric.min.js"></script>
     <script>
@@ -396,184 +396,386 @@ if (empty($products)): ?>
                 console.error('Form element not found');
             }
         }); // Close DOMContentLoaded
-
         function initializeCanvas() {
-            if (!selectedProduct || !logoImage) return;
+    if (!selectedProduct || !logoImage) return;
 
-            document.getElementById('previewSection').style.display = 'block';
+    document.getElementById('previewSection').style.display = 'block';
 
-            if (canvas) {
-                canvas.dispose();
-            }
+    if (canvas) {
+        canvas.dispose();
+    }
 
-            canvas = new fabric.Canvas('customizationCanvas');
+    canvas = new fabric.Canvas('customizationCanvas');
 
-            // Load product image
-            fabric.Image.fromURL(selectedProduct.image, function(img) {
-                // Set canvas size to match image dimensions (with max limits for UI)
-                const maxWidth = 800;
-                const maxHeight = 600;
-                const canvasScale = Math.min(maxWidth / img.width, maxHeight / img.height, 1); // Don't scale up
+    // Load product image
+    fabric.Image.fromURL(selectedProduct.image, function(img) {
+        // Set canvas size to match image dimensions (with max limits for UI)
+        const maxWidth = 800;
+        const maxHeight = 600;
+        const canvasScale = Math.min(maxWidth / img.width, maxHeight / img.height, 1);
 
-                const canvasWidth = Math.round(img.width * canvasScale);
-                const canvasHeight = Math.round(img.height * canvasScale);
+        const canvasWidth = Math.round(img.width * canvasScale);
+        const canvasHeight = Math.round(img.height * canvasScale);
 
-                // Resize canvas to match scaled image
-                canvas.setDimensions({
-                    width: canvasWidth,
-                    height: canvasHeight
-                });
+        canvas.setDimensions({
+            width: canvasWidth,
+            height: canvasHeight
+        });
 
-                img.scale(canvasScale);
-                img.set({
-                    left: 0,
-                    top: 0,
-                    selectable: false,
-                    evented: false,
-                });
+        img.scale(canvasScale);
+        img.set({
+            left: 0,
+            top: 0,
+            selectable: false,
+            evented: false,
+        });
 
-                productImage = img;
-                canvas.add(img);
+        productImage = img;
+        canvas.add(img);
 
-                // Add printable area overlay - scale the admin-defined coordinates and apply perspective
-                const area = selectedProduct.printableArea;
-                printableArea = new fabric.Rect({
-                    left: area.left * canvasScale,
-                    top: area.top * canvasScale,
-                    width: (area.originalWidth || area.width) * canvasScale,
-                    height: (area.originalHeight || area.height) * canvasScale,
-                    angle: area.angle || 0,  // Apply the perspective/angle from admin
-                    scaleX: area.scaleX || 1,
-                    scaleY: area.scaleY || 1,
-                    fill: 'rgba(0, 255, 0, 0.2)',
-                    stroke: 'green',
-                    strokeWidth: 2,
-                    selectable: false,
-                    evented: false,
-                    excludeFromExport: true  // This will exclude it from preview generation
-                });
+        // Convert polygon points to printable area overlay
+        const polygonPoints = selectedProduct.printableArea;
 
-                canvas.add(printableArea);
+        console.log('Printable area points:', polygonPoints);
 
-                // Store the scale for coordinate calculations
-                canvas.imageScale = canvasScale;
+        if (Array.isArray(polygonPoints) && polygonPoints.length >= 3) {
+            // Scale the polygon points to canvas scale
+            const scaledPoints = polygonPoints.map(point => ({
+                x: point.x * canvasScale,
+                y: point.y * canvasScale
+            }));
 
-                // Set up canvas event listeners
-                setupCanvasEvents();
-
-                // Add logo
-                addLogoToCanvas();
-
-                canvas.renderAll();
+            // Create polygon for printable area
+            printableArea = new fabric.Polygon(scaledPoints, {
+                fill: 'rgba(0, 255, 0, 0.2)',
+                stroke: 'green',
+                strokeWidth: 2,
+                selectable: false,
+                evented: false,
+                excludeFromExport: true
             });
-        }
 
-        function addLogoToCanvas() {
-            if (!logoImage || !printableArea) return;
+            canvas.add(printableArea);
 
-            // Remove existing logo if any
-            const existingLogo = canvas.getObjects().find(obj => obj.type === 'image' && obj !== productImage);
-            if (existingLogo) {
-                canvas.remove(existingLogo);
-            }
-
-            // Clone and configure logo
-            logoImage.clone(function(clonedLogo) {
-                // Scale logo to fit within printable area
-                const areaWidth = printableArea.width * printableArea.scaleX;
-                const areaHeight = printableArea.height * printableArea.scaleY;
-                const maxWidth = areaWidth * 0.8;
-                const maxHeight = areaHeight * 0.8;
-                const scale = Math.min(maxWidth / clonedLogo.width, maxHeight / clonedLogo.height);
-
-                clonedLogo.scale(scale);
-                clonedLogo.set({
-                    left: printableArea.left,
-                    top: printableArea.top,
-                    angle: printableArea.angle || 0,  // Match the printable area's perspective
-                    selectable: true,
-                    evented: true
-                });
-
-                // Constrain logo movement and scaling to printable area
-                clonedLogo.on('moving', function() {
-                    // Don't constrain during movement, only after
-                });
-
-                clonedLogo.on('scaling', function() {
-                    // Don't constrain during scaling, only after
-                });
-
-                clonedLogo.on('rotating', function() {
-                    // Don't constrain during rotation, only after
-                });
-
-                clonedLogo.on('modified', function() {
-                    // Constrain after any modification is complete
-                    constrainToArea(this);
-                });
-
-                canvas.add(clonedLogo);
-                canvas.setActiveObject(clonedLogo);
-                canvas.renderAll();
-
-                updateCoordinates();
+            // Calculate bounding box for logo positioning
+            let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+            scaledPoints.forEach(p => {
+                minX = Math.min(minX, p.x);
+                minY = Math.min(minY, p.y);
+                maxX = Math.max(maxX, p.x);
+                maxY = Math.max(maxY, p.y);
             });
+
+            // Store bounding box for logo constraints
+            printableArea.boundingBox = {
+                left: minX,
+                top: minY,
+                width: maxX - minX,
+                height: maxY - minY
+            };
+
+            console.log('Printable area bounding box:', printableArea.boundingBox);
+        } else {
+            console.error('Invalid printable area data:', polygonPoints);
+            alert('Error: This product does not have a valid printable area defined.');
+            return;
         }
 
-        function constrainToArea(obj) {
-            const area = printableArea;
+        // Store the scale for coordinate calculations
+        canvas.imageScale = canvasScale;
 
-            // For rotated areas, we need to be more flexible with constraints
-            // Get both object and area bounding rectangles
-            const objBounds = obj.getBoundingRect();
-            const areaBounds = area.getBoundingRect();
+        // Set up canvas event listeners
+        setupCanvasEvents();
 
-            // Calculate how much the object extends beyond the area bounds
-            let deltaLeft = 0, deltaTop = 0, deltaRight = 0, deltaBottom = 0;
+        // Add logo
+        addLogoToCanvas();
 
-            if (objBounds.left < areaBounds.left) {
-                deltaLeft = areaBounds.left - objBounds.left;
-            }
-            if (objBounds.top < areaBounds.top) {
-                deltaTop = areaBounds.top - objBounds.top;
-            }
-            if (objBounds.left + objBounds.width > areaBounds.left + areaBounds.width) {
-                deltaRight = (objBounds.left + objBounds.width) - (areaBounds.left + areaBounds.width);
-            }
-            if (objBounds.top + objBounds.height > areaBounds.top + areaBounds.height) {
-                deltaBottom = (objBounds.top + objBounds.height) - (areaBounds.top + areaBounds.height);
-            }
+        canvas.renderAll();
+    });
+}
 
-            // Apply corrections to the object's center position
-            if (deltaLeft > 0 || deltaRight > 0 || deltaTop > 0 || deltaBottom > 0) {
-                obj.set({
-                    left: obj.left + deltaLeft - deltaRight,
-                    top: obj.top + deltaTop - deltaBottom
-                });
-            }
+function addLogoToCanvas() {
+    if (!logoImage || !printableArea || !printableArea.boundingBox) return;
 
-            // Constrain scaling - ensure scaled logo doesn't exceed printable area bounds
-            const areaWidth = areaBounds.width;
-            const areaHeight = areaBounds.height;
-            const objWidth = objBounds.width;
-            const objHeight = objBounds.height;
+    // Remove existing logo if any
+    const existingLogo = canvas.getObjects().find(obj => obj.type === 'image' && obj !== productImage);
+    if (existingLogo) {
+        canvas.remove(existingLogo);
+    }
 
-            if (objWidth > areaWidth || objHeight > areaHeight) {
-                const maxScaleX = (areaWidth * 0.9) / obj.width;
-                const maxScaleY = (areaHeight * 0.9) / obj.height;
-                const maxScale = Math.min(maxScaleX, maxScaleY);
+    // Clone and configure logo
+    logoImage.clone(function(clonedLogo) {
+        const bbox = printableArea.boundingBox;
 
-                obj.set({
-                    scaleX: Math.min(obj.scaleX, maxScale),
-                    scaleY: Math.min(obj.scaleY, maxScale)
-                });
-            }
+        // Scale logo to fit within printable area bounding box
+        const maxWidth = bbox.width * 0.6;
+        const maxHeight = bbox.height * 0.6;
+        const scale = Math.min(maxWidth / clonedLogo.width, maxHeight / clonedLogo.height);
 
-            // Force canvas to update
-            canvas.renderAll();
-            updateCoordinates();
-        }
+        clonedLogo.scale(scale);
+        clonedLogo.set({
+            left: bbox.left + bbox.width / 2,
+            top: bbox.top + bbox.height / 2,
+            originX: 'center',
+            originY: 'center',
+            selectable: true,
+            evented: true
+        });
+
+        clonedLogo.on('modified', function() {
+            constrainToArea(this);
+        });
+
+        canvas.add(clonedLogo);
+        canvas.setActiveObject(clonedLogo);
+        canvas.renderAll();
+
+        updateCoordinates();
+    });
+}
+
+function constrainToArea(obj) {
+    if (!printableArea || !printableArea.boundingBox) return;
+
+    const bbox = printableArea.boundingBox;
+    const objBounds = obj.getBoundingRect();
+
+    // Constrain position
+    let newLeft = obj.left;
+    let newTop = obj.top;
+
+    if (objBounds.left < bbox.left) {
+        newLeft = obj.left + (bbox.left - objBounds.left);
+    }
+    if (objBounds.top < bbox.top) {
+        newTop = obj.top + (bbox.top - objBounds.top);
+    }
+    if (objBounds.left + objBounds.width > bbox.left + bbox.width) {
+        newLeft = obj.left - ((objBounds.left + objBounds.width) - (bbox.left + bbox.width));
+    }
+    if (objBounds.top + objBounds.height > bbox.top + bbox.height) {
+        newTop = obj.top - ((objBounds.top + objBounds.height) - (bbox.top + bbox.height));
+    }
+
+    obj.set({
+        left: newLeft,
+        top: newTop
+    });
+
+    // Constrain scaling
+    const areaWidth = bbox.width;
+    const areaHeight = bbox.height;
+    const objWidth = obj.width * obj.scaleX;
+    const objHeight = obj.height * obj.scaleY;
+
+    if (objWidth > areaWidth || objHeight > areaHeight) {
+        const maxScaleX = (areaWidth * 0.9) / obj.width;
+        const maxScaleY = (areaHeight * 0.9) / obj.height;
+        const maxScale = Math.min(maxScaleX, maxScaleY);
+
+        obj.set({
+            scaleX: Math.min(obj.scaleX, maxScale),
+            scaleY: Math.min(obj.scaleY, maxScale)
+        });
+    }
+
+    canvas.renderAll();
+    updateCoordinates();
+}
+
+function centerLogo() {
+    const logo = canvas.getObjects().find(obj => obj.type === 'image' && obj !== productImage);
+    if (logo && printableArea && printableArea.boundingBox) {
+        const bbox = printableArea.boundingBox;
+        logo.set({
+            left: bbox.left + bbox.width / 2,
+            top: bbox.top + bbox.height / 2,
+            originX: 'center',
+            originY: 'center'
+        });
+
+        constrainToArea(logo);
+        canvas.renderAll();
+        updateCoordinates();
+    }
+}
+        // function initializeCanvas() {
+        //     if (!selectedProduct || !logoImage) return;
+
+        //     document.getElementById('previewSection').style.display = 'block';
+
+        //     if (canvas) {
+        //         canvas.dispose();
+        //     }
+
+        //     canvas = new fabric.Canvas('customizationCanvas');
+
+        //     // Load product image
+        //     fabric.Image.fromURL(selectedProduct.image, function(img) {
+        //         // Set canvas size to match image dimensions (with max limits for UI)
+        //         const maxWidth = 800;
+        //         const maxHeight = 600;
+        //         const canvasScale = Math.min(maxWidth / img.width, maxHeight / img.height, 1); // Don't scale up
+
+        //         const canvasWidth = Math.round(img.width * canvasScale);
+        //         const canvasHeight = Math.round(img.height * canvasScale);
+
+        //         // Resize canvas to match scaled image
+        //         canvas.setDimensions({
+        //             width: canvasWidth,
+        //             height: canvasHeight
+        //         });
+
+        //         img.scale(canvasScale);
+        //         img.set({
+        //             left: 0,
+        //             top: 0,
+        //             selectable: false,
+        //             evented: false,
+        //         });
+
+        //         productImage = img;
+        //         canvas.add(img);
+
+        //         // Add printable area overlay - scale the admin-defined coordinates and apply perspective
+        //         const area = selectedProduct.printableArea;
+        //         printableArea = new fabric.Rect({
+        //             left: area.left * canvasScale,
+        //             top: area.top * canvasScale,
+        //             width: (area.originalWidth || area.width) * canvasScale,
+        //             height: (area.originalHeight || area.height) * canvasScale,
+        //             angle: area.angle || 0,  // Apply the perspective/angle from admin
+        //             scaleX: area.scaleX || 1,
+        //             scaleY: area.scaleY || 1,
+        //             fill: 'rgba(0, 255, 0, 0.2)',
+        //             stroke: 'green',
+        //             strokeWidth: 2,
+        //             selectable: false,
+        //             evented: false,
+        //             excludeFromExport: true  // This will exclude it from preview generation
+        //         });
+
+        //         canvas.add(printableArea);
+
+        //         // Store the scale for coordinate calculations
+        //         canvas.imageScale = canvasScale;
+
+        //         // Set up canvas event listeners
+        //         setupCanvasEvents();
+
+        //         // Add logo
+        //         addLogoToCanvas();
+
+        //         canvas.renderAll();
+        //     });
+        // }
+
+        // function addLogoToCanvas() {
+        //     if (!logoImage || !printableArea) return;
+
+        //     // Remove existing logo if any
+        //     const existingLogo = canvas.getObjects().find(obj => obj.type === 'image' && obj !== productImage);
+        //     if (existingLogo) {
+        //         canvas.remove(existingLogo);
+        //     }
+
+        //     // Clone and configure logo
+        //     logoImage.clone(function(clonedLogo) {
+        //         // Scale logo to fit within printable area
+        //         const areaWidth = printableArea.width * printableArea.scaleX;
+        //         const areaHeight = printableArea.height * printableArea.scaleY;
+        //         const maxWidth = areaWidth * 0.8;
+        //         const maxHeight = areaHeight * 0.8;
+        //         const scale = Math.min(maxWidth / clonedLogo.width, maxHeight / clonedLogo.height);
+
+        //         clonedLogo.scale(scale);
+        //         clonedLogo.set({
+        //             left: printableArea.left,
+        //             top: printableArea.top,
+        //             angle: printableArea.angle || 0,  // Match the printable area's perspective
+        //             selectable: true,
+        //             evented: true
+        //         });
+
+        //         // Constrain logo movement and scaling to printable area
+        //         clonedLogo.on('moving', function() {
+        //             // Don't constrain during movement, only after
+        //         });
+
+        //         clonedLogo.on('scaling', function() {
+        //             // Don't constrain during scaling, only after
+        //         });
+
+        //         clonedLogo.on('rotating', function() {
+        //             // Don't constrain during rotation, only after
+        //         });
+
+        //         clonedLogo.on('modified', function() {
+        //             // Constrain after any modification is complete
+        //             constrainToArea(this);
+        //         });
+
+        //         canvas.add(clonedLogo);
+        //         canvas.setActiveObject(clonedLogo);
+        //         canvas.renderAll();
+
+        //         updateCoordinates();
+        //     });
+        // }
+
+        // function constrainToArea(obj) {
+        //     const area = printableArea;
+
+        //     // For rotated areas, we need to be more flexible with constraints
+        //     // Get both object and area bounding rectangles
+        //     const objBounds = obj.getBoundingRect();
+        //     const areaBounds = area.getBoundingRect();
+
+        //     // Calculate how much the object extends beyond the area bounds
+        //     let deltaLeft = 0, deltaTop = 0, deltaRight = 0, deltaBottom = 0;
+
+        //     if (objBounds.left < areaBounds.left) {
+        //         deltaLeft = areaBounds.left - objBounds.left;
+        //     }
+        //     if (objBounds.top < areaBounds.top) {
+        //         deltaTop = areaBounds.top - objBounds.top;
+        //     }
+        //     if (objBounds.left + objBounds.width > areaBounds.left + areaBounds.width) {
+        //         deltaRight = (objBounds.left + objBounds.width) - (areaBounds.left + areaBounds.width);
+        //     }
+        //     if (objBounds.top + objBounds.height > areaBounds.top + areaBounds.height) {
+        //         deltaBottom = (objBounds.top + objBounds.height) - (areaBounds.top + areaBounds.height);
+        //     }
+
+        //     // Apply corrections to the object's center position
+        //     if (deltaLeft > 0 || deltaRight > 0 || deltaTop > 0 || deltaBottom > 0) {
+        //         obj.set({
+        //             left: obj.left + deltaLeft - deltaRight,
+        //             top: obj.top + deltaTop - deltaBottom
+        //         });
+        //     }
+
+        //     // Constrain scaling - ensure scaled logo doesn't exceed printable area bounds
+        //     const areaWidth = areaBounds.width;
+        //     const areaHeight = areaBounds.height;
+        //     const objWidth = objBounds.width;
+        //     const objHeight = objBounds.height;
+
+        //     if (objWidth > areaWidth || objHeight > areaHeight) {
+        //         const maxScaleX = (areaWidth * 0.9) / obj.width;
+        //         const maxScaleY = (areaHeight * 0.9) / obj.height;
+        //         const maxScale = Math.min(maxScaleX, maxScaleY);
+
+        //         obj.set({
+        //             scaleX: Math.min(obj.scaleX, maxScale),
+        //             scaleY: Math.min(obj.scaleY, maxScale)
+        //         });
+        //     }
+
+        //     // Force canvas to update
+        //     canvas.renderAll();
+        //     updateCoordinates();
+        // }
 
         function updateCoordinates() {
             const logo = canvas.getObjects().find(obj => obj.type === 'image' && obj !== productImage);
@@ -609,22 +811,22 @@ if (empty($products)): ?>
             }
         }
 
-        function centerLogo() {
-            const logo = canvas.getObjects().find(obj => obj.type === 'image' && obj !== productImage);
-            if (logo && printableArea) {
-                // Center the logo within the printable area (accounting for rotation)
-                logo.set({
-                    left: printableArea.left,
-                    top: printableArea.top,
-                    angle: printableArea.angle || 0  // Match the printable area's angle
-                });
+        // function centerLogo() {
+        //     const logo = canvas.getObjects().find(obj => obj.type === 'image' && obj !== productImage);
+        //     if (logo && printableArea) {
+        //         // Center the logo within the printable area (accounting for rotation)
+        //         logo.set({
+        //             left: printableArea.left,
+        //             top: printableArea.top,
+        //             angle: printableArea.angle || 0  // Match the printable area's angle
+        //         });
 
-                // Ensure it's still within bounds after centering
-                constrainToArea(logo);
-                canvas.renderAll();
-                updateCoordinates();
-            }
-        }
+        //         // Ensure it's still within bounds after centering
+        //         constrainToArea(logo);
+        //         canvas.renderAll();
+        //         updateCoordinates();
+        //     }
+        // }
 
         // Canvas event listeners - set up after canvas is initialized
         function setupCanvasEvents() {

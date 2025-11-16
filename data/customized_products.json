@@ -1,22 +1,5 @@
 [
     {
-        "id": "690ce89d997ab",
-        "name": "Biege Handbag for woman",
-        "image": "uploads/products/1760815273_WhatsApp Image 2025-10-08 at 21.50.35 (1).jpeg",
-        "printable_area": {
-            "left": 355,
-            "top": 759,
-            "width": 213,
-            "height": 171,
-            "angle": 0,
-            "scaleX": 1,
-            "scaleY": 1,
-            "originalWidth": 213,
-            "originalHeight": 171
-        },
-        "created_at": "2025-11-06 19:27:41"
-    },
-    {
         "id": "690cf17d0aeb7",
         "name": "Spiral Notebook Or Journal",
         "image": "uploads/products/1760815351_glossy-cover-rectangular-plain-paper-writing-spiral-binding-notebook-for-office-use-183.jpg",

@@ -160,24 +160,12 @@ function sendAdminEmail($orderData) {
         $message .= "
                 <h3>Logo Coordinates:</h3>
                 <div class='coordinates'>
-                    Position X: " . round($coords['x'], 2) . "px<br>
-                    Position Y: " . round($coords['y'], 2) . "px<br>
-                    Logo Width: " . round($coords['width'], 2) . "px<br>
-                    Logo Height: " . round($coords['height'], 2) . "px<br>
+                    X: " . round($coords['x'], 2) . "px<br>
+                    Y: " . round($coords['y'], 2) . "px<br>
+                    Width: " . round($coords['width'], 2) . "px<br>
+                    Height: " . round($coords['height'], 2) . "px<br>
                     Scale X: " . round($coords['scaleX'], 2) . "<br>
-                    Scale Y: " . round($coords['scaleY'], 2) . "<br>";
-        
-        if (isset($coords['printable_area'])) {
-            $printable = $coords['printable_area'];
-            $message .= "Printable Area: " . round($printable['width'], 2) . "px × " . round($printable['height'], 2) . "px<br>";
-        }
-        
-        $message .= "</div>";
-    } else {
-        $message .= "
-                <h3>Logo Coordinates:</h3>
-                <div class='coordinates' style='color: #d63031;'>
-                    <strong>WARNING:</strong> No logo coordinates found. Logo may not be properly positioned.
+                    Scale Y: " . round($coords['scaleY'], 2) . "
                 </div>";
     }
 
@@ -261,70 +249,6 @@ try {
         }
     }
 
-    // Debug: Log received data
-    $debugData = [
-        'logo_coordinates_raw' => $_POST['logo_coordinates'] ?? 'NOT_SET',
-        'preview_image_data_length' => !empty($_POST['preview_image_data']) ? strlen($_POST['preview_image_data']) : 0,
-        'selected_product_id' => $_POST['selected_product_id'] ?? 'NOT_SET',
-        'logo_upload_status' => isset($_FILES['logo_upload']) ? $_FILES['logo_upload']['error'] : 'NO_FILE'
-    ];
-    
-    // Log debug data to file for troubleshooting
-    file_put_contents('../logs/debug_' . date('Y-m-d') . '.log', 
-        date('H:i:s') . " DEBUG: " . json_encode($debugData) . "\n", 
-        FILE_APPEND | LOCK_EX
-    );
-
-    // Validate and normalize logo coordinates with enhanced debugging
-    $logoCoordinates = null;
-    if (!empty($_POST['logo_coordinates'])) {
-        $coords = json_decode($_POST['logo_coordinates'], true);
-        
-        // Log coordinate parsing
-        file_put_contents('../logs/debug_' . date('Y-m-d') . '.log', 
-            date('H:i:s') . " COORDS_PARSED: " . json_encode($coords) . "\n", 
-            FILE_APPEND | LOCK_EX
-        );
-        
-        if ($coords && is_array($coords)) {
-            // Ensure coordinates are within reasonable bounds
-            $logoCoordinates = [
-                'x' => max(0, floatval($coords['x'] ?? 0)),
-                'y' => max(0, floatval($coords['y'] ?? 0)),
-                'width' => max(10, floatval($coords['width'] ?? 50)),
-                'height' => max(10, floatval($coords['height'] ?? 50)),
-                'scaleX' => max(0.1, min(5, floatval($coords['scaleX'] ?? 1))),
-                'scaleY' => max(0.1, min(5, floatval($coords['scaleY'] ?? 1))),
-                'printable_area' => $coords['printable_area'] ?? null,
-                'product_id' => $coords['product_id'] ?? $_POST['selected_product_id'],
-                'canvas_dimensions' => $coords['canvas_dimensions'] ?? null
-            ];
-            
-            // If printable area is provided, ensure logo is within bounds
-            if (isset($coords['printable_area']) && is_array($coords['printable_area'])) {
-                $printableArea = $coords['printable_area'];
-                $logoCoordinates['x'] = min($logoCoordinates['x'], $printableArea['width'] - $logoCoordinates['width']);
-                $logoCoordinates['y'] = min($logoCoordinates['y'], $printableArea['height'] - $logoCoordinates['height']);
-            }
-            
-            // Log final coordinates
-            file_put_contents('../logs/debug_' . date('Y-m-d') . '.log', 
-                date('H:i:s') . " COORDS_FINAL: " . json_encode($logoCoordinates) . "\n", 
-                FILE_APPEND | LOCK_EX
-            );
-        } else {
-            file_put_contents('../logs/debug_' . date('Y-m-d') . '.log', 
-                date('H:i:s') . " ERROR: Invalid coordinates JSON\n", 
-                FILE_APPEND | LOCK_EX
-            );
-        }
-    } else {
-        file_put_contents('../logs/debug_' . date('Y-m-d') . '.log', 
-            date('H:i:s') . " WARNING: No logo coordinates provided\n", 
-            FILE_APPEND | LOCK_EX
-        );
-    }
-
     // Handle preview image
     $previewPath = null;
     if (!empty($_POST['preview_image_data'])) {
@@ -344,17 +268,6 @@ try {
         if (!file_put_contents($previewPath, $decodedImage)) {
             throw new Exception("Failed to save preview image");
         }
-        
-        // Log preview image info
-        file_put_contents('../logs/debug_' . date('Y-m-d') . '.log', 
-            date('H:i:s') . " PREVIEW: Saved to " . $previewPath . " (" . strlen($decodedImage) . " bytes)\n", 
-            FILE_APPEND | LOCK_EX
-        );
-    } else {
-        file_put_contents('../logs/debug_' . date('Y-m-d') . '.log', 
-            date('H:i:s') . " WARNING: No preview image data provided\n", 
-            FILE_APPEND | LOCK_EX
-        );
     }
 
     // Prepare order data
@@ -370,12 +283,11 @@ try {
         ],
         'product' => $selectedProduct,
         'logo_path' => $logoPath ? str_replace('../', '', $logoPath) : null,
-        'logo_coordinates' => $logoCoordinates,
+        'logo_coordinates' => !empty($_POST['logo_coordinates']) ? json_decode($_POST['logo_coordinates'], true) : null,
         'preview_path' => $previewPath ? str_replace('../', '', $previewPath) : null,
         'quantity' => $_POST['quantity'],
         'comments' => $_POST['comments'] ?? '',
-        'status' => 'pending',
-        'debug_info' => $debugData // Add debug info to order data
+        'status' => 'pending'
     ];
 
     // Save order to file
@@ -394,26 +306,9 @@ try {
     // Send admin email
     $adminEmailResponse = sendAdminEmail($orderData);
 
-    echo json_encode([
-        'success' => true, 
-        'message' => 'Order submitted successfully', 
-        'order_id' => $orderData['id'],
-        'debug' => [
-            'logo_coordinates_received' => !empty($_POST['logo_coordinates']),
-            'logo_file_uploaded' => $logoPath !== null,
-            'preview_generated' => $previewPath !== null,
-            'coordinates_valid' => $logoCoordinates !== null
-        ],
-        'response' => [$customerMailResponse, $adminEmailResponse]
-    ]);
+    echo json_encode(['success' => true, 'message' => 'Order submitted successfully', 'response'=>[$customerMailResponse, $adminEmailResponse]]);
 
 } catch (Exception $e) {
-    // Log errors
-    file_put_contents('../logs/debug_' . date('Y-m-d') . '.log', 
-        date('H:i:s') . " ERROR: " . $e->getMessage() . "\n", 
-        FILE_APPEND | LOCK_EX
-    );
-    
     http_response_code(400);
     echo json_encode(['success' => false, 'message' => $e->getMessage()]);
 }
