@@ -1,506 +1,147 @@
 [
     {
         "id": "690cf17d0aeb7",
-        "name": "Spiral Notebook Or Journal",
-        "image": "uploads/products/1760815351_glossy-cover-rectangular-plain-paper-writing-spiral-binding-notebook-for-office-use-183.jpg",
+        "name": "Notebook",
+        "image": "uploads/book.jpeg",
         "printable_area": [
             {
-                "x": 65,
-                "y": 140
+                "x": 300,
+                "y": 200
             },
             {
-                "x": 218,
-                "y": 57
+                "x": 550,
+                "y": 200
             },
             {
-                "x": 447,
-                "y": 245
+                "x": 550,
+                "y": 600
             },
             {
-                "x": 289,
-                "y": 354
+                "x": 300,
+                "y": 600
             }
         ],
         "created_at": "2025-11-06 20:05:33"
     },
     {
         "id": "prod_690e2918e88575.36639878",
-        "name": "Journals 1",
-        "image": "uploads/products/sustainability/9.png",
+        "name": "Bottle",
+        "image": "uploads/bottle.jpeg",
         "printable_area": [
             {
-                "x": 727,
-                "y": 502
+                "x": 650,
+                "y": 400
             },
             {
-                "x": 1051,
-                "y": 502
+                "x": 1150,
+                "y": 400
             },
             {
-                "x": 1051,
-                "y": 826
+                "x": 1150,
+                "y": 950
             },
             {
-                "x": 727,
-                "y": 826
+                "x": 650,
+                "y": 950
             }
         ],
         "created_at": "2025-11-07 18:15:04"
     },
     {
         "id": "prod_690e2934f2fb19.21615630",
-        "name": "Diary",
-        "image": "uploads/products/sustainability/6.png",
+        "name": "Corporate Gift",
+        "image": "uploads/corporate.jpeg",
         "printable_area": [
             {
-                "x": 854,
-                "y": 370
+                "x": 750,
+                "y": 250
             },
             {
-                "x": 1178,
-                "y": 370
+                "x": 1300,
+                "y": 250
             },
             {
-                "x": 1178,
-                "y": 694
+                "x": 1300,
+                "y": 800
             },
             {
-                "x": 854,
-                "y": 694
+                "x": 750,
+                "y": 800
             }
         ],
         "created_at": "2025-11-07 18:15:32"
     },
     {
         "id": "prod_690e2971390a45.11507336",
-        "name": "Bian Journals",
-        "image": "uploads/products/sustainability/5.png",
+        "name": "Plush Toy",
+        "image": "uploads/plushtoy.jpeg",
         "printable_area": [
             {
-                "x": 921,
-                "y": 219
+                "x": 800,
+                "y": 150
             },
             {
-                "x": 1222,
-                "y": 270
+                "x": 1300,
+                "y": 200
             },
             {
-                "x": 1184,
-                "y": 583
+                "x": 1250,
+                "y": 650
             },
             {
-                "x": 857,
-                "y": 542
+                "x": 750,
+                "y": 600
             }
         ],
         "created_at": "2025-11-07 18:16:33"
     },
     {
         "id": "prod_690e29c7837134.21418663",
-        "name": "Cotton Bag",
-        "image": "uploads/products/sustainability/4.png",
+        "name": "Tote Bag",
+        "image": "uploads/totebag.jpeg",
         "printable_area": [
             {
-                "x": 818,
-                "y": 665
+                "x": 700,
+                "y": 500
             },
             {
-                "x": 1201,
-                "y": 579
+                "x": 1300,
+                "y": 450
             },
             {
-                "x": 1123,
-                "y": 917
+                "x": 1200,
+                "y": 1050
             },
             {
-                "x": 859,
-                "y": 983
+                "x": 750,
+                "y": 1100
             }
         ],
         "created_at": "2025-11-07 18:17:59"
     },
     {
         "id": "prod_690e29ef1cdd16.84934329",
-        "name": "Wooden Cutlery",
-        "image": "uploads/products/sustainability/3.png",
+        "name": "Gift Hamper",
+        "image": "uploads/gifthamper1.jpeg",
         "printable_area": [
             {
-                "x": 654,
-                "y": 776
+                "x": 500,
+                "y": 650
             },
             {
-                "x": 1193,
-                "y": 776
+                "x": 1350,
+                "y": 650
             },
             {
-                "x": 1193,
-                "y": 873
+                "x": 1350,
+                "y": 1000
             },
             {
-                "x": 654,
-                "y": 873
+                "x": 500,
+                "y": 1000
             }
         ],
         "created_at": "2025-11-07 18:18:39"
-    },
-    {
-        "id": "prod_690e2a3955f762.00299960",
-        "name": "Diary and Pen set",
-        "image": "uploads/products/sustainability/2.png",
-        "printable_area": [
-            {
-                "x": 641,
-                "y": 163
-            },
-            {
-                "x": 986,
-                "y": 138
-            },
-            {
-                "x": 979,
-                "y": 508
-            },
-            {
-                "x": 647,
-                "y": 472
-            }
-        ],
-        "created_at": "2025-11-07 18:19:53"
-    },
-    {
-        "id": "prod_690e2a53f2aee9.86619362",
-        "name": "Wooden Bag 2",
-        "image": "uploads/products/sustainability/17.png",
-        "printable_area": [
-            {
-                "x": 775,
-                "y": 540
-            },
-            {
-                "x": 1099,
-                "y": 540
-            },
-            {
-                "x": 1099,
-                "y": 864
-            },
-            {
-                "x": 775,
-                "y": 864
-            }
-        ],
-        "created_at": "2025-11-07 18:20:19"
-    },
-    {
-        "id": "prod_690e2a73ab8292.26008907",
-        "name": "Cotton Tote Bag",
-        "image": "uploads/products/sustainability/16.png",
-        "printable_area": [
-            {
-                "x": 804,
-                "y": 497
-            },
-            {
-                "x": 1128,
-                "y": 497
-            },
-            {
-                "x": 1128,
-                "y": 821
-            },
-            {
-                "x": 804,
-                "y": 821
-            }
-        ],
-        "created_at": "2025-11-07 18:20:51"
-    },
-    {
-        "id": "prod_690e2a8edac2e9.99155537",
-        "name": "Cotton Tote Bag 2",
-        "image": "uploads/products/sustainability/15.png",
-        "printable_area": [
-            {
-                "x": 797,
-                "y": 490
-            },
-            {
-                "x": 1121,
-                "y": 490
-            },
-            {
-                "x": 1121,
-                "y": 814
-            },
-            {
-                "x": 797,
-                "y": 814
-            }
-        ],
-        "created_at": "2025-11-07 18:21:18"
-    },
-    {
-        "id": "prod_690e2b3c776d52.53515813",
-        "name": "Pen Case",
-        "image": "uploads/products/sustainability/14.png",
-        "printable_area": [
-            {
-                "x": 492,
-                "y": 502
-            },
-            {
-                "x": 1209,
-                "y": 146
-            },
-            {
-                "x": 1321,
-                "y": 319
-            },
-            {
-                "x": 594,
-                "y": 688
-            }
-        ],
-        "created_at": "2025-11-07 18:24:12"
-    },
-    {
-        "id": "prod_690e2c390b3d65.20400588",
-        "name": "Journal 2",
-        "image": "uploads/products/sustainability/13.png",
-        "printable_area": [
-            {
-                "x": 637,
-                "y": 328
-            },
-            {
-                "x": 1072,
-                "y": 171
-            },
-            {
-                "x": 1369,
-                "y": 792
-            },
-            {
-                "x": 893,
-                "y": 969
-            }
-        ],
-        "created_at": "2025-11-07 18:28:25"
-    },
-    {
-        "id": "prod_690e2cb78871e7.11845673",
-        "name": "Corporate gift set",
-        "image": "uploads/products/corporate-gifts/cop1.jpeg",
-        "printable_area": [
-            {
-                "x": 111,
-                "y": 293
-            },
-            {
-                "x": 352,
-                "y": 256
-            },
-            {
-                "x": 413,
-                "y": 612
-            },
-            {
-                "x": 171,
-                "y": 658
-            }
-        ],
-        "created_at": "2025-11-07 18:30:31"
-    },
-    {
-        "id": "prod_690e2d1f538639.16239620",
-        "name": "Photo Frame",
-        "image": "uploads/products/customized-items/cutsomized4.jpeg",
-        "printable_area": [
-            {
-                "x": 31,
-                "y": 58
-            },
-            {
-                "x": 179,
-                "y": 55
-            },
-            {
-                "x": 182,
-                "y": 165
-            },
-            {
-                "x": 30,
-                "y": 163
-            }
-        ],
-        "created_at": "2025-11-07 18:32:15"
-    },
-    {
-        "id": "prod_690e2d50313583.23662085",
-        "name": "White Cerelac Cup",
-        "image": "uploads/products/customized-items/yourlogomug.jpg",
-        "printable_area": [
-            {
-                "x": 169,
-                "y": 72
-            },
-            {
-                "x": 391,
-                "y": 72
-            },
-            {
-                "x": 391,
-                "y": 350
-            },
-            {
-                "x": 169,
-                "y": 350
-            }
-        ],
-        "created_at": "2025-11-07 18:33:04"
-    },
-    {
-        "id": "prod_690e2d81469ab0.61072699",
-        "name": "Transparent Sipper",
-        "image": "uploads/products/customized-items/water-bottle.jpeg",
-        "printable_area": [
-            {
-                "x": 255,
-                "y": 254
-            },
-            {
-                "x": 430,
-                "y": 254
-            },
-            {
-                "x": 430,
-                "y": 553
-            },
-            {
-                "x": 255,
-                "y": 553
-            }
-        ],
-        "created_at": "2025-11-07 18:33:53"
-    },
-    {
-        "id": "prod_690e2db09d0d94.81826368",
-        "name": "Black Cerelac Mug",
-        "image": "uploads/products/customized-items/cutsomizedMug5.jpeg",
-        "printable_area": [
-            {
-                "x": 89,
-                "y": 48
-            },
-            {
-                "x": 222,
-                "y": 48
-            },
-            {
-                "x": 222,
-                "y": 172
-            },
-            {
-                "x": 89,
-                "y": 172
-            }
-        ],
-        "created_at": "2025-11-07 18:34:40"
-    },
-    {
-        "id": "prod_690e2dd6f064d0.33029935",
-        "name": "Black Jug",
-        "image": "uploads/products/customized-items/3.png",
-        "printable_area": [
-            {
-                "x": 828,
-                "y": 327
-            },
-            {
-                "x": 1092,
-                "y": 327
-            },
-            {
-                "x": 1092,
-                "y": 651
-            },
-            {
-                "x": 828,
-                "y": 651
-            }
-        ],
-        "created_at": "2025-11-07 18:35:18"
-    },
-    {
-        "id": "prod_690e2e0c8a2f09.45042887",
-        "name": "Black T-Shirt",
-        "image": "uploads/products/apparel/6.png",
-        "printable_area": [
-            {
-                "x": 713,
-                "y": 250
-            },
-            {
-                "x": 1215,
-                "y": 250
-            },
-            {
-                "x": 1215,
-                "y": 870
-            },
-            {
-                "x": 713,
-                "y": 870
-            }
-        ],
-        "created_at": "2025-11-07 18:36:12"
-    },
-    {
-        "id": "prod_690e2e44a6efe1.79668350",
-        "name": "Corporate set 3",
-        "image": "uploads/products/customized-items/6.png",
-        "printable_area": [
-            {
-                "x": 865,
-                "y": 198
-            },
-            {
-                "x": 1084,
-                "y": 95
-            },
-            {
-                "x": 1206,
-                "y": 352
-            },
-            {
-                "x": 987,
-                "y": 455
-            }
-        ],
-        "created_at": "2025-11-07 18:37:08"
-    },
-    {
-        "id": "prod_690e2e920640b6.61235527",
-        "name": "Corporate set 4",
-        "image": "uploads/products/corporate-gifts/cop4.jpeg",
-        "printable_area": [
-            {
-                "x": 71,
-                "y": 114
-            },
-            {
-                "x": 180,
-                "y": 114
-            },
-            {
-                "x": 180,
-                "y": 181
-            },
-            {
-                "x": 71,
-                "y": 181
-            }
-        ],
-        "created_at": "2025-11-07 18:38:26"
     }
 ]
+
