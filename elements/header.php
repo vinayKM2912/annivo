@@ -208,7 +208,7 @@ window.addEventListener("klaviyoForms", function(a) {
                                     <!-- /snippets/nav-item.liquid -->
                                     <div class="menu__item  child" data-main-menu-text-item="">
                                         <a  href="<?php echo BASE_URL; ?>customized-gifts" data-top-link="" class="navlink navlink--toplevel">
-                                            <span class="navtext">CUSTOMIZED ITEMS</span>
+                                            <span class="navtext">CUSTOMIZED GIFTS</span>
                                         </a>
 
                                     </div>
@@ -672,7 +672,7 @@ window.addEventListener("klaviyoForms", function(a) {
                         <!-- /snippets/nav-item-mobile.liquid -->
                         <div class="sliderule__wrapper">
                             <div class="sliderow" data-animates="0" style="transition-delay: 210ms;">
-                                <a class="sliderow__title" href="<?php echo BASE_URL; ?>contact" >CUSTOMIZED ITEMS</a>
+                                <a class="sliderow__title" href="<?php echo BASE_URL; ?>customized-gifts" >CUSTOMIZED GIFTS</a>
                             </div>
                         </div>
 
