@@ -15,7 +15,8 @@ if (file_exists(__DIR__ . '/.env')) {
     }
 }
 
-define("BASE_URL", "https://aanvio.com/");
+define("BASE_URL", "http://localhost/aanvio/");
+define("PROJECT_ROOT", dirname(__FILE__));
 
 // Mail configuration for API
 define('MAIL_URL', 'https://api.brevo.com/v3/smtp/email');
