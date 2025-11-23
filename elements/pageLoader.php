@@ -33,7 +33,7 @@
 }
 </style>
 <div id="pageLoad"
-    style="position: fixed; width:99vw;height:100vh;display:flex;justify-content:center;align-items: center;z-index: 100000000;background:#6e7a77">
+    style="position: fixed; width:100vw;height:100vh;display:flex;justify-content:center;align-items: center;z-index: 100000000;background:#6e7a77;left:0;top:0;margin:0;padding:0;">
     <svg viewBox="0 0 1600 500" style="width: 300px; height: auto; max-width: 90%; color:white">
         <defs>
             <clipPath id="fill-clip">

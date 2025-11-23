@@ -1,0 +1,147 @@
+[
+    {
+        "id": "690cf17d0aeb7",
+        "name": "Notebook",
+        "image": "uploads/book.jpeg",
+        "printable_area": [
+            {
+                "x": 300,
+                "y": 200
+            },
+            {
+                "x": 550,
+                "y": 200
+            },
+            {
+                "x": 550,
+                "y": 600
+            },
+            {
+                "x": 300,
+                "y": 600
+            }
+        ],
+        "created_at": "2025-11-06 20:05:33"
+    },
+    {
+        "id": "prod_690e2918e88575.36639878",
+        "name": "Bottle",
+        "image": "uploads/bottle.jpeg",
+        "printable_area": [
+            {
+                "x": 650,
+                "y": 400
+            },
+            {
+                "x": 1150,
+                "y": 400
+            },
+            {
+                "x": 1150,
+                "y": 950
+            },
+            {
+                "x": 650,
+                "y": 950
+            }
+        ],
+        "created_at": "2025-11-07 18:15:04"
+    },
+    {
+        "id": "prod_690e2934f2fb19.21615630",
+        "name": "Corporate Gift",
+        "image": "uploads/corporate.jpeg",
+        "printable_area": [
+            {
+                "x": 750,
+                "y": 250
+            },
+            {
+                "x": 1300,
+                "y": 250
+            },
+            {
+                "x": 1300,
+                "y": 800
+            },
+            {
+                "x": 750,
+                "y": 800
+            }
+        ],
+        "created_at": "2025-11-07 18:15:32"
+    },
+    {
+        "id": "prod_690e2971390a45.11507336",
+        "name": "Plush Toy",
+        "image": "uploads/plushtoy.jpeg",
+        "printable_area": [
+            {
+                "x": 800,
+                "y": 150
+            },
+            {
+                "x": 1300,
+                "y": 200
+            },
+            {
+                "x": 1250,
+                "y": 650
+            },
+            {
+                "x": 750,
+                "y": 600
+            }
+        ],
+        "created_at": "2025-11-07 18:16:33"
+    },
+    {
+        "id": "prod_690e29c7837134.21418663",
+        "name": "Tote Bag",
+        "image": "uploads/totebag.jpeg",
+        "printable_area": [
+            {
+                "x": 700,
+                "y": 500
+            },
+            {
+                "x": 1300,
+                "y": 450
+            },
+            {
+                "x": 1200,
+                "y": 1050
+            },
+            {
+                "x": 750,
+                "y": 1100
+            }
+        ],
+        "created_at": "2025-11-07 18:17:59"
+    },
+    {
+        "id": "prod_690e29ef1cdd16.84934329",
+        "name": "Gift Hamper",
+        "image": "uploads/gifthamper1.jpeg",
+        "printable_area": [
+            {
+                "x": 500,
+                "y": 650
+            },
+            {
+                "x": 1350,
+                "y": 650
+            },
+            {
+                "x": 1350,
+                "y": 1000
+            },
+            {
+                "x": 500,
+                "y": 1000
+            }
+        ],
+        "created_at": "2025-11-07 18:18:39"
+    }
+]
+

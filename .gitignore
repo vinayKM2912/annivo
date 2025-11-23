@@ -1,0 +1,12 @@
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Uploads directory (optional - depends on your needs)
+uploads/
+
+# System files
+.DS_Store
+Thumbs.db
